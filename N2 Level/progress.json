@@ -1,0 +1,1045 @@
+{
+  "completed_ids": [
+    "Words1.json:1501",
+    "Words1.json:1502",
+    "Words1.json:1503",
+    "Words1.json:1504",
+    "Words1.json:1505",
+    "Words1.json:1506",
+    "Words1.json:1507",
+    "Words1.json:1508",
+    "Words1.json:1509",
+    "Words1.json:1510",
+    "Words1.json:1511",
+    "Words1.json:1512",
+    "Words1.json:1513",
+    "Words1.json:1514",
+    "Words1.json:1515",
+    "Words1.json:1516",
+    "Words1.json:1517",
+    "Words1.json:1518",
+    "Words1.json:1519",
+    "Words1.json:1520",
+    "Words1.json:1521",
+    "Words1.json:1522",
+    "Words1.json:1523",
+    "Words1.json:1524",
+    "Words1.json:1525",
+    "Words1.json:1526",
+    "Words1.json:1527",
+    "Words1.json:1528",
+    "Words1.json:1529",
+    "Words1.json:1530",
+    "Words1.json:1531",
+    "Words1.json:1532",
+    "Words1.json:1533",
+    "Words1.json:1534",
+    "Words1.json:1535",
+    "Words1.json:1536",
+    "Words1.json:1537",
+    "Words1.json:1538",
+    "Words1.json:1539",
+    "Words1.json:1540",
+    "Words1.json:1541",
+    "Words1.json:1542",
+    "Words1.json:1543",
+    "Words1.json:1544",
+    "Words1.json:1545",
+    "Words1.json:1546",
+    "Words1.json:1547",
+    "Words1.json:1548",
+    "Words1.json:1549",
+    "Words1.json:1550",
+    "Words1.json:1551",
+    "Words1.json:1552",
+    "Words1.json:1553",
+    "Words1.json:1554",
+    "Words1.json:1555",
+    "Words1.json:1556",
+    "Words1.json:1557",
+    "Words1.json:1558",
+    "Words1.json:1559",
+    "Words1.json:1560",
+    "Words1.json:1561",
+    "Words1.json:1562",
+    "Words1.json:1563",
+    "Words1.json:1564",
+    "Words1.json:1565",
+    "Words1.json:1566",
+    "Words1.json:1567",
+    "Words1.json:1568",
+    "Words1.json:1569",
+    "Words1.json:1570",
+    "Words1.json:1571",
+    "Words1.json:1572",
+    "Words1.json:1573",
+    "Words1.json:1574",
+    "Words1.json:1575",
+    "Words1.json:1576",
+    "Words1.json:1577",
+    "Words1.json:1578",
+    "Words1.json:1579",
+    "Words1.json:1580",
+    "Words1.json:1581",
+    "Words1.json:1582",
+    "Words1.json:1583",
+    "Words1.json:1584",
+    "Words1.json:1585",
+    "Words1.json:1586",
+    "Words1.json:1587",
+    "Words1.json:1588",
+    "Words1.json:1589",
+    "Words1.json:1590",
+    "Words1.json:1591",
+    "Words1.json:1592",
+    "Words1.json:1593",
+    "Words1.json:1594",
+    "Words1.json:1595",
+    "Words1.json:1596",
+    "Words1.json:1597",
+    "Words1.json:1598",
+    "Words1.json:1599",
+    "Words1.json:1600",
+    "Words1.json:1601",
+    "Words1.json:1602",
+    "Words1.json:1603",
+    "Words1.json:1604",
+    "Words1.json:1605",
+    "Words1.json:1606",
+    "Words1.json:1607",
+    "Words1.json:1608",
+    "Words1.json:1609",
+    "Words1.json:1610",
+    "Words1.json:1611",
+    "Words1.json:1612",
+    "Words1.json:1613",
+    "Words1.json:1614",
+    "Words1.json:1615",
+    "Words1.json:1616",
+    "Words1.json:1617",
+    "Words1.json:1618",
+    "Words1.json:1619",
+    "Words1.json:1620",
+    "Words1.json:1621",
+    "Words1.json:1622",
+    "Words1.json:1623",
+    "Words1.json:1624",
+    "Words1.json:1625",
+    "Words1.json:1626",
+    "Words1.json:1627",
+    "Words1.json:1628",
+    "Words1.json:1629",
+    "Words1.json:1630",
+    "Words1.json:1631",
+    "Words1.json:1632",
+    "Words1.json:1633",
+    "Words1.json:1634",
+    "Words1.json:1635",
+    "Words1.json:1636",
+    "Words1.json:1637",
+    "Words1.json:1638",
+    "Words1.json:1639",
+    "Words1.json:1640",
+    "Words1.json:1641",
+    "Words1.json:1642",
+    "Words1.json:1643",
+    "Words1.json:1644",
+    "Words1.json:1645",
+    "Words1.json:1646",
+    "Words1.json:1647",
+    "Words1.json:1648",
+    "Words1.json:1649",
+    "Words1.json:1650",
+    "Words1.json:1651",
+    "Words1.json:1652",
+    "Words1.json:1653",
+    "Words1.json:1654",
+    "Words1.json:1655",
+    "Words1.json:1656",
+    "Words1.json:1657",
+    "Words1.json:1658",
+    "Words1.json:1659",
+    "Words1.json:1660",
+    "Words1.json:1661",
+    "Words1.json:1662",
+    "Words1.json:1663",
+    "Words1.json:1664",
+    "Words1.json:1665",
+    "Words1.json:1666",
+    "Words1.json:1667",
+    "Words1.json:1668",
+    "Words1.json:1669",
+    "Words1.json:1670",
+    "Words1.json:1671",
+    "Words1.json:1672",
+    "Words1.json:1673",
+    "Words1.json:1674",
+    "Words1.json:1675",
+    "Words1.json:1676",
+    "Words1.json:1677",
+    "Words1.json:1678",
+    "Words1.json:1679",
+    "Words1.json:1680",
+    "Words1.json:1681",
+    "Words1.json:1682",
+    "Words1.json:1683",
+    "Words1.json:1684",
+    "Words1.json:1685",
+    "Words1.json:1686",
+    "Words1.json:1687",
+    "Words1.json:1688",
+    "Words1.json:1689",
+    "Words1.json:1690",
+    "Words1.json:1691",
+    "Words1.json:1692",
+    "Words1.json:1693",
+    "Words1.json:1694",
+    "Words1.json:1695",
+    "Words1.json:1696",
+    "Words1.json:1697",
+    "Words1.json:1698",
+    "Words1.json:1699",
+    "Words1.json:1700",
+    "Words1.json:1701",
+    "Words1.json:1702",
+    "Words1.json:1703",
+    "Words1.json:1704",
+    "Words1.json:1705",
+    "Words1.json:1706",
+    "Words1.json:1707",
+    "Words1.json:1708",
+    "Words1.json:1709",
+    "Words1.json:1710",
+    "Words1.json:1711",
+    "Words1.json:1712",
+    "Words1.json:1713",
+    "Words1.json:1714",
+    "Words1.json:1715",
+    "Words1.json:1716",
+    "Words1.json:1717",
+    "Words1.json:1718",
+    "Words1.json:1719",
+    "Words1.json:1720",
+    "Words1.json:1721",
+    "Words1.json:1722",
+    "Words1.json:1723",
+    "Words1.json:1724",
+    "Words1.json:1725",
+    "Words1.json:1726",
+    "Words1.json:1727",
+    "Words1.json:1728",
+    "Words1.json:1729",
+    "Words1.json:1730",
+    "Words1.json:1731",
+    "Words1.json:1732",
+    "Words1.json:1733",
+    "Words1.json:1734",
+    "Words1.json:1735",
+    "Words1.json:1736",
+    "Words1.json:1737",
+    "Words1.json:1738",
+    "Words1.json:1739",
+    "Words1.json:1740",
+    "Words1.json:1741",
+    "Words1.json:1742",
+    "Words1.json:1743",
+    "Words1.json:1744",
+    "Words1.json:1745",
+    "Words1.json:1746",
+    "Words1.json:1747",
+    "Words1.json:1748",
+    "Words1.json:1749",
+    "Words1.json:1750",
+    "Words1.json:1751",
+    "Words1.json:1752",
+    "Words1.json:1753",
+    "Words1.json:1754",
+    "Words1.json:1755",
+    "Words1.json:1756",
+    "Words1.json:1757",
+    "Words1.json:1758",
+    "Words1.json:1759",
+    "Words1.json:1760",
+    "Words1.json:1761",
+    "Words1.json:1762",
+    "Words1.json:1763",
+    "Words1.json:1764",
+    "Words1.json:1765",
+    "Words1.json:1766",
+    "Words1.json:1767",
+    "Words1.json:1768",
+    "Words1.json:1769",
+    "Words1.json:1770",
+    "Words1.json:1771",
+    "Words1.json:1772",
+    "Words1.json:1773",
+    "Words1.json:1774",
+    "Words1.json:1775",
+    "Words1.json:1776",
+    "Words1.json:1777",
+    "Words1.json:1778",
+    "Words1.json:1779",
+    "Words1.json:1780",
+    "Words1.json:1781",
+    "Words1.json:1782",
+    "Words1.json:1783",
+    "Words1.json:1784",
+    "Words1.json:1785",
+    "Words1.json:1786",
+    "Words1.json:1787",
+    "Words1.json:1788",
+    "Words1.json:1789",
+    "Words1.json:1790",
+    "Words1.json:1791",
+    "Words1.json:1792",
+    "Words1.json:1793",
+    "Words1.json:1794",
+    "Words1.json:1795",
+    "Words1.json:1796",
+    "Words1.json:1797",
+    "Words1.json:1798",
+    "Words1.json:1799",
+    "Words1.json:1800",
+    "Words2.json:1801",
+    "Words2.json:1802",
+    "Words2.json:1803",
+    "Words2.json:1804",
+    "Words2.json:1805",
+    "Words2.json:1806",
+    "Words2.json:1807",
+    "Words2.json:1808",
+    "Words2.json:1809",
+    "Words2.json:1810",
+    "Words2.json:1811",
+    "Words2.json:1812",
+    "Words2.json:1813",
+    "Words2.json:1814",
+    "Words2.json:1815",
+    "Words2.json:1816",
+    "Words2.json:1817",
+    "Words2.json:1818",
+    "Words2.json:1819",
+    "Words2.json:1820",
+    "Words2.json:1821",
+    "Words2.json:1822",
+    "Words2.json:1823",
+    "Words2.json:1824",
+    "Words2.json:1825",
+    "Words2.json:1826",
+    "Words2.json:1827",
+    "Words2.json:1828",
+    "Words2.json:1829",
+    "Words2.json:1830",
+    "Words2.json:1831",
+    "Words2.json:1832",
+    "Words2.json:1833",
+    "Words2.json:1834",
+    "Words2.json:1835",
+    "Words2.json:1836",
+    "Words2.json:1837",
+    "Words2.json:1838",
+    "Words2.json:1839",
+    "Words2.json:1840",
+    "Words2.json:1841",
+    "Words2.json:1842",
+    "Words2.json:1843",
+    "Words2.json:1844",
+    "Words2.json:1845",
+    "Words2.json:1846",
+    "Words2.json:1847",
+    "Words2.json:1848",
+    "Words2.json:1849",
+    "Words2.json:1850",
+    "Words2.json:1851",
+    "Words2.json:1852",
+    "Words2.json:1853",
+    "Words2.json:1854",
+    "Words2.json:1855",
+    "Words2.json:1856",
+    "Words2.json:1857",
+    "Words2.json:1858",
+    "Words2.json:1859",
+    "Words2.json:1860",
+    "Words2.json:1861",
+    "Words2.json:1862",
+    "Words2.json:1863",
+    "Words2.json:1864",
+    "Words2.json:1865",
+    "Words2.json:1866",
+    "Words2.json:1867",
+    "Words2.json:1868",
+    "Words2.json:1869",
+    "Words2.json:1870",
+    "Words2.json:1871",
+    "Words2.json:1872",
+    "Words2.json:1873",
+    "Words2.json:1874",
+    "Words2.json:1875",
+    "Words2.json:1876",
+    "Words2.json:1877",
+    "Words2.json:1878",
+    "Words2.json:1879",
+    "Words2.json:1880",
+    "Words2.json:1881",
+    "Words2.json:1882",
+    "Words2.json:1883",
+    "Words2.json:1884",
+    "Words2.json:1885",
+    "Words2.json:1886",
+    "Words2.json:1887",
+    "Words2.json:1888",
+    "Words2.json:1889",
+    "Words2.json:1890",
+    "Words2.json:1891",
+    "Words2.json:1892",
+    "Words2.json:1893",
+    "Words2.json:1894",
+    "Words2.json:1895",
+    "Words2.json:1896",
+    "Words2.json:1897",
+    "Words2.json:1898",
+    "Words2.json:1899",
+    "Words2.json:1900",
+    "Words2.json:1901",
+    "Words2.json:1902",
+    "Words2.json:1903",
+    "Words2.json:1904",
+    "Words2.json:1905",
+    "Words2.json:1906",
+    "Words2.json:1907",
+    "Words2.json:1908",
+    "Words2.json:1909",
+    "Words2.json:1910",
+    "Words2.json:1911",
+    "Words2.json:1912",
+    "Words2.json:1913",
+    "Words2.json:1914",
+    "Words2.json:1915",
+    "Words2.json:1916",
+    "Words2.json:1917",
+    "Words2.json:1918",
+    "Words2.json:1919",
+    "Words2.json:1920",
+    "Words2.json:1921",
+    "Words2.json:1922",
+    "Words2.json:1923",
+    "Words2.json:1924",
+    "Words2.json:1925",
+    "Words2.json:1926",
+    "Words2.json:1927",
+    "Words2.json:1928",
+    "Words2.json:1929",
+    "Words2.json:1930",
+    "Words2.json:1931",
+    "Words2.json:1932",
+    "Words2.json:1933",
+    "Words2.json:1934",
+    "Words2.json:1935",
+    "Words2.json:1936",
+    "Words2.json:1937",
+    "Words2.json:1938",
+    "Words2.json:1939",
+    "Words2.json:1940",
+    "Words2.json:1941",
+    "Words2.json:1942",
+    "Words2.json:1943",
+    "Words2.json:1944",
+    "Words2.json:1945",
+    "Words2.json:1946",
+    "Words2.json:1947",
+    "Words2.json:1948",
+    "Words2.json:1949",
+    "Words2.json:1950",
+    "Words2.json:1951",
+    "Words2.json:1952",
+    "Words2.json:1953",
+    "Words2.json:1954",
+    "Words2.json:1955",
+    "Words2.json:1956",
+    "Words2.json:1957",
+    "Words2.json:1958",
+    "Words2.json:1959",
+    "Words2.json:1960",
+    "Words2.json:1961",
+    "Words2.json:1962",
+    "Words2.json:1963",
+    "Words2.json:1964",
+    "Words2.json:1965",
+    "Words2.json:1966",
+    "Words2.json:1967",
+    "Words2.json:1968",
+    "Words2.json:1969",
+    "Words2.json:1970",
+    "Words2.json:1971",
+    "Words2.json:1972",
+    "Words2.json:1973",
+    "Words2.json:1974",
+    "Words2.json:1975",
+    "Words2.json:1976",
+    "Words2.json:1977",
+    "Words2.json:1978",
+    "Words2.json:1979",
+    "Words2.json:1980",
+    "Words2.json:1981",
+    "Words2.json:1982",
+    "Words2.json:1983",
+    "Words2.json:1984",
+    "Words2.json:1985",
+    "Words2.json:1986",
+    "Words2.json:1987",
+    "Words2.json:1988",
+    "Words2.json:1989",
+    "Words2.json:1990",
+    "Words2.json:1991",
+    "Words2.json:1992",
+    "Words2.json:1993",
+    "Words2.json:1994",
+    "Words2.json:1995",
+    "Words2.json:1996",
+    "Words2.json:1997",
+    "Words2.json:1998",
+    "Words2.json:1999",
+    "Words2.json:2000",
+    "Words2.json:2001",
+    "Words2.json:2002",
+    "Words2.json:2003",
+    "Words2.json:2004",
+    "Words2.json:2005",
+    "Words2.json:2006",
+    "Words2.json:2007",
+    "Words2.json:2008",
+    "Words2.json:2009",
+    "Words2.json:2010",
+    "Words2.json:2011",
+    "Words2.json:2012",
+    "Words2.json:2013",
+    "Words2.json:2014",
+    "Words2.json:2015",
+    "Words2.json:2016",
+    "Words2.json:2017",
+    "Words2.json:2018",
+    "Words2.json:2019",
+    "Words2.json:2020",
+    "Words2.json:2021",
+    "Words2.json:2022",
+    "Words2.json:2023",
+    "Words2.json:2024",
+    "Words2.json:2025",
+    "Words2.json:2026",
+    "Words2.json:2027",
+    "Words2.json:2028",
+    "Words2.json:2029",
+    "Words2.json:2030",
+    "Words2.json:2031",
+    "Words2.json:2032",
+    "Words2.json:2033",
+    "Words2.json:2034",
+    "Words2.json:2035",
+    "Words2.json:2036",
+    "Words2.json:2037",
+    "Words2.json:2038",
+    "Words2.json:2039",
+    "Words2.json:2040",
+    "Words2.json:2041",
+    "Words2.json:2042",
+    "Words2.json:2043",
+    "Words2.json:2044",
+    "Words2.json:2045",
+    "Words2.json:2046",
+    "Words2.json:2047",
+    "Words2.json:2048",
+    "Words2.json:2049",
+    "Words2.json:2050",
+    "Words2.json:2051",
+    "Words2.json:2052",
+    "Words2.json:2053",
+    "Words2.json:2054",
+    "Words2.json:2055",
+    "Words2.json:2056",
+    "Words2.json:2057",
+    "Words2.json:2058",
+    "Words2.json:2059",
+    "Words2.json:2060",
+    "Words2.json:2061",
+    "Words2.json:2062",
+    "Words2.json:2063",
+    "Words2.json:2064",
+    "Words2.json:2065",
+    "Words2.json:2066",
+    "Words2.json:2067",
+    "Words2.json:2068",
+    "Words2.json:2069",
+    "Words2.json:2070",
+    "Words2.json:2071",
+    "Words2.json:2072",
+    "Words2.json:2073",
+    "Words2.json:2074",
+    "Words2.json:2075",
+    "Words2.json:2076",
+    "Words2.json:2077",
+    "Words2.json:2078",
+    "Words2.json:2079",
+    "Words2.json:2080",
+    "Words2.json:2081",
+    "Words2.json:2082",
+    "Words2.json:2083",
+    "Words2.json:2084",
+    "Words2.json:2085",
+    "Words2.json:2086",
+    "Words2.json:2087",
+    "Words2.json:2088",
+    "Words2.json:2089",
+    "Words2.json:2090",
+    "Words2.json:2091",
+    "Words2.json:2092",
+    "Words2.json:2093",
+    "Words2.json:2094",
+    "Words2.json:2095",
+    "Words2.json:2096",
+    "Words2.json:2097",
+    "Words2.json:2098",
+    "Words2.json:2099"
+  ],
+  "failed": [
+    {
+      "id": "Words1.json:1531",
+      "reason": "sentence does not contain the word '〜船'"
+    },
+    {
+      "id": "Words1.json:1532",
+      "reason": "sentence does not contain the word '〜戦'"
+    },
+    {
+      "id": "Words1.json:1536",
+      "reason": "sentence does not contain the word '〜前'"
+    },
+    {
+      "id": "Words1.json:1541",
+      "reason": "sentence does not contain the word '宣告'"
+    },
+    {
+      "id": "Words1.json:1543",
+      "reason": "sentence does not use the grammar pattern '～ないことはない/ないこともない'"
+    },
+    {
+      "id": "Words1.json:1553",
+      "reason": "sentence does not use the grammar pattern '～ば～ほど'"
+    },
+    {
+      "id": "Words1.json:1560",
+      "reason": "sentence does not use the grammar pattern '～上で（は）'"
+    },
+    {
+      "id": "Words1.json:1567",
+      "reason": "sentence does not contain the word '〜沿い'"
+    },
+    {
+      "id": "Words1.json:1569",
+      "reason": "sentence does not contain the word '〜艘'; sentence does not use the grammar pattern '～ようでは'"
+    },
+    {
+      "id": "Words1.json:1575",
+      "reason": "sentence does not use the grammar pattern '～ことは～が'"
+    },
+    {
+      "id": "Words1.json:1591",
+      "reason": "sentence does not contain the word '〜足'"
+    },
+    {
+      "id": "Words1.json:1596",
+      "reason": "sentence does not contain the word 'そこへ'; sentence does not use the grammar pattern '～に違いない'"
+    },
+    {
+      "id": "Words1.json:1598",
+      "reason": "sentence does not use the grammar pattern '～か～ないかのうちに'"
+    },
+    {
+      "id": "Words1.json:1611",
+      "reason": "sentence does not contain the word 'それきり／それっきり'"
+    },
+    {
+      "id": "Words1.json:1619",
+      "reason": "sentence does not contain the word '〜揃い'"
+    },
+    {
+      "id": "Words1.json:1621",
+      "reason": "sentence does not use the grammar pattern '～やら～やら'"
+    },
+    {
+      "id": "Words1.json:1632",
+      "reason": "sentence does not contain the word '〜台'"
+    },
+    {
+      "id": "Words1.json:1639",
+      "reason": "sentence does not use the grammar pattern '～得ない'"
+    },
+    {
+      "id": "Words1.json:1649",
+      "reason": "sentence does not use the grammar pattern '～も～ば～も/～も～なら～も'"
+    },
+    {
+      "id": "Words1.json:1658",
+      "reason": "sentence does not use the grammar pattern '～ずにはいられない/ないではいられない'"
+    },
+    {
+      "id": "Words1.json:1676",
+      "reason": "sentence does not use the grammar pattern '～っぽい'"
+    },
+    {
+      "id": "Words1.json:1686",
+      "reason": "sentence does not use the grammar pattern '～ことは～が'"
+    },
+    {
+      "id": "Words1.json:1693",
+      "reason": "sentence does not use the grammar pattern '～ずにすむ/ないですむ/なくてすむ'"
+    },
+    {
+      "id": "Words1.json:1696",
+      "reason": "sentence does not contain the word '〜正しい'; sentence does not use the grammar pattern '～につけ/につけては/につけても'"
+    },
+    {
+      "id": "Words1.json:1702",
+      "reason": "sentence does not use the grammar pattern '～ずにすむ/ないですむ/なくてすむ'"
+    },
+    {
+      "id": "Words1.json:1710",
+      "reason": "sentence does not contain the word 'だったら'; sentence does not use the grammar pattern '～ほか（は）ない/よりほか（は）ない'"
+    },
+    {
+      "id": "Words1.json:1712",
+      "reason": "sentence does not contain the word '〜たっぷり'"
+    },
+    {
+      "id": "Words1.json:1713",
+      "reason": "sentence does not contain the word '〜たて'; sentence does not use the grammar pattern '～ようがない/ようもない'"
+    },
+    {
+      "id": "Words1.json:1714",
+      "reason": "sentence does not contain the word '〜立てる'; sentence does not use the grammar pattern '～ということだ'"
+    },
+    {
+      "id": "Words1.json:1720",
+      "reason": "sentence does not use the grammar pattern '～かけだ/かけの/かける'"
+    },
+    {
+      "id": "Words1.json:1721",
+      "reason": "sentence does not use the grammar pattern '～ざるを得ない'"
+    },
+    {
+      "id": "Words1.json:1722",
+      "reason": "sentence does not contain the word '〜束'"
+    },
+    {
+      "id": "Words1.json:1726",
+      "reason": "sentence does not contain the word '玉'"
+    },
+    {
+      "id": "Words1.json:1727",
+      "reason": "sentence does not contain the word '球'"
+    },
+    {
+      "id": "Words1.json:1732",
+      "reason": "sentence does not use the grammar pattern '～ないことはない/ないこともない'"
+    },
+    {
+      "id": "Words1.json:1735",
+      "reason": "sentence does not use the grammar pattern '～ながら（も）'"
+    },
+    {
+      "id": "Words1.json:1738",
+      "reason": "sentence does not use the grammar pattern '～ほか（は）ない/よりほか（は）ない'"
+    },
+    {
+      "id": "Words1.json:1748",
+      "reason": "sentence does not contain the word '〜団'; sentence does not use the grammar pattern '～か何か'"
+    },
+    {
+      "id": "Words1.json:1749",
+      "reason": "sentence does not contain the word '〜談'; sentence does not use the grammar pattern '～甲斐がある/甲斐がない/甲斐もなく'"
+    },
+    {
+      "id": "Words1.json:1762",
+      "reason": "sentence does not use the grammar pattern '～てからでないと/てからでなければ'"
+    },
+    {
+      "id": "Words1.json:1777",
+      "reason": "sentence does not contain the word '〜違える'"
+    },
+    {
+      "id": "Words1.json:1778",
+      "reason": "sentence does not use the grammar pattern '～も～ば～も/～も～なら～も'"
+    },
+    {
+      "id": "Words1.json:1784",
+      "reason": "sentence does not use the grammar pattern '～も～ば～も/～も～なら～も'"
+    },
+    {
+      "id": "Words1.json:1790",
+      "reason": "sentence does not contain the word '地帯'; sentence does not use the grammar pattern '～というものではない/というものでもない'"
+    },
+    {
+      "id": "Words1.json:1795",
+      "reason": "sentence does not contain the word '知能／智能'"
+    },
+    {
+      "id": "Words1.json:1798",
+      "reason": "sentence does not contain the word '〜着'"
+    },
+    {
+      "id": "Words1.json:1799",
+      "reason": "sentence does not contain the word '〜着'"
+    },
+    {
+      "id": "Words2.json:1813",
+      "reason": "sentence does not use the grammar pattern 'たとえ～ても'"
+    },
+    {
+      "id": "Words2.json:1821",
+      "reason": "sentence does not contain the word '〜庁'"
+    },
+    {
+      "id": "Words2.json:1822",
+      "reason": "sentence does not contain the word '〜帳'"
+    },
+    {
+      "id": "Words2.json:1823",
+      "reason": "sentence does not use the grammar pattern '～ことは～が'"
+    },
+    {
+      "id": "Words2.json:1825",
+      "reason": "sentence does not use the grammar pattern '～たばかり'"
+    },
+    {
+      "id": "Words2.json:1828",
+      "reason": "sentence does not use the grammar pattern '～ずにすむ/ないですむ/なくてすむ'"
+    },
+    {
+      "id": "Words2.json:1829",
+      "reason": "sentence does not contain the word '挑戦'"
+    },
+    {
+      "id": "Words2.json:1837",
+      "reason": "sentence does not use the grammar pattern 'たとえ～ても'"
+    },
+    {
+      "id": "Words2.json:1847",
+      "reason": "sentence does not contain the word '〜賃'"
+    },
+    {
+      "id": "Words2.json:1852",
+      "reason": "sentence does not use the grammar pattern '～得ない'"
+    },
+    {
+      "id": "Words2.json:1853",
+      "reason": "sentence does not use the grammar pattern '～ないではない/ないでもない'"
+    },
+    {
+      "id": "Words2.json:1858",
+      "reason": "sentence does not use the grammar pattern '～ことだ'"
+    },
+    {
+      "id": "Words2.json:1863",
+      "reason": "sentence does not use the grammar pattern '～とともに'"
+    },
+    {
+      "id": "Words2.json:1864",
+      "reason": "sentence does not contain the word '〜付き'"
+    },
+    {
+      "id": "Words2.json:1872",
+      "reason": "sentence does not contain the word '〜付け'; sentence does not use the grammar pattern '～を通じて/を通して'"
+    },
+    {
+      "id": "Words2.json:1873",
+      "reason": "sentence does not contain the word '付け加える'; sentence does not use the grammar pattern '～ば～ほど'"
+    },
+    {
+      "id": "Words2.json:1876",
+      "reason": "sentence does not contain the word '〜付ける'"
+    },
+    {
+      "id": "Words2.json:1877",
+      "reason": "sentence does not contain the word '〜っこ'; sentence does not use the grammar pattern '～上で（は）'"
+    },
+    {
+      "id": "Words2.json:1878",
+      "reason": "sentence does not contain the word '〜っ子'"
+    },
+    {
+      "id": "Words2.json:1882",
+      "reason": "sentence does not contain the word '〜包み'"
+    },
+    {
+      "id": "Words2.json:1883",
+      "reason": "sentence does not contain the word '勤め'; sentence does not use the grammar pattern '～てしょうがない/てしようがない'"
+    },
+    {
+      "id": "Words2.json:1892",
+      "reason": "sentence does not use the grammar pattern '～やら～やら'"
+    },
+    {
+      "id": "Words2.json:1901",
+      "reason": "sentence does not use the grammar pattern '～てたまらない'"
+    },
+    {
+      "id": "Words2.json:1903",
+      "reason": "sentence does not use the grammar pattern '～ずにすむ/ないですむ/なくてすむ'"
+    },
+    {
+      "id": "Words2.json:1912",
+      "reason": "sentence does not contain the word '〜連れ'"
+    },
+    {
+      "id": "Words2.json:1927",
+      "reason": "sentence does not contain the word '的確/適確'"
+    },
+    {
+      "id": "Words2.json:1928",
+      "reason": "sentence does not use the grammar pattern '～ことは～が'"
+    },
+    {
+      "id": "Words2.json:1930",
+      "reason": "sentence does not use the grammar pattern '～てでも'"
+    },
+    {
+      "id": "Words2.json:1957",
+      "reason": "sentence does not use the grammar pattern '～ほか（は）ない/よりほか（は）ない'"
+    },
+    {
+      "id": "Words2.json:1958",
+      "reason": "sentence does not contain the word '〜展'"
+    },
+    {
+      "id": "Words2.json:1959",
+      "reason": "sentence does not use the grammar pattern '～に（は）かかわらず/に（は）かかわりなく'"
+    },
+    {
+      "id": "Words2.json:1973",
+      "reason": "sentence does not use the grammar pattern '～も～ば～も/～も～なら～も'"
+    },
+    {
+      "id": "Words2.json:1975",
+      "reason": "sentence does not use the grammar pattern '～やら～やら'"
+    },
+    {
+      "id": "Words2.json:1980",
+      "reason": "sentence does not contain the word '度'"
+    },
+    {
+      "id": "Words2.json:1985",
+      "reason": "sentence does not contain the word 'といっても'; sentence does not use the grammar pattern '～というものではない/というものでもない'"
+    },
+    {
+      "id": "Words2.json:1988",
+      "reason": "sentence does not contain the word '〜党'"
+    },
+    {
+      "id": "Words2.json:1990",
+      "reason": "sentence does not contain the word '〜棟'"
+    },
+    {
+      "id": "Words2.json:1992",
+      "reason": "sentence does not contain the word '〜頭'"
+    },
+    {
+      "id": "Words2.json:1993",
+      "reason": "sentence does not contain the word '〜等'"
+    },
+    {
+      "id": "Words2.json:1994",
+      "reason": "sentence does not contain the word '〜島'"
+    },
+    {
+      "id": "Words2.json:1995",
+      "reason": "sentence does not contain the word '〜道'"
+    },
+    {
+      "id": "Words2.json:1997",
+      "reason": "sentence does not use the grammar pattern '～一方だ'"
+    },
+    {
+      "id": "Words2.json:2018",
+      "reason": "sentence does not use the grammar pattern 'たとえ～ても'"
+    },
+    {
+      "id": "Words2.json:2020",
+      "reason": "sentence does not use the grammar pattern '～得る'"
+    },
+    {
+      "id": "Words2.json:2031",
+      "reason": "sentence does not contain the word '〜通す'; sentence does not use the grammar pattern '～がたい'"
+    },
+    {
+      "id": "Words2.json:2041",
+      "reason": "sentence does not use the grammar pattern '～ほか（は）ない/よりほか（は）ない'"
+    },
+    {
+      "id": "Words2.json:2049",
+      "reason": "sentence does not contain the word '〜時計'"
+    },
+    {
+      "id": "Words2.json:2051",
+      "reason": "sentence does not contain the word '遂げる'"
+    },
+    {
+      "id": "Words2.json:2057",
+      "reason": "sentence does not use the grammar pattern '～恐れがある'"
+    },
+    {
+      "id": "Words2.json:2061",
+      "reason": "sentence does not use the grammar pattern '～得ない'"
+    },
+    {
+      "id": "Words2.json:2062",
+      "reason": "sentence does not contain the word '〜届け'"
+    },
+    {
+      "id": "Words2.json:2063",
+      "reason": "sentence does not contain the word '止まる/留まる'"
+    },
+    {
+      "id": "Words2.json:2064",
+      "reason": "sentence does not contain the word '〜殿'"
+    },
+    {
+      "id": "Words2.json:2065",
+      "reason": "sentence does not use the grammar pattern '～ながら（も）'"
+    },
+    {
+      "id": "Words2.json:2071",
+      "reason": "sentence does not contain the word '共'"
+    },
+    {
+      "id": "Words2.json:2076",
+      "reason": "sentence does not contain the word 'ドライ'"
+    },
+    {
+      "id": "Words2.json:2078",
+      "reason": "sentence does not contain the word '捕える/捉える'; sentence does not use the grammar pattern '～恐れがある'"
+    },
+    {
+      "id": "Words2.json:2079",
+      "reason": "sentence does not use the grammar pattern '～恐れがある'"
+    },
+    {
+      "id": "Words2.json:2088",
+      "reason": "sentence does not use the grammar pattern '～ほか（は）ない/よりほか（は）ない'"
+    },
+    {
+      "id": "Words2.json:2089",
+      "reason": "sentence does not contain the word '取り次ぐ'"
+    },
+    {
+      "id": "Words2.json:2096",
+      "reason": "sentence does not contain the word 'トレイ = トレー'; sentence does not use the grammar pattern '～うちは'"
+    },
+    {
+      "id": "Words2.json:2098",
+      "reason": "sentence does not contain the word '〜トン'"
+    },
+    {
+      "id": "Words2.json:2099",
+      "reason": "sentence does not contain the word '〜丼'"
+    }
+  ]
+}

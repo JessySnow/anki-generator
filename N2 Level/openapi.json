@@ -1,0 +1,152 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Local LLM Text Generation Service",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string" },
+                    "model": { "type": "string" },
+                    "cuda": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/generate": {
+      "post": {
+        "summary": "Generate",
+        "operationId": "generate_generate_post",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/GenerateRequest" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/GenerateResponse" }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTPValidationError" }
+              }
+            }
+          },
+          "503": {
+            "description": "Model not loaded yet",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "detail": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GenerateRequest": {
+        "type": "object",
+        "required": ["prompt"],
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "User prompt"
+          },
+          "system_prompt": {
+            "type": "string",
+            "nullable": true,
+            "default": "You are a helpful assistant.",
+            "description": "Optional system instruction"
+          },
+          "max_new_tokens": {
+            "type": "integer",
+            "default": 256,
+            "minimum": 1,
+            "maximum": 2048
+          },
+          "temperature": {
+            "type": "number",
+            "default": 0.7,
+            "minimum": 0.0,
+            "maximum": 2.0
+          },
+          "top_p": {
+            "type": "number",
+            "default": 0.9,
+            "exclusiveMinimum": 0.0,
+            "maximum": 1.0
+          },
+          "repetition_penalty": {
+            "type": "number",
+            "default": 1.05,
+            "minimum": 1.0,
+            "maximum": 2.0
+          }
+        }
+      },
+      "GenerateResponse": {
+        "type": "object",
+        "required": ["model", "generated_text"],
+        "properties": {
+          "model": { "type": "string" },
+          "generated_text": { "type": "string" }
+        }
+      },
+      "HTTPValidationError": {
+        "type": "object",
+        "properties": {
+          "detail": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ValidationError" }
+          }
+        }
+      },
+      "ValidationError": {
+        "type": "object",
+        "required": ["loc", "msg", "type"],
+        "properties": {
+          "loc": {
+            "type": "array",
+            "items": { "anyOf": [{ "type": "string" }, { "type": "integer" }] }
+          },
+          "msg": { "type": "string" },
+          "type": { "type": "string" },
+          "input": {},
+          "ctx": { "type": "object" }
+        }
+      }
+    }
+  }
+}
