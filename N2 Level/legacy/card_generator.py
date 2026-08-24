@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Superseded by ../scripts/ (subagent-based generation, no external LLM API).
+# Kept for reference only.
 
 import argparse
 import csv
