@@ -1,0 +1,904 @@
+{
+  "vocabulary_list": [
+    {
+      "context_sentence": "障害物を排除する。/排除障碍物。",
+      "definition": "排除，去除，除掉",
+      "part_of_speech": "名・他動3",
+      "term": "排除(はいじょ)"
+    },
+    {
+      "context_sentence": "賠償金/赔偿金",
+      "definition": "赔偿，补偿所带来的损害或利益等",
+      "part_of_speech": "名・他動3",
+      "term": "賠償(ばいしょう)"
+    },
+    {
+      "context_sentence": "家庭排水/家庭排水",
+      "definition": "排水，排放的废水；船舶等排出与其沉在水中部分的体积相同的水",
+      "part_of_speech": "名・自動3",
+      "term": "排水(はいすい)"
+    },
+    {
+      "context_sentence": "売買価格/买卖价格，实际买卖时的价格",
+      "definition": "买卖",
+      "part_of_speech": "名・他動3",
+      "term": "売買(ばいばい)"
+    },
+    {
+      "context_sentence": "パイプライン/为输送石油、天然气等而埋设在地上或地下的管道、管线",
+      "definition": "导管，输送管；起疏通作用的角色、人物等；烟斗，烟嘴",
+      "part_of_speech": "名",
+      "term": "パイプ(pipe)"
+    },
+    {
+      "context_sentence": "配慮が足りない。/关心不够。",
+      "definition": "关怀，照顾，照料",
+      "part_of_speech": "名・他動3",
+      "term": "配慮(はいりょ)"
+    },
+    {
+      "context_sentence": "パイロットランプ/指示灯，度盘灯，监视灯",
+      "definition": "飞机驾驶员，飞行员",
+      "part_of_speech": "名",
+      "term": "パイロット(pilot)"
+    },
+    {
+      "context_sentence": "墓を建てる。/立墓碑。",
+      "definition": "坟墓，墓碑",
+      "part_of_speech": "名",
+      "term": "墓(はか)"
+    },
+    {
+      "context_sentence": "ばか正直/死脑筋",
+      "definition": "非常，不同寻常，超过正常的度",
+      "part_of_speech": "接頭",
+      "term": "ばか～"
+    },
+    {
+      "context_sentence": "自然を破壊する。/破坏自然。",
+      "definition": "破坏",
+      "part_of_speech": "名・自他動3",
+      "term": "破壊(はかい)"
+    },
+    {
+      "context_sentence": "ポスターを剥がす。/揭下海报。",
+      "definition": "剥下，揭下",
+      "part_of_speech": "他動1",
+      "term": "剥がす(はがす)"
+    },
+    {
+      "context_sentence": "博士課程/博士课程",
+      "definition": "博士，学识渊博的人，精通某方面学问的人",
+      "part_of_speech": "名",
+      "term": "博士(はかせ)"
+    },
+    {
+      "context_sentence": "墓参りに帰郷する。/回家乡扫墓。",
+      "definition": "扫墓，上坟，到墓地去拜祭",
+      "part_of_speech": "名・自動3",
+      "term": "墓参り(はかまいり)"
+    },
+    {
+      "context_sentence": "自殺を図る。/意图自杀。",
+      "definition": "谋求，设法……；图谋，企图……",
+      "part_of_speech": "他動1",
+      "term": "図る(はかる)"
+    },
+    {
+      "context_sentence": "ポスターが剥がれる。/海报剥落。",
+      "definition": "剥落，剥下",
+      "part_of_speech": "自動2",
+      "term": "剥がれる(はがれる)"
+    },
+    {
+      "context_sentence": "吐き気がする。/觉得恶心。",
+      "definition": "反胃，有时会发生呕吐；表示厌恶心情",
+      "part_of_speech": "名",
+      "term": "吐き気(はきけ)"
+    },
+    {
+      "context_sentence": "はきはきと先生の質問に答える。/干脆地回答老师的问题。",
+      "definition": "干脆，爽快；头脑敏捷",
+      "part_of_speech": "副・自動3",
+      "term": "はきはき"
+    },
+    {
+      "context_sentence": "二泊三日/三天两晚",
+      "definition": "……夜、宿，计算留宿数的量词",
+      "part_of_speech": "接尾",
+      "term": "～泊(～はく)"
+    },
+    {
+      "context_sentence": "莫大な財産/巨大的财富",
+      "definition": "巨大，非常多",
+      "part_of_speech": "名・ナ形",
+      "term": "莫大(ばくだい)"
+    },
+    {
+      "context_sentence": "爆弾を投げる。/投放炸弹。",
+      "definition": "炸弹；爆炸性的，令人吃惊的",
+      "part_of_speech": "名",
+      "term": "爆弾(ばくだん)"
+    },
+    {
+      "context_sentence": "火薬が爆発する。/火药爆发。",
+      "definition": "爆炸，爆发",
+      "part_of_speech": "名・自動3",
+      "term": "爆発(ばくはつ)"
+    },
+    {
+      "context_sentence": "爆発的に売れる。/卖得出奇的好。",
+      "definition": "爆炸性的，惊人的，急剧性的，爆发式的",
+      "part_of_speech": "ナ形",
+      "term": "爆発的(ばくはつてき)"
+    },
+    {
+      "context_sentence": "迫力に欠ける。/缺乏感染力。",
+      "definition": "打动人心的力量，感染力",
+      "part_of_speech": "名",
+      "term": "迫力(はくりょく)"
+    },
+    {
+      "context_sentence": "組織の中の一つの歯車に過ぎない。/只不过是组织当中的组成要素之一而已。",
+      "definition": "齿轮；构成整体的各个要素",
+      "part_of_speech": "名",
+      "term": "歯車(はぐるま)"
+    },
+    {
+      "context_sentence": "選手を励ます。/鼓励选手。",
+      "definition": "鼓励，激励；加强，强化",
+      "part_of_speech": "他動1",
+      "term": "励ます(はげます)"
+    },
+    {
+      "context_sentence": "励みになる。/受到鼓舞。",
+      "definition": "勉励，鼓舞，勤奋",
+      "part_of_speech": "名",
+      "term": "励み(はげみ)"
+    },
+    {
+      "context_sentence": "使節を派遣する。/派遣使节。",
+      "definition": "派遣",
+      "part_of_speech": "名・他動3",
+      "term": "派遣(はけん)"
+    },
+    {
+      "context_sentence": "正社員(せいしゃいん)③ [名] 受雇于企业的正式员工",
+      "definition": "派遣职员，指本人不是企业员工，受雇于或登记在人才服务公司，被派遣到有就业需求的企业工作的人",
+      "part_of_speech": "名",
+      "term": "派遣社員(はけんしゃいん)"
+    },
+    {
+      "context_sentence": "足の運び/步伐",
+      "definition": "行走姿态，表现方法；进度，进展状况；程序，阶段",
+      "part_of_speech": "名",
+      "term": "運び(はこび)"
+    },
+    {
+      "context_sentence": "本にしおりを挟む。/把书签插在书里。",
+      "definition": "插，插入；夹；间隔",
+      "part_of_speech": "他動1",
+      "term": "挟む(はさむ)"
+    },
+    {
+      "context_sentence": "破産に瀕する。/濒临破产。",
+      "definition": "破产；倾家荡产",
+      "part_of_speech": "名・自動3",
+      "term": "破産(はさん)"
+    },
+    {
+      "context_sentence": "指で弾く。/用手指弹开。",
+      "definition": "弹；进开，排斥；打(算盘)，弹(琴)",
+      "part_of_speech": "他動1",
+      "term": "弾く(はじく)"
+    },
+    {
+      "context_sentence": "梯子をのぼる。/爬上梯子。",
+      "definition": "梯子",
+      "part_of_speech": "名",
+      "term": "梯子(はしご)"
+    },
+    {
+      "context_sentence": "寝巻(ねまき)⓪ [名] 睡衣",
+      "definition": "成套睡衣",
+      "part_of_speech": "名",
+      "term": "パジャマ(pajamas)"
+    },
+    {
+      "context_sentence": "斜向かい/斜对面",
+      "definition": "倾斜，歪斜",
+      "part_of_speech": "名",
+      "term": "斜(はす)"
+    },
+    {
+      "context_sentence": "行動のパターン/行为模式",
+      "definition": "样品，样本，模型；花样，图样",
+      "part_of_speech": "名",
+      "term": "パターン(pattern)"
+    },
+    {
+      "context_sentence": "下着(したぎ)⓪ [名] 贴身衣裤，内衣",
+      "definition": "内衣，贴身穿着的衣物",
+      "part_of_speech": "名",
+      "term": "肌着(はだぎ)"
+    },
+    {
+      "context_sentence": "朝夕が肌寒く感じる。/早晚感觉寒冷。",
+      "definition": "微寒的，秋季肌肤上略感寒意的；毛骨悚然的",
+      "part_of_speech": "イ形",
+      "term": "肌寒い(はだざむい)"
+    },
+    {
+      "context_sentence": "果たして誰が栄冠を手にするか。/究竟谁能赢得胜利呢？",
+      "definition": "究竟，到底；果真，真的",
+      "part_of_speech": "副",
+      "term": "果たして(はたして)"
+    },
+    {
+      "context_sentence": "目的を果たす。/达到目的。",
+      "definition": "完成，实现；起到……的作用；[接尾] (接动词连用形后)完全……，彻底……",
+      "part_of_speech": "他動1",
+      "term": "果たす(はたす)"
+    },
+    {
+      "context_sentence": "評判の働き者/一致公认的干活能手",
+      "definition": "有本领的人，干活能手；勤劳的人",
+      "part_of_speech": "名",
+      "term": "働き者(はたらきもの)"
+    },
+    {
+      "context_sentence": "鉢植え/盆栽",
+      "definition": "钵，比盘子深、盛东西的容器；花盆",
+      "part_of_speech": "名",
+      "term": "鉢(はち)"
+    },
+    {
+      "context_sentence": "パチンコ屋/弹球房，设有弹球盘供人玩的游戏场所",
+      "definition": "弹球盘，弹子机",
+      "part_of_speech": "名",
+      "term": "パチンコ"
+    },
+    {
+      "context_sentence": "初耳/头一次听说",
+      "definition": "初次的，第一次的；当年(或该季节)的第一次",
+      "part_of_speech": "接頭",
+      "term": "初～(はつ～)"
+    },
+    {
+      "context_sentence": "三連発の銃声/三连发的枪声",
+      "definition": "计算子弹(炮弹)的量词；……始发，出发",
+      "part_of_speech": "接尾",
+      "term": "～発(～はつ)"
+    },
+    {
+      "context_sentence": "×で示す。/用叉来表示。",
+      "definition": "错误标记，叉",
+      "part_of_speech": "名",
+      "term": "×(ばつ)"
+    },
+    {
+      "context_sentence": "才能を発揮する。/施展才能。",
+      "definition": "发挥，表现，施展",
+      "part_of_speech": "名・他動3",
+      "term": "発揮(はっき)"
+    },
+    {
+      "context_sentence": "山をバックにして写真を撮る。/以山为背景拍照。",
+      "definition": "后面，背后；背景；支持者，后援，后盾；后退，倒退",
+      "part_of_speech": "名・自動3",
+      "term": "バック(back)"
+    },
+    {
+      "context_sentence": "発言力/发言感召力，说服力",
+      "definition": "发言，发表意见",
+      "part_of_speech": "名・自動3",
+      "term": "発言(はつげん)"
+    },
+    {
+      "context_sentence": "初恋の人がなかなか忘れられない。/初恋难以忘怀。",
+      "definition": "初恋，第一次恋爱",
+      "part_of_speech": "名",
+      "term": "初恋(はつこい)"
+    },
+    {
+      "context_sentence": "発行所/发行所",
+      "definition": "发行(图书、报纸等)；印发(纸币、债券等)",
+      "part_of_speech": "名・他動3",
+      "term": "発行(はっこう)"
+    },
+    {
+      "context_sentence": "発射薬/(发射子弹、炮弹等的)火药",
+      "definition": "发射，把(炮弹等)打出去",
+      "part_of_speech": "名・他動3",
+      "term": "発射(はっしゃ)"
+    },
+    {
+      "context_sentence": "台風が発生する。/产生台风。",
+      "definition": "发生，产生",
+      "part_of_speech": "名・自動3",
+      "term": "発生(はっせい)"
+    },
+    {
+      "context_sentence": "発電機/发电机",
+      "definition": "发电，产生电流",
+      "part_of_speech": "名・自動3",
+      "term": "発電(はつでん)"
+    },
+    {
+      "context_sentence": "鳩は平和の象徴とされる。/鸽子被作为是和平的象征。",
+      "definition": "鸽子",
+      "part_of_speech": "名",
+      "term": "鳩(はと)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "警车，警察巡逻车",
+      "part_of_speech": "名",
+      "term": "パトカー(「パトロールカー(patrol-car)」の略)"
+    },
+    {
+      "context_sentence": "世間話/闲聊，闲谈，家常",
+      "definition": "……故事，传说等",
+      "part_of_speech": "接尾",
+      "term": "～話(～ばなし)"
+    },
+    {
+      "context_sentence": "論文を書くとき、話し言葉を使ってはいけない。/论文写作时不能使用口语。",
+      "definition": "口语，口头语言",
+      "part_of_speech": "名",
+      "term": "話し言葉(はなしことば)"
+    },
+    {
+      "context_sentence": "話し下手な人/不会说话的人",
+      "definition": "缺乏说话技巧，说话说得不好(的人)",
+      "part_of_speech": "名・ナ形",
+      "term": "話し下手(はなしべた)"
+    },
+    {
+      "context_sentence": "彼女にバラの花束を贈る。/给女朋友送玫瑰花束。",
+      "definition": "花束，一把花",
+      "part_of_speech": "名",
+      "term": "花束(はなたば)"
+    },
+    {
+      "context_sentence": "はなはだしく不利な条件/相当不利的条件",
+      "definition": "非常，相当，超出一般的状态、程度甚",
+      "part_of_speech": "イ形",
+      "term": "はなはだしい"
+    },
+    {
+      "context_sentence": "華やかな装い/华丽的服装",
+      "definition": "华丽，鲜艳；辉煌，气势恢弘",
+      "part_of_speech": "ナ形",
+      "term": "華やか(はなやか)"
+    },
+    {
+      "context_sentence": "現実離れ/脱离现实",
+      "definition": "离开……，脱离……",
+      "part_of_speech": "接尾",
+      "term": "～離れ(～ばなれ)"
+    },
+    {
+      "context_sentence": "馬が綱から放れる。/马脱缰。",
+      "definition": "脱离，离开；放，发射",
+      "part_of_speech": "自動2",
+      "term": "放れる(はなれる)"
+    },
+    {
+      "context_sentence": "羽根布団/羽绒被",
+      "definition": "羽毛，羽绒；翅膀；机翼，电器的翼",
+      "part_of_speech": "名",
+      "term": "羽/羽根(はね)"
+    },
+    {
+      "context_sentence": "ばねを仕掛ける。/装上发条。",
+      "definition": "发条，弹簧；弹力，弹跳力",
+      "part_of_speech": "名",
+      "term": "ばね"
+    },
+    {
+      "context_sentence": "魚が跳ねる。/鱼跃。",
+      "definition": "跳起，跃起；飞溅；散场，终场",
+      "part_of_speech": "自動2",
+      "term": "跳ねる(はねる)"
+    },
+    {
+      "context_sentence": "ガラスの破片/玻璃碎片",
+      "definition": "碎片",
+      "part_of_speech": "名",
+      "term": "破片(はへん)"
+    },
+    {
+      "context_sentence": "浜でみんなとスイカ割りをして遊ぶ。/在海滨和大家一起玩打西瓜的游戏。",
+      "definition": "海滨，湖滨，河岸",
+      "part_of_speech": "名",
+      "term": "浜(はま)"
+    },
+    {
+      "context_sentence": "浜辺で散歩する。/在湖边散步。",
+      "definition": "湖边，海滨，水畔",
+      "part_of_speech": "名",
+      "term": "浜辺(はまべ)"
+    },
+    {
+      "context_sentence": "ロースハム/猪肉肠",
+      "definition": "火腿",
+      "part_of_speech": "名",
+      "term": "ハム(ham)"
+    },
+    {
+      "context_sentence": "指輪を嵌める。/佩戴戒指。",
+      "definition": "镶，嵌，填入，安上；欺骗，使……入圈套；限制，限定范围",
+      "part_of_speech": "他動2",
+      "term": "嵌める(はめる)"
+    },
+    {
+      "context_sentence": "出発の日は、いつもより早起きして出かける。/启程之日，起得比平时早，早早出门。",
+      "definition": "早起，早晨早早起床(的人)",
+      "part_of_speech": "名・自動3",
+      "term": "早起き(はやおき)"
+    },
+    {
+      "context_sentence": "早口に言う。/说话快。",
+      "definition": "说话快，嘴快",
+      "part_of_speech": "名",
+      "term": "早口(はやくち)"
+    },
+    {
+      "context_sentence": "早くとも1週間はかかりそうだ。/看起来再快也要一周时间。",
+      "definition": "即使再快也要……，最快也要……",
+      "part_of_speech": "副",
+      "term": "早くとも(はやくとも)"
+    },
+    {
+      "context_sentence": "雑草を生やす。/杂草丛生。",
+      "definition": "使……生长，蓄……，留……",
+      "part_of_speech": "他動1",
+      "term": "生やす(はやす)"
+    },
+    {
+      "context_sentence": "早寝早起き/早睡早起",
+      "definition": "早睡，晚上早早上床睡觉",
+      "part_of_speech": "名・自動3",
+      "term": "早寝(はやね)"
+    },
+    {
+      "context_sentence": "税金を払い込む。/缴纳税金。",
+      "definition": "缴付，缴纳",
+      "part_of_speech": "他動1",
+      "term": "払い込む(はらいこむ)"
+    },
+    {
+      "context_sentence": "料金を払い戻す。/退还费用。",
+      "definition": "找(钱)，退还；向储户缴付存款",
+      "part_of_speech": "他動1",
+      "term": "払い戻す(はらいもどす)"
+    },
+    {
+      "context_sentence": "はらはらしながら結果を待つ。/提心吊胆地等待结果。",
+      "definition": "担心，担忧；连续下落的样子；头发散乱",
+      "part_of_speech": "副・自動3",
+      "term": "はらはら"
+    },
+    {
+      "context_sentence": "針金で縛る。/用金属丝捆绑。",
+      "definition": "铁丝，金属丝",
+      "part_of_speech": "名",
+      "term": "針金(はりがね)"
+    },
+    {
+      "context_sentence": "弓の弦が張り切っている。/弓上的弦绷紧。",
+      "definition": "拉紧，绷紧；干劲十足；紧张",
+      "part_of_speech": "自動1",
+      "term": "張り切る(はりきる)"
+    },
+    {
+      "context_sentence": "はるかな昔/很早以前",
+      "definition": "距离、时间相隔远，遥远；远比……，程度相差很多",
+      "part_of_speech": "副・ナ形",
+      "term": "はるか"
+    },
+    {
+      "context_sentence": "バレエスキー/雪上芭蕾",
+      "definition": "芭蕾舞",
+      "part_of_speech": "名",
+      "term": "バレエ(仏 ballet)"
+    },
+    {
+      "context_sentence": "反作用/反作用",
+      "definition": "反对……，逆……",
+      "part_of_speech": "接頭",
+      "term": "反～(はん～)"
+    },
+    {
+      "context_sentence": "自分の番を待つ。/等着轮到自己。",
+      "definition": "交替，轮流；看守，值班",
+      "part_of_speech": "名",
+      "term": "番(ばん)"
+    },
+    {
+      "context_sentence": "みんなの意見を反映した決定/反映了大家意见的决定",
+      "definition": "反映",
+      "part_of_speech": "名・自他動3",
+      "term": "反映(はんえい)"
+    },
+    {
+      "context_sentence": "家が繁栄する。/家庭繁荣。",
+      "definition": "繁荣，昌盛，形势好",
+      "part_of_speech": "名・自動3",
+      "term": "繁栄(はんえい)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "半径，在圆或球中，连接其圆心与圆周上一点的线段",
+      "part_of_speech": "名",
+      "term": "半径(はんけい)"
+    },
+    {
+      "context_sentence": "判決を下す。/下判决。",
+      "definition": "判决",
+      "part_of_speech": "名・他動3",
+      "term": "判決(はんけつ)"
+    },
+    {
+      "context_sentence": "犯行を否認する。/否认罪行。",
+      "definition": "罪行，犯罪行为",
+      "part_of_speech": "名",
+      "term": "犯行(はんこう)"
+    },
+    {
+      "context_sentence": "判事補/判事补，助理法官，日本法官官名之一",
+      "definition": "判事，日本法官的官名之一",
+      "part_of_speech": "名",
+      "term": "判事(はんじ)"
+    },
+    {
+      "context_sentence": "商売繁盛/买卖兴隆",
+      "definition": "繁荣，昌盛",
+      "part_of_speech": "名・自動3",
+      "term": "繁盛(はんじょう)"
+    },
+    {
+      "context_sentence": "繁殖力/繁殖能力",
+      "definition": "(动植物)繁殖，生殖繁衍",
+      "part_of_speech": "名・自動3",
+      "term": "繁殖(はんしょく)"
+    },
+    {
+      "context_sentence": "予想に反する。/与预期相反。",
+      "definition": "与……相反；违反；背叛",
+      "part_of_speech": "名・自動3",
+      "term": "反する(はんする)"
+    },
+    {
+      "context_sentence": "反省の色が見られない。/未见反省(悔改)之意。",
+      "definition": "反省，自我审视",
+      "part_of_speech": "名・他動3",
+      "term": "反省(はんせい)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "反义词",
+      "part_of_speech": "名",
+      "term": "反対語(はんたいご)"
+    },
+    {
+      "context_sentence": "判定が下りる。/下判定。",
+      "definition": "判断，判决，做出评判",
+      "part_of_speech": "名・他動3",
+      "term": "判定(はんてい)"
+    },
+    {
+      "context_sentence": "朝鮮半島/朝鲜半岛",
+      "definition": "半岛",
+      "part_of_speech": "名",
+      "term": "半島(はんとう)"
+    },
+    {
+      "context_sentence": "観光者ハンドブック/游客手册",
+      "definition": "小型书，手册，指南，入门读物",
+      "part_of_speech": "名",
+      "term": "ハンドブック(handbook)"
+    },
+    {
+      "context_sentence": "ハンドルを切る。/转舵，操控方向盘以改变方向。",
+      "definition": "把手；驾驶盘，方向盘",
+      "part_of_speech": "名",
+      "term": "ハンドル(handle)"
+    },
+    {
+      "context_sentence": "相手の反応を伺う。/观察对方的反应。",
+      "definition": "反应，反响；(生物体)应激反应；物质与其他物质发生相互作用",
+      "part_of_speech": "名・自動3",
+      "term": "反応(はんのう)"
+    },
+    {
+      "context_sentence": "万能薬/万能药",
+      "definition": "万能，全能",
+      "part_of_speech": "名・ナ形",
+      "term": "万能(ばんのう)"
+    },
+    {
+      "context_sentence": "灯を点す。/点灯。",
+      "definition": "灯光，灯火",
+      "part_of_speech": "名",
+      "term": "灯(ひ)"
+    },
+    {
+      "context_sentence": "非合法/不合法",
+      "definition": "错误，不对，不……",
+      "part_of_speech": "接頭",
+      "term": "非～(ひ～)"
+    },
+    {
+      "context_sentence": "被支配者/被支配者",
+      "definition": "被……，遭遇，遭受",
+      "part_of_speech": "接頭",
+      "term": "被～(ひ～)"
+    },
+    {
+      "context_sentence": "人件費/人员开支，用人经费",
+      "definition": "……开销，费用",
+      "part_of_speech": "接尾",
+      "term": "～費(～ひ)"
+    },
+    {
+      "context_sentence": "天然の美/天然之美",
+      "definition": "美丽，漂亮；出色，值得称赞；美味",
+      "part_of_speech": "名",
+      "term": "美(び)"
+    },
+    {
+      "context_sentence": "ヒアリングの練習をする。/做听力练习。",
+      "definition": "听力，听写",
+      "part_of_speech": "名",
+      "term": "ヒアリング(hearing)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "烧杯，化学实验中用于配置溶液或加热液体的容器",
+      "part_of_speech": "名",
+      "term": "ビーカー(beaker)"
+    },
+    {
+      "context_sentence": "冬のためにヒーターを用意する。/为冬天准备电暖气。",
+      "definition": "电热器，采暖设备的总称",
+      "part_of_speech": "名",
+      "term": "ヒーター(heater)"
+    },
+    {
+      "context_sentence": "母はPTA会長だ。/我母亲是家长教师会的会长。",
+      "definition": "家长教师联合会，家长会",
+      "part_of_speech": "名",
+      "term": "ピーティーエー(PTA)"
+    },
+    {
+      "context_sentence": "日帰り旅行/当天往返的旅行",
+      "definition": "当天往返",
+      "part_of_speech": "名・自動3",
+      "term": "日帰り(ひがえり)"
+    },
+    {
+      "context_sentence": "部長に引き上げる。/提升为部长。",
+      "definition": "提升，使……提高；抬高，涨价；收回，取回",
+      "part_of_speech": "自他動2",
+      "term": "引き上げる(ひきあげる)"
+    },
+    {
+      "context_sentence": "値段を引き下げる。/降低价格。",
+      "definition": "降价，降低，使……下降；使……后退；撤回",
+      "part_of_speech": "他動2",
+      "term": "引き下げる(ひきさげる)"
+    },
+    {
+      "context_sentence": "本棚から本を引き出す。/从书架上抽出来。",
+      "definition": "拉出，抽出；提取；调动，发挥",
+      "part_of_speech": "他動1",
+      "term": "引き出す(ひきだす)"
+    },
+    {
+      "context_sentence": "前回に引き続き議論を進める。/接着上次进一步展开议论。",
+      "definition": "紧接着，连续",
+      "part_of_speech": "副",
+      "term": "引き続き(ひきつづき)"
+    },
+    {
+      "context_sentence": "客を引き止める。/挽留客人。",
+      "definition": "拉住，阻止，劝阻，挽留",
+      "part_of_speech": "他動2",
+      "term": "引き止める(ひきとめる)"
+    },
+    {
+      "context_sentence": "卑怯者/卑鄙小人",
+      "definition": "懦弱，胆小；卑鄙",
+      "part_of_speech": "名・ナ形",
+      "term": "卑怯(ひきょう)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "郊游，野炊",
+      "part_of_speech": "名",
+      "term": "ピクニック(picnic)"
+    },
+    {
+      "context_sentence": "叱られるかとびくびくする。/战战兢兢地怕挨骂。",
+      "definition": "畏缩，战战兢兢；颤动，跳动",
+      "part_of_speech": "副・自動3",
+      "term": "びくびく"
+    },
+    {
+      "context_sentence": "戦争がもたらす悲劇/战争带来的悲剧",
+      "definition": "悲剧，不幸的遭遇",
+      "part_of_speech": "名",
+      "term": "悲劇(ひげき)"
+    },
+    {
+      "context_sentence": "夜間飛行/夜间飞行",
+      "definition": "飞行，在空中航行",
+      "part_of_speech": "名・自動3",
+      "term": "飛行(ひこう)"
+    },
+    {
+      "context_sentence": "あの有名人の非行を暴く。/暴露那个名人的丑恶行径。",
+      "definition": "不良行为，越出社会规范的行为；触犯少年法的行为",
+      "part_of_speech": "名",
+      "term": "非行(ひこう)"
+    },
+    {
+      "context_sentence": "日頃の積み重ねが大事だ。/平日里的积累是很重要的。",
+      "definition": "平常，平素",
+      "part_of_speech": "名・副",
+      "term": "日頃(ひごろ)"
+    },
+    {
+      "context_sentence": "被災者/受灾者",
+      "definition": "受灾，罹难",
+      "part_of_speech": "名・自動3",
+      "term": "被災(ひさい)"
+    },
+    {
+      "context_sentence": "被災地を訪問する。/慰问灾区。",
+      "definition": "受灾地",
+      "part_of_speech": "名",
+      "term": "被災地(ひさいち)"
+    },
+    {
+      "context_sentence": "悲惨な出来事/悲惨的事件",
+      "definition": "悲惨，耳闻目睹后让你觉得心酸难过",
+      "part_of_speech": "名・ナ形",
+      "term": "悲惨(ひさん)"
+    },
+    {
+      "context_sentence": "ビジネスマン/商务人士，生意人",
+      "definition": "工作，商务，生意，买卖",
+      "part_of_speech": "名",
+      "term": "ビジネス(business)"
+    },
+    {
+      "context_sentence": "微笑を浮かべる。/展露笑颜。",
+      "definition": "微笑",
+      "part_of_speech": "名・自動3",
+      "term": "微笑(びしょう)"
+    },
+    {
+      "context_sentence": "非常勤講師/非常勤讲师，外聘讲师，兼课讲师",
+      "definition": "不定期出勤，非正常上班，不按常规上班",
+      "part_of_speech": "名",
+      "term": "非常勤(ひじょうきん)"
+    },
+    {
+      "context_sentence": "非常識なふるまい/不合常理的举止",
+      "definition": "不合常理，脱离常识",
+      "part_of_speech": "名・ナ形",
+      "term": "非常識(ひじょうしき)"
+    },
+    {
+      "context_sentence": "雨に降られてびしょびしょになる。/淋了雨(全身)湿漉漉。",
+      "definition": "湿透，湿漉漉",
+      "part_of_speech": "ナ形",
+      "term": "びしょびしょ"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "手枪，短枪",
+      "part_of_speech": "名",
+      "term": "ピストル(pistol)"
+    },
+    {
+      "context_sentence": "ひそかに会う。/私下会面。",
+      "definition": "秘密，悄悄，暗中，私下，不为人知的",
+      "part_of_speech": "ナ形",
+      "term": "ひそか"
+    },
+    {
+      "context_sentence": "ひそやかな夜道/寂静的夜路",
+      "definition": "寂静；偷偷，秘密",
+      "part_of_speech": "ナ形",
+      "term": "ひそやか"
+    },
+    {
+      "context_sentence": "ビタミン欠乏症/维生素缺乏症",
+      "definition": "维持生命所必需的营养素，维生素",
+      "part_of_speech": "名",
+      "term": "ビタミン(vitamin)"
+    },
+    {
+      "context_sentence": "ぴたりと貼り付ける。/紧紧贴上。",
+      "definition": "紧紧地，紧贴着；正合适，合身",
+      "part_of_speech": "副",
+      "term": "ぴたりと"
+    },
+    {
+      "context_sentence": "服が釘に引っ掛かる。/衣服被钉子勾住。",
+      "definition": "勾上，卡住；受骗，受牵连；担心，挂念",
+      "part_of_speech": "自動1",
+      "term": "引っ掛かる(ひっかかる)"
+    },
+    {
+      "context_sentence": "ハンガーにコートを引っ掛ける。/把外套挂到挂钩上。",
+      "definition": "挂；蹭到，剐到；欺骗，勾引；找借口，谎称",
+      "part_of_speech": "他動2",
+      "term": "引っ掛ける(ひっかける)"
+    },
+    {
+      "context_sentence": "筆記試験/笔试",
+      "definition": "笔记，写下来",
+      "part_of_speech": "名・他動3",
+      "term": "筆記(ひっき)"
+    },
+    {
+      "context_sentence": "順番を引っ繰り返す。/颠倒顺序。",
+      "definition": "颠倒过来，翻转过来；推翻，弄倒；扭转",
+      "part_of_speech": "他動1",
+      "term": "引っ繰り返す(ひっくりかえす)"
+    },
+    {
+      "context_sentence": "コップが引っ繰り返る。/杯子打翻。",
+      "definition": "翻，倒，颠倒",
+      "part_of_speech": "自動1",
+      "term": "引っ繰り返る(ひっくりかえる)"
+    },
+    {
+      "context_sentence": "老後は田舎に引っ込むつもりだ。/退休之后打算隐居乡下。",
+      "definition": "退下，隐退；缩进，凹进，塌陷",
+      "part_of_speech": "自動1",
+      "term": "引っ込む(ひっこむ)"
+    },
+    {
+      "context_sentence": "生活必需品/生活必需品",
+      "definition": "必需品，无论何种情况都需要的东西",
+      "part_of_speech": "名",
+      "term": "必需品(ひつじゅひん)"
+    },
+    {
+      "context_sentence": "大雨でびっしょりと濡れた。/下大雨湿透了。",
+      "definition": "湿透，湿淋淋",
+      "part_of_speech": "副",
+      "term": "びっしょり"
+    },
+    {
+      "context_sentence": "電話線を引っ張る。/拉电话线。",
+      "definition": "拉，拽，拖；拉拢，劝诱……加入一伙；延长，拖长",
+      "part_of_speech": "他動1",
+      "term": "引っ張る(ひっぱる)"
+    },
+    {
+      "context_sentence": "うわさを否定する。/辟谣。",
+      "definition": "否定，否认",
+      "part_of_speech": "名・他動3",
+      "term": "否定(ひてい)"
+    },
+    {
+      "context_sentence": "一息つく。/歇一会儿。",
+      "definition": "喘口气，歇口气；一口气；稍许的努力，(使)一把劲",
+      "part_of_speech": "名",
+      "term": "一息(ひといき)"
+    },
+    {
+      "context_sentence": "人一倍の努力を払う。/付出比别人多一倍的努力。",
+      "definition": "比别人加倍，在普通人以上",
+      "part_of_speech": "名・副",
+      "term": "人一倍(ひといちばい)"
+    }
+  ]
+}

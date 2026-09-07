@@ -1,0 +1,904 @@
+{
+  "vocabulary_list": [
+    {
+      "context_sentence": "ブルーカラー / 蓝领，在生产现场从事作业的劳动者、工人",
+      "definition": "蓝色，青色；忧郁的，无精打采的",
+      "part_of_speech": "名・ナ形",
+      "term": "ブルー(blue)"
+    },
+    {
+      "context_sentence": "体を震わせる。 / (使)浑身哆嗦。",
+      "definition": "使……颤抖、发抖，使……哆嗦",
+      "part_of_speech": "他動2",
+      "term": "震わせる(ふるわせる)"
+    },
+    {
+      "context_sentence": "無礼者 / 没礼貌的人",
+      "definition": "无礼，没有礼貌",
+      "part_of_speech": "名・ナ形",
+      "term": "無礼(ぶれい)"
+    },
+    {
+      "context_sentence": "プロの選手 / 职业选手",
+      "definition": "专门的，职业的，专家",
+      "part_of_speech": "名",
+      "term": "プロ(プロフェッショナル(professional)の略)"
+    },
+    {
+      "context_sentence": "ブローチをつける。 / 佩戴胸针。",
+      "definition": "别针，胸针",
+      "part_of_speech": "名",
+      "term": "ブローチ(brooch)"
+    },
+    {
+      "context_sentence": "フロントガラス / (汽车)前方挡风玻璃；车前窗玻璃",
+      "definition": "正面，前面；问讯处，服务台",
+      "part_of_speech": "名",
+      "term": "フロント(front)"
+    },
+    {
+      "context_sentence": "文科系 / 文科系",
+      "definition": "文科，人文科学、社会科学学科，文学院",
+      "part_of_speech": "名",
+      "term": "文科(ぶんか)"
+    },
+    {
+      "context_sentence": "噴火口 / (火山)喷发口",
+      "definition": "(火山)喷发",
+      "part_of_speech": "名・自動3",
+      "term": "噴火(ふんか)"
+    },
+    {
+      "context_sentence": "扇風機を分解する。 / 拆卸电风扇。",
+      "definition": "拆开，拆卸；(化合物)分解",
+      "part_of_speech": "名・自他動3",
+      "term": "分解(ぶんかい)"
+    },
+    {
+      "context_sentence": "文化財を保護する。 / 保护文化遗产。",
+      "definition": "文化遗产",
+      "part_of_speech": "名",
+      "term": "文化財(ぶんかざい)"
+    },
+    {
+      "context_sentence": "文芸学 / 文艺学，从原理上研究文艺的方法、本质等的学科",
+      "definition": "文艺，文学与艺术",
+      "part_of_speech": "名",
+      "term": "文芸(ぶんげい)"
+    },
+    {
+      "context_sentence": "参考文献 / 参考文献",
+      "definition": "文献，文件，参考资料",
+      "part_of_speech": "名",
+      "term": "文献(ぶんけん)"
+    },
+    {
+      "context_sentence": "紛失物 / 失物",
+      "definition": "遗失，丢失",
+      "part_of_speech": "名・自他動3",
+      "term": "紛失(ふんしつ)"
+    },
+    {
+      "context_sentence": "温泉が噴出する。 / 温泉喷水。",
+      "definition": "喷出，冒出",
+      "part_of_speech": "名・自他動3",
+      "term": "噴出(ふんしゅつ)"
+    },
+    {
+      "context_sentence": "社内文書 / 公司内部文书",
+      "definition": "文书，文件材料",
+      "part_of_speech": "名",
+      "term": "文書(ぶんしょ)"
+    },
+    {
+      "context_sentence": "噴水が出ている。 / 喷泉在喷水。",
+      "definition": "喷水；喷泉，喷水池，喷水装置",
+      "part_of_speech": "名",
+      "term": "噴水(ふんすい)"
+    },
+    {
+      "context_sentence": "定量分析 / 定量分析",
+      "definition": "化验，识别；分析",
+      "part_of_speech": "名・他動3",
+      "term": "分析(ぶんせき)"
+    },
+    {
+      "context_sentence": "国際紛争 / 国际争端",
+      "definition": "纷争，纠纷，争执",
+      "part_of_speech": "名",
+      "term": "紛争(ふんそう)"
+    },
+    {
+      "context_sentence": "家事を分担する。 / 分担家务。",
+      "definition": "分担，分开承担",
+      "part_of_speech": "名・他動3",
+      "term": "分担(ぶんたん)"
+    },
+    {
+      "context_sentence": "時間はふんだんにある。 / 时间绰绰有余。",
+      "definition": "充分地，有余地",
+      "part_of_speech": "副",
+      "term": "ふんだんに"
+    },
+    {
+      "context_sentence": "利益を分配する。 / 分配利润。",
+      "definition": "分配，分发；分担(工作或责任等)",
+      "part_of_speech": "名・他動3",
+      "term": "分配(ぶんぱい)"
+    },
+    {
+      "context_sentence": "人口の分布 / 人口的分布",
+      "definition": "分布，流传，分散在各处",
+      "part_of_speech": "名・自他動3",
+      "term": "分布(ぶんぷ)"
+    },
+    {
+      "context_sentence": "文脈から読み取る。 / 从文脉来理解。",
+      "definition": "文脉，文理，语境",
+      "part_of_speech": "名",
+      "term": "文脈(ぶんみゃく)"
+    },
+    {
+      "context_sentence": "文明開化 / 文明开化。人类智慧进步，社会开化",
+      "definition": "文明，开化，文化成果",
+      "part_of_speech": "名",
+      "term": "文明(ぶんめい)"
+    },
+    {
+      "context_sentence": "専門分野 / 专业领域",
+      "definition": "范围，区域，领域",
+      "part_of_speech": "名",
+      "term": "分野(ぶんや)"
+    },
+    {
+      "context_sentence": "政教分離 / 政教分离",
+      "definition": "分离，分开，隔离",
+      "part_of_speech": "名・自他動3",
+      "term": "分離(ぶんり)"
+    },
+    {
+      "context_sentence": "薬の分量を間違える。 / 弄错药的剂量。",
+      "definition": "分量，容量，容积",
+      "part_of_speech": "名",
+      "term": "分量(ぶんりょう)"
+    },
+    {
+      "context_sentence": "分類目録 / 分类目录，分类书目",
+      "definition": "分类，(按照一定的标准)对……进行分类",
+      "part_of_speech": "名・他動3",
+      "term": "分類(ぶんるい)"
+    },
+    {
+      "context_sentence": "閉会式 / 闭幕式",
+      "definition": "闭会，会议结束，闭幕",
+      "part_of_speech": "名・自他動3",
+      "term": "閉会(へいかい)"
+    },
+    {
+      "context_sentence": "図書館は午後5時に閉館する。 / 图书馆五点关门。",
+      "definition": "闭馆，(美术馆、图书馆等)结束当天业务；停止开放，停业",
+      "part_of_speech": "名・自他動3",
+      "term": "閉館(へいかん)"
+    },
+    {
+      "context_sentence": "核兵器 / 核武器",
+      "definition": "兵器，武器",
+      "part_of_speech": "名",
+      "term": "兵器(へいき)"
+    },
+    {
+      "context_sentence": "平行移動 / 平行移动",
+      "definition": "平行",
+      "part_of_speech": "名・自動3",
+      "term": "平行(へいこう)"
+    },
+    {
+      "context_sentence": "二台の車が並行して走る。 / 两辆车并排进行。",
+      "definition": "并行，并排行走；齐头并进，事情同时进行",
+      "part_of_speech": "名・自動3",
+      "term": "並行(へいこう)"
+    },
+    {
+      "context_sentence": "彼は問い詰められて閉口した。 / 他被追问得闭口无言了。",
+      "definition": "闭口不言，默不作声；受不了，束手无策",
+      "part_of_speech": "名・自動3",
+      "term": "閉口(へいこう)"
+    },
+    {
+      "context_sentence": "平行線をたどる。 / 双方相持不下，难以达成一致。",
+      "definition": "平行线；两个事物始终处于对立状态，各持己见，相持不下",
+      "part_of_speech": "名",
+      "term": "平行線(へいこうせん)"
+    },
+    {
+      "context_sentence": "工場を閉鎖する。 / 关闭工厂。",
+      "definition": "关闭，封闭，封锁",
+      "part_of_speech": "名・他動3",
+      "term": "閉鎖(へいさ)"
+    },
+    {
+      "context_sentence": "出征兵士 / 出征士兵",
+      "definition": "士兵，战士，在军队中受军官指挥的人",
+      "part_of_speech": "名",
+      "term": "兵士(へいし)"
+    },
+    {
+      "context_sentence": "レバーペースト / 肝酱，把肝蒸熟后调味做成的糊状食品，营养价值高",
+      "definition": "糨糊，糊状食物；(电脑操作的)粘贴",
+      "part_of_speech": "名",
+      "term": "ペースト(paste)"
+    },
+    {
+      "context_sentence": "兵隊を率いる。 / 率领军队。",
+      "definition": "士兵，兵卒；部队，军队",
+      "part_of_speech": "名",
+      "term": "兵隊(へいたい)"
+    },
+    {
+      "context_sentence": "八平方メートルの部屋 / 八平方米的小屋",
+      "definition": "平方米，面积单位",
+      "part_of_speech": "名",
+      "term": "平方メートル(へいほうメートル)"
+    },
+    {
+      "context_sentence": "平凡な人生 / 平凡的人生",
+      "definition": "平凡，普通，没有与众不同之处",
+      "part_of_speech": "名・ナ形",
+      "term": "平凡(へいぼん)"
+    },
+    {
+      "context_sentence": "2百平米の土地 / 两百平方米的土地",
+      "definition": "平方米，平米",
+      "part_of_speech": "名",
+      "term": "平米(へいべい)"
+    },
+    {
+      "context_sentence": "電池を並列につなぐ。 / 把电池并列地接上。",
+      "definition": "并列，并排；并联，将同级之间连在一起",
+      "part_of_speech": "名・自他動3",
+      "term": "並列(へいれつ)"
+    },
+    {
+      "context_sentence": "平和に暮らす。 / 平安度日。",
+      "definition": "平静，和睦，相安无事；和平",
+      "part_of_speech": "名・ナ形",
+      "term": "平和(へいわ)"
+    },
+    {
+      "context_sentence": "上役にぺこぺこする。 / 对上司点头哈腰。",
+      "definition": "点头哈腰，谄媚状；空(腹)，(肚子)饿",
+      "part_of_speech": "副・自動3",
+      "term": "ぺこぺこ"
+    },
+    {
+      "context_sentence": "自己ベストの記録 / 个人最好纪录",
+      "definition": "最好，最优；全力",
+      "part_of_speech": "名",
+      "term": "ベスト(best)"
+    },
+    {
+      "context_sentence": "今月のベストセラー / 本月最畅销书",
+      "definition": "最畅销书，在一定时期内销量最好的书",
+      "part_of_speech": "名",
+      "term": "ベストセラー(best-seller)"
+    },
+    {
+      "context_sentence": "ベストテンに入る。 / 入选十佳，进入十强。",
+      "definition": "十佳，十强，按优秀的顺序排列，(某一方面、领域)的前十名",
+      "part_of_speech": "名",
+      "term": "ベストテン(best-ten)"
+    },
+    {
+      "context_sentence": "へそで茶を沸かす。 / 捧腹大笑，指滑稽透顶。",
+      "definition": "肚脐；突起；位于中央的部分，核心，最重要的部分",
+      "part_of_speech": "名",
+      "term": "へそ"
+    },
+    {
+      "context_sentence": "年月が隔たる。 / 岁月相隔。",
+      "definition": "有距离，隔开，相隔；有差别，有差距；(关系)疏远",
+      "part_of_speech": "自動1",
+      "term": "隔たる(へだたる)"
+    },
+    {
+      "context_sentence": "酒を飲むと別人みたいになる。 / (他)一喝酒就感觉是变了一个人。",
+      "definition": "别人，其他人",
+      "part_of_speech": "名",
+      "term": "別人(べつじん)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "PET瓶，用作装饮料的塑料瓶，轻便且不易打碎",
+      "part_of_speech": "名",
+      "term": "ペットボトル(pet bottle)"
+    },
+    {
+      "context_sentence": "ベテラン選手 / 老运动员",
+      "definition": "老手，经验丰富的人",
+      "part_of_speech": "名",
+      "term": "ベテラン(veteran)"
+    },
+    {
+      "context_sentence": "第一編 / 第一篇",
+      "definition": "……篇，作品的一部分；……编订，编著",
+      "part_of_speech": "接尾",
+      "term": "～編(～へん)"
+    },
+    {
+      "context_sentence": "百遍繰り返す。 / 重复一百遍。",
+      "definition": "……遍，用于计算回数、次数的量词",
+      "part_of_speech": "接尾",
+      "term": "～遍(～へん)"
+    },
+    {
+      "context_sentence": "交通の便がいい。 / 交通便利。",
+      "definition": "方便，便利；大小便，粪便",
+      "part_of_speech": "名",
+      "term": "便(べん)"
+    },
+    {
+      "context_sentence": "社会の変革 / 社会变革",
+      "definition": "变革，改革",
+      "part_of_speech": "名・自他動3",
+      "term": "変革(へんかく)"
+    },
+    {
+      "context_sentence": "水洗式便器 / 抽水马桶",
+      "definition": "便器，供大小便使用的器具",
+      "part_of_speech": "名",
+      "term": "便器(べんき)"
+    },
+    {
+      "context_sentence": "図書を返却する。 / 归还图书。",
+      "definition": "归还，退还，把借来的物品归还原主、原处",
+      "part_of_speech": "名・他動3",
+      "term": "返却(へんきゃく)"
+    },
+    {
+      "context_sentence": "弁護士会 / 律师会。处理有关对律师进行指导、联络、监督等事务的法人",
+      "definition": "律师",
+      "part_of_speech": "名",
+      "term": "弁護士(べんごし)"
+    },
+    {
+      "context_sentence": "借金を返済する。 / 还债。",
+      "definition": "归还(从别处借来的钱款)，偿还，还债",
+      "part_of_speech": "名・他動3",
+      "term": "返済(へんさい)"
+    },
+    {
+      "context_sentence": "編集部 / 编辑部",
+      "definition": "编辑，剪辑",
+      "part_of_speech": "名・他動3",
+      "term": "編集(へんしゅう)"
+    },
+    {
+      "context_sentence": "返信はがき / 回复用的明信片",
+      "definition": "回信，回电",
+      "part_of_speech": "名・自動3",
+      "term": "返信(へんしん)"
+    },
+    {
+      "context_sentence": "ペンチを使って針金を切断する。 / 用钳子剪断金属丝。",
+      "definition": "钳子，镊子",
+      "part_of_speech": "名",
+      "term": "ペンチ(pinchers)"
+    },
+    {
+      "context_sentence": "返答に窮する。 / 不知如何回答。",
+      "definition": "回答，答复",
+      "part_of_speech": "名・自動3",
+      "term": "返答(へんとう)"
+    },
+    {
+      "context_sentence": "物価の変動 / 物价的波动",
+      "definition": "变动，变化；动荡",
+      "part_of_speech": "名・自動3",
+      "term": "変動(へんどう)"
+    },
+    {
+      "context_sentence": "弁論大会 / 辩论大会",
+      "definition": "辩论，争辩，在众人面前陈述自己的意见",
+      "part_of_speech": "名・自動3",
+      "term": "弁論(べんろん)"
+    },
+    {
+      "context_sentence": "一歩退く。 / 后退一步。",
+      "definition": "……步，计算步数的量词",
+      "part_of_speech": "接尾",
+      "term": "～歩(～ほ)"
+    },
+    {
+      "context_sentence": "10ポイントの上昇 / 上升十个百分点",
+      "definition": "地点，场所；小数点；百分点；得分，分数；点，要点",
+      "part_of_speech": "名",
+      "term": "ポイント(point)"
+    },
+    {
+      "context_sentence": "法を根本とする。 / 以法律为基础。",
+      "definition": "法律，法规；作法，方法；佛法，道理",
+      "part_of_speech": "名",
+      "term": "法(ほう)"
+    },
+    {
+      "context_sentence": "マッチ棒 / 火柴棒",
+      "definition": "棍子，棍棒；直线；[接頭] 生吞活剥；只看字面，不问内容",
+      "part_of_speech": "名",
+      "term": "棒(ぼう)"
+    },
+    {
+      "context_sentence": "法案を提出する。 / 提出法案。",
+      "definition": "法案，法律的草案",
+      "part_of_speech": "名",
+      "term": "法案(ほうあん)"
+    },
+    {
+      "context_sentence": "望遠鏡で星を観察する。 / 用望远镜观察星星。",
+      "definition": "望远镜，放大远处物体以便观察的光学仪器",
+      "part_of_speech": "名",
+      "term": "望遠鏡(ぼうえんきょう)"
+    },
+    {
+      "context_sentence": "南の方角 / 正南方位",
+      "definition": "方位，方向；目标",
+      "part_of_speech": "名",
+      "term": "方角(ほうがく)"
+    },
+    {
+      "context_sentence": "関西方言 / 関西方言",
+      "definition": "方言，土话",
+      "part_of_speech": "名",
+      "term": "方言(ほうげん)"
+    },
+    {
+      "context_sentence": "冒険談 / 冒险故事",
+      "definition": "冒险(行事)，做没有把握或成功可能性很小的事",
+      "part_of_speech": "名・自動3",
+      "term": "冒険(ぼうけん)"
+    },
+    {
+      "context_sentence": "豊作貧乏 / 丰收贫困。指由于丰收导致农作物价格下跌，农家的经济情况反而不好",
+      "definition": "丰收，农作物收成好",
+      "part_of_speech": "名",
+      "term": "豊作(ほうさく)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "和尚，对僧侣的敬称",
+      "part_of_speech": "名",
+      "term": "坊さん(ぼうさん)"
+    },
+    {
+      "context_sentence": "一定の方式に従う。 / 遵循一定的方式(办事)。",
+      "definition": "方式，一定的方法、形式、程序等",
+      "part_of_speech": "名",
+      "term": "方式(ほうしき)"
+    },
+    {
+      "context_sentence": "方針を立てる。 / 制定方针。",
+      "definition": "方针，指针",
+      "part_of_speech": "名",
+      "term": "方針(ほうしん)"
+    },
+    {
+      "context_sentence": "坊主頭 / 光头",
+      "definition": "对僧侣的俗称；光头；光秃秃；对男孩子的爱称或粗俗的称呼；[接頭] ……小鬼，家伙，表示亲昵或嘲讽",
+      "part_of_speech": "名",
+      "term": "坊主(ぼうず)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "宝石，天然的非金属矿物中，产量少、质地坚硬、稀有且美丽的矿石",
+      "part_of_speech": "名",
+      "term": "宝石(ほうせき)"
+    },
+    {
+      "context_sentence": "文章を作る時の法則 / 文章的书写规范",
+      "definition": "法则，规范；定律，规律",
+      "part_of_speech": "名",
+      "term": "法則(ほうそく)"
+    },
+    {
+      "context_sentence": "包帯を巻く。 / 包裹绷带。",
+      "definition": "绷带，用于包扎伤口的带状纱布等",
+      "part_of_speech": "名",
+      "term": "包帯(ほうたい)"
+    },
+    {
+      "context_sentence": "膨大な資料 / 庞大的资料",
+      "definition": "庞大，数量、规模等巨大",
+      "part_of_speech": "名・ナ形",
+      "term": "膨大/(厖)大(ぼうだい)"
+    },
+    {
+      "context_sentence": "目がぼうっとかすむ。 / 眼睛朦胧看不清楚。",
+      "definition": "朦胧，模糊不清；精神恍惚",
+      "part_of_speech": "副・自動3",
+      "term": "ぼうっと"
+    },
+    {
+      "context_sentence": "やりかけの仕事を放っておく。 / 把着手开始做的工作放在一边。",
+      "definition": "放在一边，弃置不管",
+      "part_of_speech": "他動1",
+      "term": "放っておく(ほうっておく)"
+    },
+    {
+      "context_sentence": "方程式を立てる。 / 构建方程式。",
+      "definition": "(数学)方程式",
+      "part_of_speech": "名",
+      "term": "方程式(ほうていしき)"
+    },
+    {
+      "context_sentence": "防犯ベル / 防盗铃",
+      "definition": "防止犯罪",
+      "part_of_speech": "名",
+      "term": "防犯(ぼうはん)"
+    },
+    {
+      "context_sentence": "暴風警報 / 暴风警报",
+      "definition": "暴风，狂风",
+      "part_of_speech": "名",
+      "term": "暴風(ぼうふう)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "暴风雨，伴随狂风而下的雨",
+      "part_of_speech": "名",
+      "term": "暴風雨(ぼうふうう)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "暴风雪，与风速超过每秒20米的狂风交织在一起的降雪",
+      "part_of_speech": "名",
+      "term": "暴風雪(ぼうふうせつ)"
+    },
+    {
+      "context_sentence": "方々探し回る。 / 找遍各处。",
+      "definition": "各处，到处，各方面",
+      "part_of_speech": "名",
+      "term": "方々(ほうぼう)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "主页",
+      "part_of_speech": "名",
+      "term": "ホームページ(homepage)"
+    },
+    {
+      "context_sentence": "大阪方面へ出張に行く。 / 去大阪一带出差。",
+      "definition": "……方面，位于某个方向的不确定的场所、地区；……领域",
+      "part_of_speech": "名",
+      "term": "方面(ほうめん)"
+    },
+    {
+      "context_sentence": "活発な坊や / 活泼的男孩儿",
+      "definition": "男孩儿；毛头小子，不懂世故的年轻人",
+      "part_of_speech": "名",
+      "term": "坊や(ぼうや)"
+    },
+    {
+      "context_sentence": "チョコレートを口に放り込む。 / 把巧克力放进嘴里。",
+      "definition": "扔入，丢进，漫不经心地放入",
+      "part_of_speech": "他動1",
+      "term": "放り込む(ほうりこむ)"
+    },
+    {
+      "context_sentence": "かばんを放り出して遊びに出かけた。 / 把包一扔就出去玩耍了。",
+      "definition": "扔出；抛，胡乱放置，丢下不管；开除，解雇，被驱逐",
+      "part_of_speech": "他動1",
+      "term": "放り出す(ほうりだす)"
+    },
+    {
+      "context_sentence": "暴力に訴える。 / 用武力解决。",
+      "definition": "暴力，武力，粗暴的行为",
+      "part_of_speech": "名",
+      "term": "暴力(ぼうりょく)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "男孩，少年；(餐厅等的)男侍应，男服务生",
+      "part_of_speech": "名",
+      "term": "ボーイ(boy)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "男朋友，男性朋友",
+      "part_of_speech": "名",
+      "term": "ボーイフレンド(boyfriend)"
+    },
+    {
+      "context_sentence": "保管料 / 保管费",
+      "definition": "保管，对金钱及贵重物品等进行管理，以免损失",
+      "part_of_speech": "名・他動3",
+      "term": "保管(ほかん)"
+    },
+    {
+      "context_sentence": "牧場で牛を飼う。 / 在牧场养牛。",
+      "definition": "牧场",
+      "part_of_speech": "名",
+      "term": "牧場(ぼくじょう)"
+    },
+    {
+      "context_sentence": "牧畜業 / 畜牧业",
+      "definition": "畜牧，畜牧业",
+      "part_of_speech": "名",
+      "term": "牧畜(ぼくちく)"
+    },
+    {
+      "context_sentence": "保健薬 / 保健药",
+      "definition": "保健，预防疾病，保护健康；保健课，学校开设的有关健康、卫生方面的科目",
+      "part_of_speech": "名",
+      "term": "保健(ほけん)"
+    },
+    {
+      "context_sentence": "保険会社 / 保险公司",
+      "definition": "保险",
+      "part_of_speech": "名",
+      "term": "保険(ほけん)"
+    },
+    {
+      "context_sentence": "自然を保護する。 / 保护自然。",
+      "definition": "保护，庇护",
+      "part_of_speech": "名・他動3",
+      "term": "保護(ほご)"
+    },
+    {
+      "context_sentence": "母校を訪ねる。 / 拜访母校。",
+      "definition": "母校，毕业的学校",
+      "part_of_speech": "名",
+      "term": "母校(ぼこう)"
+    },
+    {
+      "context_sentence": "母国語 / 母语，第一语言",
+      "definition": "母国，祖国",
+      "part_of_speech": "名",
+      "term": "母国(ぼこく)"
+    },
+    {
+      "context_sentence": "誇りを持つ。 / 感到光荣。",
+      "definition": "自豪，感到荣耀",
+      "part_of_speech": "名",
+      "term": "誇り(ほこり)"
+    },
+    {
+      "context_sentence": "自分の腕を誇る。 / 夸耀自己的本领。",
+      "definition": "夸耀，自豪；杰出，领先",
+      "part_of_speech": "自動1",
+      "term": "誇る(ほこる)"
+    },
+    {
+      "context_sentence": "干し物を取り込む。 / 把洗晒好的衣物收进来。",
+      "definition": "晒干的东西(尤指衣物)；干货",
+      "part_of_speech": "名",
+      "term": "干し物(ほしもの)"
+    },
+    {
+      "context_sentence": "保守派 / 保守派",
+      "definition": "保守，遵循旧的思维方式、行为习惯等，反对进行改革；保养，维持正常状态",
+      "part_of_speech": "名・他動3",
+      "term": "保守(ほしゅ)"
+    },
+    {
+      "context_sentence": "保守的な考え方 / 保守的思维方式",
+      "definition": "保守的，有保守倾向的；落后的，因循守旧的",
+      "part_of_speech": "ナ形",
+      "term": "保守的(ほしゅてき)"
+    },
+    {
+      "context_sentence": "生活費を補助する。 / 补助生活费。",
+      "definition": "补助，辅助",
+      "part_of_speech": "名・他動3",
+      "term": "補助(ほじょ)"
+    },
+    {
+      "context_sentence": "安全保障 / 安全保障",
+      "definition": "保障",
+      "part_of_speech": "名・他動3",
+      "term": "保障(ほしょう)"
+    },
+    {
+      "context_sentence": "舗装工事 / 铺路工程",
+      "definition": "铺路，用砖块、柏油、混凝土等加固路面",
+      "part_of_speech": "名・他動3",
+      "term": "舗装(ほそう)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "(商标名，源于美国发明家霍契凯斯的名字)订书机",
+      "part_of_speech": "名",
+      "term": "ホチキス(hotchkiss)"
+    },
+    {
+      "context_sentence": "北極星 / 北极星",
+      "definition": "北极，北极圈，北半球的尽头",
+      "part_of_speech": "名",
+      "term": "北極(ほっきょく)"
+    },
+    {
+      "context_sentence": "財産を没収される。 / 财产被(强制)没收。",
+      "definition": "没收，强制性收缴",
+      "part_of_speech": "名・他動3",
+      "term": "没収(ぼっしゅう)"
+    },
+    {
+      "context_sentence": "ほっと溜め息をつく。 / 松了一口气。",
+      "definition": "放心，安心，指从担心、操劳中解放出来",
+      "part_of_speech": "副・自動3",
+      "term": "ほっと"
+    },
+    {
+      "context_sentence": "真偽のほどを確かめる。 / 确定真伪。",
+      "definition": "(名)程度；限度；分寸，身份；时候，时分；(副助)(接活用词连体形后)大致的范围，大体……；表示比较的基准；表示程度的变化，越……越……",
+      "part_of_speech": "名・副助",
+      "term": "ほど"
+    },
+    {
+      "context_sentence": "靴のひもが解ける。 / 鞋带开了。",
+      "definition": "解开，松开；缓解，融洽",
+      "part_of_speech": "自動2",
+      "term": "解ける(ほどける)"
+    },
+    {
+      "context_sentence": "恩恵を施す。 / 施恩。",
+      "definition": "施舍，救济；施行；施加",
+      "part_of_speech": "他動1",
+      "term": "施す(ほどこす)"
+    },
+    {
+      "context_sentence": "川のほとり / 河边",
+      "definition": "旁边，畔，河流、池塘等的旁边",
+      "part_of_speech": "名",
+      "term": "ほとり"
+    },
+    {
+      "context_sentence": "炎につつまれる。 / 被火包围。",
+      "definition": "火焰，火苗，燃烧着的火；怒火，妒火",
+      "part_of_speech": "名",
+      "term": "炎(ほのお)"
+    },
+    {
+      "context_sentence": "ほぼ完成した。 / 大致完成了。",
+      "definition": "几乎，大概，大略",
+      "part_of_speech": "副",
+      "term": "ほぼ"
+    },
+    {
+      "context_sentence": "ボランティア活動に参加する。 / 参加志愿者活动。",
+      "definition": "志愿者，自发、无偿参加社会福利工作的人",
+      "part_of_speech": "名",
+      "term": "ボランティア(volunteer)"
+    },
+    {
+      "context_sentence": "内堀 / 内护城河",
+      "definition": "沟，渠，护城河",
+      "part_of_speech": "名",
+      "term": "堀/濠(ほり)"
+    },
+    {
+      "context_sentence": "仏像を彫る。 / 雕刻佛像。",
+      "definition": "雕刻，篆刻",
+      "part_of_speech": "他動1",
+      "term": "彫る(ほる)"
+    },
+    {
+      "context_sentence": "ぼろをまとう。 / 衣衫褴褛。",
+      "definition": "破布，破烂衣服，(隐藏的)缺点",
+      "part_of_speech": "名",
+      "term": "ぼろ"
+    },
+    {
+      "context_sentence": "ぼろ車 / 破车",
+      "definition": "破的，破旧的……",
+      "part_of_speech": "接頭",
+      "term": "ぼろ～"
+    },
+    {
+      "context_sentence": "ぼろぼろの服 / 破烂不堪的衣服",
+      "definition": "破烂不堪；干巴巴的，呈颗粒状；身心俱疲，精力耗尽的",
+      "part_of_speech": "ナ形",
+      "term": "ぼろぼろ"
+    },
+    {
+      "context_sentence": "盆に載せる。 / 装到盆里。",
+      "definition": "盆，托盘，盛物器具；盂兰盆(节)",
+      "part_of_speech": "名",
+      "term": "盆(ぼん)"
+    },
+    {
+      "context_sentence": "本格的な夏が訪れる。 / 真正意义上的夏天来临了。",
+      "definition": "真正的，正规的；正式的",
+      "part_of_speech": "ナ形",
+      "term": "本格的(ほんかくてき)"
+    },
+    {
+      "context_sentence": "本気を出す。 / 认真。",
+      "definition": "认真，当真",
+      "part_of_speech": "ナ形",
+      "term": "本気(ほんき)"
+    },
+    {
+      "context_sentence": "本国法 / 本国法律",
+      "definition": "本国，祖国；故乡，老家；本国国土，而非殖民地",
+      "part_of_speech": "名",
+      "term": "本国(ほんごく)"
+    },
+    {
+      "context_sentence": "問題の本質に触れる。 / 触及事物的本质。",
+      "definition": "本质，事物原本的性质或状态",
+      "part_of_speech": "名",
+      "term": "本質(ほんしつ)"
+    },
+    {
+      "context_sentence": "本質的な問題 / 本质上的问题",
+      "definition": "本质的，本质上，与本质有关的",
+      "part_of_speech": "ナ形",
+      "term": "本質的(ほんしつてき)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "盆地，周围被高地包围的平地",
+      "part_of_speech": "名",
+      "term": "盆地(ぼんち)"
+    },
+    {
+      "context_sentence": "ほんの二三日 / 仅仅两三天",
+      "definition": "一点点，些许，仅仅",
+      "part_of_speech": "連体",
+      "term": "ほんの"
+    },
+    {
+      "context_sentence": "本物の骨董品 / 真正的古董",
+      "definition": "真货，真物；正式，正规",
+      "part_of_speech": "名",
+      "term": "本物(ほんもの)"
+    },
+    {
+      "context_sentence": "本来の意味 / 原意",
+      "definition": "原本，本来；普通，平常",
+      "part_of_speech": "名・副",
+      "term": "本来(ほんらい)"
+    },
+    {
+      "context_sentence": "本来ならば許せないところだ。 / 按照常理是不允许的。",
+      "definition": "普通，应当",
+      "part_of_speech": "副",
+      "term": "本来ならば(ほんらいならば)"
+    },
+    {
+      "context_sentence": "マークをつける。 / 做标记。",
+      "definition": "标记，记号，做标记；盯，看，尾随；创造(纪录等)",
+      "part_of_speech": "名・他動3",
+      "term": "マーク(mark)"
+    },
+    {
+      "context_sentence": "マーケットシェア / 市场份额",
+      "definition": "市场，商场，集市；行情",
+      "part_of_speech": "名",
+      "term": "マーケット(market)"
+    },
+    {
+      "context_sentence": "null",
+      "definition": "麻将，室内游戏之一，由中国传入日本，大正末期普及",
+      "part_of_speech": "名",
+      "term": "マージャン(麻雀)"
+    },
+    {
+      "context_sentence": "教室が広いので、マイクを使って授業する。 / 因为教室大，用话筒上课。",
+      "definition": "麦克风，话筒",
+      "part_of_speech": "名",
+      "term": "マイク(microphoneの略)"
+    },
+    {
+      "context_sentence": "枚数を数える。 / 清点张数。",
+      "definition": "张数，页数，计算纸张、板、盘子、衣物等的数量",
+      "part_of_speech": "名",
+      "term": "枚数(まいすう)"
+    },
+    {
+      "context_sentence": "のちほどこちらから参ります。 / 稍后我会前来拜访。",
+      "definition": "去，来，“行く”、“来る”的自谦语；“行く”、“来る”的郑重语；参拜；投降，服输；受不了，难以对付",
+      "part_of_speech": "自動1",
+      "term": "参る(まいる)"
+    }
+  ]
+}

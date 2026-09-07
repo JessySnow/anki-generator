@@ -1,0 +1,1402 @@
+{
+  "vocabulary_list": [
+    {
+      "term": "〜夜（〜や）",
+      "part_of_speech": "[接尾]",
+      "definition": "……夜，晚上",
+      "context_sentence": "△昼夜/日夜，白天与晚上"
+    },
+    {
+      "term": "やがて③⓪",
+      "part_of_speech": "[副]",
+      "definition": "最近，不久的将来；大约，差不多；结果，归根到底",
+      "context_sentence": "△やがて日が出るだろう。/太阳就快出来了吧。"
+    },
+    {
+      "term": "夜間（やかん）①",
+      "part_of_speech": "[名]",
+      "definition": "夜间，夜晚",
+      "context_sentence": "△夜間照明/夜间照明"
+    },
+    {
+      "term": "役（やく）②",
+      "part_of_speech": "[名]",
+      "definition": "任务，职务，工作；角色",
+      "context_sentence": "△役がつく。/担任职务。"
+    },
+    {
+      "term": "〜役（〜やく）",
+      "part_of_speech": "[接尾]",
+      "definition": "……职位，地位，在工作岗位上有一定地位的人；……角色，剧中人",
+      "context_sentence": "△取締役/董事"
+    },
+    {
+      "term": "訳（やく）②①",
+      "part_of_speech": "[名]",
+      "definition": "翻译",
+      "context_sentence": "△現代語訳/译成现代语"
+    },
+    {
+      "term": "役者（やくしゃ）①",
+      "part_of_speech": "[名]",
+      "definition": "演员；官员，官吏；有才华的人，本事高明的人",
+      "context_sentence": "△役者になる。/成为演员。"
+    },
+    {
+      "term": "役所（やくしょ）③",
+      "part_of_speech": "[名]",
+      "definition": "官署，机关，公务员的办公场所",
+      "context_sentence": "△役所仕事/机关作风，指流于形式、效率低下的工作状态"
+    },
+    {
+      "term": "役職（やくしょく）⓪",
+      "part_of_speech": "[名]",
+      "definition": "任务，职务；要职，在机关部门中担任管理、监督的职务",
+      "context_sentence": "△役職手当/职务津贴"
+    },
+    {
+      "term": "訳する（やくする）③",
+      "part_of_speech": "[名·他動3]",
+      "definition": "翻译；将古文、汉文等改写成现代语",
+      "context_sentence": "△英語を日本語に訳する。/将英语译成日语。"
+    },
+    {
+      "term": "役場（やくば）③",
+      "part_of_speech": "[名]",
+      "definition": "公务所，公务员执行公务的地方，办事处",
+      "context_sentence": "△村役場/村政府办事处"
+    },
+    {
+      "term": "薬品（やくひん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "医药品；药品",
+      "context_sentence": "△緊急用の薬品/急救药品"
+    },
+    {
+      "term": "火傷（やけど）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "烫伤，灼伤；遭殃，沉重损失",
+      "context_sentence": "△火傷を負う。/被烫伤；蒙受沉重损失。"
+    },
+    {
+      "term": "夜行（やこう）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "夜行，夜间行走、移动",
+      "context_sentence": "△夜行列車/夜行列车"
+    },
+    {
+      "term": "矢印（やじるし）②",
+      "part_of_speech": "[名]",
+      "definition": "箭头符号，用于标示方向或路线，箭纹",
+      "context_sentence": "△矢印をつける。/标箭头。"
+    },
+    {
+      "term": "安〜（やす〜）",
+      "part_of_speech": "[接頭]",
+      "definition": "表示金额低、价格低廉；表示粗糙，轻易、敷衍",
+      "context_sentence": "△安月給/低工资"
+    },
+    {
+      "term": "やすやす③",
+      "part_of_speech": "[副]",
+      "definition": "轻而易举地，轻松地，简易地，安稳的样子",
+      "context_sentence": "△やすやすと難問を解く。/轻易解决难题。"
+    },
+    {
+      "term": "安らか（やすらか）②",
+      "part_of_speech": "[ナ形]",
+      "definition": "安稳，安静；安闲，无忧无虑",
+      "context_sentence": "△安らかな時間を過ごす。/度过安乐的时光。"
+    },
+    {
+      "term": "野生（やせい）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "野生（动植物）",
+      "context_sentence": "△野生の動物/野生动物"
+    },
+    {
+      "term": "奴（やつ）①",
+      "part_of_speech": "[名]",
+      "definition": "家伙，东西，骂人的话；那小子，那家伙",
+      "context_sentence": "△変な奴/怪人"
+    },
+    {
+      "term": "やっかい①",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "照顾，照料；麻烦，难办，棘手",
+      "context_sentence": "△やっかいな問題を抱える。/存在棘手的问题。"
+    },
+    {
+      "term": "やった③",
+      "part_of_speech": "[感]",
+      "definition": "（事情完成时或是取得成功时，发出的喜悦的欢呼）太好了，太棒了",
+      "context_sentence": "△やった、できた！/太好了，完成了！"
+    },
+    {
+      "term": "やっつける④",
+      "part_of_speech": "[他動2]",
+      "definition": "干掉，打败；草草干完，马马虎虎做完",
+      "context_sentence": "△敵をやっつける。/击败敌人。"
+    },
+    {
+      "term": "宿る（やどる）②",
+      "part_of_speech": "[自動1]",
+      "definition": "投宿，临时置身于某场所；存在于，寓于……；蕴藏，包含于……；寄生；怀孕，妊娠",
+      "context_sentence": "△木陰に宿る。/露宿于树荫下。"
+    },
+    {
+      "term": "家主（やぬし）①",
+      "part_of_speech": "[名]",
+      "definition": "户主，一家之主；房主，房东",
+      "context_sentence": "null"
+    },
+    {
+      "term": "敗れる（やぶれる）③",
+      "part_of_speech": "[自動2]",
+      "definition": "失败，战败，败北",
+      "context_sentence": "△決勝戦で敗れる。/在决赛中战败。"
+    },
+    {
+      "term": "病（やまい）①",
+      "part_of_speech": "[名]",
+      "definition": "疾病；毛病，坏习惯",
+      "context_sentence": "△心の病/心病"
+    },
+    {
+      "term": "やむをえず④",
+      "part_of_speech": "[副]",
+      "definition": "不得已，无奈……",
+      "context_sentence": "△やむをえず引き受けた。/无奈接受了。"
+    },
+    {
+      "term": "やむをえない⑤",
+      "part_of_speech": "[イ形]",
+      "definition": "没办法，不得已",
+      "context_sentence": "△中止もやむをえない。/没办法（只好）中止。"
+    },
+    {
+      "term": "やや①",
+      "part_of_speech": "[副]",
+      "definition": "稍微，一点儿；不就，一会儿",
+      "context_sentence": "△やや大きめ/稍大一点"
+    },
+    {
+      "term": "やられる④⓪",
+      "part_of_speech": "[自動2]",
+      "definition": "受害，被害；被驳倒，被打败",
+      "context_sentence": "△財布をやられる。/钱包被盗。"
+    },
+    {
+      "term": "遣り通す（やりとおす）④",
+      "part_of_speech": "[他動1]",
+      "definition": "做完，把……做到最后",
+      "context_sentence": "△最後まで遣り通す。/做到最后。"
+    },
+    {
+      "term": "やり遂げる（やりとげる）④",
+      "part_of_speech": "[他動2]",
+      "definition": "完成，干到底",
+      "context_sentence": "△仕事を立派にやり遂げる。/出色地完成工作。"
+    },
+    {
+      "term": "〜油（〜ゆ）",
+      "part_of_speech": "[接尾]",
+      "definition": "……油",
+      "context_sentence": "△石油/石油"
+    },
+    {
+      "term": "唯一（ゆいいつ）①",
+      "part_of_speech": "[名]",
+      "definition": "唯一",
+      "context_sentence": "△唯一の方法/唯一的方法"
+    },
+    {
+      "term": "有意義（ゆういぎ）③",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "有意义，意义深远的",
+      "context_sentence": "△有意義な仕事/有意义、有价值的工作"
+    },
+    {
+      "term": "遊園地（ゆうえんち）③",
+      "part_of_speech": "[名]",
+      "definition": "游乐园，游乐场",
+      "context_sentence": "△子供を連れて遊園地に行く。/带着孩子去游乐场（玩）。"
+    },
+    {
+      "term": "夕刊（ゆうかん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "晚报，傍晚发行的报纸",
+      "context_sentence": "△夕刊を買って帰る。/买晚报回家。"
+    },
+    {
+      "term": "友好（ゆうこう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "友好",
+      "context_sentence": "△友好関係/友好关系"
+    },
+    {
+      "term": "友情（ゆうじょう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "友情，朋友间的情谊",
+      "context_sentence": "△友情を大切にする。/珍视友情。"
+    },
+    {
+      "term": "優先（ゆうせん）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "优先，先于其他或优越于其他",
+      "context_sentence": "△優先順位/优先顺序"
+    },
+    {
+      "term": "優先席（ゆうせんせき）③",
+      "part_of_speech": "[名]",
+      "definition": "为特定人群所设的以供其优先使用的坐席，尤其是在公共交通中所设的老弱病残孕专座",
+      "context_sentence": "△優先席を設ける。/设置优先座位。"
+    },
+    {
+      "term": "優先的（ゆうせんてき）⓪",
+      "part_of_speech": "[ナ形]",
+      "definition": "优先的，先于其他办理的",
+      "context_sentence": "△優先的に分配する。/优先分配。"
+    },
+    {
+      "term": "郵送（ゆうそう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "邮寄，邮递",
+      "context_sentence": "△郵送料/邮费"
+    },
+    {
+      "term": "有能（ゆうのう）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "有才能（的人）",
+      "context_sentence": "△有能な人/有才能的人"
+    },
+    {
+      "term": "悠々（ゆうゆう）③",
+      "part_of_speech": "[副]",
+      "definition": "悠闲；广阔，辽阔，（时光）遥远",
+      "context_sentence": "△悠々と歩く。/悠闲地走，漫步。"
+    },
+    {
+      "term": "有利（ゆうり）①",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "有利；形势好的，情况佳的",
+      "context_sentence": "△有利な条件/有利条件"
+    },
+    {
+      "term": "優良（ゆうりょう）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "优良，较之一般的出色",
+      "context_sentence": "△優良品/优良品"
+    },
+    {
+      "term": "行方（ゆくえ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "去向，下落；将来，前途，前景",
+      "context_sentence": "△行方不明/不知去向，下落不明"
+    },
+    {
+      "term": "行き（ゆき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "去，往；[接尾] 去，表示方向、去向",
+      "context_sentence": "△行きは列車、帰りは飛行機だ。/去坐火车，回来乘飞机。"
+    },
+    {
+      "term": "行き来（ゆきき）②③⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "往来，来往，交往",
+      "context_sentence": "△人の行き来/人来人往"
+    },
+    {
+      "term": "行き先（ゆきさき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "目的地，去处，去向；前途，未来状况",
+      "context_sentence": "△行き先を告げる。/告知去向。"
+    },
+    {
+      "term": "行き過ぎる（ゆきすぎる）④",
+      "part_of_speech": "[自動2]",
+      "definition": "通过，经过；走过头；超出限度",
+      "context_sentence": "△家の前を行き過ぎる。/路过家门口。"
+    },
+    {
+      "term": "行く（ゆく）⓪",
+      "part_of_speech": "[自動1]",
+      "definition": "去，前往……；进展，进行；满足，满意；出嫁；逝去，时光流逝",
+      "context_sentence": "△南に行く。/往南走。"
+    },
+    {
+      "term": "行く先（ゆくさき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "目的地，去向；将来，前途",
+      "context_sentence": "△行く先を尋ねる。/询问去向。"
+    },
+    {
+      "term": "輸血（ゆけつ）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "输血",
+      "context_sentence": "△輸血反応/指由输血引起的发热、过敏等不良反应、副作用"
+    },
+    {
+      "term": "輸送（ゆそう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "输送，运输",
+      "context_sentence": "△海上輸送/海上运输"
+    },
+    {
+      "term": "ゆったり③",
+      "part_of_speech": "[副·自動3]",
+      "definition": "有余裕的，宽敞；舒畅，舒适",
+      "context_sentence": "△ゆったりした上着/宽松的上衣"
+    },
+    {
+      "term": "ゆとり⓪",
+      "part_of_speech": "[名]",
+      "definition": "宽裕，绰绰有余，舒畅",
+      "context_sentence": "△ゆとりのある生活/宽裕的生活"
+    },
+    {
+      "term": "ユニーク（unique）②",
+      "part_of_speech": "[ナ形]",
+      "definition": "独特，特有",
+      "context_sentence": "△ユニークな発想/独特的构思"
+    },
+    {
+      "term": "湯飲み（ゆのみ）③",
+      "part_of_speech": "[名]",
+      "definition": "茶杯，茶碗",
+      "context_sentence": "△湯飲み茶碗/茶碗，饮茶用的碗"
+    },
+    {
+      "term": "よいしょ",
+      "part_of_speech": "[感]",
+      "definition": "嗨哟，憋足力气时的吆喝声",
+      "context_sentence": "△よいしょ、こらしょ。/嗨哟，嗨呀。"
+    },
+    {
+      "term": "容易（ようい）⓪",
+      "part_of_speech": "[ナ形]",
+      "definition": "容易",
+      "context_sentence": "△容易なことではない。/不是件容易的事。"
+    },
+    {
+      "term": "溶岩（ようがん）①",
+      "part_of_speech": "[名]",
+      "definition": "熔岩，涌出地表的岩浆",
+      "context_sentence": "△火山から溶岩が流出した。/从火山流出熔岩。"
+    },
+    {
+      "term": "容器（ようき）①",
+      "part_of_speech": "[名]",
+      "definition": "容器，装东西的器皿",
+      "context_sentence": "null"
+    },
+    {
+      "term": "陽気（ようき）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "开朗，活泼，朝气蓬勃",
+      "context_sentence": "△陽気な子/活泼开朗的孩子"
+    },
+    {
+      "term": "用件（ようけん）③",
+      "part_of_speech": "[名]",
+      "definition": "应办的事",
+      "context_sentence": "△用件を済ます。/办完事。"
+    },
+    {
+      "term": "用語（ようご）⓪",
+      "part_of_speech": "[名]",
+      "definition": "用语，措辞；术语",
+      "context_sentence": "△科学用語/科学术语"
+    },
+    {
+      "term": "要旨（ようし）①",
+      "part_of_speech": "[名]",
+      "definition": "要旨，要点，主要内容",
+      "context_sentence": "△要旨をまとめる。/归纳要点。"
+    },
+    {
+      "term": "幼児（ようじ）①",
+      "part_of_speech": "[名]",
+      "definition": "婴儿，幼儿",
+      "context_sentence": "△幼児期/婴幼儿期"
+    },
+    {
+      "term": "様式（ようしき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "样式，一定的形式、风格",
+      "context_sentence": "△生活様式/生活方式"
+    },
+    {
+      "term": "養殖（ようしょく）⓪",
+      "part_of_speech": "[名]",
+      "definition": "养殖",
+      "context_sentence": "△養殖真珠/养殖珍珠，养殖的珍珠"
+    },
+    {
+      "term": "用心（ようじん）①",
+      "part_of_speech": "[名·自動3]",
+      "definition": "警惕，注意，小心",
+      "context_sentence": "△火の用心/防火，小心火灾"
+    },
+    {
+      "term": "用心深い（ようじんぶかい）⑥",
+      "part_of_speech": "[イ形]",
+      "definition": "细心周到的，极其慎重的",
+      "context_sentence": "△用心深い人/极为慎重的人"
+    },
+    {
+      "term": "要するに（ようするに）③",
+      "part_of_speech": "[副]",
+      "definition": "综上所述，归根结底，简言之",
+      "context_sentence": "△要するに、彼は社長の器ではなかった。/说到底他不是当社长的料。"
+    },
+    {
+      "term": "要請（ようせい）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "拜托，请求，恳求",
+      "context_sentence": "△援助を要請する。/请求援助。"
+    },
+    {
+      "term": "容積（ようせき）①",
+      "part_of_speech": "[名]",
+      "definition": "容积，容量；体积",
+      "context_sentence": "△瓶の容積/瓶子的容积"
+    },
+    {
+      "term": "溶接（ようせつ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "焊接",
+      "context_sentence": "△溶接棒/焊条，熔点低的棒状金属材料"
+    },
+    {
+      "term": "要素（ようそ）①",
+      "part_of_speech": "[名]",
+      "definition": "构成事物的成分、部分；要素，因素",
+      "context_sentence": "△衣·食·住の三要素/衣食住三大要素"
+    },
+    {
+      "term": "幼稚（ようち）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "年幼，智能发育尚不完全；天真；不熟练",
+      "context_sentence": "△幼稚な考え/幼稚的想法"
+    },
+    {
+      "term": "要点（ようてん）③",
+      "part_of_speech": "[名]",
+      "definition": "要点，重要之处",
+      "context_sentence": "△要点をつかむ。/抓住要点。"
+    },
+    {
+      "term": "用途（ようと）①",
+      "part_of_speech": "[名]",
+      "definition": "用途",
+      "context_sentence": "△用途が広い。/用途广泛。"
+    },
+    {
+      "term": "要は（ようは）①",
+      "part_of_speech": "[副]",
+      "definition": "重要的是……，总之",
+      "context_sentence": "△要は本人の努力次第だ。/关键看本人的努力。"
+    },
+    {
+      "term": "用品（ようひん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "用品，使用的物品，必备的物品",
+      "context_sentence": "△スポーツ用品/体育用品"
+    },
+    {
+      "term": "養分（ようぶん）①",
+      "part_of_speech": "[名]",
+      "definition": "养分，动植物生长所必需的营养成分",
+      "context_sentence": "△養分を取る。/获取养分。"
+    },
+    {
+      "term": "要望（ようぼう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "希望，要求，强烈希望",
+      "context_sentence": "△条件の改善を要望する。/强烈希望改善条件。"
+    },
+    {
+      "term": "羊毛（ようもう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "羊毛",
+      "context_sentence": "null"
+    },
+    {
+      "term": "要領（ようりょう）③",
+      "part_of_speech": "[名]",
+      "definition": "要点，重要之处；窍门，要领",
+      "context_sentence": "△要領をつかむ。/找到窍门。"
+    },
+    {
+      "term": "余暇（よか）①",
+      "part_of_speech": "[名]",
+      "definition": "余暇，闲暇时间",
+      "context_sentence": "△余暇を利用して旅行する。/利用闲暇时间旅游。"
+    },
+    {
+      "term": "予感（よかん）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预感，预兆",
+      "context_sentence": "△不吉な予感がする。/有不祥的预感。"
+    },
+    {
+      "term": "予期（よき）①",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预期，预料",
+      "context_sentence": "△予期に反する。/与预料相反。"
+    },
+    {
+      "term": "預金（よきん）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "存款，存钱",
+      "context_sentence": "△預金口座/存款账户"
+    },
+    {
+      "term": "欲（よく）②",
+      "part_of_speech": "[名]",
+      "definition": "欲望，需求",
+      "context_sentence": "△欲が深い。/贪得无厌。"
+    },
+    {
+      "term": "〜欲（〜よく）",
+      "part_of_speech": "[接尾]",
+      "definition": "……欲望",
+      "context_sentence": "△知識欲/求知欲"
+    },
+    {
+      "term": "翌〜（よく〜）",
+      "part_of_speech": "[接頭]",
+      "definition": "明……，次……",
+      "context_sentence": "△翌日/第二天，翌日，次日"
+    },
+    {
+      "term": "翌朝（よくあさ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "第二天早晨",
+      "context_sentence": "△事件の翌朝/事发第二天"
+    },
+    {
+      "term": "浴室（よくしつ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "浴室，洗澡的地方",
+      "context_sentence": "△浴室ユニット/单间浴室"
+    },
+    {
+      "term": "翌日（よくじつ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "翌日，次日，第二天",
+      "context_sentence": "△雨の翌日は川の流れが速い。/大雨后的第二天河水流得快。"
+    },
+    {
+      "term": "翌年（よくねん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "第二年，翌年",
+      "context_sentence": "△翌年への繰り越し/把账目转到第二年"
+    },
+    {
+      "term": "抑制（よくせい）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "抑制；控制，使……镇静",
+      "context_sentence": "△感情を抑制する。/克制感情。"
+    },
+    {
+      "term": "よくも①",
+      "part_of_speech": "[副]",
+      "definition": "居然……，竟……，表示惊讶或佩服；竟敢，竟然，表示对不正当行为的惊讶、憎恶",
+      "context_sentence": "△よくもここまでやってきた。/居然能做到这一步。"
+    },
+    {
+      "term": "〜避け/除け（〜よけ）",
+      "part_of_speech": "[接尾]",
+      "definition": "防、挡、遮……，表示为避免受伤害而设置的东西",
+      "context_sentence": "△風除け/挡风物"
+    },
+    {
+      "term": "余計（よけい）⓪",
+      "part_of_speech": "[ナ形]",
+      "definition": "过分，多余；无用",
+      "context_sentence": "△人より余計に働く。/比别人干得多。"
+    },
+    {
+      "term": "避ける（よける）②",
+      "part_of_speech": "[他動2]",
+      "definition": "躲开，躲避；防范；除去……，……除外",
+      "context_sentence": "△店の軒下で雨を避ける。/在商店屋檐下躲雨。"
+    },
+    {
+      "term": "横書き（よこがき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "横写，从左往右书写",
+      "context_sentence": "null"
+    },
+    {
+      "term": "予告（よこく）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预告，预先通知",
+      "context_sentence": "△映画の予告編/电影预告篇"
+    },
+    {
+      "term": "寄越す（よこす）⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "寄来，送来",
+      "context_sentence": "△手紙を寄越す。/寄信来。"
+    },
+    {
+      "term": "よし①",
+      "part_of_speech": "[感]",
+      "definition": "好，行，表示知道、承认、决心之意",
+      "context_sentence": "△よし、始めよう。/好，开始吧。"
+    },
+    {
+      "term": "良し（よし）①",
+      "part_of_speech": "[名]",
+      "definition": "好，出色，杰出；灵巧，巧妙",
+      "context_sentence": "△帰っても良し。/回去也可以。"
+    },
+    {
+      "term": "良し悪し（よしあし）①②",
+      "part_of_speech": "[名]",
+      "definition": "善恶，好事与坏事，优点与缺点",
+      "context_sentence": "△ものの良し悪しをはっきりさせる。/分清善恶。"
+    },
+    {
+      "term": "止す（よす）①",
+      "part_of_speech": "[他動1]",
+      "definition": "停止，中止，作罢",
+      "context_sentence": "△タバコを止す。/戒烟。"
+    },
+    {
+      "term": "予選（よせん）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预选；预赛，选拔赛",
+      "context_sentence": "△予選通過/通过预赛"
+    },
+    {
+      "term": "ヨット（yacht）①",
+      "part_of_speech": "[名]",
+      "definition": "快艇，游艇",
+      "context_sentence": "△ヨットハーバー/游艇港，游艇停泊处"
+    },
+    {
+      "term": "よっぽど⓪",
+      "part_of_speech": "[副]",
+      "definition": "「よほど」的转音，强调说法，相当，非常；",
+      "context_sentence": "△よっぽど疲れただろう。/估计相当累了吧。"
+    },
+    {
+      "term": "予備（よび）①",
+      "part_of_speech": "[名]",
+      "definition": "预备，提前准备",
+      "context_sentence": "△予備のタイヤ/备用轮胎"
+    },
+    {
+      "term": "呼び掛ける（よびかける）④",
+      "part_of_speech": "[他動2]",
+      "definition": "呼唤，打招呼；呼吁，号召",
+      "context_sentence": "△大声で呼び掛ける。/大声召唤。"
+    },
+    {
+      "term": "予備校（よびこう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "补习学校，预科，特指为考大学而实施教育的学校",
+      "context_sentence": "△大学入試のため、予備校で勉強する。/为进入大学而参加高考补习班学习。"
+    },
+    {
+      "term": "呼び捨て（よびすて）⓪",
+      "part_of_speech": "[名]",
+      "definition": "（对人不加敬称而）直呼其名",
+      "context_sentence": "△人を呼び捨てにする。/直呼其名。"
+    },
+    {
+      "term": "呼び出す（よびだす）③",
+      "part_of_speech": "[他動1]",
+      "definition": "叫来；叫出去，邀请",
+      "context_sentence": "△職員室へ呼び出される。/被叫到办公室。"
+    },
+    {
+      "term": "呼び止める（よびとめる）④",
+      "part_of_speech": "[他動2]",
+      "definition": "叫住，招呼……使站住",
+      "context_sentence": "△通り過ぎる人を呼び止める。/把行人叫住。"
+    },
+    {
+      "term": "夜更かし（よふかし）②③",
+      "part_of_speech": "[名·自動3]",
+      "definition": "熬夜，直到很晚都不睡",
+      "context_sentence": "△試験勉強で夜更かしする。/为考前复习而熬夜。"
+    },
+    {
+      "term": "余分（よぶん）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "多余，剩余",
+      "context_sentence": "△余分が出る。/出现剩余。"
+    },
+    {
+      "term": "予報（よほう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预报，尤指天气预报",
+      "context_sentence": "△予報では明日雨になるそうだ。/听天气预报说明天会下雨。"
+    },
+    {
+      "term": "予防（よぼう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "预防，预先防止疾病、灾害等的发生",
+      "context_sentence": "△予防接種/预防接种，为预防传染病给生物体接种疫苗使其产生免疫"
+    },
+    {
+      "term": "よほど⓪",
+      "part_of_speech": "[副·ナ形]",
+      "definition": "很，颇，相当",
+      "context_sentence": "△よほどの事情/万不得已的情况"
+    },
+    {
+      "term": "読み（よみ）②",
+      "part_of_speech": "[名]",
+      "definition": "读，读法；推测（事物的发展趋势）",
+      "context_sentence": "△読み書き/识字；读写，阅读与书写文字"
+    },
+    {
+      "term": "読み取る（よみとる）③⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "读懂，领会；看透，看清",
+      "context_sentence": "△文意を読み取る。/读懂文章意思。"
+    },
+    {
+      "term": "〜より",
+      "part_of_speech": "[接尾]",
+      "definition": "靠近……，偏向……",
+      "context_sentence": "△南よりの風/偏南风"
+    },
+    {
+      "term": "世論（よろん）①",
+      "part_of_speech": "[名]",
+      "definition": "社会舆论，大众的呼声",
+      "context_sentence": "△世論が高まる。/舆论呼声高涨。"
+    },
+    {
+      "term": "弱まる（よわまる）③",
+      "part_of_speech": "[自動1]",
+      "definition": "变弱，减弱",
+      "context_sentence": "△風が弱まる。/风力变小。"
+    },
+    {
+      "term": "弱める（よわめる）③",
+      "part_of_speech": "[他動2]",
+      "definition": "减弱，削弱，使……衰弱",
+      "context_sentence": "△火を弱める。/削弱火力，把火关小。"
+    },
+    {
+      "term": "ライト（light）①",
+      "part_of_speech": "[名]",
+      "definition": "光线，照明",
+      "context_sentence": "△ライトをあてる。/打灯光。"
+    },
+    {
+      "term": "ライン（line）①",
+      "part_of_speech": "[名]",
+      "definition": "线，行列；路线，航线",
+      "context_sentence": "△紙にラインを引く。/在纸上画线。"
+    },
+    {
+      "term": "来日（らいにち）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "访日，来日本",
+      "context_sentence": "△来日公演/赴日演出"
+    },
+    {
+      "term": "来年度（らいねんど）③",
+      "part_of_speech": "[名]",
+      "definition": "下一年度",
+      "context_sentence": "△来年度の計画を立てる。/制订下一年度计划。"
+    },
+    {
+      "term": "ライバル（rival）①",
+      "part_of_speech": "[名]",
+      "definition": "竞争对手，情敌",
+      "context_sentence": "△良きライバルとなる。/成为很好的竞争对手。"
+    },
+    {
+      "term": "落第（らくだい）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "落第，（考核或审查等）不及格，没通过；不合格，不称职",
+      "context_sentence": "△落第点/不及格分数"
+    },
+    {
+      "term": "ラッシュ（rush）①",
+      "part_of_speech": "[名]",
+      "definition": "蜂拥而至，拥挤；热潮，风潮",
+      "context_sentence": "△ラッシュアワー/上下班高峰时间"
+    },
+    {
+      "term": "ラベル（label）①",
+      "part_of_speech": "[名]",
+      "definition": "贴纸，小标签，商标等",
+      "context_sentence": "△ラベルを貼る。/贴标签。"
+    },
+    {
+      "term": "ランニング（running）⓪",
+      "part_of_speech": "[名]",
+      "definition": "跑，一般指比慢跑速度稍快的跑步",
+      "context_sentence": "△ランニングキャッチ/跑动接球"
+    },
+    {
+      "term": "ランプ（lamp）①",
+      "part_of_speech": "[名]",
+      "definition": "煤油灯；电灯",
+      "context_sentence": "△ランプシェード/（煤油灯或电灯的）灯罩"
+    },
+    {
+      "term": "理科（りか）①",
+      "part_of_speech": "[名]",
+      "definition": "理科，自然科学；（大学）理科系，理科院",
+      "context_sentence": "△理科の出身/学理科出身"
+    },
+    {
+      "term": "利害（りがい）①",
+      "part_of_speech": "[名]",
+      "definition": "利害，利益与损失",
+      "context_sentence": "△利害関係/利害关系"
+    },
+    {
+      "term": "陸（りく）①②",
+      "part_of_speech": "[名]",
+      "definition": "陆地，旱地",
+      "context_sentence": "△陸に上がる。/登陆。"
+    },
+    {
+      "term": "陸地（りくち）⓪",
+      "part_of_speech": "[名]",
+      "definition": "陆地，地球表面未被海水浸没的部分",
+      "context_sentence": "△陸地を離れる。/离开陆地。"
+    },
+    {
+      "term": "リサイクル（recycle）②",
+      "part_of_speech": "[名·他動3]",
+      "definition": "回收，再循环",
+      "context_sentence": "△リサイクルできるゴミ/可回收垃圾"
+    },
+    {
+      "term": "リサイクルショップ（recycleshop）⑥",
+      "part_of_speech": "[名]",
+      "definition": "旧货商店，委托寄售商店",
+      "context_sentence": "△古着をリサイクルショップに出す。/把旧衣服送到旧货商店去。"
+    },
+    {
+      "term": "利子（りし）①",
+      "part_of_speech": "[名]",
+      "definition": "利息",
+      "context_sentence": "△利子がつく。/带利息。"
+    },
+    {
+      "term": "リスク（risk）①",
+      "part_of_speech": "[名]",
+      "definition": "危险，风险",
+      "context_sentence": "△リスクが大きい。/风险大。"
+    },
+    {
+      "term": "リストラ⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "裁员",
+      "context_sentence": "△金融危機でリストラされる。/因金融危机而被解雇。"
+    },
+    {
+      "term": "リズム（rhythm）①",
+      "part_of_speech": "[名]",
+      "definition": "（音乐等的）节奏，拍子；（诗歌）韵律，格律；循环往复的规律性变化",
+      "context_sentence": "△リズムに乗って踊る。/伴着音乐的节拍跳舞。"
+    },
+    {
+      "term": "理想（りそう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "理想",
+      "context_sentence": "△理想の男性/理想的男性"
+    },
+    {
+      "term": "利息（りそく）⓪",
+      "part_of_speech": "[名]",
+      "definition": "利息",
+      "context_sentence": "△利息をつけて返す。/附上利息返还。"
+    },
+    {
+      "term": "リハビリ（「リハビリテーション（rehabilitation）」の略）⓪",
+      "part_of_speech": "[名]",
+      "definition": "康复性训练",
+      "context_sentence": "△リハビリ期間/复原期间"
+    },
+    {
+      "term": "略す（りゃくす）②",
+      "part_of_speech": "[他動1]",
+      "definition": "＝略する（りゃくする）③ [他動3] 省略，简略",
+      "context_sentence": "△詳細は略す。/详细情况从略。"
+    },
+    {
+      "term": "〜流（〜りゅう）",
+      "part_of_speech": "[接尾]",
+      "definition": "……流，等级；……做法，方式，流派",
+      "context_sentence": "△一流の会社/一流的企业"
+    },
+    {
+      "term": "流域（りゅういき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "流域，江河汇集的区域或沿河流两岸的地域",
+      "context_sentence": "△利根川流域/利根川流域"
+    },
+    {
+      "term": "両〜（りょう〜）",
+      "part_of_speech": "[接尾]",
+      "definition": "两个……，一对，成组",
+      "context_sentence": "△両側/两侧，两方"
+    },
+    {
+      "term": "〜領（〜りょう）",
+      "part_of_speech": "[接尾]",
+      "definition": "……领土，……所有的土地；用于计算铠甲数的量词",
+      "context_sentence": "△イギリス領/英国领土，属英国所有"
+    },
+    {
+      "term": "〜料（〜りょう）",
+      "part_of_speech": "[接尾]",
+      "definition": "原料，材料；……钱，……费用",
+      "context_sentence": "△調味料/调味品"
+    },
+    {
+      "term": "了解（りょうかい）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "了解，知道；理解，谅解",
+      "context_sentence": "△真意を了解する。/理解真意。"
+    },
+    {
+      "term": "両替（りょうがえ）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "兑换（货币）；外币兑换",
+      "context_sentence": "△千円札を百円札に両替する。/将千元日币兑换成百元日币。"
+    },
+    {
+      "term": "漁師（りょうし）①",
+      "part_of_speech": "[名]",
+      "definition": "渔民，渔夫，捕鱼的人",
+      "context_sentence": "△漁師村/渔民村"
+    },
+    {
+      "term": "領事（りょうじ）①",
+      "part_of_speech": "[名]",
+      "definition": "领事",
+      "context_sentence": "△駐日アメリカ領事/驻日美国领事"
+    },
+    {
+      "term": "領事館（りょうじかん）③",
+      "part_of_speech": "[名]",
+      "definition": "领事馆",
+      "context_sentence": "△領事館の職員として働く。/作为领事馆的职员工作。"
+    },
+    {
+      "term": "良質（りょうしつ）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "优质，品质好的",
+      "context_sentence": "△良質の米/优质大米"
+    },
+    {
+      "term": "領収（りょうしゅう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "收到",
+      "context_sentence": "△領収証/收据，发票"
+    },
+    {
+      "term": "〜力（〜りょく）",
+      "part_of_speech": "[接尾]",
+      "definition": "……力量，能力",
+      "context_sentence": "△経済力/经济实力"
+    },
+    {
+      "term": "旅費（りょひ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "旅费，旅行的花费",
+      "context_sentence": "△出張旅費/出差车旅费"
+    },
+    {
+      "term": "履歴（りれき）⓪",
+      "part_of_speech": "[名]",
+      "definition": "履历，经历",
+      "context_sentence": "△履歴を記す。/记履历。"
+    },
+    {
+      "term": "履歴書（りれきしょ）⓪④",
+      "part_of_speech": "[名]",
+      "definition": "履历，简历",
+      "context_sentence": "△履歴書を書く。/写简历。"
+    },
+    {
+      "term": "林業（りんぎょう）①",
+      "part_of_speech": "[名]",
+      "definition": "林业，通过培育森林而获得木材的产业",
+      "context_sentence": "△林業基本法/林业基本法"
+    },
+    {
+      "term": "臨時（りんじ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "临时，暂时",
+      "context_sentence": "△臨時ニュース/临时插播的新闻"
+    },
+    {
+      "term": "隣人（りんじん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "邻居，街坊，住在附近的人",
+      "context_sentence": "△隣人愛/对我们身边人的爱；（基督教不分人种、不分国籍的）博爱"
+    },
+    {
+      "term": "類義語（るいぎご）⓪",
+      "part_of_speech": "[名]",
+      "definition": "近义词，同义词，读音、字形不同而意义相同或相近的词",
+      "context_sentence": "△類義語とともに覚える。/与近义词一同记忆。"
+    },
+    {
+      "term": "累計（るいけい）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "累计，合计",
+      "context_sentence": "△入場者は累計七万人を超える。/入场人数超出七千万。"
+    },
+    {
+      "term": "類似（るいじ）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "类似，相似",
+      "context_sentence": "△類似点/相似点"
+    },
+    {
+      "term": "冷静（れいせい）⓪",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "冷静，镇静",
+      "context_sentence": "△冷静を装う。/故作镇静。"
+    },
+    {
+      "term": "冷蔵（れいぞう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "冷藏，冷冻",
+      "context_sentence": "△冷蔵庫/电冰箱"
+    },
+    {
+      "term": "冷凍（れいとう）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "冷冻",
+      "context_sentence": "△冷凍食品/冷冻食品"
+    },
+    {
+      "term": "レインコート（raincoat）④",
+      "part_of_speech": "[名]",
+      "definition": "雨衣",
+      "context_sentence": "△レインコートを着るのが面倒くさい。/穿雨衣很麻烦。"
+    },
+    {
+      "term": "レインシューズ（rainshoes）④",
+      "part_of_speech": "[名]",
+      "definition": "雨鞋",
+      "context_sentence": "△レインシューズを履く。/穿雨鞋。"
+    },
+    {
+      "term": "レクリエーション（recreation）④",
+      "part_of_speech": "[名]",
+      "definition": "娱乐，消遣，休养",
+      "context_sentence": "△レクリエーションセンター/文娱中心"
+    },
+    {
+      "term": "レジャー（leisure）①",
+      "part_of_speech": "[名]",
+      "definition": "余暇，空闲，休闲娱乐",
+      "context_sentence": "△レジャーウエア/休闲服"
+    },
+    {
+      "term": "レジ袋（れじぶくろ）③",
+      "part_of_speech": "[名]",
+      "definition": "塑料袋，在超市购物等时候在结账的时候购买的塑料袋",
+      "context_sentence": "△レジ袋が有料になった。/塑料袋实行收费制了。"
+    },
+    {
+      "term": "レタス（lettuce）①",
+      "part_of_speech": "[名]",
+      "definition": "生菜",
+      "context_sentence": "△レタスでサラダを作る。/用生菜做沙拉。"
+    },
+    {
+      "term": "レッスン（lesson）①",
+      "part_of_speech": "[名]",
+      "definition": "上课，课程",
+      "context_sentence": "△レッスンワン/第一课"
+    },
+    {
+      "term": "煉瓦（れんが）①",
+      "part_of_speech": "[名]",
+      "definition": "砖，砖块",
+      "context_sentence": "△赤煉瓦/红砖块"
+    },
+    {
+      "term": "連休（れんきゅう）⓪",
+      "part_of_speech": "[名]",
+      "definition": "连续放假，连续休息",
+      "context_sentence": "△大型連休/长时间连休"
+    },
+    {
+      "term": "連合（れんごう）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "联合，团结，两个以上事物组合起来",
+      "context_sentence": "△連合国/联合国"
+    },
+    {
+      "term": "レンズ（蘭 lens）①",
+      "part_of_speech": "[名]",
+      "definition": "透镜，（凹、凸）镜片",
+      "context_sentence": "△レンズシャッター/中心快门，镜头快门"
+    },
+    {
+      "term": "連想（れんそう）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "联想",
+      "context_sentence": "△白と言えば雪を連想する。/一提到白色就会想到雪。"
+    },
+    {
+      "term": "連続（れんぞく）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "连续，接连不断",
+      "context_sentence": "△連続ドラマ/电视连续剧"
+    },
+    {
+      "term": "レントゲン（独 rontgen）⓪",
+      "part_of_speech": "[名]",
+      "definition": "（以德国物理学家伦琴命名）x射线",
+      "context_sentence": "△レントゲン写真を撮る。/拍x射线照片。"
+    },
+    {
+      "term": "老後（ろうご）⓪①",
+      "part_of_speech": "[名]",
+      "definition": "老后，上年纪之后，晚年",
+      "context_sentence": "△老後の生活/老年生活"
+    },
+    {
+      "term": "蝋燭（ろうそく）③④",
+      "part_of_speech": "[名]",
+      "definition": "蜡烛",
+      "context_sentence": "△蝋燭を点す。/点亮蜡烛。"
+    },
+    {
+      "term": "労働者（ろうどうしゃ）③",
+      "part_of_speech": "[名]",
+      "definition": "劳动者，工人",
+      "context_sentence": "△労働者階級/劳动者阶级"
+    },
+    {
+      "term": "朗読（ろうどく）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "（放声）朗读，朗诵",
+      "context_sentence": "△毎朝の朗読の時間を保証する。/保证每天早上有朗读的时间。"
+    },
+    {
+      "term": "浪人（ろうにん）⓪",
+      "part_of_speech": "[名]",
+      "definition": "浪人，流浪武士；失业者，无业游民；考试落榜生",
+      "context_sentence": "△浪人者/流浪武士"
+    },
+    {
+      "term": "浪費（ろうひ）⓪①",
+      "part_of_speech": "[名·他動3]",
+      "definition": "浪费，铺张，糟蹋",
+      "context_sentence": "△時間の浪費/浪费时间"
+    },
+    {
+      "term": "ローン（loan）①",
+      "part_of_speech": "[名]",
+      "definition": "贷款",
+      "context_sentence": "△住宅ローン/住房贷款，按揭"
+    },
+    {
+      "term": "録音（ろくおん）⓪",
+      "part_of_speech": "[名·他動3]",
+      "definition": "录音",
+      "context_sentence": "△録音器/录音机"
+    },
+    {
+      "term": "録画（ろくが）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "录像",
+      "context_sentence": "△録画中継/录像转播"
+    },
+    {
+      "term": "ロケット（rocket）②",
+      "part_of_speech": "[名]",
+      "definition": "火箭，火箭发动机",
+      "context_sentence": "△ロケット弾/火箭弹，用火箭推进的炸弹"
+    },
+    {
+      "term": "ロッカー（locker）①",
+      "part_of_speech": "[名]",
+      "definition": "衣帽柜，物品保管柜",
+      "context_sentence": "△コインロッカー/投币式储物柜"
+    },
+    {
+      "term": "ロマンチック（romantic）④",
+      "part_of_speech": "[名]",
+      "definition": "浪漫的；幻想的，不切实际的",
+      "context_sentence": "△ロマンチックなラブストーリー/浪漫的爱情故事"
+    },
+    {
+      "term": "〜論（〜ろん）",
+      "part_of_speech": "[接尾]",
+      "definition": "意见，见解，看法；议论，争论",
+      "context_sentence": "△同日の論でない。/不可同日而语。"
+    },
+    {
+      "term": "論じる（ろんじる）③⓪",
+      "part_of_speech": "[他動2]",
+      "definition": "＝論ずる（ろんずる）③⓪ [他動3] 论述，阐述，说明；争论，议论",
+      "context_sentence": "△文学を論じる。/阐述文学。"
+    },
+    {
+      "term": "論争（ろんそう）⓪",
+      "part_of_speech": "[名·自動3]",
+      "definition": "争论，争辩",
+      "context_sentence": "△激しい論争を展開する。/展开激烈的论争。"
+    },
+    {
+      "term": "論理（ろんり）①",
+      "part_of_speech": "[名]",
+      "definition": "道理，规律；逻辑",
+      "context_sentence": "△歴史的発展の論理/历史发展的规律"
+    },
+    {
+      "term": "輪（わ）①",
+      "part_of_speech": "[名]",
+      "definition": "圆圈，圆形，环状物",
+      "context_sentence": "△月の輪/月亮的光环"
+    },
+    {
+      "term": "和〜（わ〜）",
+      "part_of_speech": "[接頭]",
+      "definition": "日本，日语",
+      "context_sentence": "△和風/和风，日本式的"
+    },
+    {
+      "term": "和英（わえい）⓪",
+      "part_of_speech": "[名]",
+      "definition": "日英，日本与英国；日语与英语",
+      "context_sentence": "△和英辞典/日英辞典"
+    },
+    {
+      "term": "若々しい（わかわかしい）⑤",
+      "part_of_speech": "[イ形]",
+      "definition": "年轻的，充满朝气的，生机勃勃的",
+      "context_sentence": "△若々しい身のこなし/轻盈的体态"
+    },
+    {
+      "term": "脇（わき）②",
+      "part_of_speech": "[名]",
+      "definition": "腋下；旁边，侧面；别处",
+      "context_sentence": "△脇に挟む。/夹在腋下。"
+    },
+    {
+      "term": "沸く（わく）⓪②",
+      "part_of_speech": "[自動1]",
+      "definition": "煮开，煮沸；激动，沸腾",
+      "context_sentence": "△湯が沸く。/水开。"
+    },
+    {
+      "term": "湧く（わく）⓪②",
+      "part_of_speech": "[自動1]",
+      "definition": "涌出，冒出，涌现；产生（某种感情或情绪等）",
+      "context_sentence": "△温泉が湧く。/温泉涌出。"
+    },
+    {
+      "term": "技（わざ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "技术，本领，手艺；招数",
+      "context_sentence": "△技を磨く。/磨炼技艺。"
+    },
+    {
+      "term": "わざと①",
+      "part_of_speech": "[副]",
+      "definition": "故意，有意",
+      "context_sentence": "△わざと意地悪をする。/故意使坏。"
+    },
+    {
+      "term": "わさび①",
+      "part_of_speech": "[名]",
+      "definition": "山葵，绿芥末",
+      "context_sentence": "△わさびをつけて刺身を食べる。/蘸芥末吃生鱼片。"
+    },
+    {
+      "term": "災い（わざわい）⓪",
+      "part_of_speech": "[名]",
+      "definition": "灾难，灾祸",
+      "context_sentence": "△災いを招く。/招致灾难。"
+    },
+    {
+      "term": "わざわざ①",
+      "part_of_speech": "[副]",
+      "definition": "特意；故意",
+      "context_sentence": "△わざわざ会いに来る。/特意来相会。"
+    },
+    {
+      "term": "綿（わた）②",
+      "part_of_speech": "[名]",
+      "definition": "棉，棉花",
+      "context_sentence": "null"
+    },
+    {
+      "term": "私事（わたくしごと）⓪",
+      "part_of_speech": "[名]",
+      "definition": "私事；隐私，私密的事",
+      "context_sentence": "△私事に属する。/属于私事。"
+    },
+    {
+      "term": "侘び（わび）⓪",
+      "part_of_speech": "[名]",
+      "definition": "惆怅，寂寞，闲寂",
+      "context_sentence": "null"
+    },
+    {
+      "term": "詫びる（わびる）②⓪",
+      "part_of_speech": "[他動2]",
+      "definition": "道歉，谢罪",
+      "context_sentence": "△失礼を詫びる。/赔礼道歉。"
+    },
+    {
+      "term": "割り込む（わりこむ）③",
+      "part_of_speech": "[他動1]",
+      "definition": "挤进，插入，插嘴",
+      "context_sentence": "△列に割り込む。/插队。"
+    },
+    {
+      "term": "割り引く（わりびく）③",
+      "part_of_speech": "[他動1]",
+      "definition": "减价，打折；低估，保守估计",
+      "context_sentence": "△割り引いて安く売る。/打折便宜卖。"
+    },
+    {
+      "term": "悪口（わるくち）②",
+      "part_of_speech": "[名]",
+      "definition": "坏话，诽谤",
+      "context_sentence": "△陰で悪口を言う。/背地里说坏话。"
+    },
+    {
+      "term": "悪者（わるもの）⓪",
+      "part_of_speech": "[名]",
+      "definition": "坏人，坏蛋，干坏事的人",
+      "context_sentence": "△私が悪者になろう。/我来承担责任吧。"
+    },
+    {
+      "term": "我々（われわれ）⓪",
+      "part_of_speech": "[名]",
+      "definition": "我们，我（对自己的谦称）",
+      "context_sentence": "△我々は一致団結して戦う。/我们团结起来共同战斗。"
+    },
+    {
+      "term": "〜湾（〜わん）①",
+      "part_of_speech": "[接尾]",
+      "definition": "……湾，海湾",
+      "context_sentence": "△東京湾/东京湾"
+    },
+    {
+      "term": "ワンパターン（one pattern）④",
+      "part_of_speech": "[名·ナ形]",
+      "definition": "一种模式，一个样式，千篇一律",
+      "context_sentence": "△ワンパターンなストーリー/千篇一律的故事（情节）"
+    }
+  ]
+}

@@ -1,2104 +1,904 @@
 {
-  "vocabulary_lists": [
+  "vocabulary_list": [
     {
-      "id": 1501,
-      "vocabulary": "赤道",
-      "pronounce": "せきどう",
-      "meaning": "⓪ [名] 赤道",
-      "usage_example": "△赤道を越える。/越过赤道。"
+      "term": "赤道(せきどう)⓪",
+      "part_of_speech": "名",
+      "definition": "赤道",
+      "context_sentence": "赤道を越える。/越过赤道。"
     },
     {
-      "id": 1502,
-      "vocabulary": "世帯",
-      "pronounce": "せたい",
-      "meaning": "①② [名] 家，户，家庭",
-      "usage_example": "△世帯主/户主 △一世帯あたりの収入/平均每户的收入"
+      "term": "世帯(せたい)①②",
+      "part_of_speech": "名",
+      "definition": "家，户，家庭",
+      "context_sentence": "世帯主/户主"
     },
     {
-      "id": 1503,
-      "vocabulary": "世代",
-      "pronounce": "せだい",
-      "meaning": "①⓪ [名] 世代，(人)一代，辈",
-      "usage_example": "△三世代が一つ屋根の下で暮らす。/三代同堂。 △世代交代/新老交替，世代交替，新陈代谢"
+      "term": "世代(せだい)①⓪",
+      "part_of_speech": "名",
+      "definition": "世代，(人)一代，辈",
+      "context_sentence": "三世代が一つ屋根の下で暮らす。/三代同堂。"
     },
     {
-      "id": 1504,
-      "vocabulary": "説",
-      "pronounce": "せつ",
-      "meaning": "①⓪ [名] 观点，看法",
-      "usage_example": "△説を成す。/形成学说。 △新しい説が生まれる。/诞生新学说。"
+      "term": "説(せつ)①⓪",
+      "part_of_speech": "名",
+      "definition": "观点，看法",
+      "context_sentence": "説を成す。/形成学说。"
     },
     {
-      "id": 1505,
-      "vocabulary": "節",
-      "pronounce": "せつ",
-      "meaning": "① [名] 时节，做……的时候；节操，自己坚守的信念；度，适当的程度",
-      "usage_example": "△その節はまたよろしくお願いします。/到那时候就再拜托你了。 △節を守る。/守节。 △節を越える。/越界，超过适当的限度。"
+      "term": "節(せつ)①",
+      "part_of_speech": "名",
+      "definition": "时节，做……的时候；节操，自己坚守的信念；度，适当的程度",
+      "context_sentence": "その節はまたよろしくお願いします。/到那时候就再拜托你了。"
     },
     {
-      "id": 1506,
-      "vocabulary": "接近",
-      "pronounce": "せっきん",
-      "meaning": "⓪ [名・自動3] 接近，靠近",
-      "usage_example": "△台風が接近する。/台风临近。 △実力が接近する。/实力相当。"
+      "term": "接近(せっきん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "接近，靠近",
+      "context_sentence": "台風が接近する。/台风临近。"
     },
     {
-      "id": 1507,
-      "vocabulary": "接触",
-      "pronounce": "せっしょく",
-      "meaning": "⓪ [名・自他動3] 接触，(靠近)触摸；联系",
-      "usage_example": "△接触事故/(车辆)碰擦事件 △接触を保つ。/保持联系。"
+      "term": "接触(せっしょく)⓪",
+      "part_of_speech": "名・自他動3",
+      "definition": "接触，(靠近)触摸；联系",
+      "context_sentence": "接触事故/(车辆)碰撞事件"
     },
     {
-      "id": 1508,
-      "vocabulary": "接する",
-      "pronounce": "せっする",
-      "meaning": "⓪③ [名・自他動3] 接触，连接，相邻；与……见面，接待；连接，使……挨近，相互接触",
-      "usage_example": "△あの店は道に接している。/那家店临街而设。 △客に接する。/待客。 △膝を接して懇談する。/促膝恳谈。"
+      "term": "接する(せっする)⓪③",
+      "part_of_speech": "名・自他動3",
+      "definition": "接触，连接，相邻；与……见面，接待；连接，使……挨近，相互接触",
+      "context_sentence": "あの店は道に接している。/那家店临街而设。"
     },
     {
-      "id": 1509,
-      "vocabulary": "せっせと",
-      "pronounce": "せっせと",
-      "meaning": "⓪ [副] 一个劲地，孜孜不倦地",
-      "usage_example": "△せっせと働く。/勤奋工作。 関 さっさと ① [副] 毫不犹豫地，迅速地，速战速决式地"
+      "term": "せっせと①",
+      "part_of_speech": "副",
+      "definition": "一个劲地，孜孜不倦地",
+      "context_sentence": "せっせと働く。/勤奋工作。"
     },
     {
-      "id": 1510,
-      "vocabulary": "接続",
-      "pronounce": "せつぞく",
-      "meaning": "⓪ [名・自他動3] 接续，连接",
-      "usage_example": "△パイプを接続する。/连接管道。 △接続列車/衔接的列车，联运车"
+      "term": "接続(せつぞく)⓪",
+      "part_of_speech": "名・自他動3",
+      "definition": "接续，连接",
+      "context_sentence": "パイプを接続する。/连接管道。"
     },
     {
-      "id": 1511,
-      "vocabulary": "接続詞",
-      "pronounce": "せつぞくし",
-      "meaning": "④③ [名] 接续词，连接词，日语词性之一，无活用变化的独立词，连接前后文以显示语句间的关系",
-      "usage_example": "関 接続助詞(せつぞくじょし) ⑤ [名] 接续助词，助词的一类，附在用言、助动词后面，连接前后语句并说明其语义关系"
+      "term": "接続詞(せつぞくし)④③",
+      "part_of_speech": "名",
+      "definition": "接续词，连接词，日语词性之一，无活用变化的独立词，连接前后文以显示语句间的关系",
+      "context_sentence": "null"
     },
     {
-      "id": 1512,
-      "vocabulary": "設置",
-      "pronounce": "せっち",
-      "meaning": "⓪① [名・他動3] 设置，配置；设立(组织、机构等)",
-      "usage_example": "△ゴミ箱を設置する。/配置垃圾箱。 △新しい部門を設置する。/设立新部门。"
+      "term": "設置(せっち)⓪①",
+      "part_of_speech": "名・他動3",
+      "definition": "设置，配置；设立(组织、机构等)",
+      "context_sentence": "ゴミ箱を設置する。/配置垃圾箱。"
     },
     {
-      "id": 1513,
-      "vocabulary": "設定",
-      "pronounce": "せってい",
-      "meaning": "⓪ [名・他動3] 设定，制定，订立",
-      "usage_example": "△規準を設定する。/制定规范、基准。 △目標を設定する。/设定目标。"
+      "term": "設定(せってい)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "设定，制定，订立",
+      "context_sentence": "基準を設定する。/制定规范、基准。"
     },
     {
-      "id": 1514,
-      "vocabulary": "窃盗",
-      "pronounce": "せっとう",
-      "meaning": "⓪ [名・他動3] 偷窃财物，偷东西的人",
-      "usage_example": "△窃盗を働く。/行窃。 △窃盗犯/盗窃犯"
+      "term": "窃盗(せっとう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "偷窃财物，偷东西的人",
+      "context_sentence": "窃盗を働く。/行窃。"
     },
     {
-      "id": 1515,
-      "vocabulary": "説得",
-      "pronounce": "せっとく",
-      "meaning": "⓪ [名・他動3] 说服，劝说(以使对方信服)",
-      "usage_example": "△友だちを説得する。/说服朋友。 △説得にあたる。/说服，劝说。"
+      "term": "説得(せっとく)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "说服，劝说(以使对方信服)",
+      "context_sentence": "友だちを説得する。/说服朋友。"
     },
     {
-      "id": 1516,
-      "vocabulary": "説得力",
-      "pronounce": "せっとくりょく",
-      "meaning": "④ [名] 说服力",
-      "usage_example": "△説得力に欠ける。/缺乏说服力。 △説得力の乏しい発言/很没说服力的发言"
+      "term": "説得力(せっとくりょく)④",
+      "part_of_speech": "名",
+      "definition": "说服力",
+      "context_sentence": "説得力に欠ける。/缺乏说服力。"
     },
     {
-      "id": 1517,
-      "vocabulary": "絶滅",
-      "pronounce": "ぜつめつ",
-      "meaning": "⓪ [名・自他動3] 灭绝，消失踪影；消灭，使……灭绝",
-      "usage_example": "△絶滅に瀕する。/濒临灭绝。"
+      "term": "絶滅(ぜつめつ)⓪",
+      "part_of_speech": "名・自他動3",
+      "definition": "灭绝，消失踪影；消灭，使……灭绝",
+      "context_sentence": "絶滅に瀕する。/濒临灭绝。"
     },
     {
-      "id": 1518,
-      "vocabulary": "設立",
-      "pronounce": "せつりつ",
-      "meaning": "⓪ [名・他動3] 设立，创立",
-      "usage_example": "△学校を設立する。/创办学校。 △支社を設立する。/设立子公司。 類 設ける(もうける) ③ [他動2] 预备，准备；设立，设定，设置"
+      "term": "設立(せつりつ)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "设立，创立",
+      "context_sentence": "学校を設立する。/创办学校。"
     },
     {
-      "id": 1519,
-      "vocabulary": "瀬戸物",
-      "pronounce": "せともの",
-      "meaning": "⓪ [名] 陶瓷器的通称",
-      "usage_example": "関 瀬戸際(せとぎわ) ⓪ [名] 紧要关头，决定成败的关键时刻"
+      "term": "瀬戸物(せともの)⓪",
+      "part_of_speech": "名",
+      "definition": "陶瓷器的通称",
+      "context_sentence": "null"
     },
     {
-      "id": 1520,
-      "vocabulary": "迫る",
-      "pronounce": "せまる",
-      "meaning": "② [自他動1] (自)变窄，缩短；迫近，临近；接近于……；急促，感到窒息；(他)强迫，逼迫",
-      "usage_example": "△夕闇が迫る。/夜幕(慢慢)降临。 △危険が迫る。/危险迫在眉睫。 △真に迫る。/逼真。 △胸が迫る。/胸闷。 △交際を迫る。/强迫交往。"
+      "term": "迫る(せまる)②",
+      "part_of_speech": "自動1",
+      "definition": "(自)变窄，缩短；迫近，临近；接近于……；急促，感到窒息；(他)强迫，逼迫",
+      "context_sentence": "夕闇が迫る。/夜幕(慢慢)降临。"
     },
     {
-      "id": 1521,
-      "vocabulary": "ゼミ",
-      "pronounce": "ゼミ",
-      "meaning": "（「ゼミナール(seminar)の略語」）① [名] 研讨会，小组专题讨论",
-      "usage_example": "△ゼミに参加する。/参加小组讨论。"
+      "term": "ゼミ(「ゼミナール(seminar)の略語」)①",
+      "part_of_speech": "名",
+      "definition": "研讨会，小组专题讨论",
+      "context_sentence": "ゼミに参加する。/参加小组讨论。"
     },
     {
-      "id": 1522,
-      "vocabulary": "セミナー",
-      "pronounce": "セミナー",
-      "meaning": "(seminar) ① [名] 研讨会，小组讨论",
-      "usage_example": "△セミナーハウス/为小组进行讨论而专门设立的房间等"
+      "term": "セミナー(seminar)①",
+      "part_of_speech": "名",
+      "definition": "研讨会，小组讨论",
+      "context_sentence": "セミナーハウス/为小组进行讨论而专门设立的房间等"
     },
     {
-      "id": 1523,
-      "vocabulary": "ゼミナール",
-      "pronounce": "ゼミナール",
-      "meaning": "(seminar) ③ [名] 课堂讨论；研讨会，(以小组形式进行的)专题讨论",
-      "usage_example": ""
+      "term": "ゼミナール(seminar)③",
+      "part_of_speech": "名",
+      "definition": "课堂讨论；研讨会，(以小组形式进行的)专题讨论",
+      "context_sentence": "null"
     },
     {
-      "id": 1524,
-      "vocabulary": "せめて",
-      "pronounce": "せめて",
-      "meaning": "① [副] 至少……，表达愿望时表示最低限度；总算，还算",
-      "usage_example": "△せめて自分の生活費ぐらいは自分で稼ぎたい。/至少生活费想靠自己来赚。 △けが人が出なかったのがせめてもの救いだった。/未出现伤者还算是万幸。"
+      "term": "せめて①",
+      "part_of_speech": "副",
+      "definition": "至少……，表达愿望时表示最低限度；总算，还算",
+      "context_sentence": "せめて自分の生活費ぐらいは自分で稼ぎたい。/至少生活费想靠自己来赚。"
     },
     {
-      "id": 1525,
-      "vocabulary": "攻める",
-      "pronounce": "せめる",
-      "meaning": "② [他動2] 攻击，进攻",
-      "usage_example": "△敵陣を攻める。/向敌人发起进攻。 類 攻撃(こうげき) ⓪ [名・他動3] 攻击，攻打；谴责，非难 対 守る(まもる) ② [他動1] 守护，防卫，保卫"
+      "term": "攻める(せめる)②",
+      "part_of_speech": "他動2",
+      "definition": "攻击，进攻",
+      "context_sentence": "敵陣を攻める。/向敌人发起进攻。"
     },
     {
-      "id": 1526,
-      "vocabulary": "責める",
-      "pronounce": "せめる",
-      "meaning": "② [他動2] 责备，问责；催促，强迫；使……痛苦，折磨",
-      "usage_example": "△自らを責める。/自责。 △責めて白状させる。/严刑逼供。 △良心に責められる。/受到良心的谴责。"
+      "term": "責める(せめる)②",
+      "part_of_speech": "他動2",
+      "definition": "责备，问责；催促，强迫；使……痛苦，折磨",
+      "context_sentence": "自らを責める。/自责。"
     },
     {
-      "id": 1527,
-      "vocabulary": "台詞",
-      "pronounce": "せりふ",
-      "meaning": "⓪ [名] 台词；口头禅；说法，说辞",
-      "usage_example": "△どこかで聞いたような台詞だ。/这种说法像是在哪儿听到过。"
+      "term": "台詞(せりふ)⓪",
+      "part_of_speech": "名",
+      "definition": "台词；口头禅；说法，说辞",
+      "context_sentence": "どこかで聞いたような台詞だ。/这种说法像是在哪儿听到过。"
     },
     {
-      "id": 1528,
-      "vocabulary": "世論",
-      "pronounce": "せろん",
-      "meaning": "①⓪ [名] 社会公众(对政治、经济、社会等方面的问题)所发表的见解或意见等。",
-      "usage_example": "△世論調査/舆论调查，民意调查"
+      "term": "世論(せろん)①⓪",
+      "part_of_speech": "名",
+      "definition": "社会公众(对政治、经济、社会等方面的问题)所发表的见解或意见等。",
+      "context_sentence": "世論調査/舆论调查，民意调查"
     },
     {
-      "id": 1529,
-      "vocabulary": "栓",
-      "pronounce": "せん",
-      "meaning": "① [名] 塞子；开关，龙头",
-      "usage_example": "△消火栓/消火栓 △ガスの栓/煤气开关"
+      "term": "栓(せん)①",
+      "part_of_speech": "名",
+      "definition": "塞子；开关，龙头",
+      "context_sentence": "消火栓/消火栓"
     },
     {
-      "id": 1530,
-      "vocabulary": "線",
-      "pronounce": "せん",
-      "meaning": "① [名] 线，线状细长的物体；线路，路线，方针；神经，感觉；轮廓",
-      "usage_example": "△線を引く。/拉线。 △この線でいく。/按这条路线走，照这个方针办事。 △線の細い人/神经过敏的人 △体の線/体型"
+      "term": "線(せん)①",
+      "part_of_speech": "名",
+      "definition": "线，线状细长的物体；线路，路线，方针；神经，感觉；轮廓",
+      "context_sentence": "線を引く。/拉线。"
     },
     {
-      "id": 1531,
-      "vocabulary": "〜船",
-      "pronounce": "〜せん",
-      "meaning": "[接尾] ……船",
-      "usage_example": "△貨物船/货船 △宇宙船/宇宙飞船"
+      "term": "～船(～せん)",
+      "part_of_speech": "接尾",
+      "definition": "……船",
+      "context_sentence": "貨物船/货船"
     },
     {
-      "id": 1532,
-      "vocabulary": "〜戦",
-      "pronounce": "〜せん",
-      "meaning": "[接尾] ……战争，战役",
-      "usage_example": "△持久戦/持久战 △リーグ戦/联赛，循环赛"
+      "term": "～戦(～せん)",
+      "part_of_speech": "接尾",
+      "definition": "……战争，战役",
+      "context_sentence": "持久戦/持久战"
     },
     {
-      "id": 1533,
-      "vocabulary": "善",
-      "pronounce": "ぜん",
-      "meaning": "① [名] 好，善良；和睦，友好；妥善，合适，擅长于……",
-      "usage_example": "慣用 善は急げ。/好事不宜迟。 対 悪(あく) ① [名・接頭] 坏人，坏事，恶劣；粗糙的；讨厌的"
+      "term": "善(ぜん)①",
+      "part_of_speech": "名",
+      "definition": "好，善良；和睦，友好；妥善，合适，擅长于……",
+      "context_sentence": "善は急げ。/好事不宜迟。"
     },
     {
-      "id": 1534,
-      "vocabulary": "全〜",
-      "pronounce": "ぜん〜",
-      "meaning": "[接頭] 全部，总共；全体的，全部的",
-      "usage_example": "△全六冊/总共六本 △全責任をとる。/负全责。"
+      "term": "全～(ぜん～)",
+      "part_of_speech": "接頭",
+      "definition": "全部，总共；全体的，全部的",
+      "context_sentence": "全六冊/总共六本"
     },
     {
-      "id": 1535,
-      "vocabulary": "前〜",
-      "pronounce": "ぜん〜",
-      "meaning": "[接頭] 之前(的)，在……以前；公元前",
-      "usage_example": "△前首相/前任首相 △前世紀/上世纪"
+      "term": "前～(ぜん～)",
+      "part_of_speech": "接頭",
+      "definition": "之前(的)，在……以前；公元前",
+      "context_sentence": "前首相/前任首相"
     },
     {
-      "id": 1536,
-      "vocabulary": "〜前",
-      "pronounce": "〜ぜん",
-      "meaning": "[接尾] (时间上的过去)从前，过往",
-      "usage_example": "△食前/饭前，餐前 △紀元前/公元前"
+      "term": "～前(～ぜん)",
+      "part_of_speech": "接尾",
+      "definition": "(时间上的过去)从前，过往",
+      "context_sentence": "食前/饭前，餐前"
     },
     {
-      "id": 1537,
-      "vocabulary": "繊維",
-      "pronounce": "せんい",
-      "meaning": "① [名] 纤维，动植物组织的一部分",
-      "usage_example": "△繊維工業/纤维工业，纺织业，纤维、布料等制造工业的总称 △食物繊維/食物纤维"
+      "term": "繊維(せんい)①",
+      "part_of_speech": "名",
+      "definition": "纤维，动植物组织的一部分",
+      "context_sentence": "繊維工業/纤维工业，纺织业，纤维、布料等制造工业的总称"
     },
     {
-      "id": 1538,
-      "vocabulary": "前後",
-      "pronounce": "ぜんご",
-      "meaning": "① [名・自動3] (空间)前后；(时间)先后，事情的先后；表示大致范围，大约……，……左右；前后颠倒；陆续，相继",
-      "usage_example": "△行列の前後/队伍的前后 △前後を忘れる。/不思前顾后。 △犯人は四十前後に見える。/犯人看起来是四十岁左右。 △話が前後する。/语无伦次，说话颠三倒四。 △二人は前後して入ってきた。/两人陆续进来了。 慣用 前後に暮れる。/手足无措，茫然不知所措。"
+      "term": "前後(ぜんご)①",
+      "part_of_speech": "名・自動3",
+      "definition": "(空间)前后；(时间)先后，事情的先后；表示大致范围，大约……，……左右；前后颠倒；陆续，相继",
+      "context_sentence": "行列の前後/队伍的前后"
     },
     {
-      "id": 1539,
-      "vocabulary": "選考",
-      "pronounce": "せんこう",
-      "meaning": "⓪ [名・他動3] 甄选，选拔(人才)",
-      "usage_example": "△選考に漏れる。/落选。 △書類選考/对书面材料进行甄选 同音 専攻(せんこう) ⓪ [名・他動3] 专门学习、研究，专修，以……为专业"
+      "term": "選考(せんこう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "甄选，选拔(人才)",
+      "context_sentence": "選考に漏れる。/落选。"
     },
     {
-      "id": 1540,
-      "vocabulary": "全校",
-      "pronounce": "ぜんこう",
-      "meaning": "①⓪ [名] 全校；所有学校",
-      "usage_example": "△全校生徒/全校学生 △県内全校/县属所有院校"
+      "term": "全校(ぜんこう)①⓪",
+      "part_of_speech": "名",
+      "definition": "全校；所有学校",
+      "context_sentence": "全校生徒/全校学生"
     },
     {
-      "id": 1541,
-      "vocabulary": "宣告",
-      "pronounce": "せんこく",
-      "meaning": "⓪ [名・他動3] 宣告，宣布；宣判",
-      "usage_example": "△破産を宣告する。/宣告破产。 △無罪を宣告する。/宣布为无罪。 同音 先刻(せんこく) ⓪ [名・副] 刚才，先期；早就，早已……"
+      "term": "宣告(せんこく)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "宣告，宣布；宣判",
+      "context_sentence": "破産を宣告する。/宣告破产。"
     },
     {
-      "id": 1542,
-      "vocabulary": "先日",
-      "pronounce": "せんじつ",
-      "meaning": "⓪ [名・副] 前几天，上次，前些日子",
-      "usage_example": "△先日の件はどうなりましたか。/上次那件事怎么样了？ △先日は、どうもありがとうございました。/前些天真是多谢了。"
+      "term": "先日(せんじつ)⓪",
+      "part_of_speech": "名・副",
+      "definition": "前几天，上次，前些日子",
+      "context_sentence": "先日の件はどうなりましたか。/上次那件事怎么样了？"
     },
     {
-      "id": 1543,
-      "vocabulary": "前者",
-      "pronounce": "ぜんしゃ",
-      "meaning": "① [名] 前者，(两者中的)前面那个",
-      "usage_example": "△前者の説に賛成する。/(我)赞成前者的观点。 対 後者(こうしゃ) ① [名] 后者，(两者中的)后面那个"
+      "term": "前者(ぜんしゃ)①",
+      "part_of_speech": "名",
+      "definition": "前者，(两者中的)前面那个",
+      "context_sentence": "前者の説に賛成する。/(我)赞成前者的观点。"
     },
     {
-      "id": 1544,
-      "vocabulary": "全集",
-      "pronounce": "ぜんしゅう",
-      "meaning": "⓪ [名] 全集，收录了某人全部著述的书",
-      "usage_example": "△川端康成全集/川端康成全集 △文学全集/文学全集"
+      "term": "全集(ぜんしゅう)⓪",
+      "part_of_speech": "名",
+      "definition": "全集，收录了某人全部著述的书",
+      "context_sentence": "川端康成全集/川端康成全集"
     },
     {
-      "id": 1545,
-      "vocabulary": "戦術",
-      "pronounce": "せんじゅつ",
-      "meaning": "⓪ [名] 战术，战略，具体作战方法",
-      "usage_example": "△戦術を誤る。/弄错战略。 △新しい戦術を打ち出す。/提出新战术。"
+      "term": "戦術(せんじゅつ)⓪",
+      "part_of_speech": "名",
+      "definition": "战术，战略，具体作战方法",
+      "context_sentence": "戦術を誤る。/弄错战略。"
     },
     {
-      "id": 1546,
-      "vocabulary": "前進",
-      "pronounce": "ぜんしん",
-      "meaning": "⓪ [名・自動3] 前进，前行，进步",
-      "usage_example": "△前進が見られる。/能看到进步。 対 後退(こうたい) ⓪ [名・自動3] 后退，倒退；衰退，下降"
+      "term": "前進(ぜんしん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "前进，前行，进步",
+      "context_sentence": "前進が見られる。/能看到进步。"
     },
     {
-      "id": 1547,
-      "vocabulary": "扇子",
-      "pronounce": "せんす",
-      "meaning": "⓪ [名] 扇子，折扇",
-      "usage_example": "△扇子を使う。/用扇子。 類 扇(おうぎ) ③ [名] 折扇，扇子，扇风纳凉的工具"
+      "term": "扇子(せんす)⓪",
+      "part_of_speech": "名",
+      "definition": "扇子，折扇",
+      "context_sentence": "扇子を使う。/用扇子。"
     },
     {
-      "id": 1548,
-      "vocabulary": "専制",
-      "pronounce": "せんせい",
-      "meaning": "⓪ [名] 专制，独裁，(个人)独断专行",
-      "usage_example": "△専制政治/专制政治，(独裁者)进行专横的统治 △専制君主/专制君主，实行专制统治的君主"
+      "term": "専制(せんせい)⓪",
+      "part_of_speech": "名",
+      "definition": "专制，独裁，(个人)独断专行",
+      "context_sentence": "専制政治/专制政治，(独裁者)进行专横的统治"
     },
     {
-      "id": 1549,
-      "vocabulary": "先祖",
-      "pronounce": "せんぞ",
-      "meaning": "① [名] 祖先，祖宗，先代",
-      "usage_example": "△先祖代々/祖祖辈辈 △先祖伝来/祖传，代代相传 類 祖先(そせん) ① [名] 祖先，祖宗"
+      "term": "先祖(せんぞ)①",
+      "part_of_speech": "名",
+      "definition": "祖先，祖宗，先代",
+      "context_sentence": "先祖代々/祖祖辈辈"
     },
     {
-      "id": 1550,
-      "vocabulary": "先端",
-      "pronounce": "せんたん",
-      "meaning": "⓪ [名] 先端，顶端；处于先头位置(的事物)",
-      "usage_example": "△杖の先端/拐杖的顶端 △先端技術/前沿技术 △時代の先端を行く。/走在时代前列。"
+      "term": "先端(せんたん)⓪",
+      "part_of_speech": "名",
+      "definition": "先端，顶端；处于先头位置(的事物)",
+      "context_sentence": "杖の先端/拐杖的顶端"
     },
     {
-      "id": 1551,
-      "vocabulary": "先着",
-      "pronounce": "せんちゃく",
-      "meaning": "⓪ [名・自動3] 先到，先到的人",
-      "usage_example": "△先着順/先来后到的顺序 △わがチームが先着する。/我们队先抵达。"
+      "term": "先着(せんちゃく)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "先到，先到的人",
+      "context_sentence": "先着順/先来后到的顺序"
     },
     {
-      "id": 1552,
-      "vocabulary": "前提",
-      "pronounce": "ぜんてい",
-      "meaning": "⓪ [名] 前提，事物发生、发展的必要条件",
-      "usage_example": "△前提条件/前提条件，先决条件 △結婚を前提に付き合う。/以结婚为前提进行交往。"
+      "term": "前提(ぜんてい)⓪",
+      "part_of_speech": "名",
+      "definition": "前提，事物发生、发展的必要条件",
+      "context_sentence": "前提条件/前提条件，先决条件"
     },
     {
-      "id": 1553,
-      "vocabulary": "選定",
-      "pronounce": "せんてい",
-      "meaning": "⓪ [名・他動3] 选定，从多个中选择确定",
-      "usage_example": "△小論文のテーマをいくつか選定する。/选定几个小论文的(候选)主题。 △教科書選定/选定教科书"
+      "term": "選定(せんてい)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "选定，从多个中选择确定",
+      "context_sentence": "小論文のテーマをいくつか選定する。/选定几个小论文的(候选)主题。"
     },
     {
-      "id": 1554,
-      "vocabulary": "先頭",
-      "pronounce": "せんとう",
-      "meaning": "⓪ [名] 先头，前头，最先",
-      "usage_example": "慣用 ・先頭に立つ。/站在前头。 ・先頭を切る。/占据先导地位，带头。"
+      "term": "先頭(せんとう)⓪",
+      "part_of_speech": "名",
+      "definition": "先头，前头，最先",
+      "context_sentence": "先頭に立つ。/站在前头。"
     },
     {
-      "id": 1555,
-      "vocabulary": "戦闘",
-      "pronounce": "せんとう",
-      "meaning": "⓪ [名・自動3] 战斗，(与敌人)作战",
-      "usage_example": "△戦闘力/战斗力 △戦闘機/战斗机 類 戦う(たたかう) ⓪ [自動1] 战斗，作战，打仗"
+      "term": "戦闘(せんとう)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "战斗，(与敌人)作战",
+      "context_sentence": "戦闘力/战斗力"
     },
     {
-      "id": 1556,
-      "vocabulary": "全日制",
-      "pronounce": "ぜんにちせい",
-      "meaning": "⓪ [名] 全日制",
-      "usage_example": "対 定時制(ていじせい) ⓪ [名] 定时制，规定最少出席日数，利用夜间或闲暇时间进行学习的教育制度"
+      "term": "全日制(ぜんにちせい)⓪",
+      "part_of_speech": "名",
+      "definition": "全日制",
+      "context_sentence": "null"
     },
     {
-      "id": 1557,
-      "vocabulary": "前年",
-      "pronounce": "ぜんねん",
-      "meaning": "⓪ [名] 前一年，去年，上一年",
-      "usage_example": "△前年の業績/去年的业绩 △卒業の前年/毕业前一年"
+      "term": "前年(ぜんねん)⓪",
+      "part_of_speech": "名",
+      "definition": "前一年，去年，上一年",
+      "context_sentence": "前年の業績/去年的业绩"
     },
     {
-      "id": 1558,
-      "vocabulary": "前半",
-      "pronounce": "ぜんはん",
-      "meaning": "⓪ [名] 前半(部分)，上半(部分)",
-      "usage_example": "対 後半(こうはん) ⓪ [名] 后半(部分)"
+      "term": "前半(ぜんはん)⓪",
+      "part_of_speech": "名",
+      "definition": "前半(部分)，上半(部分)",
+      "context_sentence": "null"
     },
     {
-      "id": 1559,
-      "vocabulary": "全般",
-      "pronounce": "ぜんぱん",
-      "meaning": "⓪ [名] 全体，总体",
-      "usage_example": "△全般にわたって/整体而言，从总体来看 △社会全般の問題/全社会的问题 類 全体(ぜんたい) ⓪ [名] 全体，整体"
+      "term": "全般(ぜんぱん)⓪",
+      "part_of_speech": "名",
+      "definition": "全体，总体",
+      "context_sentence": "全般にわたって/整体而言，从总体来看"
     },
     {
-      "id": 1560,
-      "vocabulary": "洗面",
-      "pronounce": "せんめん",
-      "meaning": "⓪ [名・自動3] 洗脸",
-      "usage_example": "△洗面所/盥洗室，供洗脸、化妆等的场所 △水で洗面する。/用冷水洗脸。 類 洗顔(せんがん) ⓪ [名・自動3] 洗脸，洗面"
+      "term": "洗面(せんめん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "洗脸",
+      "context_sentence": "洗面所/盥洗室，供洗脸、化妆等的场所"
     },
     {
-      "id": 1561,
-      "vocabulary": "専用",
-      "pronounce": "せんよう",
-      "meaning": "⓪ [名・他動3] 专用，仅供特殊使用人群",
-      "usage_example": "△バス専用道路/公交车专用通道 △会員専用のプール/会员专用的游泳池"
+      "term": "専用(せんよう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "专用，仅供特殊使用人群",
+      "context_sentence": "バス専用道路/公交车专用通道"
     },
     {
-      "id": 1562,
-      "vocabulary": "戦略",
-      "pronounce": "せんりゃく",
-      "meaning": "⓪ [名] 战略，战术，(战争中使用的)计划和谋略",
-      "usage_example": "△営業戦略を立てる。/制定营销战略。 △戦略物資/战略物资"
+      "term": "戦略(せんりゃく)⓪",
+      "part_of_speech": "名",
+      "definition": "战略，战术，(战争中使用的)计划和谋略",
+      "context_sentence": "営業戦略を立てる。/制定营销战略。"
     },
     {
-      "id": 1563,
-      "vocabulary": "前略",
-      "pronounce": "ぜんりゃく",
-      "meaning": "① [名・他動3] 前略，省略上文、前面部分；书信中表示省略客套话、寒暄语等的开头语",
-      "usage_example": "関 ・中略(ちゅうりゃく) ⓪① [名・他動3] 省略中间部分 ・後略(こうりゃく) ⓪① [名・他動3] 后略，指省略后面部分"
+      "term": "前略(ぜんりゃく)①",
+      "part_of_speech": "名・他動3",
+      "definition": "前略，省略上文、前面部分；书信中表示省略客套话、寒暄语等的开头语",
+      "context_sentence": "null"
     },
     {
-      "id": 1564,
-      "vocabulary": "全寮制",
-      "pronounce": "ぜんりょうせい",
-      "meaning": "⓪ [名] 全部寄宿制",
-      "usage_example": "△全寮制の高校/全部寄宿制的高中"
+      "term": "全寮制(ぜんりょうせい)⓪",
+      "part_of_speech": "名",
+      "definition": "全部寄宿制",
+      "context_sentence": "全寮制の高校/全部寄宿制的高中"
     },
     {
-      "id": 1565,
-      "vocabulary": "戦力",
-      "pronounce": "せんりょく",
-      "meaning": "① [名] 军事力量，作战能力；(战斗)力，工作能力",
-      "usage_example": "△戦力増強/增强战斗力，提高作战能力 △戦力となる人材/具有(战斗)能力的人才"
+      "term": "戦力(せんりょく)①",
+      "part_of_speech": "名",
+      "definition": "军事力量，作战能力；(战斗)力，工作能力",
+      "context_sentence": "戦力増強/增强战斗力，提高作战能力"
     },
     {
-      "id": 1566,
-      "vocabulary": "線路",
-      "pronounce": "せんろ",
-      "meaning": "① [名] 线路，用于车辆行驶的轨道；(通讯)线路等",
-      "usage_example": "△鉄道路線/铁道线 △線路工事/道路工程，线路(设施、维修)工程"
+      "term": "線路(せんろ)①",
+      "part_of_speech": "名",
+      "definition": "线路，用于车辆行驶的轨道；(通讯)线路等",
+      "context_sentence": "鉄道路線/铁道线"
     },
     {
-      "id": 1567,
-      "vocabulary": "〜沿い",
-      "pronounce": "〜ぞい",
-      "meaning": "[接尾] (接在名词后面)沿着……",
-      "usage_example": "△川沿い/河边，沿岸 △山沿い/山边"
+      "term": "～沿い(～ぞい)",
+      "part_of_speech": "接尾",
+      "definition": "(接在名词后面)沿着……",
+      "context_sentence": "川沿い/河边，沿岸"
     },
     {
-      "id": 1568,
-      "vocabulary": "総〜",
-      "pronounce": "そう〜",
-      "meaning": "[接頭] 总……，全部，一切",
-      "usage_example": "△総選挙/总选举，大选 △総収入/总收入"
+      "term": "総～(そう～)",
+      "part_of_speech": "接頭",
+      "definition": "总……，全部，一切",
+      "context_sentence": "総選挙/总选举，大选"
     },
     {
-      "id": 1569,
-      "vocabulary": "〜艘",
-      "pronounce": "〜そう",
-      "meaning": "[接尾] ……艘，用于计算船只数量的量词",
-      "usage_example": "△一艘の船/一艘船"
+      "term": "～艘(～そう)",
+      "part_of_speech": "接尾",
+      "definition": "……艘，用于计算船只数量的量词",
+      "context_sentence": "一艘の船/一艘船"
     },
     {
-      "id": 1570,
-      "vocabulary": "像",
-      "pronounce": "ぞう",
-      "meaning": "① [名] 肖像，姿态；影像",
-      "usage_example": "△理想像/理想的形象，理想的状态 △自由の女神像/自由女神像"
+      "term": "像(ぞう)①",
+      "part_of_speech": "名",
+      "definition": "肖像，姿态；影像",
+      "context_sentence": "理想像/理想的形象，理想的状态"
     },
     {
-      "id": 1571,
-      "vocabulary": "相違",
-      "pronounce": "そうい",
-      "meaning": "⓪ [名・自動3] 相异，差异，不同，分歧",
-      "usage_example": "△二つの報告書には大きな相違がある。/两份报告书有很大差异。 △相違ない。/(确定)无疑。"
+      "term": "相違(そうい)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "相异，差异，不同，分歧",
+      "context_sentence": "二つの報告書には大きな相違がある。/两份报告书有很大差异。"
     },
     {
-      "id": 1572,
-      "vocabulary": "送金",
-      "pronounce": "そうきん",
-      "meaning": "⓪ [名・自動3] 汇款，寄(的)钱",
-      "usage_example": "△両親に送金する。/汇款给父母。 △送金小切手/汇款支票"
+      "term": "送金(そうきん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "汇款，寄(的)钱",
+      "context_sentence": "両親に送金する。/汇款给父母。"
     },
     {
-      "id": 1573,
-      "vocabulary": "増減",
-      "pronounce": "ぞうげん",
-      "meaning": "⓪③ [名・自他動3] 增减，数量的增加与减少；(数量)时增时减",
-      "usage_example": "△増減の幅/增减的幅度 △旅行者の人数は季節によって増減する。/旅游人数因季节变化而产生增减。"
+      "term": "増減(ぞうげん)⓪③",
+      "part_of_speech": "名・自他動3",
+      "definition": "增减，数量的增加与减少；(数量)时增时减",
+      "context_sentence": "増減の幅/增减的幅度"
     },
     {
-      "id": 1574,
-      "vocabulary": "相互",
-      "pronounce": "そうご",
-      "meaning": "① [名] 相互；轮流，交替",
-      "usage_example": "△相互依存/相互依存，互相依赖 △相互理解を深める。/加深相互理解。 類 互い(たがい) ⓪ [名] 彼此，互相；轮流，交替"
+      "term": "相互(そうご)①",
+      "part_of_speech": "名",
+      "definition": "相互；轮流，交替",
+      "context_sentence": "相互依存/相互依存，互相依赖"
     },
     {
-      "id": 1575,
-      "vocabulary": "総合",
-      "pronounce": "そうごう",
-      "meaning": "⓪ [名・他動3] 总结，综合",
-      "usage_example": "△総合病院/综合性医院 △みんなの意見を総合して計画を立てる。/综合大家的意见订立计划。"
+      "term": "総合(そうごう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "总括，综合",
+      "context_sentence": "総合病院/综合性医院"
     },
     {
-      "id": 1576,
-      "vocabulary": "葬式",
-      "pronounce": "そうしき",
-      "meaning": "⓪ [名] 葬礼，丧事",
-      "usage_example": "△葬式に出る。/出席葬礼。 類 葬儀(そうぎ) ① [名] 葬礼，丧事"
+      "term": "葬式(そうしき)⓪",
+      "part_of_speech": "名",
+      "definition": "葬礼，丧事",
+      "context_sentence": "葬式に出る。/出席葬礼。"
     },
     {
-      "id": 1577,
-      "vocabulary": "装飾",
-      "pronounce": "そうしょく",
-      "meaning": "⓪ [名・他動3] 装饰，装饰物",
-      "usage_example": "△室内装飾/室内装饰 △部屋を装飾する。/装饰房间。 類 飾る(かざる) ⓪③ [他動1] 装饰，修饰，装潢；粉饰，润色"
+      "term": "装飾(そうしょく)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "装饰，装饰物",
+      "context_sentence": "室内装飾/室内装饰"
     },
     {
-      "id": 1578,
-      "vocabulary": "造船",
-      "pronounce": "ぞうせん",
-      "meaning": "⓪ [名・自動3] 造船，设计与制造船舶",
-      "usage_example": "△造船所/造船厂，专业从事船舶制造、修理的工厂 △造船学/造船学，船舶工学"
+      "term": "造船(ぞうせん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "造船，设计与制造船舶",
+      "context_sentence": "造船所/造船厂，专业从事船舶制造、修理的工厂"
     },
     {
-      "id": 1579,
-      "vocabulary": "創造",
-      "pronounce": "そうぞう",
-      "meaning": "⓪ [名・他動3] 创造；上帝创造世间万物",
-      "usage_example": "△創造力を伸ばす。/提高创造力。 △天地創造/创造世界 類 クリエート(create) ③ [名・他動3] 创造，创作"
+      "term": "創造(そうぞう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "创造；上帝创造世间万物",
+      "context_sentence": "創造力を伸ばす。/提高创造力。"
     },
     {
-      "id": 1580,
-      "vocabulary": "騒々しい",
-      "pronounce": "そうぞうしい",
-      "meaning": "⑤ [イ形] 吵闹的，喧哗的；(国家、社会)不安定的，局面混乱的",
-      "usage_example": "△騒々しい都会/喧闹的城市 △騒々しい世の中/动荡不安的社会"
+      "term": "騒々しい(そうぞうしい)⑤",
+      "part_of_speech": "イ形",
+      "definition": "吵闹的，喧哗的；(国家、社会)不安定的，局面混乱的",
+      "context_sentence": "騒々しい都会/喧闹的城市"
     },
     {
-      "id": 1581,
-      "vocabulary": "相続",
-      "pronounce": "そうぞく",
-      "meaning": "⓪① [名・他動3] 相继，承袭，相承",
-      "usage_example": "△家業を相続する。/继承家业。 △遺産相続税/遗产税"
+      "term": "相続(そうぞく)⓪①",
+      "part_of_speech": "名・他動3",
+      "definition": "相继，承袭，相承",
+      "context_sentence": "家業を相続する。/继承家业。"
     },
     {
-      "id": 1582,
-      "vocabulary": "増大",
-      "pronounce": "ぞうだい",
-      "meaning": "⓪ [名・自他動3] 增大，增多，增长",
-      "usage_example": "△失業者の増大/失业人员的增加 △需要が増大する。/需求增长。 対 減少(げんしょう) ⓪ [名・自他動3] 减少，变少，降低"
+      "term": "増大(ぞうだい)⓪",
+      "part_of_speech": "名・自他動3",
+      "definition": "增大，增多，增长",
+      "context_sentence": "失業者の増大/失业人员的增加"
     },
     {
-      "id": 1583,
-      "vocabulary": "装置",
-      "pronounce": "そうち",
-      "meaning": "① [名] 装置，安装(器械、设备等)",
-      "usage_example": "△安全装置/安全装置 △舞台装置/舞台设备"
+      "term": "装置(そうち)①",
+      "part_of_speech": "名",
+      "definition": "装置，安装(器械、设备等)",
+      "context_sentence": "安全装置/安全装置"
     },
     {
-      "id": 1584,
-      "vocabulary": "そっと",
-      "pronounce": "そっと",
-      "meaning": "③⓪ [副] 静悄悄地，轻轻地",
-      "usage_example": "△そっと歩く。/静悄悄地走。 △そっと運ぶ。/悄悄行事。 △そっと触れる。/轻轻碰一下。"
+      "term": "そっと③⓪",
+      "part_of_speech": "副",
+      "definition": "静悄悄地，轻轻地",
+      "context_sentence": "そっと歩く。/静悄悄地走。"
     },
     {
-      "id": 1585,
-      "vocabulary": "遭難",
-      "pronounce": "そうなん",
-      "meaning": "⓪ [名・自動3] 遭难，遇险",
-      "usage_example": "△遭難信号/呼救信号，遇险信号 △山で遭難する。/在山上遇险。"
+      "term": "遭難(そうなん)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "遇难，遇险",
+      "context_sentence": "遭難信号/呼救信号，遇险信号"
     },
     {
-      "id": 1586,
-      "vocabulary": "送別",
-      "pronounce": "そうべつ",
-      "meaning": "⓪ [名・他動3] 送别，送行",
-      "usage_example": "△送別会を行う。/举行欢送会。 △名残惜しく送別する。/依依不舍地送别。"
+      "term": "送別(そうべつ)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "送别，送行",
+      "context_sentence": "送別会を行う。/举行欢送会。"
     },
     {
-      "id": 1587,
-      "vocabulary": "草履",
-      "pronounce": "ぞうり",
-      "meaning": "⓪ [名] 草鞋",
-      "usage_example": "△草履下駄/草鞋面木屐 類 わらじ ⓪ [名] 草鞋"
+      "term": "草履(ぞうり)⓪",
+      "part_of_speech": "名",
+      "definition": "草鞋",
+      "context_sentence": "草履下駄/草鞋面木屐"
     },
     {
-      "id": 1588,
-      "vocabulary": "総理大臣",
-      "pronounce": "そうりだいじん",
-      "meaning": "④ [名] (内阁)总理大臣，首相",
-      "usage_example": "関 首相(しゅしょう) ⓪ [名] 首相，总理"
+      "term": "総理大臣(そうりだいじん)④",
+      "part_of_speech": "名",
+      "definition": "(内阁)总理大臣，首相",
+      "context_sentence": "null"
     },
     {
-      "id": 1589,
-      "vocabulary": "送料",
-      "pronounce": "そうりょう",
-      "meaning": "①③ [名] 运费，邮资",
-      "usage_example": "関 運賃(うんちん) ① [名] 运费，运价"
+      "term": "送料(そうりょう)①③",
+      "part_of_speech": "名",
+      "definition": "运费，邮资",
+      "context_sentence": "null"
     },
     {
-      "id": 1590,
-      "vocabulary": "ソース",
-      "pronounce": "ソース",
-      "meaning": "(sauce) ① [名] 酱料，调味汁，沙司",
-      "usage_example": "△トマトソース/番茄沙司，番茄酱 △ご飯にソースをかける。/在饭上淋上调味汁。"
+      "term": "ソース(sauce)①",
+      "part_of_speech": "名",
+      "definition": "酱料，调味汁，沙司",
+      "context_sentence": "トマトソース/番茄沙司，番茄酱"
     },
     {
-      "id": 1591,
-      "vocabulary": "〜足",
-      "pronounce": "〜そく",
-      "meaning": "[接尾] ……双，用于计量鞋子、袜子等的量词",
-      "usage_example": "△靴下一足/一双袜子 △靴二足/两双鞋"
+      "term": "～足(～そく)",
+      "part_of_speech": "接尾",
+      "definition": "……双，用于计量鞋子、袜子等的量词",
+      "context_sentence": "靴下一足/一双袜子"
     },
     {
-      "id": 1592,
-      "vocabulary": "続々",
-      "pronounce": "ぞくぞく",
-      "meaning": "⓪ [副] 继续，接连不断地",
-      "usage_example": "△観客が続々とやってくる。/接连不断有观光客前来。 △新製品が続々と登場する。/不断有新产品问世。"
+      "term": "続々(ぞくぞく)①",
+      "part_of_speech": "副",
+      "definition": "继续，接连不断地",
+      "context_sentence": "観客が続々とやってくる。/接连不断有观光客前来。"
     },
     {
-      "id": 1593,
-      "vocabulary": "測定",
-      "pronounce": "そくてい",
-      "meaning": "⓪ [名・他動3] 测定，测量",
-      "usage_example": "△距離を測定する。/测量距离。 △語学力を測定する。/测定语言水平。"
+      "term": "測定(そくてい)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "测定，测量",
+      "context_sentence": "距離を測定する。/测量距离。"
     },
     {
-      "id": 1594,
-      "vocabulary": "測量",
-      "pronounce": "そくりょう",
-      "meaning": "⓪② [名・他動3] 测量，丈量",
-      "usage_example": "△高度を測量する。/测量高度。"
+      "term": "測量(そくりょう)⓪②",
+      "part_of_speech": "名・他動3",
+      "definition": "测量，丈量",
+      "context_sentence": "高度を測量する。/测量高度。"
     },
     {
-      "id": 1595,
-      "vocabulary": "速力",
-      "pronounce": "そくりょく",
-      "meaning": "② [名] 速率，速度",
-      "usage_example": "△速力を落とす。/减速。 △全速力で走る。/用全速跑。 類 スピード(speed) ⓪ [名] 速度"
+      "term": "速力(そくりょく)②",
+      "part_of_speech": "名",
+      "definition": "速率，速度",
+      "context_sentence": "速力を落とす。/减速。"
     },
     {
-      "id": 1596,
-      "vocabulary": "そこへ",
-      "pronounce": "そこへ",
-      "meaning": "⓪ [副] 正在……时候",
-      "usage_example": "△帰ろうとしたとき、そこへ彼がやってきた。/(我)正想回去的时候，这时他来了。"
+      "term": "そこへ⓪",
+      "part_of_speech": "副",
+      "definition": "正在……时候",
+      "context_sentence": "帰ろうとしたとき、そこへ彼がやってきた。/(我)正想回去的时候，这时他来了。"
     },
     {
-      "id": 1597,
-      "vocabulary": "そこら",
-      "pronounce": "そこら",
-      "meaning": "② [代] 那里，那儿；那个程度",
-      "usage_example": "△そこらに落ちていたはずだ。/应该是掉在那一带了。 △そこらが彼の限界なんだろう。/那差不多是他的极限了吧。"
+      "term": "そこら②",
+      "part_of_speech": "代",
+      "definition": "那里，那儿；那个程度",
+      "context_sentence": "そこらに落ちていたはずだ。/应该是掉在那一带了。"
     },
     {
-      "id": 1598,
-      "vocabulary": "組織",
-      "pronounce": "そしき",
-      "meaning": "① [名・他動3] 组织，组成；结构",
-      "usage_example": "△社会組織/社会组织 △劇団を組織する。/组建剧团。 △神経組織/神经组织，神经结构"
+      "term": "組織(そしき)①",
+      "part_of_speech": "名・他動3",
+      "definition": "组织，组成；结构",
+      "context_sentence": "社会組織/社会组织"
     },
     {
-      "id": 1599,
-      "vocabulary": "素質",
-      "pronounce": "そしつ",
-      "meaning": "⓪ [名] 素质，本质；资质，天分",
-      "usage_example": "△作家としての素質/作为作家的天分 関 質素(しっそ) ① [名・ナ形] 简单，简朴，朴素"
+      "term": "素質(そしつ)⓪",
+      "part_of_speech": "名",
+      "definition": "素质，本质；资质，天分",
+      "context_sentence": "作家としての素質/作为作家的天分"
     },
     {
-      "id": 1600,
-      "vocabulary": "そそっかしい",
-      "pronounce": "そそっかしい",
-      "meaning": "⑤ [イ形] 举止轻率，毛手毛脚，慌张",
-      "usage_example": "△そそっかしい人/马大哈，冒失鬼"
+      "term": "そそっかしい⑤",
+      "part_of_speech": "イ形",
+      "definition": "举止轻率，毛手毛脚，慌张",
+      "context_sentence": "そそっかしい人/马大哈，冒失鬼"
     },
     {
-      "id": 1601,
-      "vocabulary": "率直",
-      "pronounce": "そっちょく",
-      "meaning": "⓪ [ナ形] 坦率，直率，爽快",
-      "usage_example": "△率直に意見を述べる。/直率地说出自己的意见。 △率直な意見を聞かせてください。/我想听听你坦诚的意见。"
+      "term": "率直(そっちょく)⓪",
+      "part_of_speech": "ナ形",
+      "definition": "坦率，直率，爽快",
+      "context_sentence": "率直に意見を述べる。/直率地说出自己的意见。"
     },
     {
-      "id": 1602,
-      "vocabulary": "備える",
-      "pronounce": "そなえる",
-      "meaning": "③ [他動2] 准备；设置，备齐；与生俱来，天生具备",
-      "usage_example": "△万が一の時に備える。/以防万一。 △条件を備える。/具备条件。 △資質を備える。/具备资质。"
+      "term": "備える(そなえる)③",
+      "part_of_speech": "他動2",
+      "definition": "准备；设置，备齐；与生俱来，天生具备",
+      "context_sentence": "万が一の時に備える。/以防万一。"
     },
     {
-      "id": 1603,
-      "vocabulary": "備わる",
-      "pronounce": "そなわる",
-      "meaning": "③ [自動1] 备有；生来就有，具备",
-      "usage_example": "△必要な資料が全部備わっている。/备有全部所需的资料。 △天分が備わる。/具备天分。"
+      "term": "備わる(そなわる)③",
+      "part_of_speech": "自動1",
+      "definition": "备有；生来就有，具备",
+      "context_sentence": "必要な資料が全部備わっている。/备有全部所需的资料。"
     },
     {
-      "id": 1604,
-      "vocabulary": "そのくせ",
-      "pronounce": "そのくせ",
-      "meaning": "[接] 尽管……但是……",
-      "usage_example": "△彼は、痩せていて、そのくせ、よく食べる。/他很瘦，但却很能吃。 類 それなのに ③ [接] 尽管那样……还是……"
+      "term": "そのくせ⓪",
+      "part_of_speech": "接",
+      "definition": "尽管……但是……",
+      "context_sentence": "彼は、痩せていて、そのくせ、よく食べる。/他很瘦，但却很能吃。"
     },
     {
-      "id": 1605,
-      "vocabulary": "粗末",
-      "pronounce": "そまつ",
-      "meaning": "① [名・ナ形] 粗糙，简陋；不爱惜，糟蹋",
-      "usage_example": "△粗末な服/(做工)粗糙的衣服 △食べ物を粗末にする。/糟蹋粮食。"
+      "term": "粗末(そまつ)①",
+      "part_of_speech": "名・ナ形",
+      "definition": "粗糙，简陋；不爱惜，糟蹋",
+      "context_sentence": "粗末な服/(做工)粗糙的衣服"
     },
     {
-      "id": 1606,
-      "vocabulary": "染まる",
-      "pronounce": "そまる",
-      "meaning": "⓪ [自動1] 染上……；沾染(习惯等)",
-      "usage_example": "△髪の毛がきれいな栗色に染まる。/头发染成漂亮的栗色。 △悪に染まる。/沾染恶习。"
+      "term": "染まる(そまる)⓪",
+      "part_of_speech": "自動1",
+      "definition": "染上……；沾染(习惯等)",
+      "context_sentence": "髪の毛がきれいな栗色に染まる。/头发染成漂亮的栗色。"
     },
     {
-      "id": 1607,
-      "vocabulary": "染める",
-      "pronounce": "そめる",
-      "meaning": "⓪ [他動2] 染(色)，涂；羞得面红耳赤；开始，着手",
-      "usage_example": "△髪を染める。/染发。 △頬を染める。/脸颊绯红。 慣用 手を染める。/着手，开始。"
+      "term": "染める(そめる)⓪",
+      "part_of_speech": "他動2",
+      "definition": "染(色)，涂；羞得面红耳赤；开始，着手",
+      "context_sentence": "髪を染める。/染发。"
     },
     {
-      "id": 1608,
-      "vocabulary": "そもそも",
-      "pronounce": "そもそも",
-      "meaning": "① [副] 原本，从一开始，最初",
-      "usage_example": "△そもそもは僕が悪いんだ。/原本就是我不好。 △そもそもおかしい。/从一开始就很奇怪。"
+      "term": "そもそも①",
+      "part_of_speech": "副",
+      "definition": "原本，从一开始，最初",
+      "context_sentence": "そもそもは僕が悪いんだ。/原本就是我不好。"
     },
     {
-      "id": 1609,
-      "vocabulary": "空模様",
-      "pronounce": "そらもよう",
-      "meaning": "③ [名] 天色；趋势，走势，气氛",
-      "usage_example": "△雨が降りそうな空模様/快要下雨的天色 △怪しい空模様/形势不妙"
+      "term": "空模様(そらもよう)③",
+      "part_of_speech": "名",
+      "definition": "天色；趋势，走势，气氛",
+      "context_sentence": "雨が降りそうな空模様/快要下雨的天色"
     },
     {
-      "id": 1610,
-      "vocabulary": "橇",
-      "pronounce": "そり",
-      "meaning": "① [名] 雪橇，冰橇",
-      "usage_example": "△橇に乗る。/乘坐雪橇。"
+      "term": "橇(そり)①",
+      "part_of_speech": "名",
+      "definition": "雪橇，冰橇",
+      "context_sentence": "橇に乗る。/乘坐雪橇。"
     },
     {
-      "id": 1611,
-      "vocabulary": "それきり／それっきり",
-      "pronounce": "それきり／それっきり",
-      "meaning": "⓪ [副] 仅有一次，自那以后就再也没有……；只有这些，到此为止",
-      "usage_example": "△それきり会っていない。/自那之后就再也没见过。 △それきりになる。/到此为止。"
+      "term": "それきり/それっきり⓪",
+      "part_of_speech": "副",
+      "definition": "仅有一次，自那以后就再也没有……；只有这些，到此为止",
+      "context_sentence": "それきり会っていない。/自那之后就再也没见过。"
     },
     {
-      "id": 1612,
-      "vocabulary": "それだから",
-      "pronounce": "それだから",
-      "meaning": "③ [接] 因此，所以",
-      "usage_example": "△彼はいい先生だ。それだから、生徒に好かれている。/他是个好老师，因此受到学生们欢迎。"
+      "term": "それだから③",
+      "part_of_speech": "接",
+      "definition": "因此，所以",
+      "context_sentence": "彼はいい先生だ。それだから、生徒に好かれている。/他是个好老师，因此受到学生们欢迎。"
     },
     {
-      "id": 1613,
-      "vocabulary": "それだけに",
-      "pronounce": "それだけに",
-      "meaning": "⓪ [接] 正因为如此，与……相应地",
-      "usage_example": "△優勝を目指して頑張った。それだけに今回の失敗は悔しくてたまらない。/以获胜为目标而努力了。正因如此，这次的失败非常令人懊悔。"
+      "term": "それだけに⓪",
+      "part_of_speech": "接",
+      "definition": "正因为如此，与……相应地",
+      "context_sentence": "優勝を目指して頑張った。それだけに今回の失敗は悔しくてたまらない。/以获胜为目标而努力了。正因如此，这次的失败非常令人懊悔。"
     },
     {
-      "id": 1614,
-      "vocabulary": "それどころか",
-      "pronounce": "それどころか",
-      "meaning": "③ [接] 不仅……而且……，岂止……",
-      "usage_example": "△それどころかもっとひどい目に遭った。/岂止如此，还有更倒霉的。"
+      "term": "それどころか③",
+      "part_of_speech": "接",
+      "definition": "不仅……而且……，岂止……",
+      "context_sentence": "それどころかもっとひどい目に遭った。/岂止如此，还有更倒霉的。"
     },
     {
-      "id": 1615,
-      "vocabulary": "それとなく",
-      "pronounce": "それとなく",
-      "meaning": "④ [副] 委婉地，不直截了当地",
-      "usage_example": "△それとなく忠告する。/委婉地忠告。 △それとなく相手の考えを探る。/婉转地测探对方的想法。"
+      "term": "それとなく④",
+      "part_of_speech": "副",
+      "definition": "委婉地，不直截当地",
+      "context_sentence": "それとなく忠告する。/委婉地忠告。"
     },
     {
-      "id": 1616,
-      "vocabulary": "それにしては",
-      "pronounce": "それにしては",
-      "meaning": "⑤ [接] 虽然……但是……",
-      "usage_example": "△ここは駅に近い。それにしては、ここは静かだ。/这里离车站很近，但却很安静。"
+      "term": "それにしては⑤",
+      "part_of_speech": "接",
+      "definition": "虽然……但是……",
+      "context_sentence": "ここは駅に近い。それにしては、ここは静かだ。/这里离车站很近，但却很安静。"
     },
     {
-      "id": 1617,
-      "vocabulary": "それにしても",
-      "pronounce": "それにしても",
-      "meaning": "⑤ [接] 尽管如此，然而……，不过……",
-      "usage_example": "△それにしても、30分待ってもバスが来ないなんてあり得ない話だ。/就算如此(道路拥挤等)，等半小时公交车竟然还不来真是有点不可理喻了。"
+      "term": "それにしても⑤",
+      "part_of_speech": "接",
+      "definition": "尽管如此，然而……，不过……",
+      "context_sentence": "それにしても、30分待ってもバスが来ないなんてあり得ない話だ。/就算如此(道路拥挤等)，等半小时公交车竟然还不来真是有点不可理喻了。"
     },
     {
-      "id": 1618,
-      "vocabulary": "揃い",
-      "pronounce": "そろい",
-      "meaning": "②③⓪ [名] 聚集，齐全；形式相同；",
-      "usage_example": "△揃いのスポーツウェア/同一款式的运动服 慣用 揃いも揃って/全都是……，净是些……，对同类事物或人表示感叹或谴责"
+      "term": "揃い(そろい)②③⓪",
+      "part_of_speech": "名",
+      "definition": "聚集，齐全；形式相同；",
+      "context_sentence": "揃いのスポーツウェア/同一款式的运动服"
     },
     {
-      "id": 1619,
-      "vocabulary": "〜揃い",
-      "pronounce": "〜ぞろい",
-      "meaning": "[接尾] 套；副；组；(接在名词后)一致，全是……，清一色",
-      "usage_example": "△文房具一揃い/一套文具 △有名人揃い/全是名人"
+      "term": "～揃い(～ぞろい)",
+      "part_of_speech": "接尾",
+      "definition": "套；副；组；(接在名词后)一致，全是……，清一色",
+      "context_sentence": "文房具一揃い/一套文具"
     },
     {
-      "id": 1620,
-      "vocabulary": "揃える",
-      "pronounce": "そろえる",
-      "meaning": "③ [他動2] 凑齐，备齐；聚集起来；使……一致",
-      "usage_example": "△条件を揃える。/具备条件。 △顔を揃える。/(全员)到齐。 △声を揃える。/齐声。 △靴を揃える。/把鞋摆齐。 関 揃う(そろう) ② [自動1] 齐全，齐备；聚齐，到齐；整齐，(步调)一致；(成对的东西)配齐"
+      "term": "揃える(そろえる)③",
+      "part_of_speech": "他動2",
+      "definition": "凑齐，备齐；聚集起来；使……一致",
+      "context_sentence": "条件を揃える。/具备条件。"
     },
     {
-      "id": 1621,
-      "vocabulary": "算盤",
-      "pronounce": "そろばん",
-      "meaning": "⓪ [名] 算盘；计算，对账；利害得失",
-      "usage_example": "△算盤を習う。/学珠算。 慣用 算盤を弾く。/打算盘(进行计算)；计算利害得失。"
+      "term": "算盤(そろばん)⓪",
+      "part_of_speech": "名",
+      "definition": "算盘；计算，对账；利害得失",
+      "context_sentence": "算盤を習う。/学珠算。"
     },
     {
-      "id": 1622,
-      "vocabulary": "損害",
-      "pronounce": "そんがい",
-      "meaning": "⓪ [名・自動3] 损害，损失，因事故、灾害等而受损",
-      "usage_example": "△損害賠償/(法律用语)损害补偿，赔偿 △損害をこうむる。/蒙受损失。"
+      "term": "損害(そんがい)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "损害，损失，因事故、灾害等而受损",
+      "context_sentence": "損害賠償/(法律用语)损害补偿，赔偿"
     },
     {
-      "id": 1623,
-      "vocabulary": "損失",
-      "pronounce": "そんしつ",
-      "meaning": "⓪ [名・自他動3] 损失，失去的财产或利益；损耗，消耗",
-      "usage_example": "△損失を補償する。/补偿损失。 △損失を招く。/招致损失。 対 利益(りえき) ① [名] 利润，盈利，收益；利益，好处"
+      "term": "損失(そんしつ)⓪",
+      "part_of_speech": "名・自他動3",
+      "definition": "损失，失去的财产或利益；损耗，消耗",
+      "context_sentence": "損失を補償する。/补偿损失。"
     },
     {
-      "id": 1624,
-      "vocabulary": "村長",
-      "pronounce": "そんちょう",
-      "meaning": "① [名] 村长。(日本)地方行政单位“村”的首长，一村之长",
-      "usage_example": ""
+      "term": "村長(そんちょう)①",
+      "part_of_speech": "名",
+      "definition": "村长。(日本)地方行政单位“村”的首长，一村之长",
+      "context_sentence": "null"
     },
     {
-      "id": 1625,
-      "vocabulary": "損得",
-      "pronounce": "そんとく",
-      "meaning": "① [名] 得失，盈亏，损失与收益",
-      "usage_example": "△損得抜きの奉仕/不考虑得失的服务 慣用 損得尽く。/算计得失。一定是考虑得失之后再付诸行动。"
+      "term": "損得(そんとく)①",
+      "part_of_speech": "名",
+      "definition": "得失，盈亏，损失与收益",
+      "context_sentence": "損得抜きの奉仕/不考虑得失的服务"
     },
     {
-      "id": 1626,
-      "vocabulary": "田",
-      "pronounce": "た",
-      "meaning": "① [名] 田地。分水田与旱田，一般指灌满水的水田",
-      "usage_example": "△田を耕す。/耕田。 △田に水を引く。/引水入田，灌溉田地。 関 たんぼ ⓪ [名] 田，水田 関 畑(はたけ) ②① [名] 旱田；工作等的范围，专业的领域"
+      "term": "田(た)①",
+      "part_of_speech": "名",
+      "definition": "田地。分水田与旱田，一般指灌满水的水田",
+      "context_sentence": "田を耕す。/耕田。"
     },
     {
-      "id": 1627,
-      "vocabulary": "他",
-      "pronounce": "た",
-      "meaning": "① [名] 他人，别人，第三者；别的，其他的，另外的",
-      "usage_example": "△自他共に認める。/自己和他人承认，公认。 △その他/其他 △他はどうでもいい。/其他的怎么样都可以。"
+      "term": "他(た)①",
+      "part_of_speech": "名",
+      "definition": "他人，别人，第三者；别的，其他的，另外的",
+      "context_sentence": "自他共に認める。/自己和他人承认，公认。"
     },
     {
-      "id": 1628,
-      "vocabulary": "多〜",
-      "pronounce": "た〜",
-      "meaning": "[接頭] 多……，大量的",
-      "usage_example": "△多人数/多数人，许多人 △多方面/许多方面"
+      "term": "多～(た～)",
+      "part_of_speech": "接頭",
+      "definition": "多……，大量的",
+      "context_sentence": "多人数/多数人，许多人"
     },
     {
-      "id": 1629,
-      "vocabulary": "対",
-      "pronounce": "たい",
-      "meaning": "① [名] 相比，相对，对比；回答，应对；相反的东西，对立面",
-      "usage_example": "△3対1で勝つ。/以三比一的比分获胜。 △陰は陽の対だ。/阴阳成一对。"
+      "term": "対(たい)①",
+      "part_of_speech": "名",
+      "definition": "相比，相对，对比；回答，应对；相反的东西，对立面",
+      "context_sentence": "3対1で勝つ。/以三比一的比分获胜。"
     },
     {
-      "id": 1630,
-      "vocabulary": "大",
-      "pronounce": "だい",
-      "meaning": "① [名] 大，伟大；非常，极其；大概，大约",
-      "usage_example": "△声を大にして叫ぶ。/大声叫唤。 △大賛成/非常赞成 慣用 ・大なり小なり/不论大小，或多或少 ・大は小を兼ねる。/大能兼小。"
+      "term": "大(だい)①",
+      "part_of_speech": "名",
+      "definition": "大，伟大；非常，极其；大概，大约",
+      "context_sentence": "声を大にして叫ぶ。/大声叫唤。"
     },
     {
-      "id": 1631,
-      "vocabulary": "台",
-      "pronounce": "だい",
-      "meaning": "① [名] 台，座；成为基础的东西，底",
-      "usage_example": "△台に乗る。/登台。 △台本/(戏剧、电影等的)脚本"
+      "term": "台(だい)①",
+      "part_of_speech": "名",
+      "definition": "台，座；成为基础的东西，底",
+      "context_sentence": "台に乗る。/登台。"
     },
     {
-      "id": 1632,
-      "vocabulary": "〜台",
-      "pronounce": "〜だい",
-      "meaning": "[接尾] ……台，楼台，高的建筑物；台，辆，计算车辆或机器等的量词；大致的数量",
-      "usage_example": "範囲 △手術台/手术台 △気象台/气象台 △三台の車/三辆汽车 △9時台に出社する。/九点左右上班。"
+      "term": "～台(～だい)",
+      "part_of_speech": "接尾",
+      "definition": "……台，楼台，高的建筑物；台，辆，计算车辆或机器等的量词；大致的数量范围",
+      "context_sentence": "手術台/手术台"
     },
     {
-      "id": 1633,
-      "vocabulary": "題",
-      "pronounce": "だい",
-      "meaning": "① [名] 标题，题目；问题，要求解答的题目",
-      "usage_example": "△題をつける。/加标题。 △質問は一題しか残っていない。/只剩下一题。"
+      "term": "題(だい)①",
+      "part_of_speech": "名",
+      "definition": "标题，题目；问题，要求解答的题目",
+      "context_sentence": "題をつける。/加标题。"
     },
     {
-      "id": 1634,
-      "vocabulary": "体育",
-      "pronounce": "たいいく",
-      "meaning": "① [名] 体育，体育运动",
-      "usage_example": "△体育館/体育馆 △体育の日/日本政府规定的国民的节日之一，体育节，为每年十月的第二个星期一 類 スポーツ(sport) ② [名] 体育运动的总称"
+      "term": "体育(たいいく)①",
+      "part_of_speech": "名",
+      "definition": "体育，体育运动",
+      "context_sentence": "体育館/体育馆"
     },
     {
-      "id": 1635,
-      "vocabulary": "体温",
-      "pronounce": "たいおん",
-      "meaning": "⓪ [名] 体温，动物身体所具有的温度",
-      "usage_example": "△体温調節/体温调节 △体温を測る。/量体温。"
+      "term": "体温(たいおん)①",
+      "part_of_speech": "名",
+      "definition": "体温，动物身体所具有的温度",
+      "context_sentence": "体温調節/体温调节"
     },
     {
-      "id": 1636,
-      "vocabulary": "体温計",
-      "pronounce": "たいおんけい",
-      "meaning": "⓪③ [名] 体温计，测量体温的温度计",
-      "usage_example": "△体温計で体温を測る。/用体温计测量体温。 関 温度計(おんどけい) ⓪ [名] 测量温度的计量仪器"
+      "term": "体温計(たいおんけい)⓪③",
+      "part_of_speech": "名",
+      "definition": "体温计，测量体温的温度计",
+      "context_sentence": "体温計で体温を測る。/用体温计测量体温。"
     },
     {
-      "id": 1637,
-      "vocabulary": "退会",
-      "pronounce": "たいかい",
-      "meaning": "⓪ [名・自動3] 退会",
-      "usage_example": "△クラブを退会する。/退出俱乐部。 類 脱会(だっかい) ⓪ [名・自動3] 退会 対 入会(にゅうかい) ⓪ [名・自動3] 入会"
+      "term": "退会(たいかい)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "退会",
+      "context_sentence": "クラブを退会する。/退出俱乐部。"
     },
     {
-      "id": 1638,
-      "vocabulary": "体格",
-      "pronounce": "たいかく",
-      "meaning": "⓪ [名] 体格，从外观表现出来的身体的生长发育状态",
-      "usage_example": "△立派な体格/健硕的体格 関 体つき(からだつき) ①③ [名] 体形，体格，高矮胖瘦程度"
+      "term": "体格(たいかく)⓪",
+      "part_of_speech": "名",
+      "definition": "体格，从外观表现出来的身体的生长发育状态",
+      "context_sentence": "立派な体格/健硕的体格"
     },
     {
-      "id": 1639,
-      "vocabulary": "退学",
-      "pronounce": "たいがく",
-      "meaning": "⓪ [名・自動3] 退学，开除，学生在毕业前因故取消学籍",
-      "usage_example": "△退学処分/退学处分 △中途退学する。/中途退学。 関 停学(ていがく) ⓪ [名] 停学，禁止学生到校上课的处分"
+      "term": "退学(たいがく)⓪",
+      "part_of_speech": "名・自動3",
+      "definition": "退学，开除，学生在毕业前因故取消学籍",
+      "context_sentence": "退学処分/退学处分"
     },
     {
-      "id": 1640,
-      "vocabulary": "大気",
-      "pronounce": "たいき",
-      "meaning": "① [名] 大气，包围地球的气体的总称",
-      "usage_example": "△大気圏/将地球分为岩石圈、水圈、大气圈三圈中的一圈，包围地球的空气层 △大気汚染/大气污染"
+      "term": "大気(たいき)①",
+      "part_of_speech": "名",
+      "definition": "大气，包围地球的气体的总称",
+      "context_sentence": "大気圏/将地球分为岩石圈、水圈、大气圈三圈中的一圈，包围地球的空气层"
     },
     {
-      "id": 1641,
-      "vocabulary": "対義語",
-      "pronounce": "たいぎご",
-      "meaning": "⓪ [名] 反义词，意义相反或成对的词",
-      "usage_example": "対 同義語(どうぎご) ③⓪ [名] 同义词，词形不同但意义相同的词"
+      "term": "対義語(たいぎご)①",
+      "part_of_speech": "名",
+      "definition": "反义词，意义相反或成对的词",
+      "context_sentence": "null"
     },
     {
-      "id": 1642,
-      "vocabulary": "大規模",
-      "pronounce": "だいきぼ",
-      "meaning": "③ [名・ナ形] 大规模(的)",
-      "usage_example": "△大規模な集会/大规模集会 △大規模な地震/大规模地震 対 小規模(しょうきぼ) ③ [名・ナ形] 小规模(的)，结构、外观等较小的"
+      "term": "大規模(だいきぼ)③",
+      "part_of_speech": "名・ナ形",
+      "definition": "大规模(的)",
+      "context_sentence": "大規模な集会/大规模集会"
     },
     {
-      "id": 1643,
-      "vocabulary": "大金",
-      "pronounce": "たいきん",
-      "meaning": "⓪ [名] 大钱，巨款",
-      "usage_example": "△大金を所持する。/携带巨款。 △事業に大金をつぎ込む。/为事业投入大量金钱。"
+      "term": "大金(たいきん)⓪",
+      "part_of_speech": "名",
+      "definition": "大钱，巨款",
+      "context_sentence": "大金を所持する。/携带巨款。"
     },
     {
-      "id": 1644,
-      "vocabulary": "待遇",
-      "pronounce": "たいぐう",
-      "meaning": "⓪ [名・他動3] 待遇，款待，招待；雇主对待雇员的方式方法，如工资、劳动条件等；区别对待，按某种标准对待",
-      "usage_example": "△待遇を改善する。/改善待遇(提高工资、改善劳动条件等)。 △特別待遇/特别待遇"
+      "term": "待遇(たいぐう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "待遇，款待，招待；雇主对待雇员的方式方法，如工资、劳动条件等；区别对待，按某种标准对待",
+      "context_sentence": "待遇を改善する。/改善待遇(提高工资、改善劳动条件等)。"
     },
     {
-      "id": 1645,
-      "vocabulary": "体系",
-      "pronounce": "たいけい",
-      "meaning": "⓪ [名] 体系，系统；根据某一原理组织起来的统一整体",
-      "usage_example": "△給与体系/薪资系统 △理論体系/理论体系 関 システム(system) ① [名] 组织，体系，系统；制度"
+      "term": "体系(たいけい)⓪",
+      "part_of_speech": "名",
+      "definition": "体系，系统；根据某一原理组织起来的统一整体",
+      "context_sentence": "給与体系/薪资系统"
     },
     {
-      "id": 1646,
-      "vocabulary": "太鼓",
-      "pronounce": "たいこ",
-      "meaning": "⓪ [名] 鼓，打击乐器",
-      "usage_example": "△太鼓腹/大腹便便，隆起的肚子 慣用 太鼓を叩く。/随声附和。"
+      "term": "太鼓(たいこ)⓪",
+      "part_of_speech": "名",
+      "definition": "鼓，打击乐器",
+      "context_sentence": "太鼓腹/大腹便便，隆起的肚子"
     },
     {
-      "id": 1647,
-      "vocabulary": "大使",
-      "pronounce": "たいし",
-      "meaning": "① [名] 大使",
-      "usage_example": "△駐日中国大使/中国驻日大使 △大使館/大使馆"
+      "term": "大使(たいし)①",
+      "part_of_speech": "名",
+      "definition": "大使",
+      "context_sentence": "駐日中国大使/中国驻日大使"
     },
     {
-      "id": 1648,
-      "vocabulary": "対処",
-      "pronounce": "たいしょ",
-      "meaning": "① [名・自動3] 应付，对付",
-      "usage_example": "△臨機応変に対処する。/随机应变地应对。 △インフレに対処する。/应对通货膨胀。"
+      "term": "対処(たいしょ)①",
+      "part_of_speech": "名・自動3",
+      "definition": "应付，对付",
+      "context_sentence": "臨機応変に対処する。/随机应变地应对。"
     },
     {
-      "id": 1649,
-      "vocabulary": "対照",
-      "pronounce": "たいしょう",
-      "meaning": "⓪ [名・他動3] 对照，对比，显现出差别；相互对比",
-      "usage_example": "△好対照となる二人/形成很好对比的两人 △対照すればすぐ分かる。/一对照立刻就明白。 同音 ・対象(たいしょう) ⓪ [名] 目标，对象 ・対称(たいしょう) ⓪ [名・自動3] 对称，匀称"
+      "term": "対照(たいしょう)⓪",
+      "part_of_speech": "名・他動3",
+      "definition": "对照，对比，显现出差别；相互对比",
+      "context_sentence": "好対照となる二人/形成很好对比的两人"
     },
     {
-      "id": 1650,
-      "vocabulary": "大小",
-      "pronounce": "だいしょう",
-      "meaning": "① [名] 大小，大与小",
-      "usage_example": "△大小を問わない。/不论大小。 △大小取り混ぜる。/大的小的掺杂在一起。 同音 代償(だいしょう) ⓪ [名] 代价，所付出的牺牲；赔偿，赔付"
-    },
-    {
-      "id": 1651,
-      "vocabulary": "大臣",
-      "pronounce": "だいじん",
-      "meaning": "① [名] 大臣，国务大臣",
-      "usage_example": "△外務大臣/外交部部长"
-    },
-    {
-      "id": 1652,
-      "vocabulary": "大豆",
-      "pronounce": "だいず",
-      "meaning": "⓪① [名] 大豆，黄豆，酱油、豆油等的原料",
-      "usage_example": "△大豆油/大豆油，豆油"
-    },
-    {
-      "id": 1653,
-      "vocabulary": "体制",
-      "pronounce": "たいせい",
-      "meaning": "⓪ [名] 体制，体系，制度",
-      "usage_example": "△経営の体制を立て直す。/重整经营体制。 △反体制運動/反制度运动 同音 態勢(たいせい) ⓪ [名] 态势，状态；准备"
-    },
-    {
-      "id": 1654,
-      "vocabulary": "大戦",
-      "pronounce": "たいせん",
-      "meaning": "⓪ [名] 大战，大规模战争；世界大战",
-      "usage_example": "△第二次世界大戦/第二次世界大战"
-    },
-    {
-      "id": 1655,
-      "vocabulary": "対戦",
-      "pronounce": "たいせん",
-      "meaning": "⓪ [名・自動3] 对战，交锋，比赛",
-      "usage_example": "△対戦成績/对战成绩 △元チャンピオンと対戦する。/与前冠军交锋。"
-    },
-    {
-      "id": 1656,
-      "vocabulary": "大層",
-      "pronounce": "たいそう",
-      "meaning": "① [副・ナ形] 很，非常；夸张，夸大",
-      "usage_example": "△大層びっくりした。/吃了一惊。 △大層なことを言う。/夸大其词。 慣用 大層もない。/不一般，不合情理，岂有此理。"
-    },
-    {
-      "id": 1657,
-      "vocabulary": "体調",
-      "pronounce": "たいちょう",
-      "meaning": "⓪ [名] 身体状况、状态",
-      "usage_example": "△体調が悪い。/身体状况不好。 △体調を整える。/调整身体状态。"
-    },
-    {
-      "id": 1658,
-      "vocabulary": "タイトル",
-      "pronounce": "タイトル",
-      "meaning": "① [名] 标题，题目；头衔，称号；字幕",
-      "usage_example": "△本のタイトルをつける。/给书题名。 △タイトルマッチ/锦标赛"
-    },
-    {
-      "id": 1659,
-      "vocabulary": "大半",
-      "pronounce": "たいはん",
-      "meaning": "⓪③ [名] 大半，过半，大部分",
-      "usage_example": "△大半を占める。/占据大部分。 △大半の支持を得る。/得到大多数的支持。"
-    },
-    {
-      "id": 1660,
-      "vocabulary": "タイピスト",
-      "pronounce": "タイピスト",
-      "meaning": "(typist) ③ [名] 打字员，以使用打字机打印文书为职业的人",
-      "usage_example": "関 タイプ(type) ① [名・他動3] 类型，样式；(用打字机)打字"
-    },
-    {
-      "id": 1661,
-      "vocabulary": "大病",
-      "pronounce": "たいびょう",
-      "meaning": "⓪ [名] 大病，重病",
-      "usage_example": "△大病を患う。/身患重病。 慣用 大病に薬無し。/无药可救，病入膏肓。 類 重病(じゅうびょう) ⓪ [名] 重病，大病，重患"
-    },
-    {
-      "id": 1662,
-      "vocabulary": "タイプライター",
-      "pronounce": "タイプライター",
-      "meaning": "(typewriter) ④ [名] 打字机",
-      "usage_example": "△タイプライターで仕事の能率を高める。/使用打字机提高工作效率。"
-    },
-    {
-      "id": 1663,
-      "vocabulary": "大便",
-      "pronounce": "だいべん",
-      "meaning": "③ [名] 大便，(人)由肛门排泄的食物残渣",
-      "usage_example": "類 糞(ふん) ① [名] 粪便 対 小便(しょうべん) ③ [名] 小便，尿"
-    },
-    {
-      "id": 1664,
-      "vocabulary": "逮捕",
-      "pronounce": "たいほ",
-      "meaning": "① [名・他動3] 逮捕，拘捕；刑事拘留",
-      "usage_example": "△逮捕状/逮捕令 △容疑者を逮捕する。/拘捕嫌疑人。"
-    },
-    {
-      "id": 1665,
-      "vocabulary": "大木",
-      "pronounce": "たいぼく",
-      "meaning": "⓪ [名] 大树，巨树",
-      "usage_example": "慣用 ・大木に蝉の止まったよう。/大小悬殊。 ・大木の下に小木育つ。/大树底下好乘凉，势力大庇护多。 関 大樹(たいじゅ) ⓪ [名] 大树"
-    },
-    {
-      "id": 1666,
-      "vocabulary": "題名",
-      "pronounce": "だいめい",
-      "meaning": "⓪ [名] 题目，标题，作品等的名称",
-      "usage_example": "△詩集の題名/诗集的名称 類 ・標題(ひょうだい) ⓪ [名] 标题，题目 ・タイトル ①⓪ [名] 标题，题目；头衔；字幕"
-    },
-    {
-      "id": 1667,
-      "vocabulary": "代名詞",
-      "pronounce": "だいめいし",
-      "meaning": "③ [名] 代词，词类之一，日语中无活用变化的自立词；典型，代表性事物",
-      "usage_example": "△彼の名は金持ちの代名詞となった。/他已成为富豪的代名词了。"
-    },
-    {
-      "id": 1668,
-      "vocabulary": "タイヤ",
-      "pronounce": "タイヤ",
-      "meaning": "(tire/tyre) ⓪ [名] 轮胎",
-      "usage_example": "△タイヤチェーン/轮胎防滑链 △タイヤローラー/轮胎式压路机"
-    },
-    {
-      "id": 1669,
-      "vocabulary": "ダイヤ",
-      "pronounce": "ダイヤ",
-      "meaning": "（「ダイヤグラム(diagram)」の略）①⓪ [名] 行车时刻表，列车运行时刻表",
-      "usage_example": "△大雪のためダイヤが乱れる。/由于下大雪，列车时间发生了严重混乱。"
-    },
-    {
-      "id": 1670,
-      "vocabulary": "ダイヤ",
-      "pronounce": "ダイヤ",
-      "meaning": "（「ダイヤモンド(diamond)」の略）①⓪ [名] 钻石，金刚石，金刚钻；(扑克牌中的)方块",
-      "usage_example": "△ダイヤの指輪/钻石戒指"
-    },
-    {
-      "id": 1671,
-      "vocabulary": "ダイヤル",
-      "pronounce": "ダイヤル",
-      "meaning": "(dial) ⓪ [名] 刻度盘，表盘；(电话、收音机等)拨号盘，拨号",
-      "usage_example": "△ダイヤルを回す。/拨电话号码。"
-    },
-    {
-      "id": 1672,
-      "vocabulary": "代理",
-      "pronounce": "だいり",
-      "meaning": "⓪ [名・他動3] 代理，代替本人处理事物",
-      "usage_example": "△代理人/代理人，代办人 △課長の代理で出張に行く。/代替课长去出差。"
-    },
-    {
-      "id": 1673,
-      "vocabulary": "対立",
-      "pronounce": "たいりつ",
-      "meaning": "⓪ [名・自動3] 对立，站在不同立场上产生冲突",
-      "usage_example": "△対立が深まる。/对立更加严重。 △意見が対立する。/意见不一致，意见产生冲突。"
-    },
-    {
-      "id": 1674,
-      "vocabulary": "体力",
-      "pronounce": "たいりょく",
-      "meaning": "① [名] 体力，维持身体各项机能正常运行的能力",
-      "usage_example": "△体力を蓄える。/养精蓄锐。 △栄養分のあるものを食べて体力をつける。/摄取含营养素的食物以增强体力。"
-    },
-    {
-      "id": 1675,
-      "vocabulary": "田植え",
-      "pronounce": "たうえ",
-      "meaning": "③ [名] 插秧，把秧苗移植到水田里",
-      "usage_example": "△田植えをする。/插秧。 △田植え機/水稻插秧机"
-    },
-    {
-      "id": 1676,
-      "vocabulary": "ダウン",
-      "pronounce": "ダウン",
-      "meaning": "(down) ① [名・自動3] 下落，下滑，降低；倒下，病倒；出局",
-      "usage_example": "△コストダウン/成本降低 △過労でダウンする。/因过度劳累而病倒。"
-    },
-    {
-      "id": 1677,
-      "vocabulary": "絶える",
-      "pronounce": "たえる",
-      "meaning": "② [自動2] 断绝，销声匿迹；隔离，疏远；灭亡，死亡",
-      "usage_example": "△消息が絶える。/消息断绝。 △子孫が絶える。/断子绝孙。 △けんかが絶えない。/争吵不断。"
-    },
-    {
-      "id": 1678,
-      "vocabulary": "耐える",
-      "pronounce": "たえる",
-      "meaning": "② [自動2] 忍耐，忍受；坚持住；耐……，经得起",
-      "usage_example": "△悲しみに耐える。/忍住悲哀。 △年月に耐える。/经得起岁月(的考验)。 △長年の使用に耐える。/经久耐用。"
-    },
-    {
-      "id": 1679,
-      "vocabulary": "楕円形",
-      "pronounce": "だえんけい",
-      "meaning": "⓪ [名] 椭圆形",
-      "usage_example": "△楕円形の軌道/椭圆形轨道"
-    },
-    {
-      "id": 1680,
-      "vocabulary": "高〜",
-      "pronounce": "たか〜",
-      "meaning": "[接頭] (接在名词、动词前面)高……",
-      "usage_example": "△高楊枝/饭后休闲地用牙签剔牙，形容酒足饭饱的神态 △高鳴る/发出很大的声响；心怦怦跳"
-    },
-    {
-      "id": 1681,
-      "vocabulary": "耕す",
-      "pronounce": "たがやす",
-      "meaning": "③ [他動1] 耕作，为了更好地种植作物而翻耕",
-      "usage_example": "△田を耕す。/耕田。"
-    },
-    {
-      "id": 1682,
-      "vocabulary": "宝くじ",
-      "pronounce": "たからくじ",
-      "meaning": "③④ [名] 彩票，日本指地方公共团体发行的抽签中奖券",
-      "usage_example": "△宝くじに当たる。/中彩票。"
-    },
-    {
-      "id": 1683,
-      "vocabulary": "だからといって",
-      "pronounce": "だからといって",
-      "meaning": "① [接] 虽说……但是……",
-      "usage_example": "△確かに彼は今はやり直そうと一生懸命頑張っている。だからといって、過去の事を全部水に流すわけにはいかない。/他现在确实在努力重新做人，但过去的事情不能就那么算了。"
-    },
-    {
-      "id": 1684,
-      "vocabulary": "滝",
-      "pronounce": "たき",
-      "meaning": "⓪ [名] 瀑布，从高处悬崖上倾泻而下的水流",
-      "usage_example": "△汗が滝のように流れ落ちた。/汗水如同瀑布般流下。"
-    },
-    {
-      "id": 1685,
-      "vocabulary": "抱き締める",
-      "pronounce": "だきしめる",
-      "meaning": "④ [他動2] 拥抱，抱紧",
-      "usage_example": "△子供を抱き締める。/抱紧孩子。"
-    },
-    {
-      "id": 1686,
-      "vocabulary": "託児所",
-      "pronounce": "たくじしょ",
-      "meaning": "①④ [名] 托儿所",
-      "usage_example": "関 保育所(ほいくしょ) ①④ [名] 保育园，托儿所"
-    },
-    {
-      "id": 1687,
-      "vocabulary": "逞しい",
-      "pronounce": "たくましい",
-      "meaning": "④ [イ形] (体格)健壮，结实，魁梧；(意志)刚毅，顽强；蓬勃，充满朝气",
-      "usage_example": "△筋骨が逞しい。/身体结实，体格健壮。 △逞しい戦闘力/顽强的战斗力 △逞しく発展する国/蓬勃发展的国家"
-    },
-    {
-      "id": 1688,
-      "vocabulary": "蓄える",
-      "pronounce": "たくわえる",
-      "meaning": "④ [他動2] 储存，积蓄；留，蓄",
-      "usage_example": "△お金を蓄える。/积攒金钱。 △知識を蓄える。/积累知识。 △ひげを蓄える。/留胡子。"
-    },
-    {
-      "id": 1689,
-      "vocabulary": "他国",
-      "pronounce": "たこく",
-      "meaning": "⓪① [名] 他国，别国；国外，异地他乡",
-      "usage_example": "△他国の領土/他国领土 関 異国(いこく) ① [名] 异国，他国"
-    },
-    {
-      "id": 1690,
-      "vocabulary": "出し入れ",
-      "pronounce": "だしいれ",
-      "meaning": "②① [名・他動3] 拿进拿出，出纳，存取",
-      "usage_example": "△金銭の出し入れ/存钱取钱 関 出納(すいとう) ⓪ [名・他動3] 出纳，收支，金钱或物品的存入与支取"
-    },
-    {
-      "id": 1691,
-      "vocabulary": "他社",
-      "pronounce": "たしゃ",
-      "meaning": "① [名] 别的公司，其他公司",
-      "usage_example": "△他社との取引/与别家公司的贸易往来 同音 他者(たしゃ) ① [名] 他人，别人"
-    },
-    {
-      "id": 1692,
-      "vocabulary": "多種多様",
-      "pronounce": "たしゅたよう",
-      "meaning": "① [名・ナ形] 多种多样，各式各样，形形色色",
-      "usage_example": "△多種多様なロボット/各式各样的机器人 △多種多様な職業/形形色色的职业 類 バラエティー(variety) ② [名] 多种多样，富于变化，多样性"
-    },
-    {
-      "id": 1693,
-      "vocabulary": "多少",
-      "pronounce": "たしょう",
-      "meaning": "⓪ [名・副] (数量的)多少；稍微，一些",
-      "usage_example": "△出費の多少は問わない。/不问要花多少钱。 △英会話は多少できる。/会一点英文对话。"
-    },
-    {
-      "id": 1694,
-      "vocabulary": "多数",
-      "pronounce": "たすう",
-      "meaning": "② [名] 多数，为数众多，多数人",
-      "usage_example": "△多数決/多数决定，少数服从多数 △多数意見/多数人的意见 対 少数(しょうすう) ③ [名] 少数，数量少，少数人"
-    },
-    {
-      "id": 1695,
-      "vocabulary": "助け",
-      "pronounce": "たすけ",
-      "meaning": "③ [名] 救援，救助；必需品，必要补给",
-      "usage_example": "△助けを求める。/求助。 △生活の助けにする。/作为必要生活补给。 関 助ける(たすける) ③ [他動2] 帮助，救助；支援，救济；促进，有助于……"
-    },
-    {
-      "id": 1696,
-      "vocabulary": "〜正しい",
-      "pronounce": "〜ただしい",
-      "meaning": "[接尾] 遵守……，合乎……，……正确的",
-      "usage_example": "△規律正しい生活/有规律的生活 △礼儀正しい/合乎礼仪的，遵守规范的，懂礼貌的"
-    },
-    {
-      "id": 1697,
-      "vocabulary": "直ちに",
-      "pronounce": "ただちに",
-      "meaning": "① [副] 立刻，马上",
-      "usage_example": "△直ちに実行する。/立刻行动。 △直ちに出発する。/立刻出发。"
-    },
-    {
-      "id": 1698,
-      "vocabulary": "漂う",
-      "pronounce": "ただよう",
-      "meaning": "③ [自動1] 漂浮，飘动；散发，洋溢",
-      "usage_example": "△雲が漂う。/云朵飘动。 △焼きたてのパンの匂いが漂う。/飘着刚出炉的面包的香味。"
-    },
-    {
-      "id": 1699,
-      "vocabulary": "立ち上げる",
-      "pronounce": "たちあげる",
-      "meaning": "⓪④ [他動2] 驱动，开动",
-      "usage_example": "△パソコンを立ち上げる。/开机，打开电脑。 △新しいプロジェクトを立ち上げる。/启动新的计划。"
-    },
-    {
-      "id": 1700,
-      "vocabulary": "立ち入り",
-      "pronounce": "たちいり",
-      "meaning": "⓪ [名] 进入，干预",
-      "usage_example": "△立ち入り禁止/禁止入内 △立ち入り検査/现场检查，入内调查"
-    },
-    {
-      "id": 1701,
-      "vocabulary": "立ち去る",
-      "pronounce": "たちさる",
-      "meaning": "③ [自動1] 走开，离开",
-      "usage_example": "△何も言わずにその場を立ち去る。/什么都没说就离开了。 類 立ち退く(たちのく) ⓪③ [自動1] 离开，走开；搬走，迁出"
-    },
-    {
-      "id": 1702,
-      "vocabulary": "立ち止まる",
-      "pronounce": "たちどまる",
-      "meaning": "④⓪ [自動1] 站住，止步",
-      "usage_example": "△誰かに呼び止められて立ち止まる。/被人叫住而止步。 △びっくりして立ち止まる。/吓了一跳，停下了脚步。"
-    },
-    {
-      "id": 1703,
-      "vocabulary": "立ち直る",
-      "pronounce": "たちなおる",
-      "meaning": "⓪④ [自動1] 恢复(原状)，重振，好转",
-      "usage_example": "△景気が立ち直る。/景气好转。 △失意から立ち直る。/从失意中重新振作起来。"
-    },
-    {
-      "id": 1704,
-      "vocabulary": "たちまち",
-      "pronounce": "たちまち",
-      "meaning": "⓪ [副] 立刻，转眼间；突然，一下子",
-      "usage_example": "△大変人気があって、たちまち売り切れた。/太受欢迎了，转眼就卖光了。 △たちまち起こる銃声/突然响起的枪声"
-    },
-    {
-      "id": 1705,
-      "vocabulary": "抱っこ",
-      "pronounce": "だっこ",
-      "meaning": "① [名・他動3] (幼儿语)抱",
-      "usage_example": "△抱っこしてあげよう。/抱一抱吧。 慣用 おんぶに抱っこ/完全依赖他人"
-    },
-    {
-      "id": 1706,
-      "vocabulary": "達人",
-      "pronounce": "たつじん",
-      "meaning": "⓪ [名] 达人，高手，技艺高超的人",
-      "usage_example": "△書道の達人/书法高的高手"
-    },
-    {
-      "id": 1707,
-      "vocabulary": "達する",
-      "pronounce": "たっする",
-      "meaning": "⓪③ [名・自他動3] 到达，达到；精通；完成，贯彻",
-      "usage_example": "△目的地に達する。/到达目的地。 △会員が5万人に達する。/会员达到5万人。 関 到達(とうたつ) ⓪ [名・自動3] 到达，达到"
-    },
-    {
-      "id": 1708,
-      "vocabulary": "達成",
-      "pronounce": "たっせい",
-      "meaning": "⓪ [名・他動3] 达到，完成；",
-      "usage_example": "△達成感/成就感 △目標を達成する。/达到目标。"
-    },
-    {
-      "id": 1709,
-      "vocabulary": "脱線",
-      "pronounce": "だっせん",
-      "meaning": "⓪ [名・自動3] (车)脱离轨道，出轨；离题，言行不一",
-      "usage_example": "△列車が脱線する。/列车脱轨。 △話が脱線する。/话离题。"
-    },
-    {
-      "id": 1710,
-      "vocabulary": "だったら",
-      "pronounce": "だったら",
-      "meaning": "① [接] 那样的话",
-      "usage_example": "△だったら子供に自由にやらせれば。/那不如放手让孩子们自己自由发挥。 △だったらいっそのこと離婚したらどう？/既然如此，索性离婚得了。"
-    },
-    {
-      "id": 1711,
-      "vocabulary": "たっぷり",
-      "pronounce": "たっぷり",
-      "meaning": "③ [副] 充足，足够；宽绰，肥大",
-      "usage_example": "△時間はまだたっぷりあるから、急ぐ必要はないよ。/还有足够的时间，没必要着急。 △たっぷりした服/肥大的衣服"
-    },
-    {
-      "id": 1712,
-      "vocabulary": "〜たっぷり",
-      "pronounce": "〜たっぷり",
-      "meaning": "[接尾] 许多……",
-      "usage_example": "△栄養たっぷりの食べ物/营养充足的食物 △色気たっぷり/风韵十足 △自信たっぷりに話す。/自信十足地说。"
-    },
-    {
-      "id": 1713,
-      "vocabulary": "〜たて",
-      "pronounce": "〜たて",
-      "meaning": "[接尾] (接在动词连用形后)刚刚……完",
-      "usage_example": "△焼きたてのパン/新鲜出炉的面包 △ペンキ塗りたての家具/刚油漆过的家具"
-    },
-    {
-      "id": 1714,
-      "vocabulary": "〜立てる",
-      "pronounce": "〜たてる",
-      "meaning": "[接尾] (接在动词连用形后)一直……，频频……，使劲……",
-      "usage_example": "△責め立てる/一个劲地责备 △わめき立てる/大声叫喊"
-    },
-    {
-      "id": 1715,
-      "vocabulary": "立て替える",
-      "pronounce": "たてかえる",
-      "meaning": "①④③ [他動2] 垫付，暂时为别人支付钱款",
-      "usage_example": "△交通費を立て替える。/垫付车费。"
-    },
-    {
-      "id": 1716,
-      "vocabulary": "縦書き",
-      "pronounce": "たてがき",
-      "meaning": "⓪ [名] 竖写",
-      "usage_example": "△縦書きの手紙/竖写的信 対 横書き(よこがき) ⓪ [名] 横写"
-    },
-    {
-      "id": 1717,
-      "vocabulary": "妥当",
-      "pronounce": "だとう",
-      "meaning": "⓪ [名・ナ形] 妥当，妥善，稳妥",
-      "usage_example": "△妥当な判断/准确的判断 △妥当なやり方/稳妥的做法"
-    },
-    {
-      "id": 1718,
-      "vocabulary": "他動詞",
-      "pronounce": "たどうし",
-      "meaning": "② [名] 他动词，所表示的动作、作用涉及其他的动词",
-      "usage_example": "対 自動詞(じどうし) ② [名] 自动词，此类动词所表示的动作、作用不涉及其他"
-    },
-    {
-      "id": 1719,
-      "vocabulary": "他人",
-      "pronounce": "たにん",
-      "meaning": "⓪ [名] 别人，他人，外人；局外人，没有任何关系的人；陌生人",
-      "usage_example": "△他人扱い/当外人对待、看待 △他人が口を出す。/局外人从旁插嘴。 △赤の他人/没有任何关系的人 慣用 他人の飯は白い。/隔锅饭香，别人的东西总比自己的好。"
-    },
-    {
-      "id": 1720,
-      "vocabulary": "頼もしい",
-      "pronounce": "たのもしい",
-      "meaning": "④ [イ形] 可靠的，靠得住的，有把握的",
-      "usage_example": "△頼もしい男/可靠的男人 △将来が頼もしい。/未来值得期待。"
-    },
-    {
-      "id": 1721,
-      "vocabulary": "束",
-      "pronounce": "たば",
-      "meaning": "① [名] 捆，把",
-      "usage_example": "△稲の束/稻捆 △ネギを束にする。/将葱扎成一捆捆。 慣用 束になってかかる。/群起而攻之。"
-    },
-    {
-      "id": 1722,
-      "vocabulary": "〜束",
-      "pronounce": "〜たば",
-      "meaning": "[接尾] ……捆，把，束",
-      "usage_example": "△札束/成捆的钞票 △花束/花束"
-    },
-    {
-      "id": 1723,
-      "vocabulary": "旅立つ",
-      "pronounce": "たびだつ",
-      "meaning": "③ [自動1] 启程；死亡",
-      "usage_example": "△東京に旅立つ。/启程去东京。 △冥土に旅立つ。/命赴黄泉。 類 出発(しゅっぱつ) ⓪ [名・自動3] 出发，启程；事物的开端"
-    },
-    {
-      "id": 1724,
-      "vocabulary": "ダブル",
-      "pronounce": "ダブル",
-      "meaning": "(double) ① [名] 两倍，双重，双层",
-      "usage_example": "△ダブルス/(羽毛球、网球等)双打 △ダブルイメージ/重影，叠影 △ダブルベッド/双人床 関 ダブルる(double+る) ② [自動1] 赶在一起；重叠"
-    },
-    {
-      "id": 1725,
-      "vocabulary": "多忙",
-      "pronounce": "たぼう",
-      "meaning": "⓪ [名・ナ形] 繁忙，忙碌",
-      "usage_example": "△多忙を極める。/忙得不可开交。 △多忙な毎日を送る。/每天都过得非常忙碌。"
-    },
-    {
-      "id": 1726,
-      "vocabulary": "玉",
-      "pronounce": "たま",
-      "meaning": "② [名] 珠，玉石；球形物体；算盘珠子；有价值的东西，宝贝的东西",
-      "usage_example": "△玉を磨く。/磨玉石。 △玉の汗/豆大的汗珠 △玉を弾く。/打算盘(珠子)。 △掌中の玉/掌上明珠 慣用 玉に瑕/美玉上有小瑕疵，美中不足"
-    },
-    {
-      "id": 1727,
-      "vocabulary": "球",
-      "pronounce": "たま",
-      "meaning": "② [名] 球，球状物；电灯泡",
-      "usage_example": "△速い球を投げる。/扔快球。 △電気の球が切れる。/电灯泡的丝断了。"
-    },
-    {
-      "id": 1728,
-      "vocabulary": "弾",
-      "pronounce": "たま",
-      "meaning": "② [名] 子弹，炮弹",
-      "usage_example": "△弾をこめる。/装子弹。 △ライフルの弾/来复枪的子弹"
-    },
-    {
-      "id": 1729,
-      "vocabulary": "たま",
-      "pronounce": "たま",
-      "meaning": "⓪ [名・ナ形] 偶尔，偶然",
-      "usage_example": "△たまの休み/难得的休息日 △運動と言えばたまに散歩に出かける程度だ。/要说运动，也只是偶尔出门散散步。"
-    },
-    {
-      "id": 1730,
-      "vocabulary": "たまたま",
-      "pronounce": "たまたま",
-      "meaning": "⓪ [副] 偶然，碰巧；偶尔，有时候",
-      "usage_example": "△たまたま駅で友だちに出会った。/碰巧在车站见到朋友了。 △たまたま運がよかっただけです。/只不过是运气好而已。"
-    },
-    {
-      "id": 1731,
-      "vocabulary": "ダム",
-      "pronounce": "ダム",
-      "meaning": "(dam) ① [名] 水坝，水库",
-      "usage_example": "△アーチダム/拱形水坝 △重力ダム/重力水坝"
-    },
-    {
-      "id": 1732,
-      "vocabulary": "溜め息",
-      "pronounce": "ためいき",
-      "meaning": "③ [名] 叹气，长吁短叹",
-      "usage_example": "△溜め息をつく。/唉声叹气。 △溜め息を漏らす。/叹气。"
-    },
-    {
-      "id": 1733,
-      "vocabulary": "試す",
-      "pronounce": "ためす",
-      "meaning": "② [他動1] 尝试，试验",
-      "usage_example": "△切れ味を試す。/尝试刀刃的锋利程度。 △実力を試す。/测试实际能力。 関 試みる(こころみる) ④ [他動2] 尝试着做，试验"
-    },
-    {
-      "id": 1734,
-      "vocabulary": "ためらう",
-      "pronounce": "ためらう",
-      "meaning": "③ [自動1] 踌躇，犹豫，拿不定主意",
-      "usage_example": "△判断をためらう。/犹豫如何(下)判断。 関 躊躇(ちゅうちょ) ① [名・自動3] 踌躇，犹豫，磨磨蹭蹭"
-    },
-    {
-      "id": 1735,
-      "vocabulary": "多目的",
-      "pronounce": "たもくてき",
-      "meaning": "② [名・ナ形] 多种用途，多功能",
-      "usage_example": "△多目的家具/多功能家具 △多目的ダム/综合性水坝"
-    },
-    {
-      "id": 1736,
-      "vocabulary": "保つ",
-      "pronounce": "たもつ",
-      "meaning": "② [他動1] 维持，保持，保住；维护，维持",
-      "usage_example": "△健康を保つ。/维持健康。 △命を保つ。/保住性命。 △平和が保たれる。/和平得以维持。 関 維持(いじ) ① [名・他動3] 维持，维护，保持相同状态"
-    },
-    {
-      "id": 1737,
-      "vocabulary": "頼り",
-      "pronounce": "たより",
-      "meaning": "① [名] 依靠，倚仗；线索，关系",
-      "usage_example": "△親を頼りにする。/倚仗父母。 △頼りを求めて就職する。/托关系就业。 同音 便り(たより) ① [名] 音信，消息；访问，来临 関 頼る(たよる) ② [他動1] 依靠，依赖；找门路"
-    },
-    {
-      "id": 1738,
-      "vocabulary": "頼りない",
-      "pronounce": "たよりない",
-      "meaning": "④ [イ形] 无依无靠的；靠不住的",
-      "usage_example": "△頼りない身の上/无依无靠的境遇 △頼りない人/靠不住的人"
-    },
-    {
-      "id": 1739,
-      "vocabulary": "だらしない",
-      "pronounce": "だらしない",
-      "meaning": "④ [イ形] 散漫的，邋遢的；没出息的，不检点的",
-      "usage_example": "△だらしない態度/漫不经心的态度 △金銭にだらしない。/花钱没有节制。"
-    },
-    {
-      "id": 1740,
-      "vocabulary": "足りる",
-      "pronounce": "たりる",
-      "meaning": "⓪ [自動1] 足够，充分；心满意足；有价值",
-      "usage_example": "△百元では足りない。/一百块钱不够。 △足ることを知る者は幸せだ。/知足者常乐。 慣用 足るを知る。/知足。 類 足りる(たりる) ⓪ [自動1] 足够；值得；可以，行"
-    },
-    {
-      "id": 1741,
-      "vocabulary": "だれかれ",
-      "pronounce": "だれかれ",
-      "meaning": "① [代] 谁，这个人那个人",
-      "usage_example": "△だれかれの区別無しに/不分彼此"
-    },
-    {
-      "id": 1742,
-      "vocabulary": "誰しも",
-      "pronounce": "だれしも",
-      "meaning": "① [副] 谁都……，无论是谁",
-      "usage_example": "△誰しも命は惜しい。/谁都珍惜自己的生命。 △誰しも愛する人と別れたくはない。/无论是谁都不想和心爱的人分开。"
-    },
-    {
-      "id": 1743,
-      "vocabulary": "誰一人",
-      "pronounce": "だれひとり",
-      "meaning": "①⓪ [副] (后接否定)谁都(不)……，一个人都(不)……",
-      "usage_example": "△誰一人いない。/谁都不在，没有一个人。 △誰一人賛成しない。/没有一个人赞成。"
-    },
-    {
-      "id": 1744,
-      "vocabulary": "垂れる",
-      "pronounce": "たれる",
-      "meaning": "② [自他動2] (自)下垂，低垂；流，滴；(他)使……下垂，悬挂",
-      "usage_example": "△幕が垂れる。/幕下垂。 △よだれが垂れる。/流口水。 △頭を垂れる。/耷拉着脑袋。 △教えを垂れる。/垂教。"
-    },
-    {
-      "id": 1745,
-      "vocabulary": "タレント",
-      "pronounce": "タレント",
-      "meaning": "(talent) ⓪① [名] 技能，本事；明星，艺人",
-      "usage_example": "△タレントの持ち主/有才的人，有本事的人 △彼女は人気のタレントだ。/她是很受欢迎的艺人。"
-    },
-    {
-      "id": 1746,
-      "vocabulary": "短〜",
-      "pronounce": "たん〜",
-      "meaning": "[接頭] 短……，短促",
-      "usage_example": "△短距離/短距离 △短時間/短时间"
-    },
-    {
-      "id": 1747,
-      "vocabulary": "段",
-      "pronounce": "だん",
-      "meaning": "① [名] 阶梯，台阶；段落，阶段；等级；情况，场合",
-      "usage_example": "△一番上の段/最上面的台阶 △文章をいくつかの段に分ける。/将文章分成若干段落。 △上の段に進む。/上升一个等级。 △いざという段になると/一到紧要关头"
-    },
-    {
-      "id": 1748,
-      "vocabulary": "〜団",
-      "pronounce": "〜だん",
-      "meaning": "[接尾] ……伙伴，同事，组，群",
-      "usage_example": "△青年団/青年团体 △暴力団/暴力团伙"
-    },
-    {
-      "id": 1749,
-      "vocabulary": "〜談",
-      "pronounce": "〜だん",
-      "meaning": "[接尾] ……之谈，说话，谈话，讲话，故事",
-      "usage_example": "△経験談/经验之谈 △車中談/车中谈话，非正式谈话"
-    },
-    {
-      "id": 1750,
-      "vocabulary": "単一",
-      "pronounce": "たんいつ",
-      "meaning": "⓪ [名・ナ形] 单一，单独；只有唯一的一种，没有掺杂其他的，纯净的，纯粹的",
-      "usage_example": "△単一民族/单一民族 △単一物質/单一物质"
-    },
-    {
-      "id": 1751,
-      "vocabulary": "炭鉱",
-      "pronounce": "たんこう",
-      "meaning": "⓪ [名] 煤矿，采煤的地方，供开采的矿山",
-      "usage_example": "△炭鉱事故/煤矿事故，矿难灾害"
-    },
-    {
-      "id": 1752,
-      "vocabulary": "炭酸ガス",
-      "pronounce": "たんさんガス",
-      "meaning": "⑤ [名] 碳酸气，二氧化碳",
-      "usage_example": "関 ・炭酸(たんさん) ⓪ [名] 碳酸，由二氧化碳和水化合而成，只存在于水溶液中 ・炭酸飲料(たんさんいんりょう) ⑤ [名] 碳酸饮料"
-    },
-    {
-      "id": 1753,
-      "vocabulary": "短縮",
-      "pronounce": "たんしゅく",
-      "meaning": "⓪ [名・他動3] 缩短，缩减",
-      "usage_example": "△労働時間を短縮する。/缩短劳动时间。 対 延長(えんちょう) ⓪ [名・他動3] 延长，使……变长，伸长"
-    },
-    {
-      "id": 1754,
-      "vocabulary": "単純",
-      "pronounce": "たんじゅん",
-      "meaning": "⓪ [名・ナ形] 单纯，单一；简单的；无限制；天真，片面",
-      "usage_example": "△単純な色彩/纯净的色彩 △単純なやり方/简单方式，简单的做法 △単純承認/无条件承认 △単純な考え/天真的想法"
-    },
-    {
-      "id": 1755,
-      "vocabulary": "単純化",
-      "pronounce": "たんじゅんか",
-      "meaning": "⓪ [名・他動3] 单纯化，简单化",
-      "usage_example": "△操作を単純化する。/将操作简单化。"
-    },
-    {
-      "id": 1756,
-      "vocabulary": "誕生",
-      "pronounce": "たんじょう",
-      "meaning": "⓪ [名・自動3] 诞生，出生；(新事物)开始，成立",
-      "usage_example": "△誕生日/生日 △新しい内閣が誕生する。/新内阁诞生。"
-    },
-    {
-      "id": 1757,
-      "vocabulary": "単身赴任",
-      "pronounce": "たんしんふにん",
-      "meaning": "⑤ [名] 单身赴任，指将家属留在家中，只身赴任",
-      "usage_example": "△単身赴任のため、家族と別れて暮らす。/因单身赴任而和家人分开生活。"
-    },
-    {
-      "id": 1758,
-      "vocabulary": "たんす",
-      "pronounce": "たんす",
-      "meaning": "⓪ [名] 衣柜，衣橱，橱柜，用于保存衣物等家具的总称",
-      "usage_example": "△洗濯物をたんすにしまう。/将洗好的衣服收进衣橱。 △たんす預金/放在自己橱柜里面的现金，压箱底钱"
-    },
-    {
-      "id": 1759,
-      "vocabulary": "淡水",
-      "pronounce": "たんすい",
-      "meaning": "⓪ [名] 淡水，不含盐分的水",
-      "usage_example": "△淡水魚/淡水鱼 対 鹹水(かんすい) ⓪ [名] 盐水，咸水，含大量盐分的水"
-    },
-    {
-      "id": 1760,
-      "vocabulary": "単数",
-      "pronounce": "たんすう",
-      "meaning": "③ [名] 单数，数量单一，语法中表示单一的词形",
-      "usage_example": "対 複数(ふくすう) ③ [名] 复数，有两个以上，语法中表示物体的数量在两个以上的词形"
-    },
-    {
-      "id": 1761,
-      "vocabulary": "単調",
-      "pronounce": "たんちょう",
-      "meaning": "⓪ [名・ナ形] 单调，单一",
-      "usage_example": "△単調な生活が続く。/持续单调的生活。 △単調なリズム/单一的曲调"
-    },
-    {
-      "id": 1762,
-      "vocabulary": "暖冬",
-      "pronounce": "だんとう",
-      "meaning": "⓪ [名] 暖冬，平均气温比常年高的冬天",
-      "usage_example": "対 冷夏(れいか) ① [名] 冷夏，夏季异常低温的气候"
-    },
-    {
-      "id": 1763,
-      "vocabulary": "だんな",
-      "pronounce": "だんな",
-      "meaning": "⓪ [名] 先生，对男主人的称呼；丈夫，主人",
-      "usage_example": "関 主人(しゅじん) ① [名] 主人，一家之主；先生，丈夫；雇主，东道主"
-    },
-    {
-      "id": 1764,
-      "vocabulary": "単なる",
-      "pronounce": "たんなる",
-      "meaning": "① [連体] 仅仅，只是",
-      "usage_example": "△単なる友だち/只是朋友而已 △単なるうわさに過ぎない。/只不过是流言飞语。"
-    },
-    {
-      "id": 1765,
-      "vocabulary": "単に",
-      "pronounce": "たんに",
-      "meaning": "① [副] 仅仅，只，单",
-      "usage_example": "△以上は単に事実を述べただけだ。/以上只不过是陈述了事实。 △単に君だけの問題ではない。/不单单是你的问题。"
-    },
-    {
-      "id": 1766,
-      "vocabulary": "短編",
-      "pronounce": "たんぺん",
-      "meaning": "⓪ [名] 短篇",
-      "usage_example": "△短編小説/短篇小说 対 長編(ちょうへん) ⓪ [名] 长篇"
-    },
-    {
-      "id": 1767,
-      "vocabulary": "段ボール",
-      "pronounce": "だんボール",
-      "meaning": "③ [名] 瓦楞纸，硬板纸，一般用来制作纸板箱或用作包装",
-      "usage_example": "△段ボールの箱/瓦楞纸箱"
-    },
-    {
-      "id": 1768,
-      "vocabulary": "男優",
-      "pronounce": "だんゆう",
-      "meaning": "⓪ [名] 男演员",
-      "usage_example": "類 アクター(actor) ① [名] 演员，特别是男演员 対 女優(じょゆう) ⓪ [名] 女演员"
-    },
-    {
-      "id": 1769,
-      "vocabulary": "弾力",
-      "pronounce": "だんりょく",
-      "meaning": "⓪① [名] 弹力，弹性",
-      "usage_example": "△弾力性に富む。/富有弹性。 △弾力的に考える。/灵活地思考。"
-    },
-    {
-      "id": 1770,
-      "vocabulary": "地",
-      "pronounce": "ち",
-      "meaning": "① [名] 土地，地面；场所，地点；立场，地位",
-      "usage_example": "△地の果て/天涯海角 △安住の地/安居地 慣用 地に堕ちる。/坠落于地；权势衰落，丧失名声。"
-    },
-    {
-      "id": 1771,
-      "vocabulary": "地位",
-      "pronounce": "ちい",
-      "meaning": "① [名] 位置，场所；地位，身份",
-      "usage_example": "△重要な地位を占める。/占据重要地位。 △社会的地位/社会地位"
-    },
-    {
-      "id": 1772,
-      "vocabulary": "知恵",
-      "pronounce": "ちえ",
-      "meaning": "② [名] 智慧，聪明才智，睿智",
-      "usage_example": "△知恵を集めて対策を講じる。/集中智慧研究对策。 慣用 ・知恵が回る。/头脑灵活，足智多谋。 ・知恵の持ち腐れ/虽有智慧却不应用；怀才不遇 ・知恵を絞る。/绞尽脑汁，想尽办法。"
-    },
-    {
-      "id": 1773,
-      "vocabulary": "チェンジ",
-      "pronounce": "チェンジ",
-      "meaning": "(change) ① [名・自他動3] 变化，改变，兑换；(球类比赛中)拱手互换，交换场地",
-      "usage_example": "△イメージをチェンジする。/改变形象。 △チェンジコート/交换场地"
-    },
-    {
-      "id": 1774,
-      "vocabulary": "地下",
-      "pronounce": "ちか",
-      "meaning": "①② [名] 地下，地面之下；阴间，冥土；(进行地下政治活动、社会运动或一些非法活动的)隐蔽的场所",
-      "usage_example": "△地下室/地下室 △地下に眠る。/长眠于地下。 慣用 地下に潜る。/潜入地下，转为地下的秘密活动。 対 地上(ちじょう) ⓪ [名] 地面，地面之上；人世，人间 同音 地価(ちか) ①② [名] 地价，买卖土地的价格"
-    },
-    {
-      "id": 1775,
-      "vocabulary": "誓う",
-      "pronounce": "ちかう",
-      "meaning": "② [自動1] 发誓，起誓，宣誓",
-      "usage_example": "△心に誓う。/心里发誓，誓愿。 △将来を誓う。/对未来起誓。 関 誓い(ちかい) ⓪ [名] 誓言，盟誓；(对神灵、佛祖等)发誓，许愿；许诺，应承"
-    },
-    {
-      "id": 1776,
-      "vocabulary": "違える",
-      "pronounce": "ちがえる",
-      "meaning": "⓪ [他動2] 使……不一样；弄错，搞错；使关节错位、脱臼；使……交错、交叉",
-      "usage_example": "△設計を違える。/设计得不一样。 △道を違える。/搞错路。 △足の筋を違える。/扭伤了脚。 関 違える(たがえる) ③ [他動2] 使……不一样，不一致；违背，与……相悖；弄错，搞错"
-    },
-    {
-      "id": 1777,
-      "vocabulary": "〜違える",
-      "pronounce": "〜ちがえる",
-      "meaning": "[接尾] 弄错，搞错，……错了",
-      "usage_example": "△聞き違える/听错 △乗り違える/乘错车"
-    },
-    {
-      "id": 1778,
-      "vocabulary": "地下街",
-      "pronounce": "ちかがい",
-      "meaning": "② [名] 地下商店街，建造在城市中心区地下的商业街铺",
-      "usage_example": "△地下街に寄って帰る。/逛一下地下商店街后再回家。"
-    },
-    {
-      "id": 1779,
-      "vocabulary": "地下水",
-      "pronounce": "ちかすい",
-      "meaning": "② [名] 地下水",
-      "usage_example": "対 地表水(ちひょうすい) ② [名] 地表水，储存于陆地表面的水源，通常指河川、湖泊等的水"
-    },
-    {
-      "id": 1780,
-      "vocabulary": "近道",
-      "pronounce": "ちかみち",
-      "meaning": "② [名] 近道，距离比较短的路；捷径，迅速达成目的的方法",
-      "usage_example": "△学校への近道/到学校比较近的路 △勉強に近道無し。/学习没有捷径可循。 対 遠道(とおみち) ⓪ [名] 远路，距离比较长的路；绕道，绕远 関 早道(はやみち) ② [名] 近路，近道；捷径，不费事的方法"
-    },
-    {
-      "id": 1781,
-      "vocabulary": "力づく",
-      "pronounce": "ちからづく",
-      "meaning": "④ [自動1] 恢复体力；起劲，来劲",
-      "usage_example": "△先生の励ましの言葉に力づく。/老师鼓励的话语使我充满了干劲。"
-    },
-    {
-      "id": 1782,
-      "vocabulary": "力づける",
-      "pronounce": "ちからづける",
-      "meaning": "⑤ [他動2] 使……充满力量；鼓励，鼓劲儿，激励",
-      "usage_example": "△ファンの声援に力づけられた。/为粉丝们的声援所鼓舞。"
-    },
-    {
-      "id": 1783,
-      "vocabulary": "力持ち",
-      "pronounce": "ちからもち",
-      "meaning": "③ [名] 身强力壮，有力气的人，大力士",
-      "usage_example": "△クラスで一番の力持ち/班里力气最大的人"
-    },
-    {
-      "id": 1784,
-      "vocabulary": "ちぎる",
-      "pronounce": "ちぎる",
-      "meaning": "② [他動1] 撕碎，撕烂；掐掉，拧掉；(接在动词连用形后)很……，非常……",
-      "usage_example": "△紙をちぎる。/把纸撕碎。 △ボタンをちぎる。/拧掉扣子。 △褒めちぎる。/极力表扬。"
-    },
-    {
-      "id": 1785,
-      "vocabulary": "地区",
-      "pronounce": "ちく",
-      "meaning": "①② [名] 地区，地域",
-      "usage_example": "△風致地区/风景区 △各地区を回って講演する。/到各地区进行(巡回)演讲。"
-    },
-    {
-      "id": 1786,
-      "vocabulary": "知事",
-      "pronounce": "ちじ",
-      "meaning": "① [名] 知事，(日本)统辖和代表都、道、府、县的长官，经选民直接投票进行公选，任期为四年",
-      "usage_example": "△知事に当選する。/当选为知事。"
-    },
-    {
-      "id": 1787,
-      "vocabulary": "地質",
-      "pronounce": "ちしつ",
-      "meaning": "⓪ [名] 地质，地表附近的岩石和地层的性质、种类、构造等的总称",
-      "usage_example": "△地質学/地质学 △地質調査/地质调查，为查清某地区的地质状况而进行的调查"
-    },
-    {
-      "id": 1788,
-      "vocabulary": "地上",
-      "pronounce": "ちじょう",
-      "meaning": "⓪ [名] 地上，地面之上；人世，人间",
-      "usage_example": "△地上三十階のビル/地面以上三十层的建筑 △地上の楽園/人间乐园"
-    },
-    {
-      "id": 1789,
-      "vocabulary": "知人",
-      "pronounce": "ちじん",
-      "meaning": "⓪ [名] 相识，熟人",
-      "usage_example": "△知人に勧められて挑戦する。/听熟人劝说(决定)挑战。 △知人に頼まれる。/受熟人所托。 関 知り合い(しりあい) ⓪ [名] 熟人，相识"
-    },
-    {
-      "id": 1790,
-      "vocabulary": "地帯",
-      "pronounce": "ちたい",
-      "meaning": "⓪ [名] 地带，处于某种范围的特定地域",
-      "usage_example": "△乾燥地帯/干燥地带 △安全地帯/安全地带"
-    },
-    {
-      "id": 1791,
-      "vocabulary": "乳",
-      "pronounce": "ちち",
-      "meaning": "①② [名] 乳汁，奶汁；乳房；汁液，乳液",
-      "usage_example": "△乳を吸う。/吮吸乳汁。"
-    },
-    {
-      "id": 1792,
-      "vocabulary": "縮まる",
-      "pronounce": "ちぢまる",
-      "meaning": "⓪ [自動1] 缩短，缩小，收缩；畏缩，胆怯",
-      "usage_example": "△差が縮まる。/差距缩小。 △寿命が縮まる。/寿命缩短。 △身の縮まる思い/感到惶恐 関 縮める(ちぢめる) ⓪ [他動2] 缩短，缩小，收缩"
-    },
-    {
-      "id": 1793,
-      "vocabulary": "秩序",
-      "pronounce": "ちつじょ",
-      "meaning": "①② [名] 秩序，正确的顺序，条理",
-      "usage_example": "△社会秩序を乱す。/扰乱(正常的)社会秩序。 △秩序立ててものを考える。/有条理地思考问题。"
-    },
-    {
-      "id": 1794,
-      "vocabulary": "地点",
-      "pronounce": "ちてん",
-      "meaning": "①⓪② [名] 地点，一定的位置、场所",
-      "usage_example": "△観察地点/观测地点 △折り返し地点/折返地"
-    },
-    {
-      "id": 1795,
-      "vocabulary": "知能／智能",
-      "pronounce": "ちのう",
-      "meaning": "① [名] 智能，智力，智慧",
-      "usage_example": "△知能検査/智力测验 △知能程度の高い子/智力发达的孩子"
-    },
-    {
-      "id": 1796,
-      "vocabulary": "地平線",
-      "pronounce": "ちへいせん",
-      "meaning": "⓪ [名] 地平线，天地交界的线",
-      "usage_example": "△太陽が地平線に沈む。/太阳下沉。"
-    },
-    {
-      "id": 1797,
-      "vocabulary": "茶",
-      "pronounce": "ちゃ",
-      "meaning": "⓪ [名] 茶，茶树，茶叶；开玩笑，嘲弄；茶色，茶褐色",
-      "usage_example": "△茶を摘む。/采茶。 △茶を入れる。/泡茶。 △茶色/茶色 慣用 ・お茶を濁す。/蒙混，打岔。 ・へそで茶をわかす。/笑破肚皮，可笑至极。"
-    },
-    {
-      "id": 1798,
-      "vocabulary": "〜着",
-      "pronounce": "〜ちゃく",
-      "meaning": "[接尾] 到达……",
-      "usage_example": "△夜八時着の飛行機/晚上八点抵达的飞机 △東京着/到达东京"
-    },
-    {
-      "id": 1799,
-      "vocabulary": "〜着",
-      "pronounce": "〜ちゃく",
-      "meaning": "[接尾] (用作计算衣服的量词) ……套、件；",
-      "usage_example": "△スーツ一着/一套西装 △新しい洋服を三着買った。/买了三套新衣服。"
-    },
-    {
-      "id": 1800,
-      "vocabulary": "着々",
-      "pronounce": "ちゃくちゃく",
-      "meaning": "⓪ [副] (事情)顺利进展，稳扎稳打(地)",
-      "usage_example": "△仕事が着々と進んでいる。/工作顺利开展。 △腕が着々と上がっていく。/能力不断提高。"
+      "term": "大小(だいしょう)①",
+      "part_of_speech": "名",
+      "definition": "大小，大与小",
+      "context_sentence": "大小を問わない。/不论大小。"
     }
   ]
 }

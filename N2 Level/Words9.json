@@ -1,0 +1,1210 @@
+{
+  "vocabulary_list": [
+    {
+      "term": "前もって (まえもって) ③",
+      "part_of_speech": "[副]",
+      "definition": "事先，预先",
+      "context_sentence": "前もって連絡を取る。"
+    },
+    {
+      "term": "負かす (まかす) ⓪②",
+      "part_of_speech": "[他動1]",
+      "definition": "打败……，战胜",
+      "context_sentence": "一点の差で相手を負かす。"
+    },
+    {
+      "term": "薪 (まき) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "木柴，柴火",
+      "context_sentence": "薪を割る。"
+    },
+    {
+      "term": "幕 (まく) ②",
+      "part_of_speech": "[名]",
+      "definition": "帐幕，帷幔；场面，时候",
+      "context_sentence": "幕が開く。"
+    },
+    {
+      "term": "負け (まけ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "输，败北；降价，打折扣，附赠(的东西)",
+      "context_sentence": "今回は君の負けだ。"
+    },
+    {
+      "term": "負け組 (まけぐみ) ⓪②",
+      "part_of_speech": "[名]",
+      "definition": "(在某一领域或事业中)未成功的团队，败者的一方",
+      "context_sentence": "これからも負け組のままでいいのか。"
+    },
+    {
+      "term": "まごつく ⓪③",
+      "part_of_speech": "[自動1]",
+      "definition": "徘徊，彷徨；张皇失措",
+      "context_sentence": "駅の出口でまごつく。"
+    },
+    {
+      "term": "まごまご ①",
+      "part_of_speech": "[副・自動3]",
+      "definition": "张皇失措，手忙脚乱",
+      "context_sentence": "行くところが分からずまごまごする。"
+    },
+    {
+      "term": "まこと ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "真的，事实；真心诚意；实在，诚然，的确",
+      "context_sentence": "まことの話"
+    },
+    {
+      "term": "まことに ⓪",
+      "part_of_speech": "[副]",
+      "definition": "真，诚然，实在",
+      "context_sentence": "まことにありがとうございます。"
+    },
+    {
+      "term": "まさつ (摩擦) ⓪",
+      "part_of_speech": "[名・自他動3]",
+      "definition": "摩擦；意见分歧，闹矛盾",
+      "context_sentence": "手足を摩擦する。"
+    },
+    {
+      "term": "まさに ①",
+      "part_of_speech": "[副]",
+      "definition": "的确，确实；正好，恰好",
+      "context_sentence": "まさに運命のいたずらだ。"
+    },
+    {
+      "term": "混ざる / 交ざる (まざる) ②",
+      "part_of_speech": "[自動1]",
+      "definition": "= 混じる / 交じる (まじる) ② [自動1] 混杂，夹杂",
+      "context_sentence": "白髪が混ざる。"
+    },
+    {
+      "term": "まして ①",
+      "part_of_speech": "[副]",
+      "definition": "何况，况且",
+      "context_sentence": "先生でも解けないのに、まして僕にできるものか。"
+    },
+    {
+      "term": "増す (ます) ⓪",
+      "part_of_speech": "[名・自他動1]",
+      "definition": "(自)增加，增多，增大；(他)增加，提高",
+      "context_sentence": "水が増す。"
+    },
+    {
+      "term": "マスク (mask) ①",
+      "part_of_speech": "[名]",
+      "definition": "面具，假面；口罩，(防毒)面具，面罩",
+      "context_sentence": "マスクをする。"
+    },
+    {
+      "term": "マスコミ (mass-communication) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "大众传媒",
+      "context_sentence": "マスコミを通じて伝達する。"
+    },
+    {
+      "term": "マスター (master) ①",
+      "part_of_speech": "[名・他動3]",
+      "definition": "雇主，老板；硕士，学位之一；精通，掌握",
+      "context_sentence": "マスターコース"
+    },
+    {
+      "term": "マスメディア (mass-media) ③",
+      "part_of_speech": "[名]",
+      "definition": "大众媒体，宣传媒介",
+      "context_sentence": "マスメディアの影響力"
+    },
+    {
+      "term": "混ぜる / 交ぜる (まぜる) ②",
+      "part_of_speech": "[他動2]",
+      "definition": "混入，掺杂",
+      "context_sentence": "米に麦を混ぜる。"
+    },
+    {
+      "term": "跨ぐ (またぐ) ②",
+      "part_of_speech": "[他動1]",
+      "definition": "跨过，双腿叉开站立",
+      "context_sentence": "溝を跨ぐ。"
+    },
+    {
+      "term": "待ち合わせ (まちあわせ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "(在事先约定的场所)等待，会面",
+      "context_sentence": "駅で待ち合わせをする。"
+    },
+    {
+      "term": "間近 (まぢか) ①⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "眼前，跟前；临近，接近，眼看就要……",
+      "context_sentence": "間近に迫る。"
+    },
+    {
+      "term": "街角 (まちかど) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "街角，街口，街头",
+      "context_sentence": "街角を曲がる。"
+    },
+    {
+      "term": "町並み (まちなみ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "街景，临街建筑",
+      "context_sentence": "昔の町並み"
+    },
+    {
+      "term": "待ち望む (まちのぞむ) ④",
+      "part_of_speech": "[自動1]",
+      "definition": "盼望，殷切希望",
+      "context_sentence": "平和を待ち望む。"
+    },
+    {
+      "term": "マッサージ (massage) ③",
+      "part_of_speech": "[名・他動3]",
+      "definition": "按摩，推拿(以去除疲劳)",
+      "context_sentence": "マッサージ師"
+    },
+    {
+      "term": "まとも ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "认真，正经；正面，迎面",
+      "context_sentence": "まともに勉強する。"
+    },
+    {
+      "term": "マナー (manner) ①",
+      "part_of_speech": "[名]",
+      "definition": "态度，举止；礼节，礼貌；方法，规矩",
+      "context_sentence": "ビジネスマナー"
+    },
+    {
+      "term": "マニュアル (manual) ⓪①",
+      "part_of_speech": "[名]",
+      "definition": "手册，指南，使用说明书",
+      "context_sentence": "作業のマニュアル"
+    },
+    {
+      "term": "招き (まねき) ③",
+      "part_of_speech": "[名]",
+      "definition": "邀请，招待；招牌",
+      "context_sentence": "お招きに預かる。"
+    },
+    {
+      "term": "まぶた ①",
+      "part_of_speech": "[名]",
+      "definition": "眼睑，眼皮",
+      "context_sentence": "まぶたが重くなる。"
+    },
+    {
+      "term": "豆 (まめ) ②",
+      "part_of_speech": "[名]",
+      "definition": "豆子，豆科植物，豆类的统称；[接頭] (后接名词)小型，袖珍",
+      "context_sentence": "豆を植える。"
+    },
+    {
+      "term": "まめに ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "认真，诚实，表里如一；勤恳，勤奋；健康，健壮",
+      "context_sentence": "まめに働く。"
+    },
+    {
+      "term": "眉 (まゆ) ①",
+      "part_of_speech": "[名]",
+      "definition": "眉毛，眉黛",
+      "context_sentence": "眉を引く。"
+    },
+    {
+      "term": "まるごと ⓪",
+      "part_of_speech": "[副]",
+      "definition": "完整，全部，整个儿地",
+      "context_sentence": "まるごと飲み込む。"
+    },
+    {
+      "term": "まるまる ①③",
+      "part_of_speech": "[副]",
+      "definition": "双重圈；某某……，空字，隐字的符号；胖墩墩，圆乎乎；全部，整个，完全",
+      "context_sentence": "まるまると太った赤ん坊"
+    },
+    {
+      "term": "稀 (まれ) ⓪②",
+      "part_of_speech": "[ナ形]",
+      "definition": "稀罕，稀奇",
+      "context_sentence": "稀な品種"
+    },
+    {
+      "term": "回り道 (まわりみち) ⓪",
+      "part_of_speech": "[名・自動3]",
+      "definition": "绕道，绕远",
+      "context_sentence": "回り道して帰る。"
+    },
+    {
+      "term": "〜回る (〜まわる)",
+      "part_of_speech": "[接尾]",
+      "definition": "(接在动词连用形后)到处……，在……周围做",
+      "context_sentence": "探し回る"
+    },
+    {
+      "term": "万一 (まんいち) ①",
+      "part_of_speech": "[名・副]",
+      "definition": "= 万が一 (まんがいち) ① [名・副] 万分之一，表示极其不可能的事情；万一，假如，倘若",
+      "context_sentence": "万一に備える。"
+    },
+    {
+      "term": "饅頭 (まんじゅう) ③",
+      "part_of_speech": "[名]",
+      "definition": "包子，点心",
+      "context_sentence": "肉饅頭"
+    },
+    {
+      "term": "真ん前 (まんまえ) ③",
+      "part_of_speech": "[名]",
+      "definition": "眼前，就在眼前，正前方",
+      "context_sentence": "団地の真ん前にコンビニがある。"
+    },
+    {
+      "term": "身 (み) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "身体，身子；身份，地位，立场",
+      "context_sentence": "身にまとう。"
+    },
+    {
+      "term": "実 (み) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "果实，成果；种子；内容",
+      "context_sentence": "実をつける。"
+    },
+    {
+      "term": "未〜 (み〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "未，没，尚未……",
+      "context_sentence": "未完成"
+    },
+    {
+      "term": "見合い (みあい) ⓪",
+      "part_of_speech": "[名・自動3]",
+      "definition": "对视，互相看对方；相亲；相抵，协调，平衡",
+      "context_sentence": "見合い結婚"
+    },
+    {
+      "term": "ミーティング (meeting) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "会议，集会",
+      "context_sentence": "ミーティングルーム"
+    },
+    {
+      "term": "見落とす (みおとす) ⓪③",
+      "part_of_speech": "[他動2]",
+      "definition": "看漏，忽略",
+      "context_sentence": "数字を見落とす。"
+    },
+    {
+      "term": "見覚え (みおぼえ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "眼熟，仿佛见过",
+      "context_sentence": "見覚えのある人"
+    },
+    {
+      "term": "見下ろす (みおろす) ⓪③",
+      "part_of_speech": "[他動1]",
+      "definition": "往下看，俯视；蔑视，轻视，小瞧",
+      "context_sentence": "山頂から見下ろす。"
+    },
+    {
+      "term": "味方 (みかた) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "我方，同伙，伙伴",
+      "context_sentence": "味方を裏切る。"
+    },
+    {
+      "term": "三日月 (みかづき) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "新月，月牙，阴历每月三日出现的月亮",
+      "context_sentence": "三日月眉"
+    },
+    {
+      "term": "岬 (みさき) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "海角，岬",
+      "context_sentence": "岬の灯台"
+    },
+    {
+      "term": "ミシン (sewing-machineから) ①",
+      "part_of_speech": "[名]",
+      "definition": "缝纫机，齿孔",
+      "context_sentence": "ミシンをかける。"
+    },
+    {
+      "term": "水色 (みずいろ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "淡蓝色，水蓝色",
+      "context_sentence": "水色の模様"
+    },
+    {
+      "term": "自ら (みずから) ①",
+      "part_of_speech": "[名・副]",
+      "definition": "自己，自我；亲自，亲身",
+      "context_sentence": "自らを反省する。"
+    },
+    {
+      "term": "水っぽい (みずっぽい) ④⓪",
+      "part_of_speech": "[イ形]",
+      "definition": "水分多而味淡的，淡而无味的",
+      "context_sentence": "水っぽい酒"
+    },
+    {
+      "term": "見捨てる (みすてる) ⓪③",
+      "part_of_speech": "[他動2]",
+      "definition": "抛弃，遗弃；视而不见，弃之不顾",
+      "context_sentence": "医者に見捨てられる。"
+    },
+    {
+      "term": "店屋 (みせや) ②",
+      "part_of_speech": "[名]",
+      "definition": "商店，店铺",
+      "context_sentence": "駅前の店屋に寄って帰る。"
+    },
+    {
+      "term": "見出し (みだし) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "标题，题目；目录，索引",
+      "context_sentence": "新聞の見出し"
+    },
+    {
+      "term": "満たす (みたす) ②",
+      "part_of_speech": "[他動1]",
+      "definition": "充满，填满；满足",
+      "context_sentence": "腹を満たす。"
+    },
+    {
+      "term": "みだりに ①",
+      "part_of_speech": "[副]",
+      "definition": "随意，任意；轻率，鲁莽",
+      "context_sentence": "みだりに口出しするものではない。"
+    },
+    {
+      "term": "乱れる (みだれる) ③",
+      "part_of_speech": "[自動2]",
+      "definition": "紊乱，杂乱；骚乱，不安定；乱，困惑",
+      "context_sentence": "秩序が乱れる。"
+    },
+    {
+      "term": "身近 (みぢか) ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "身边，近边",
+      "context_sentence": "身近な話題"
+    },
+    {
+      "term": "見違える (みちがえる) ⓪④③",
+      "part_of_speech": "[他動2]",
+      "definition": "看错，看差",
+      "context_sentence": "見違えるほど変わった。"
+    },
+    {
+      "term": "道順 (みちじゅん) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "路线，到达目的地的道路顺序",
+      "context_sentence": "駅へ行く道順"
+    },
+    {
+      "term": "道端 (みちばた) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "路边，路旁",
+      "context_sentence": "道端で遊ぶ。"
+    },
+    {
+      "term": "満ちる (みちる) ②",
+      "part_of_speech": "[自動2]",
+      "definition": "充满，遍及；满(月)，满(潮)；达到期限，任满",
+      "context_sentence": "希望に満ちている。"
+    },
+    {
+      "term": "蜜 (みつ) ①",
+      "part_of_speech": "[名]",
+      "definition": "蜂蜜；蜜糖，糖浆，指与蜜一样甜的东西",
+      "context_sentence": "花の蜜を吸う。"
+    },
+    {
+      "term": "蜜蜂 (みつばち) ②",
+      "part_of_speech": "[名]",
+      "definition": "蜜蜂",
+      "context_sentence": "null"
+    },
+    {
+      "term": "見積もり (みつもり) ⓪",
+      "part_of_speech": "[名・他動3]",
+      "definition": "估算，估价，估价单",
+      "context_sentence": "見積もりをとる。"
+    },
+    {
+      "term": "見積書 (みつもりしょ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "估价单",
+      "context_sentence": "見積書によって判断する。"
+    },
+    {
+      "term": "見積もる (みつもる) ⓪③",
+      "part_of_speech": "[他動1]",
+      "definition": "粗略估计，概算",
+      "context_sentence": "経費を見積もる。"
+    },
+    {
+      "term": "見慣れる (みなれる) ⓪③",
+      "part_of_speech": "[自動2]",
+      "definition": "看惯，司空见惯",
+      "context_sentence": "見慣れた風景"
+    },
+    {
+      "term": "ミニ〜 (mini〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "迷你……，小型，微型",
+      "context_sentence": "ミニスカート"
+    },
+    {
+      "term": "見抜く (みぬく) ②⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "看穿，看透",
+      "context_sentence": "うそを見抜く。"
+    },
+    {
+      "term": "峰 (みね) ②",
+      "part_of_speech": "[名]",
+      "definition": "山顶，山峰，云岭；刀背",
+      "context_sentence": "雲の峰"
+    },
+    {
+      "term": "ミネラルウォーター (mineral-water) ⑤",
+      "part_of_speech": "[名]",
+      "definition": "矿泉水",
+      "context_sentence": "null"
+    },
+    {
+      "term": "身の回り (みのまわり) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "近旁，自己的身边；身上穿戴的衣物，随身携带的物品",
+      "context_sentence": "身の回りを整理する。"
+    },
+    {
+      "term": "身ぶり (みぶり) ①",
+      "part_of_speech": "[名]",
+      "definition": "姿势，身体动作",
+      "context_sentence": "身ぶり手ぶり"
+    },
+    {
+      "term": "見守る (みまもる) ⓪③",
+      "part_of_speech": "[他動1]",
+      "definition": "凝视，注视；关怀，关注",
+      "context_sentence": "スクリーンを見守る。"
+    },
+    {
+      "term": "見回す (みまわす) ⓪③",
+      "part_of_speech": "[他動1]",
+      "definition": "环视，环顾，张望四周",
+      "context_sentence": "あたりを見回す。"
+    },
+    {
+      "term": "見回る (みまわる) ⓪③",
+      "part_of_speech": "[自動1]",
+      "definition": "巡逻，巡视，监视",
+      "context_sentence": "警備員がビルの中を見回る。"
+    },
+    {
+      "term": "〜未満 (〜みまん)",
+      "part_of_speech": "[接尾]",
+      "definition": "(多接在数词后)不满，不足，达不到……标准",
+      "context_sentence": "18歳未満はお断り。"
+    },
+    {
+      "term": "都 (みやこ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "京城，首都；都市，(大)城市；以某种东西为特色的地方",
+      "context_sentence": "花の都パリ"
+    },
+    {
+      "term": "妙 (みょう) ①",
+      "part_of_speech": "[ナ形]",
+      "definition": "美妙，不可思议；奇特，不同一般，奇怪",
+      "context_sentence": "夕べは妙な夢を見た。"
+    },
+    {
+      "term": "明後日 (みょうごにち) ③",
+      "part_of_speech": "[名]",
+      "definition": "后天，明天的次日",
+      "context_sentence": "null"
+    },
+    {
+      "term": "名字 (みょうじ) ①",
+      "part_of_speech": "[名]",
+      "definition": "姓，家庭的名称",
+      "context_sentence": "結婚して名字が変わった。"
+    },
+    {
+      "term": "明日 (みょうにち) ①",
+      "part_of_speech": "[名]",
+      "definition": "明日，明天",
+      "context_sentence": "明日またお伺いします。"
+    },
+    {
+      "term": "明年 (みょうねん) ⓪①",
+      "part_of_speech": "[名]",
+      "definition": "(郑重其事的说法)明年，来年",
+      "context_sentence": "null"
+    },
+    {
+      "term": "未来 (みらい) ①",
+      "part_of_speech": "[名]",
+      "definition": "未来，将来",
+      "context_sentence": "未来に希望を持つ。"
+    },
+    {
+      "term": "見分ける (みわける) ⓪③",
+      "part_of_speech": "[他動2]",
+      "definition": "识别，鉴别，辨别",
+      "context_sentence": "色で見分ける。"
+    },
+    {
+      "term": "見渡す (みわたす) ③⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "远望，展望",
+      "context_sentence": "周囲を見渡す。"
+    },
+    {
+      "term": "見渡す限り (みわたすかぎり) ⑤",
+      "part_of_speech": "[副]",
+      "definition": "一望无际",
+      "context_sentence": "見渡す限り砂漠が広がっている。"
+    },
+    {
+      "term": "民主〜 (みんしゅ〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "民主",
+      "context_sentence": "民主主義国家"
+    },
+    {
+      "term": "民謡 (みんよう) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "民谣，民俗音乐的一种",
+      "context_sentence": "ロシア民謡"
+    },
+    {
+      "term": "無 (む) ①",
+      "part_of_speech": "[名]",
+      "definition": "无，没有；[接頭] 没有……，不……",
+      "context_sentence": "そんな約束は無に等しい。"
+    },
+    {
+      "term": "無〜 (む〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "没有……，不……",
+      "context_sentence": "無免許"
+    },
+    {
+      "term": "無意識 (むいしき) ②",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "无意识，丧失意识；不自觉(地做……)",
+      "context_sentence": "無意識状態"
+    },
+    {
+      "term": "無意義 (むいぎ) ②",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "无意义，无聊",
+      "context_sentence": "無意義な行動"
+    },
+    {
+      "term": "無意味 (むいみ) ②",
+      "part_of_speech": "[ナ形]",
+      "definition": "无意义，无价值，白费",
+      "context_sentence": "無意味な計画"
+    },
+    {
+      "term": "無計画 (むけいかく) ②",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "无计划，没有明确计划",
+      "context_sentence": "無計画な土地開発"
+    },
+    {
+      "term": "向ける (むける) ⓪",
+      "part_of_speech": "[自他動2]",
+      "definition": "(他)向，对；派遣；挪用，用为……；(自)前往",
+      "context_sentence": "顔を右に向ける。"
+    },
+    {
+      "term": "無限 (むげん) ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "无限",
+      "context_sentence": "無限の宇宙"
+    },
+    {
+      "term": "無地 (むじ) ①",
+      "part_of_speech": "[名]",
+      "definition": "素色，没有花纹，清一色",
+      "context_sentence": "無地の着物"
+    },
+    {
+      "term": "虫歯 (むしば) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "虫牙，蛀牙，龋齿",
+      "context_sentence": "虫歯を予防する。"
+    },
+    {
+      "term": "無邪気 (むじゃき) ①",
+      "part_of_speech": "[ナ形]",
+      "definition": "天真烂漫，纯真；单纯，无恶意",
+      "context_sentence": "無邪気な子供"
+    },
+    {
+      "term": "矛盾 (むじゅん) ⓪",
+      "part_of_speech": "[名・自動3]",
+      "definition": "矛盾，两个事物之间相互否定而不能两立",
+      "context_sentence": "矛盾に満ちる。"
+    },
+    {
+      "term": "むしろ ①",
+      "part_of_speech": "[副]",
+      "definition": "宁可，与其……不如……",
+      "context_sentence": "恥をかくくらいなら、むしろ死んだほうがましだ。"
+    },
+    {
+      "term": "無神経 (むしんけい) ②",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "神经大条，感觉迟钝；满不在乎",
+      "context_sentence": "無神経な発言"
+    },
+    {
+      "term": "無数 (むすう) ②⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "无数，无法计量",
+      "context_sentence": "無数の星"
+    },
+    {
+      "term": "結び (むすび) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "结，打结；结合；终了，结束，结尾",
+      "context_sentence": "結びを解く。"
+    },
+    {
+      "term": "結び付く (むすびつく) ④",
+      "part_of_speech": "[自動1]",
+      "definition": "结合；有关系，有联系",
+      "context_sentence": "顔と名前がなかなか結びつかない。"
+    },
+    {
+      "term": "結び付ける (むすびつける) ⑤",
+      "part_of_speech": "[他動2]",
+      "definition": "结上，系上；结合，联结",
+      "context_sentence": "旗をさおに結び付ける。"
+    },
+    {
+      "term": "無責任 (むせきにん) ②",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "不负责任，没有责任",
+      "context_sentence": "無責任な発言"
+    },
+    {
+      "term": "無断 (むだん) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "未事先打招呼；擅自，私自",
+      "context_sentence": "無断欠勤"
+    },
+    {
+      "term": "鞭 (むち) ①",
+      "part_of_speech": "[名]",
+      "definition": "鞭子，皮鞭，教鞭；鞭策，激励",
+      "context_sentence": "null"
+    },
+    {
+      "term": "無用 (むよう) ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "没用，不起作用；不准，禁止；不用，无需",
+      "context_sentence": "無用の物"
+    },
+    {
+      "term": "紫 (むらさき) ②",
+      "part_of_speech": "[名]",
+      "definition": "紫草；紫色",
+      "context_sentence": "紫芋"
+    },
+    {
+      "term": "無理やり (むりやり) ⓪",
+      "part_of_speech": "[副]",
+      "definition": "勉强(做)，硬(做)，强迫",
+      "context_sentence": "仕事をむりやり押し付ける。"
+    },
+    {
+      "term": "群れ (むれ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "群体，伙，伙伴，同类的集聚",
+      "context_sentence": "牛の群れ"
+    },
+    {
+      "term": "芽 (め) ①",
+      "part_of_speech": "[名]",
+      "definition": "苗，芽；苗头，迹象",
+      "context_sentence": "null"
+    },
+    {
+      "term": "名〜 (めい〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "优秀的，著名的，享有声誉的",
+      "context_sentence": "名文句"
+    },
+    {
+      "term": "明確 (めいかく) ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "明确，清晰明白，确凿而没有疑问",
+      "context_sentence": "明確な答え"
+    },
+    {
+      "term": "名作 (めいさく) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "名作，优秀作品，有名的作品",
+      "context_sentence": "世界の名作"
+    },
+    {
+      "term": "名産 (めいさん) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "名产，当地有名的特产",
+      "context_sentence": "この地方の名産は桃だ。"
+    },
+    {
+      "term": "名刺 (めいし) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "名片",
+      "context_sentence": "名刺を交換する。"
+    },
+    {
+      "term": "名所旧跡 (めいしょきゅうせき) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "名胜古迹",
+      "context_sentence": "名所旧跡を見物する。"
+    },
+    {
+      "term": "迷信 (めいしん) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "迷信",
+      "context_sentence": "迷信を信じる。"
+    },
+    {
+      "term": "メーカー (maker) ①",
+      "part_of_speech": "[名]",
+      "definition": "制造商，厂商；制造者，引起事物开端的人",
+      "context_sentence": "一流メーカー"
+    },
+    {
+      "term": "メーター (meter) ⓪①",
+      "part_of_speech": "[名]",
+      "definition": "计量器，计量仪",
+      "context_sentence": "ガスのメーターの検針"
+    },
+    {
+      "term": "目方 (めかた) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "重量，物体的分量",
+      "context_sentence": "目方売り"
+    },
+    {
+      "term": "恵まれる (めぐまれる) ⓪",
+      "part_of_speech": "[自動2]",
+      "definition": "被赋予，受到恩赐；富有，充足",
+      "context_sentence": "チャンスに恵まれる。"
+    },
+    {
+      "term": "恵み (めぐみ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "恩赐，恩泽，施舍，恩惠",
+      "context_sentence": "自然の恵み"
+    },
+    {
+      "term": "巡り合う (めぐりあう) ④",
+      "part_of_speech": "[自動1]",
+      "definition": "碰上；意外相逢，邂逅",
+      "context_sentence": "良師に巡り合う。"
+    },
+    {
+      "term": "巡る (めぐる) ⓪",
+      "part_of_speech": "[自動1]",
+      "definition": "循环，环绕，旋转一周；绕行；巡游；围绕……",
+      "context_sentence": "季節が巡る。"
+    },
+    {
+      "term": "目先 (めさき) ③",
+      "part_of_speech": "[名]",
+      "definition": "眼前，目前，当前；不远的将来",
+      "context_sentence": "目先の利益を追う。"
+    },
+    {
+      "term": "目指す (めざす) ②",
+      "part_of_speech": "[他動1]",
+      "definition": "指向，朝向，以……为目标",
+      "context_sentence": "頂点を目指す。"
+    },
+    {
+      "term": "目覚まし (めざまし) ②",
+      "part_of_speech": "[名]",
+      "definition": "叫醒，使……醒来；小孩睡觉醒来时喂食的点心",
+      "context_sentence": "目覚まし時計"
+    },
+    {
+      "term": "目覚める (めざめる) ③",
+      "part_of_speech": "[自動2]",
+      "definition": "从睡梦中醒来，清醒；醒悟，觉悟，意识到……",
+      "context_sentence": "物音に目覚める。"
+    },
+    {
+      "term": "目印 (めじるし) ②",
+      "part_of_speech": "[名]",
+      "definition": "标记，记号",
+      "context_sentence": "目印をつける。"
+    },
+    {
+      "term": "雌 (めす) ②",
+      "part_of_speech": "[名]",
+      "definition": "雌，母",
+      "context_sentence": "雌の犬"
+    },
+    {
+      "term": "メダル (medal) ①",
+      "part_of_speech": "[名]",
+      "definition": "奖牌，纪念牌，金属纪念章",
+      "context_sentence": "金メダル"
+    },
+    {
+      "term": "めちゃめちゃ ⓪",
+      "part_of_speech": "[名・ナ形]",
+      "definition": "乱七八糟，一塌糊涂",
+      "context_sentence": "めちゃめちゃに壊れた。"
+    },
+    {
+      "term": "目付き (めつき) ①",
+      "part_of_speech": "[名]",
+      "definition": "眼神，目光",
+      "context_sentence": "目付きが怖い。"
+    },
+    {
+      "term": "めっきり ③",
+      "part_of_speech": "[副]",
+      "definition": "显著，明显",
+      "context_sentence": "めっきり寒くなる。"
+    },
+    {
+      "term": "めったに ①",
+      "part_of_speech": "[副]",
+      "definition": "(后接否定)很少，极少，几乎(不)……",
+      "context_sentence": "土日はめったに出かけない。"
+    },
+    {
+      "term": "目安 (めやす) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "大致的目标，标准",
+      "context_sentence": "目安を立てる。"
+    },
+    {
+      "term": "面 (めん) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "脸；表面，正面，外面；相见，会见；方向，方位；",
+      "context_sentence": "面と向かって話す。"
+    },
+    {
+      "term": "免税 (めんぜい) ⓪",
+      "part_of_speech": "[名・自他動3]",
+      "definition": "免税",
+      "context_sentence": "免税品"
+    },
+    {
+      "term": "面積 (めんせき) ①",
+      "part_of_speech": "[名]",
+      "definition": "面积，一定的面的大小",
+      "context_sentence": "面積グラフ"
+    },
+    {
+      "term": "もう ①",
+      "part_of_speech": "[感]",
+      "definition": "(用于失望、责备时或讨厌的情绪)真的是，实在是……",
+      "context_sentence": "あいつ、また遅れている、もう〜。"
+    },
+    {
+      "term": "猛〜 (もう〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "凶猛的，勇猛的，猛烈的",
+      "context_sentence": "猛運動"
+    },
+    {
+      "term": "申し出 (もうしで) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "提出，提议，要求",
+      "context_sentence": "結婚の申し出"
+    },
+    {
+      "term": "申し出る (もうしでる) ④⓪",
+      "part_of_speech": "[他動2]",
+      "definition": "提出，申请，申诉",
+      "context_sentence": "援助を申し出る。"
+    },
+    {
+      "term": "申し訳 (もうしわけ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "申辩，辩解；勉强，敷衍了事",
+      "context_sentence": "申し訳をする。"
+    },
+    {
+      "term": "詣でる (もうでる) ③",
+      "part_of_speech": "[自動2]",
+      "definition": "参拜(神社、寺院等)",
+      "context_sentence": "神社に詣でる。"
+    },
+    {
+      "term": "モーター (motor) ①",
+      "part_of_speech": "[名]",
+      "definition": "马达，发动机，电动机",
+      "context_sentence": "モーターカー"
+    },
+    {
+      "term": "目撃 (もくげき) ⓪",
+      "part_of_speech": "[名・他動3]",
+      "definition": "目击，亲眼看到",
+      "context_sentence": "目撃者"
+    },
+    {
+      "term": "木材 (もくざい) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "木材，用于建筑或加工等材料的木头",
+      "context_sentence": "木材パルプ"
+    },
+    {
+      "term": "目次 (もくじ) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "项目、条款的顺序；目录",
+      "context_sentence": "null"
+    },
+    {
+      "term": "黙認 (もくにん) ⓪",
+      "part_of_speech": "[名・他動3]",
+      "definition": "默认，默许，纵容",
+      "context_sentence": "二人の交際を黙認する。"
+    },
+    {
+      "term": "潜る (もぐる) ②",
+      "part_of_speech": "[自動1]",
+      "definition": "潜入，钻进；私自做，偷偷做",
+      "context_sentence": "海に潜る。"
+    },
+    {
+      "term": "模型 (もけい) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "模子，模型",
+      "context_sentence": "模型飛行機"
+    },
+    {
+      "term": "もしかしたら ①",
+      "part_of_speech": "[副]",
+      "definition": "或许，可能，说不定",
+      "context_sentence": "もしかしたら来ないかもしれない。"
+    },
+    {
+      "term": "もしかして ①",
+      "part_of_speech": "[副]",
+      "definition": "如果，也许",
+      "context_sentence": "もしかして事故にでも遭ったのか。"
+    },
+    {
+      "term": "もしかすると ①",
+      "part_of_speech": "[副]",
+      "definition": "或许，可能，说不定",
+      "context_sentence": "もしかすると続けられなくなるかもしれない。"
+    },
+    {
+      "term": "もたらす ③",
+      "part_of_speech": "[他動1]",
+      "definition": "带来，带去，波及",
+      "context_sentence": "台風がもたらした被害"
+    },
+    {
+      "term": "凭れる (もたれる) ③",
+      "part_of_speech": "[自動2]",
+      "definition": "倚靠，凭靠；(胃)积食，不消化",
+      "context_sentence": "壁に凭れる。"
+    },
+    {
+      "term": "モダン (modern) ①",
+      "part_of_speech": "[ナ形]",
+      "definition": "现代的，摩登的，流行的",
+      "context_sentence": "モダンなデザイン"
+    },
+    {
+      "term": "〜持ち (〜もち)",
+      "part_of_speech": "[接尾]",
+      "definition": "拿，携带；……负担；持有者，所有者",
+      "context_sentence": "太刀持ち"
+    },
+    {
+      "term": "持ち上げる (もちあげる) ⓪",
+      "part_of_speech": "[他動2]",
+      "definition": "举起，抬起，高高拿起；吹捧，奉承",
+      "context_sentence": "荷物を持ち上げる。"
+    },
+    {
+      "term": "用いる (もちいる) ③⓪",
+      "part_of_speech": "[他動2]",
+      "definition": "使用，用；采用，采纳；用心，留意",
+      "context_sentence": "道具を用いる。"
+    },
+    {
+      "term": "持ち込む (もちこむ) ⓪③",
+      "part_of_speech": "[他動1]",
+      "definition": "带进，携入；进入，达到；带来，提出",
+      "context_sentence": "車内に危険物を持ち込む。"
+    },
+    {
+      "term": "持ち出す (もちだす) ③⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "拿出，搬出去；花自己的钱，自掏腰包；提出，提起(诉讼)；开始持有",
+      "context_sentence": "家財を持ち出す。"
+    },
+    {
+      "term": "持ち主 (もちぬし) ②",
+      "part_of_speech": "[名]",
+      "definition": "持有者，所有人",
+      "context_sentence": "持ち主の分からないかばん"
+    },
+    {
+      "term": "もったいない ⑤",
+      "part_of_speech": "[イ形]",
+      "definition": "浪费，(让人觉得)可惜；过分好的，与身份不相符的；不胜惶恐的",
+      "context_sentence": "時間がもったいない。"
+    },
+    {
+      "term": "最も (もっとも) ③①",
+      "part_of_speech": "[副]",
+      "definition": "最，第一……，程度最高的",
+      "context_sentence": "世界で最も大きい海"
+    },
+    {
+      "term": "もっとも ①",
+      "part_of_speech": "[接]",
+      "definition": "话虽如此，不过……，可是……",
+      "context_sentence": "蛋白質は体にいい。もっとも、摂りすぎてはいけない。"
+    },
+    {
+      "term": "もて成す (もてなす) ③⓪",
+      "part_of_speech": "[他動1]",
+      "definition": "接待，对待；招待，请客",
+      "context_sentence": "丁重にもてなす。"
+    },
+    {
+      "term": "元 / 基 / 素 (もと) ⓪②",
+      "part_of_speech": "[名]",
+      "definition": "根源，起源；根基，根本；原料，材料",
+      "context_sentence": "元をただす。"
+    },
+    {
+      "term": "元〜 (もと〜)",
+      "part_of_speech": "[接頭]",
+      "definition": "原……，前……，表示以前的",
+      "context_sentence": "元首相"
+    },
+    {
+      "term": "〜元 (〜もと)",
+      "part_of_speech": "[接尾]",
+      "definition": "事物产生、起源的场所",
+      "context_sentence": "火の元"
+    },
+    {
+      "term": "基づく (もとづく) ③",
+      "part_of_speech": "[自動1]",
+      "definition": "根据，以……为依据，基于……；由于，起因于",
+      "context_sentence": "事実に基づいて書いた小説"
+    },
+    {
+      "term": "モニター (monitor) ①",
+      "part_of_speech": "[名・他動3]",
+      "definition": "评论员；监视器，监听器；监视，监控",
+      "context_sentence": "消費者モニター"
+    },
+    {
+      "term": "〜物 (〜もの)",
+      "part_of_speech": "[接尾]",
+      "definition": "表示属于该内容、性质的物品、状态；接在地名之后，表示是该地出产的产品",
+      "context_sentence": "夏物"
+    },
+    {
+      "term": "者 (〜もの)",
+      "part_of_speech": "[接尾]",
+      "definition": "……者，人",
+      "context_sentence": "怠け者"
+    },
+    {
+      "term": "物置 (ものおき) ③④⓪",
+      "part_of_speech": "[名]",
+      "definition": "库房，储藏室",
+      "context_sentence": "物置小屋"
+    },
+    {
+      "term": "物語る (ものがたる) ④",
+      "part_of_speech": "[他動1]",
+      "definition": "讲述，谈；说明，表明，显现出……",
+      "context_sentence": "昔の経験を物語る。"
+    },
+    {
+      "term": "物差し (ものさし) ③④",
+      "part_of_speech": "[名]",
+      "definition": "尺子，标尺；标准，尺度",
+      "context_sentence": "物差しを当てる。"
+    },
+    {
+      "term": "モノレール (monorail) ③",
+      "part_of_speech": "[名]",
+      "definition": "单轨列车，靠单股铁轨运行的列车",
+      "context_sentence": "モノレールカー"
+    },
+    {
+      "term": "物忘れ (ものわすれ) ③",
+      "part_of_speech": "[名・自動3]",
+      "definition": "忘记事情，健忘，忘性大",
+      "context_sentence": "物忘れが多くなる。"
+    },
+    {
+      "term": "模倣 (もほう) ⓪",
+      "part_of_speech": "[名・他動3]",
+      "definition": "模仿，仿照，效仿",
+      "context_sentence": "模倣芸術"
+    },
+    {
+      "term": "揉まれる (もまれる) ⓪",
+      "part_of_speech": "[自動2]",
+      "definition": "被揉搓，受巨大的外力作用而不断上下左右移动；受磨炼",
+      "context_sentence": "波に揉まれる小船"
+    },
+    {
+      "term": "催し (もよおし) ⓪",
+      "part_of_speech": "[名]",
+      "definition": "举办，主办，聚会，活动；征兆，兆头",
+      "context_sentence": "歓迎の催しを開く。"
+    },
+    {
+      "term": "催す (もよおす) ③⓪",
+      "part_of_speech": "[自動1]",
+      "definition": "(自)有征兆，某种状态即将要发生；(他)举办，主办；想要……，感觉要……",
+      "context_sentence": "吐き気を催す。"
+    },
+    {
+      "term": "盛り上がる (もりあがる) ④",
+      "part_of_speech": "[自動1]",
+      "definition": "堆起，隆起；(气氛等)高涨，热烈起来",
+      "context_sentence": "地面が盛り上がる。"
+    },
+    {
+      "term": "盛る (もる) ⓪①",
+      "part_of_speech": "[他動1]",
+      "definition": "盛，装满；堆起来；使服药",
+      "context_sentence": "ご飯を盛る。"
+    },
+    {
+      "term": "〜問 (〜もん)",
+      "part_of_speech": "[接尾]",
+      "definition": "……问，题，表示问题的顺序；计算问题数量的量词",
+      "context_sentence": "第一問"
+    },
+    {
+      "term": "問答 (もんどう) ③⓪",
+      "part_of_speech": "[名・自動3]",
+      "definition": "问答，问与答，相互议论",
+      "context_sentence": "問答を交わす。"
+    }
+  ]
+}
