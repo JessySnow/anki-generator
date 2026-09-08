@@ -1,0 +1,19 @@
+<div class="card-box front-card">
+  <div class="deck-tag">{{Deck}}</div>
+
+  <div class="word-container">
+    <div class="word-main">{{kanji:Furigana}}</div>
+    {{#POS}}<div class="pos-pill">{{POS}}</div>{{/POS}}
+  </div>
+
+  {{#Sentence}}
+  <div class="sentence-box">
+    <div class="sentence-label">Context / 例文</div>
+    <div class="sentence-text">{{Sentence}}</div>
+  </div>
+  {{/Sentence}}
+
+  {{#SentenceTranslation}}
+  <div class="hint-wrapper">{{hint:SentenceTranslation}}</div>
+  {{/SentenceTranslation}}
+</div>
