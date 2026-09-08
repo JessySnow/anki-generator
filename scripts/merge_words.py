@@ -12,6 +12,10 @@ import re
 import sys
 from pathlib import Path
 
+# Resolve default directory relative to repository root
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_INPUT_DIR = REPO_ROOT / "N2 Level"
+
 
 def extract_word_number(path: Path) -> int:
     """Extract the numeric index from filename like Words1.json or Words10.json."""
@@ -90,8 +94,8 @@ def main():
         "--dir",
         dest="input_dir",
         type=Path,
-        default=Path("N2 Level"),
-        help="Directory containing Words*.json files (default: 'N2 Level')",
+        default=DEFAULT_INPUT_DIR,
+        help=f"Directory containing Words*.json files (default: '{DEFAULT_INPUT_DIR}')",
     )
     parser.add_argument(
         "-o",

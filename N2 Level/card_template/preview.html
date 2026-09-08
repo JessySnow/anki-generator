@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anki Card Preview - Japanese N2 Vocab & Grammar</title>
+  <style>
+    /* Global Preview Page Styles */
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: #f0f2f5;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background-color 0.3s;
+    }
+    body.dark-theme {
+      background: #12131a;
+    }
+    .preview-toolbar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      background: #ffffff;
+      padding: 8px 16px;
+      border-radius: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    body.dark-theme .preview-toolbar {
+      background: #1e1f2b;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    .preview-btn {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #334155;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .preview-btn.active {
+      background: #3182ce;
+      color: #ffffff;
+      border-color: #3182ce;
+    }
+    body.dark-theme .preview-btn {
+      background: #2a2c3d;
+      color: #cbd5e1;
+      border-color: #475569;
+    }
+    body.dark-theme .preview-btn.active {
+      background: #7aa2f7;
+      color: #1a1b26;
+      border-color: #7aa2f7;
+    }
+    .card-frame {
+      width: 100%;
+      max-width: 660px;
+    }
+
+    /* ==========================================================================
+       ACTUAL ANKI CARD CSS (from card_template/style.css)
+       ========================================================================== */
+    .card {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", sans-serif;
+      font-size: 16px;
+      text-align: left;
+      color: #2e3440;
+      background-color: #f8f9fc;
+      padding: 16px 12px;
+      line-height: 1.6;
+      border-radius: 16px;
+      transition: all 0.3s;
+    }
+
+    .card-box {
+      max-width: 620px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .deck-tag {
+      font-size: 12px;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+
+    .word-container {
+      text-align: center;
+      margin: 10px 0 16px;
+    }
+
+    .word-main {
+      font-size: 38px;
+      font-weight: 700;
+      color: #1a202c;
+      letter-spacing: 1px;
+    }
+
+    .pos-pill {
+      display: inline-block;
+      background: #e2e8f0;
+      color: #4a5568;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 12px;
+      margin-top: 6px;
+    }
+
+    .reading-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .furigana-title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #2b6cb0;
+    }
+
+    ruby rt {
+      font-size: 0.55em;
+      color: #718096;
+      font-weight: normal;
+    }
+
+    .badge-label {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #ffffff;
+      background: #3182ce;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+
+    .grammar-label {
+      background: #805ad5;
+    }
+
+    .meaning-section,
+    .sentence-detail-section,
+    .grammar-section {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #edf2f7;
+    }
+
+    .meaning-text {
+      font-size: 20px;
+      font-weight: 600;
+      color: #2d3748;
+    }
+
+    .sentence-box {
+      background: #f7fafc;
+      border-left: 4px solid #3182ce;
+      padding: 10px 14px;
+      border-radius: 6px;
+      margin-top: 14px;
+    }
+
+    .sentence-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #718096;
+      margin-bottom: 4px;
+    }
+
+    .sentence-text,
+    .sentence-jp {
+      font-size: 18px;
+      color: #2d3748;
+      line-height: 1.6;
+    }
+
+    .sentence-zh {
+      font-size: 15px;
+      color: #718096;
+      margin-top: 6px;
+    }
+
+    .grammar-header {
+      font-size: 18px;
+      font-weight: bold;
+      color: #553c9a;
+      margin-bottom: 6px;
+    }
+
+    .grammar-meaning {
+      font-size: 14px;
+      font-weight: normal;
+      color: #718096;
+    }
+
+    .grammar-usage-text {
+      font-size: 14px;
+      color: #4a5568;
+      background: #faf5ff;
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #e9d8fd;
+    }
+
+    .analysis-details {
+      margin-top: 18px;
+      background: #f7fafc;
+      border: 1px dashed #cbd5e0;
+      border-radius: 8px;
+      padding: 8px 12px;
+    }
+
+    .analysis-details summary {
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      color: #4a5568;
+    }
+
+    .analysis-body {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #4a5568;
+      line-height: 1.6;
+    }
+
+    .analysis-item {
+      margin-bottom: 8px;
+    }
+
+    .item-title {
+      font-weight: 600;
+      color: #2d3748;
+    }
+
+    hr#answer {
+      border: none;
+      border-top: 2px dashed #cbd5e0;
+      margin: 18px 0;
+    }
+
+    .hint-wrapper {
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    .hint-link {
+      font-size: 13px;
+      color: #3182ce;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .hint-revealed {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #718096;
+    }
+
+    .replay-button-mock {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      color: #3182ce;
+      cursor: pointer;
+      vertical-align: middle;
+      font-size: 14px;
+    }
+
+    .tags-row {
+      margin-top: 14px;
+      text-align: right;
+    }
+
+    .tags-pill {
+      display: inline-block;
+      font-size: 11px;
+      color: #718096;
+      background: #edf2f7;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    /* Night Mode Support */
+    .card.nightMode {
+      background-color: #1a1b26;
+      color: #c0caf5;
+    }
+
+    .nightMode .card-box {
+      background: #24283b;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    }
+
+    .nightMode .word-main,
+    .nightMode .meaning-text {
+      color: #f7768e;
+    }
+
+    .nightMode .pos-pill {
+      background: #414868;
+      color: #a9b1d6;
+    }
+
+    .nightMode .furigana-title {
+      color: #7aa2f7;
+    }
+
+    .nightMode ruby rt {
+      color: #9ece6a;
+    }
+
+    .nightMode .sentence-box,
+    .nightMode .analysis-details {
+      background: #1f2335;
+      border-color: #414868;
+    }
+
+    .nightMode .sentence-text,
+    .nightMode .sentence-jp {
+      color: #c0caf5;
+    }
+
+    .nightMode .sentence-zh {
+      color: #7982a9;
+    }
+
+    .nightMode .grammar-header {
+      color: #bb9af7;
+    }
+
+    .nightMode .grammar-usage-text {
+      background: #292e42;
+      border-color: #565f89;
+      color: #c0caf5;
+    }
+
+    .nightMode .analysis-body,
+    .nightMode .analysis-details summary {
+      color: #a9b1d6;
+    }
+
+    .nightMode .item-title {
+      color: #e0af68;
+    }
+
+    .nightMode .tags-pill {
+      background: #292e42;
+      color: #7982a9;
+    }
+
+    .nightMode .replay-button-mock {
+      background: #414868;
+      color: #7aa2f7;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Interactive Controls -->
+  <div class="preview-toolbar">
+    <button class="preview-btn active" id="btn-front" onclick="showCard('front')">Front (Question)</button>
+    <button class="preview-btn" id="btn-back" onclick="showCard('back')">Back (Answer)</button>
+    <button class="preview-btn" id="btn-theme" onclick="toggleTheme()">Toggle Night Mode</button>
+  </div>
+
+  <div class="card-frame">
+    <div class="card" id="main-card">
+
+      <!-- FRONT CARD VIEW -->
+      <div id="front-view">
+        <div class="card-box front-card">
+          <div class="deck-tag">Japanese::JLPT N2</div>
+
+          <div class="word-container">
+            <!-- Uses {{kanji:Furigana}} to hide ruby during recall -->
+            <div class="word-main">真剣</div>
+            <div class="pos-pill">名・ナ形</div>
+          </div>
+
+          <div class="sentence-box">
+            <div class="sentence-label">Context / 例文</div>
+            <div class="sentence-text">真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。</div>
+          </div>
+
+          <div class="hint-wrapper">
+            <span class="hint-link" onclick="document.getElementById('demo-hint').style.display='block'; this.style.display='none';">Show Hint: 翻译</span>
+            <div id="demo-hint" class="hint-revealed" style="display: none;">我辛辛苦苦认真投入做的项目资料，被同事擅自改动了。</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACK CARD VIEW (Appears below front after Show Answer) -->
+      <div id="back-view" style="display: none;">
+        <!-- Front side included on top ({{FrontSide}}) -->
+        <div class="card-box front-card">
+          <div class="deck-tag">Japanese::JLPT N2</div>
+          <div class="word-container">
+            <div class="word-main">真剣</div>
+            <div class="pos-pill">名・ナ形</div>
+          </div>
+          <div class="sentence-box">
+            <div class="sentence-label">Context / 例文</div>
+            <div class="sentence-text">真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。</div>
+          </div>
+        </div>
+
+        <hr id="answer">
+
+        <!-- Back Template ({{Back}}) -->
+        <div class="card-box back-card">
+          <div class="reading-row">
+            <div class="furigana-title">
+              <ruby>真剣<rt>しんけん</rt></ruby>
+            </div>
+            <span class="replay-button-mock" title="Replay TTS audio">🔊</span>
+          </div>
+
+          <div class="meaning-section">
+            <div class="badge-label">释义</div>
+            <div class="meaning-text">做事认真，一丝不苟</div>
+          </div>
+
+          <div class="sentence-detail-section">
+            <div class="badge-label">例句解析</div>
+            <div class="sentence-jp">
+              真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。
+              <span class="replay-button-mock" title="Replay sentence audio">🔊</span>
+            </div>
+            <div class="sentence-zh">我辛辛苦苦认真投入做的项目资料，被同事擅自改动了。</div>
+          </div>
+
+          <div class="grammar-section">
+            <div class="badge-label grammar-label">语法重点</div>
+            <div class="grammar-header">
+              <span class="grammar-pattern">～（ら）れる（间接被动）</span>
+              <span class="grammar-meaning">（表示由于他人的行为而遭受困扰或损害（受害被动））</span>
+            </div>
+            <div class="grammar-usage-text">
+              使用了间接被动（受害被动）句型「書き換えられてしまった」。动词「書き換える」（他动词）接续「られる」构成被动语态，末尾「～てしまった」进一步强化了困扰与遗憾的语气。
+            </div>
+          </div>
+
+          <details class="analysis-details" open>
+            <summary>深入解析与语境逻辑 (点击展开/折叠)</summary>
+            <div class="analysis-body">
+              <div class="analysis-item">
+                <span class="item-title">词汇用法：</span>在句中作为副词性用法（真剣に），修饰动词「取り組んでいた」，表示“认真地、一丝不苟地”进行某项工作，强调说话人对该项目投入了极大的心血。
+              </div>
+              <div class="analysis-item">
+                <span class="item-title">语境逻辑：</span>该句先通过「真剣に～」描述主语认真专注的积极状态，随后通过间接被动句揭示这种努力因他人的擅自干扰而受损，形成鲜明对比，精准体现受害被动语态的核心语境。
+              </div>
+            </div>
+          </details>
+
+          <div class="tags-row">
+            <span class="tags-pill">N2::Vocabulary N2::Grammar::Passive</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function showCard(view) {
+      const front = document.getElementById('front-view');
+      const back = document.getElementById('back-view');
+      const btnFront = document.getElementById('btn-front');
+      const btnBack = document.getElementById('btn-back');
+
+      if (view === 'front') {
+        front.style.display = 'block';
+        back.style.display = 'none';
+        btnFront.classList.add('active');
+        btnBack.classList.remove('active');
+      } else {
+        front.style.display = 'none';
+        back.style.display = 'block';
+        btnBack.classList.add('active');
+        btnFront.classList.remove('active');
+      }
+    }
+
+    function toggleTheme() {
+      const card = document.getElementById('main-card');
+      const body = document.body;
+      card.classList.toggle('nightMode');
+      body.classList.toggle('dark-theme');
+    }
+  </script>
+</body>
+</html>
