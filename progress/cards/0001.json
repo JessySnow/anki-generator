@@ -1,0 +1,18 @@
+{
+  "word_index": 1,
+  "Word": "世帯",
+  "Reading": "せたい",
+  "Furigana": "世帯[せたい]",
+  "POS": "名",
+  "Meaning": "家，户，家庭",
+  "WordAudio": "",
+  "Sentence": "子育て世帯が住まいを探すなら、治安が良く学校や病院に近い地域を選ぶに限る。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "育儿家庭如果要寻找住所，最好选择治安良好且离学校和医院近的地区。",
+  "WordUsage": "「世帯」在句中以复合词「子育て世帯（育儿家庭）」的形式作主语成分，表示有子女需要抚养的家庭群体。",
+  "GrammarPattern": "～に限る",
+  "GrammarMeaning": "“最好是……”",
+  "GrammarUsage": "接在动词辞书形「選ぶ」之后，构成「選ぶに限る」，表示说话人根据具体情况提出的强烈主观建议或最佳选择。",
+  "CombinationLogic": "针对「子育て世帯」对儿童安全、教育和医疗的特殊需求，自然引出后项对于居住地选择的最佳建议（～を選ぶに限る），因果与情境逻辑严密。",
+  "Tags": "N2::Vocabulary N2::Grammar::111"
+}
