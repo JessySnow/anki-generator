@@ -22,7 +22,7 @@ def format_prompt(worker_id: int, size: int, offset: int) -> str:
 
     lines = [
         f"You are Japanese Language Expert Worker Agent #{worker_id}.",
-        "Your working directory is: /Users/jessy/repo/anki-generator",
+        f"Your working directory is: {REPO_ROOT}",
         "",
         f"Task: Directly generate high quality JLPT N2 Anki flashcards for your assigned {len(batch)} items.",
         "DO NOT use any external APIs. Use your own native Japanese linguistic knowledge to craft each card directly.",
@@ -34,10 +34,11 @@ def format_prompt(worker_id: int, size: int, offset: int) -> str:
         "4. Provide GrammarUsage (conjugation and grammatical function of the grammar pattern in Chinese).",
         "5. Provide CombinationLogic (the contextual and semantic logic connecting the word and grammar in Chinese).",
         '6. Set "WordAudio": "", "SentenceAudio": "", "Tags": "N2::Vocabulary N2::Grammar::<grammar_id>".',
-        "7. Save each card using run_command:",
-        "   python3 scripts/record_card.py --json '<card_json>'",
+        "7. Save your cards by writing the list of card objects to a temporary JSON file, and running:",
+        f"   python3 scripts/record_card.py --file /tmp/worker_{worker_id}_cards.json",
+        "   (Or pass individual cards with python3 scripts/record_card.py --json '<card_json>')",
         "",
-        "Ensure the JSON keys are exactly:",
+        "Ensure the JSON keys for each card are exactly:",
         "word_index, Word, Reading, Furigana, POS, Meaning, WordAudio, Sentence, SentenceAudio, SentenceTranslation, WordUsage, GrammarPattern, GrammarMeaning, GrammarUsage, CombinationLogic, Tags",
         "",
         f"=== Assigned {len(batch)} Items ===",
@@ -51,8 +52,10 @@ def format_prompt(worker_id: int, size: int, offset: int) -> str:
             f"Grammar ID={g['id']}, Pattern='{g['pattern']}', Meaning='{g['meaning']}', Connection='{g['connection']}'"
         )
 
+    min_idx = batch[0]["word_index"]
+    max_idx = batch[-1]["word_index"]
     lines.append("")
-    lines.append("When all cards are recorded with record_card.py, reply with a short summary of recorded indices.")
+    lines.append(f"When all cards are recorded, reply with ONLY a 1-line summary: '✓ Worker #{worker_id} complete: {len(batch)} cards recorded [{min_idx}..{max_idx}].' DO NOT output the full card texts in your final response.")
     return "\n".join(lines)
 
 

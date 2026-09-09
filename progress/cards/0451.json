@@ -1,0 +1,18 @@
+{
+  "word_index": 451,
+  "Word": "デモ",
+  "Reading": "デモ",
+  "Furigana": "デモ",
+  "POS": "名",
+  "Meaning": "游行，示威",
+  "WordAudio": "",
+  "Sentence": "この都市では大規模なデモが行われるたびに、主要な幹線道路が封鎖されて交通に大きな混乱が生じる。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "在这座城市，每当举行大规模游行示威时，主要干道都会被封锁，从而引发严重的交通混乱。",
+  "WordUsage": "「デモ」在句中作主语，与形容词「大規模な」搭配，指民众抗议的游行示威活动。",
+  "GrammarPattern": "～たびに",
+  "GrammarMeaning": "“每当……”“每次……”",
+  "GrammarUsage": "接在动词辞书形「行われる」之后，构成「行われるたびに」，表示前项事件每次发生时，后项结果必然随之出现。",
+  "CombinationLogic": "将“举行游行示威（デモ）”与“封锁干道造成交通瘫痪（～たびに）”这一规律性的社会影响相结合，因果逻辑清晰，语境现实自然。",
+  "Tags": "N2::Vocabulary N2::Grammar::67"
+}
