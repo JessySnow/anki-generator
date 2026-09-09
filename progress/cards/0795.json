@@ -1,8 +1,7 @@
 {
-  "word_index": 795,
   "Word": "×",
   "Reading": "ばつ",
-  "Furigana": "×[ばつ]",
+  "Furigana": "ばつ",
   "POS": "名",
   "Meaning": "错误标记，叉",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示否定，“不……”",
   "GrammarUsage": "接在动词「落ち込む」的辞书形后构成「落ち込むことなく」，表示伴随状态的否定，相当于书面语形式的「落ち込まないで」，意为“毫无消沉”。",
   "CombinationLogic": "面对考卷上触目惊心的判错标记“×”，通常容易让人备受打击；句子运用表示否定伴随行为的「～ことなく」，反衬出当事人不仅毫无沮丧、反而积极整理错题的顽强心态，语意对比鲜明自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::48"
+  "Tags": "N2::Vocabulary N2::Grammar::48",
+  "word_index": 795
 }

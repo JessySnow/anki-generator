@@ -1,9 +1,8 @@
 {
-  "word_index": 437,
   "Word": "でたらめ",
   "Reading": "でたらめ",
   "Furigana": "でたらめ",
-  "POS": "名·ナ形",
+  "POS": "名・ナ形",
   "Meaning": "胡言乱语，不着边际",
   "WordAudio": "",
   "Sentence": "何の根拠もないでたらめな噂など、私たちが素直に信じるものか。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示强烈的否定，“怎么会……呢”“不会……”",
   "GrammarUsage": "接在动词辞书形「信じる」之后，构成「信じるものか」，表示强烈坚决的否定反问，意为“绝不会相信”。",
   "CombinationLogic": "前项指明谣言荒唐可笑、纯属「でたらめ」，后项顺理成章地用「～ものか」断然否定相信的可能性，语义逻辑严丝合缝。",
-  "Tags": "N2::Vocabulary N2::Grammar::155"
+  "Tags": "N2::Vocabulary N2::Grammar::155",
+  "word_index": 437
 }

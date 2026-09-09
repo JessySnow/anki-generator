@@ -1,8 +1,7 @@
 {
-  "word_index": 946,
   "Word": "～便",
   "Reading": "～びん",
-  "Furigana": "～便[～びん]",
+  "Furigana": "～便[びん]",
   "POS": "接尾",
   "Meaning": "邮寄，邮递",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“除……之外”",
   "GrammarUsage": "接在名词「船便」之后，构成「船便を除いては」，明确将船运方式作为例外予以排除。",
   "CombinationLogic": "句中通过对比国际邮递中两种不同方式（船便与航空便），使用「～を除いては」将周期长、运费低的「船便」单独列为特例排除，精准凸显了「～便」作为邮递方式接尾词的标准搭配与实用语境。",
-  "Tags": "N2::Vocabulary N2::Grammar::176"
+  "Tags": "N2::Vocabulary N2::Grammar::176",
+  "word_index": 946
 }

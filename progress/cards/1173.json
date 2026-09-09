@@ -1,8 +1,7 @@
 {
-  "word_index": 1173,
   "Word": "施す",
   "Reading": "ほどこす",
-  "Furigana": "施す[ほどこす]",
+  "Furigana": "施[ほどこ]す",
   "POS": "他動1",
   "Meaning": "施舍，救济；施行；施加",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示立场，“从……立场来看”“在……看来”",
   "GrammarUsage": "接在表示人物身份的名词「患者の家族」后，构成「患者の家族にしたら」，表示站在当事人家属的立场去体察其真切的心理与期望。",
   "CombinationLogic": "站在心急如焚的家属立场（患者の家族にしたら），推及他们期盼医方尽全力施治（治療を施してほしい）的人情常理，前后呼应，语义极为贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::120"
+  "Tags": "N2::Vocabulary N2::Grammar::120",
+  "word_index": 1173
 }

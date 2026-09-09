@@ -1,9 +1,8 @@
 {
-  "word_index": 1280,
   "Word": "身ぶり",
   "Reading": "みぶり",
-  "Furigana": "身ぶり[みぶり]",
-  "POS": "[名]",
+  "Furigana": "身[み]ぶり",
+  "POS": "名",
   "Meaning": "姿势，身体动作",
   "WordAudio": "",
   "Sentence": "たとえ言葉が通じなくても、身ぶり手ぶりを交えて一生懸命に話せば、相手に気持ちは伝わるはずだ。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示让步，“即使……也……”",
   "GrammarUsage": "副词「たとえ」与动词「通じる」的否定て形「通じなくても」前后呼应，构成「たとえ～ても」让步表达，意为“即使……也……”。",
   "CombinationLogic": "前半句以「たとえ言葉が通じなくても」设立异国或语言障碍的极限假设，后半句提出使用「身ぶり」能够突破障碍传达心意，让步关系鲜明贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::62"
+  "Tags": "N2::Vocabulary N2::Grammar::62",
+  "word_index": 1280
 }

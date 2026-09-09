@@ -1,8 +1,7 @@
 {
-  "word_index": 409,
   "Word": "連れ",
   "Reading": "つれ",
-  "Furigana": "連れ[つれ]",
+  "Furigana": "連[つ]れ",
   "POS": "名",
   "Meaning": "带领，伴随；同伴，伙伴",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示评论的立场，“从……来说”",
   "GrammarUsage": "接在名词短语「登山ガイドの立場」之后，构成「登山ガイドの立場からいうと」，表示从专业人士的立场出发提出判断与建言（“从……来说”）。",
   "CombinationLogic": "从向导保障人身安全的专业立场（立場からいうと）出发，强调初学者切忌独自冒险，必须与可靠的同行“伙伴（連れ）”结伴而行，前后论述自然有力。",
-  "Tags": "N2::Vocabulary N2::Grammar::31"
+  "Tags": "N2::Vocabulary N2::Grammar::31",
+  "word_index": 409
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 251,
   "Word": "炭酸ガス",
   "Reading": "たんさんガス",
-  "Furigana": "炭酸ガス[たんさんガス]",
+  "Furigana": "炭酸[たんさん]ガス",
   "POS": "名",
   "Meaning": "碳酸气，气态二氧化碳",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "前项表示既定的事实，“既然……就……”",
   "GrammarUsage": "接在动词た形「公約した」之后，构成「公約した上は」，表示既然已经在国际舞台做出了庄严政治宣示这一不可推诿的既定事实，就必须承担起践诺攻坚的崇高责任。",
   "CombinationLogic": "将面向国际社会作出的削减「炭酸ガス」的重大承诺设定为不可撤销的前提事实，借助句型「～上は」确立必须举国推进技术攻关的坚定国家意志，宏阔庄严，立意深远。",
-  "Tags": "N2::Vocabulary N2::Grammar::7"
+  "Tags": "N2::Vocabulary N2::Grammar::7",
+  "word_index": 251
 }

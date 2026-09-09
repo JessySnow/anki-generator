@@ -1,8 +1,7 @@
 {
-  "word_index": 1008,
   "Word": "再び",
   "Reading": "ふたたび",
-  "Furigana": "再び[ふたたび]",
+  "Furigana": "再[ふたた]び",
   "POS": "副",
   "Meaning": "再次，又",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "……另当别论……暂且不论",
   "GrammarUsage": "「再び挑戦するかどうか」（是否再次挑战）＋「は別として」，将是否再挑战这一问题暂时搁置，引出更重要的当下事项，语气客观、理性。",
   "CombinationLogic": "「再び挑戦するかどうか」用「再び」强调了再次这一概念，与「は別として」搭配，将这个未来的抉择暂时悬置，把焦点拉回到当前更紧迫的反思任务，逻辑层次清晰。",
-  "Tags": "N2::Vocabulary N2::Grammar::143"
+  "Tags": "N2::Vocabulary N2::Grammar::143",
+  "word_index": 1008
 }

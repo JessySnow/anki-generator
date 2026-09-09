@@ -1,8 +1,7 @@
 {
-  "word_index": 825,
   "Word": "生やす",
   "Reading": "はやす",
-  "Furigana": "生やす[はやす]",
+  "Furigana": "生[は]やす",
   "POS": "他動1",
   "Meaning": "使……生长，蓄……，留……",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示不能总是以某种状态继续下去，“(也)不能总是……”",
   "GrammarUsage": "接在五段动词「生やす」的て形「生やして」后，构成「生やしてばかりはいられない」，表示迫于现实要求，不能继续保持某种任性的状态。",
   "CombinationLogic": "以教育实习即将开始为契机，指出在严谨体面的职业环境中不能继续“蓄留胡渣（生やす）”，通过「～てばかりはいられない」自然引出不能再放任不管、必须刮胡整顿仪容的决心。",
-  "Tags": "N2::Vocabulary N2::Grammar::83"
+  "Tags": "N2::Vocabulary N2::Grammar::83",
+  "word_index": 825
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 923,
   "Word": "日増しに",
   "Reading": "ひましに",
-  "Furigana": "日増しに[ひましに]",
+  "Furigana": "日増[ひま]しに",
   "POS": "副",
   "Meaning": "日益，日趋，日甚一日地",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示断定，“一定……”“肯定……”",
   "GrammarUsage": "接在动词短语「強くなっている」的普通形后，构成「強くなっているに違いない」，表示说话人基于常理和赛事重要性做出的确信无疑的强烈断定。",
   "CombinationLogic": "前半句以决赛临近为背景，以「日増しに」刻画运动员心理压力与日俱增的动态加剧过程；随后以「～に違いない」对这种剧烈的心理负荷进行合乎情理的笃定推断，前后因果承接紧密。",
-  "Tags": "N2::Vocabulary N2::Grammar::126"
+  "Tags": "N2::Vocabulary N2::Grammar::126",
+  "word_index": 923
 }

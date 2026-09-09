@@ -1,8 +1,7 @@
 {
-  "word_index": 1160,
   "Word": "誇る",
   "Reading": "ほこる",
-  "Furigana": "誇る[ほこる]",
+  "Furigana": "誇[ほこ]る",
   "POS": "自動1",
   "Meaning": "夸耀，自豪；杰出，领先",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示转折，“不能因为……就……”“虽说……但是……”",
   "GrammarUsage": "接在动词谓语小句普通形「誇っている」之后，后接否定诫勉表达「～怠ってはならない」，表示不可单纯将前项作为放任后项负面行为的理由。",
   "CombinationLogic": "前半句以「誇る」确立企业现有的骄人成绩与辉煌优势，后半句借「～からといって」进行理性敲打与逆接转折，强调再大的荣誉也不能成为自满松懈的借口，警示逻辑极为严谨。",
-  "Tags": "N2::Vocabulary N2::Grammar::35"
+  "Tags": "N2::Vocabulary N2::Grammar::35",
+  "word_index": 1160
 }

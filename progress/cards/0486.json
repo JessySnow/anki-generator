@@ -1,9 +1,8 @@
 {
-  "word_index": 486,
   "Word": "～党",
   "Reading": "～とう",
-  "Furigana": "～党[～とう]",
-  "POS": "[接尾]",
+  "Furigana": "～党[とう]",
+  "POS": "接尾",
   "Meaning": "……党，政治方面的集团，伙伴",
   "WordAudio": "",
   "Sentence": "長年国民の厚い支持を受けてきた与党が、選挙の直前に分裂するという噂は、にわかには信じがたい。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“难以……”",
   "GrammarUsage": "接在动词「信じる」的ます形去掉ます后的连用形「信じ」之后，构成「信じがたい」，表示从情理或心理层面上“难以置信”。",
   "CombinationLogic": "将含有接尾辞「～党」的政界焦点词汇「与党」与其突发分裂的重大传闻相联系，后接「信じがたい」深刻表达出民众难以置信的心理状态，逻辑严丝合缝。",
-  "Tags": "N2::Vocabulary N2::Grammar::20"
+  "Tags": "N2::Vocabulary N2::Grammar::20",
+  "word_index": 486
 }

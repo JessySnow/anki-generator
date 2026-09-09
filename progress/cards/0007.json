@@ -1,8 +1,7 @@
 {
-  "word_index": 7,
   "Word": "接する",
   "Reading": "せっする",
-  "Furigana": "接する[せっする]",
+  "Furigana": "接[せっ]する",
   "POS": "名・自他動3",
   "Meaning": "接触，连接，相邻；与……见面，接待；连接，使……挨近，相互接触",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正当……的时候”",
   "GrammarUsage": "接在动词连用持续体「接していた」之后，构成「接していたところに」，表示正处于接待客人的动作持续进行中时，发生了前辈上前协助的新情况。",
   "CombinationLogic": "前半句描述新员工紧张接待顾客的动作场景；后半句通过「～ところに」自然引入前辈及时介入提供协助的契机，前后情境衔接顺畅生动。",
-  "Tags": "N2::Vocabulary N2::Grammar::94"
+  "Tags": "N2::Vocabulary N2::Grammar::94",
+  "word_index": 7
 }

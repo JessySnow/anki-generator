@@ -1,8 +1,7 @@
 {
-  "word_index": 198,
   "Word": "立ち上げる",
   "Reading": "たちあげる",
-  "Furigana": "立ち上げる[たちあげる]",
+  "Furigana": "立[た]ち上[あ]げる",
   "POS": "他動2",
   "Meaning": "驱动，开动",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“没必要……”“用不着……”",
   "GrammarUsage": "接在动词辞书形「立ち上げる」之后，构成「立ち上げることはなく」，表示在处理微小的文字微调时，根本无需采取运行重型软件这一多余繁琐的操作。",
   "CombinationLogic": "将微小纠错的简单任务与开动消耗巨大的重型专业程序（「立ち上げる」）形成对比，借由句型「～ことはない」恰当地给出“不必小题大做”的高效生活建议，实用性强，语义天衣无缝。",
-  "Tags": "N2::Vocabulary N2::Grammar::50"
+  "Tags": "N2::Vocabulary N2::Grammar::50",
+  "word_index": 198
 }

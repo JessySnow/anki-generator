@@ -1,8 +1,7 @@
 {
-  "word_index": 383,
   "Word": "勤め先",
   "Reading": "つとめさき",
-  "Furigana": "勤め先[つとめさき]",
+  "Furigana": "勤[つと]め先[さき]",
   "POS": "名",
   "Meaning": "工作单位，上班的地方",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正当……的时候”",
   "GrammarUsage": "接在动词意志形加「としていた」之后，构成「帰宅しようとしていたところに」，表示正处于某一动作正要发生或刚要付诸行动的关键时间点，突发了后项事件。",
   "CombinationLogic": "前项设定在“工作单位（勤め先）”结束加班、正欲动身回家的日常情境；通过「～ところに」巧妙引出客户突发系统故障的紧急求助，逼真再现职场中的突发危机，语义衔接自然贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::94"
+  "Tags": "N2::Vocabulary N2::Grammar::94",
+  "word_index": 383
 }

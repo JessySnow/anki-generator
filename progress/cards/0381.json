@@ -1,8 +1,7 @@
 {
-  "word_index": 381,
   "Word": "勤め",
   "Reading": "つとめ",
-  "Furigana": "勤め[つとめ]",
+  "Furigana": "勤[つと]め",
   "POS": "名",
   "Meaning": "上班，工作，干活",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示列举，“又是……又是……”“一会儿……一会儿……”",
   "GrammarUsage": "接在名词短语「会社勤め」和「子供の世話」之后，构成「勤めやら……世話やらで」，罗列多项繁杂的事务，表达应接不暇、极为忙碌的状态。",
   "CombinationLogic": "将日常职场打拼（会社勤め）与家庭育儿琐事作为两大并列生活负荷，利用「～やら～やら」生动刻画出成年人分身乏术的忙碌生活画面，并以此衬托出后半句在家庭中汲取精神力量的温馨情感。",
-  "Tags": "N2::Vocabulary N2::Grammar::163"
+  "Tags": "N2::Vocabulary N2::Grammar::163",
+  "word_index": 381
 }

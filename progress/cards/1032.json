@@ -1,8 +1,7 @@
 {
-  "word_index": 1032,
   "Word": "踏み切り",
   "Reading": "ふみきり",
-  "Furigana": "踏み切り[ふみきり]",
+  "Furigana": "踏[ふ]み切[き]り",
   "POS": "名",
   "Meaning": "起跳，起跳点；道口，岔口；下定决心",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“另一方面……”",
   "GrammarUsage": "接在ナ形容词「便利だ」的连体形「便利な」之后，构成「便利な反面」，用于引出同一事物所具有的相反侧面（便利与拥堵的对立）。",
   "CombinationLogic": "以交通设施“道口（踏み切り）”为描述对象，前半句肯定其为日常过街通行带来便捷的有利面，中后段借助「～反面」转折，突出高峰期长时间封闭导致交通瘫痪的弊端，完整客观地揭示出城市道口的两面性。",
-  "Tags": "N2::Vocabulary N2::Grammar::146"
+  "Tags": "N2::Vocabulary N2::Grammar::146",
+  "word_index": 1032
 }

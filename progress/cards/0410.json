@@ -1,8 +1,7 @@
 {
-  "word_index": 410,
   "Word": "～連れ",
   "Reading": "～づれ",
-  "Furigana": "～連れ[～づれ]",
+  "Furigana": "～連[づ]れ",
   "POS": "接尾",
   "Meaning": "带领……，与……结伴；(表示轻蔑)……之辈",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示原因，“托……的福”“多亏……”",
   "GrammarUsage": "接在动词连体形「充実している」之后，构成「充実しているおかげで」，引出促成良好结果的积极原因（“多亏……”）。",
   "CombinationLogic": "前项指出乐园公共服务设施齐备（～おかげで），后项自然推导出最需要便利设施的“带小孩（子連れ）”群体也能安心游玩的好结果，因果契合，表达积极。",
-  "Tags": "N2::Vocabulary N2::Grammar::13"
+  "Tags": "N2::Vocabulary N2::Grammar::13",
+  "word_index": 410
 }

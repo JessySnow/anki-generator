@@ -1,8 +1,7 @@
 {
-  "word_index": 613,
   "Word": "嘆く",
   "Reading": "なげく",
-  "Furigana": "嘆く[なげく]",
+  "Furigana": "嘆[なげ]く",
   "POS": "自動1",
   "Meaning": "忧愁，伤心，惆怅；愤慨",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“只不过……而已”",
   "GrammarUsage": "接在名词「言い訳」之后，构成「言い訳に過ぎない」，表示限定前项行为的性质，指出其程度极低，无非是推卸责任的托词。",
   "CombinationLogic": "前句指出一味哀叹（嘆く）外界条件并非解决之道，后句运用「～に過ぎない」切中痛处，强调这种怨天尤人不过是掩盖自身懒惰的借口，构成深刻有力的议论逻辑。",
-  "Tags": "N2::Vocabulary N2::Grammar::123"
+  "Tags": "N2::Vocabulary N2::Grammar::123",
+  "word_index": 613
 }

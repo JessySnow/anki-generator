@@ -1,8 +1,7 @@
 {
-  "word_index": 689,
   "Word": "値上げ",
   "Reading": "ねあげ",
-  "Furigana": "値上げ[ねあげ]",
+  "Furigana": "値上[ねあ]げ",
   "POS": "名・他動3",
   "Meaning": "提价，涨价",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示程度；“没有比……更……”“……最……”",
   "GrammarUsage": "接在动词「出る」的辞书形后，构成「ため息が出るくらい」，表示程度之深，意为“到了令人叹气的程度/甚至让人叹气”。",
   "CombinationLogic": "前半句指出因成本攀升导致日用品频繁“値上げ”（涨价）；后半句借助「～くらい」形象描绘其对家庭财务造成的沉重压力已达叹息程度，因果呼应，语感地道。",
-  "Tags": "N2::Vocabulary N2::Grammar::43"
+  "Tags": "N2::Vocabulary N2::Grammar::43",
+  "word_index": 689
 }

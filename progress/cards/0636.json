@@ -1,8 +1,7 @@
 {
-  "word_index": 636,
   "Word": "成る",
   "Reading": "なる",
-  "Furigana": "成る[なる]",
+  "Furigana": "成[な]る",
   "POS": "自動1",
   "Meaning": "形成，构成；实现，成功",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正在……”",
   "GrammarUsage": "接在动词「成る」的ます形去掉ます的形式（即连用形「成り」）之后，构成「成りつつある」，表示和平协议的达成处于正在稳步推进、即将全面实现的渐变过程中。",
   "CombinationLogic": "前半句交代两国经过漫长而耐心的谈判，后半句结合动词「成る（达成）」与表示动态演进的语法「～つつある」，准确表现出“重大的和平共识正在一步步变为现实”的过程，用词典雅，逻辑自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::72"
+  "Tags": "N2::Vocabulary N2::Grammar::72",
+  "word_index": 636
 }

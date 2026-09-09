@@ -1,8 +1,7 @@
 {
-  "word_index": 654,
   "Word": "憎む",
   "Reading": "にくむ",
-  "Furigana": "憎む[にくむ]",
+  "Furigana": "憎[にく]む",
   "POS": "他動1",
   "Meaning": "憎恶，讨厌",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示原因，“因为……”",
   "GrammarUsage": "接在动词过去持续形「憎んでいた」的连体形后，构成「～憎んでいたものだから」，作为主观说明理由或辩解的表达，委婉说明做出后续告发举动的原因。",
   "CombinationLogic": "前项用「～ものだから」交代自己对欺骗行为深恶痛绝（憎む）这一主观性格与心理缘由，合情合理地引出后项“无法坐视不管、向上司反映”的实际行动，因果承接自然流畅。",
-  "Tags": "N2::Vocabulary N2::Grammar::158"
+  "Tags": "N2::Vocabulary N2::Grammar::158",
+  "word_index": 654
 }

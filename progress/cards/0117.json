@@ -1,8 +1,7 @@
 {
-  "word_index": 117,
   "Word": "揃い",
   "Reading": "そろい",
-  "Furigana": "揃い[そろい]",
+  "Furigana": "揃[そろ]い",
   "POS": "名",
   "Meaning": "聚集，齐全；形式相同；",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“不要说……，就连……也……”",
   "GrammarUsage": "接在名词短语「揃いのユニフォーム」之后，构成「揃いのユニフォームはおろか」，表示程度递进，意为“统一款式的队服自不必提，就连更基本的训练场地都……”。",
   "CombinationLogic": "以初创体育队伍条件艰苦为背景，先用「揃い」列举象征队伍正规化的“统一队服”，再借助语法「～はおろか」递进到连更根本的训练场地都无法保证的现实，对比鲜明深刻，符合语用逻辑。",
-  "Tags": "N2::Vocabulary N2::Grammar::139"
+  "Tags": "N2::Vocabulary N2::Grammar::139",
+  "word_index": 117
 }

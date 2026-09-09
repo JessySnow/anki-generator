@@ -1,8 +1,7 @@
 {
-  "word_index": 921,
   "Word": "響き",
   "Reading": "ひびき",
-  "Furigana": "響き[ひびき]",
+  "Furigana": "響[ひび]き",
   "POS": "名",
   "Meaning": "声响；反响，回声，余韵；影响",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示判断的依据，“单从……来看”",
   "GrammarUsage": "接在名词短语「音の響き」之后，构成「音の響きからして」，表示把“声音的余韵”这一典型的局部特征作为推论依据，强调仅凭这一点就能推断出整体乐器品质的不凡。",
   "CombinationLogic": "句中将小提琴的标志性属性「音の響き」作为切入点，配合「～からして」由点及面地凸显名家名琴在品质上远超廉价乐器的鲜明反差，逻辑推导自然严密。",
-  "Tags": "N2::Vocabulary N2::Grammar::33"
+  "Tags": "N2::Vocabulary N2::Grammar::33",
+  "word_index": 921
 }

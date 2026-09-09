@@ -1,8 +1,7 @@
 {
-  "word_index": 118,
   "Word": "～揃い",
   "Reading": "～ぞろい",
-  "Furigana": "～揃い[～ぞろい]",
+  "Furigana": "～揃[ぞろ]い",
   "POS": "接尾",
   "Meaning": "套；副；组；(接在名词后)一致，全是……，清一色",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示原因，“托……的福”“多亏……”",
   "GrammarUsage": "接在名词断定过去形「精鋭揃いだった」之后，构成「精鋭揃いだったおかげで」，表示产生令人满意结果的根本积极动因，“多亏……”。",
   "CombinationLogic": "将全员皆是行家里手的强大队伍实力「精鋭揃い」作为有利因素，通过语法「～おかげで」顺理成章地引申出攻克技术难关、顺利完成系统研发的卓越成果，逻辑因果严密，赞赏感情真挚。",
-  "Tags": "N2::Vocabulary N2::Grammar::13"
+  "Tags": "N2::Vocabulary N2::Grammar::13",
+  "word_index": 118
 }

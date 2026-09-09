@@ -1,8 +1,7 @@
 {
-  "word_index": 1179,
   "Word": "彫る",
   "Reading": "ほる",
-  "Furigana": "彫る[ほる]",
+  "Furigana": "彫[ほ]る",
   "POS": "他動1",
   "Meaning": "雕刻，篆刻",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“不可能……”“不会……”",
   "GrammarUsage": "接在动词可能形「彫れる」之后，构成「彫れるわけがない」，基于前述经验事实与常识逻辑，做出语气强烈的否定推论（“绝不可能做到”）。",
   "CombinationLogic": "前半句以工艺名师雕刻名木尚且不易为对照背景，借由语法「～わけがない」针对缺乏技巧的初学者做出“不可能雕刻（彫る）成功”的必然性断言，前后对比鲜明，逻辑严密而无可辩驳。",
-  "Tags": "N2::Vocabulary N2::Grammar::168"
+  "Tags": "N2::Vocabulary N2::Grammar::168",
+  "word_index": 1179
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 33,
   "Word": "全～",
   "Reading": "ぜん～",
-  "Furigana": "全～[ぜん～]",
+  "Furigana": "全[ぜん]～",
   "POS": "接頭",
   "Meaning": "全部，总共；全体的，全部的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示否定，“不……”",
   "GrammarUsage": "接在动词辞书形「飽きる」之后，构成「飽きることなく」，表示在整个长篇阅读过程中完全没有产生厌倦的情绪状态（“毫不生厌地……”）。",
   "CombinationLogic": "前半句交代作品规模宏大（全六冊），后半句借助「～ことなく」强调从始至终毫无倦意并顺利通读，篇幅之长与兴致之高形成鲜明对比与衬托，表达极为自然贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::48"
+  "Tags": "N2::Vocabulary N2::Grammar::48",
+  "word_index": 33
 }

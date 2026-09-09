@@ -1,8 +1,7 @@
 {
-  "word_index": 222,
   "Word": "旅立つ",
   "Reading": "たびだつ",
-  "Furigana": "たびだつ",
+  "Furigana": "旅立[たびだ]つ",
   "POS": "自動1",
   "Meaning": "启程；死亡",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示否定，“并不是……”“并非……”",
   "GrammarUsage": "接在形容词短语「愛着がない」之后，构成「愛着がないわけではないが」，首先委婉否定了“冷漠不顾故乡”的可能误解，从而为后续决心作合理的心理铺垫。",
   "CombinationLogic": "面对外出闯荡容易被视作冷淡离弃的潜在观念，借由句型「～わけではない」巧妙化解偏见，进而顺畅引出胸怀大志勇毅「旅立つ」的成长心声，情感真切，说理入情入理。",
-  "Tags": "N2::Vocabulary N2::Grammar::170"
+  "Tags": "N2::Vocabulary N2::Grammar::170",
+  "word_index": 222
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 403,
   "Word": "釣り合う",
   "Reading": "つりあう",
-  "Furigana": "釣り合う[つりあう]",
+  "Furigana": "釣[つ]り合[あ]う",
   "POS": "自動1",
   "Meaning": "匀称，相称，保持平衡；相配，般配",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“在(还没)……的时候、期间”",
   "GrammarUsage": "接在动词持续态普通形「釣り合っている」之后，表示在某种状态持续存在的期间内。",
   "CombinationLogic": "将收支能够维持平衡（釣り合う）设定为前项暂时安稳的状态区间（～うちは），有力反衬并引出后项未雨绸缪尽早储蓄的劝诫，逻辑对比鲜明合理。",
-  "Tags": "N2::Vocabulary N2::Grammar::9"
+  "Tags": "N2::Vocabulary N2::Grammar::9",
+  "word_index": 403
 }

@@ -1,9 +1,8 @@
 {
-  "word_index": 1601,
   "Word": "ローン",
   "Reading": "ローン",
   "Furigana": "ローン",
-  "POS": "[名]",
+  "POS": "名",
   "Meaning": "贷款",
   "WordAudio": "",
   "Sentence": "現在の私の月給からいえば、住宅ローンを毎月十万円返済していくのはかなり厳しい負担だ。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示评论的立场，“从……来说”",
   "GrammarUsage": "接在名词短语「現在の私の月給」之后，构成「～からいえば」，表示以说话人目前的收入状况作为评判与考量的出发点。",
   "CombinationLogic": "前半句以自身收入状况作为判断基准（からいえば），后半句评价偿还住房贷款（住宅ローン）的经济压力，词汇与语法在收支考量的生活情境中紧密结合。",
-  "Tags": "N2::Vocabulary N2::Grammar::31"
+  "Tags": "N2::Vocabulary N2::Grammar::31",
+  "word_index": 1601
 }

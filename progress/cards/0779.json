@@ -1,8 +1,7 @@
 {
-  "word_index": 779,
   "Word": "挟む",
   "Reading": "はさむ",
-  "Furigana": "挟む[はさむ]",
+  "Furigana": "挟[はさ]む",
   "POS": "他動1",
   "Meaning": "插，插入；夹；间隔",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“一方面……另一方面……”；“一边……一边……”",
   "GrammarUsage": "接在动词辞书形「口を挟む」之后，构成「口を挟む一方で」，表示同一个人身上并存的两种截然相反的态度与行为倾向。",
   "CombinationLogic": "前半句通过惯用表达「口を挟む」表现出该人打断他人谈话时的随意与主动；后半句借助「～一方で」引出他在自己需要发言时退缩沉默的反差表现，生动体现了“一方面……另一方面……”的对照对比关系。",
-  "Tags": "N2::Vocabulary N2::Grammar::4"
+  "Tags": "N2::Vocabulary N2::Grammar::4",
+  "word_index": 779
 }

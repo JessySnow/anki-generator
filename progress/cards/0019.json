@@ -1,8 +1,7 @@
 {
-  "word_index": 19,
   "Word": "迫る",
   "Reading": "せまる",
-  "Furigana": "迫る[せまる]",
+  "Furigana": "迫[せま]る",
   "POS": "自動1",
   "Meaning": "(自)变窄，缩短；迫近，临近；接近于……；急促，感到窒息；(他)强迫，逼迫",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示不得已做某事，“只有……”“只好……”",
   "GrammarUsage": "接在动词辞书形「書き上げる」之后，构成「書き上げるよりほかない」，表示在别无选择的情况下只能采取此项行动。",
   "CombinationLogic": "前半句通过「提出期限が目前に迫っている」交代时间紧迫的客观逼迫情景，后半句自然引出“别无选择只能全力赶完（書き上げるよりほかない）”的必然行动，因果衔接紧凑有力。",
-  "Tags": "N2::Vocabulary N2::Grammar::148"
+  "Tags": "N2::Vocabulary N2::Grammar::148",
+  "word_index": 19
 }

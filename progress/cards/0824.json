@@ -1,8 +1,7 @@
 {
-  "word_index": 824,
   "Word": "早くとも",
   "Reading": "はやくとも",
-  "Furigana": "早くとも[はやくとも]",
+  "Furigana": "早[はや]くとも",
   "POS": "副",
   "Meaning": "即使再快也要……，最快也要……",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示建议或劝诱，“让我们……吧”",
   "GrammarUsage": "接在五段动词「取り組む」的意向形「取り組もう」之后，构成「取り組もうではないか」，用于庄重或倡议性语境下号召大家积极采取行动。",
   "CombinationLogic": "前半句使用副词「早くとも」指出系统修复最快也需要三天这一客观困难，后半句顺理成章地通过「～（よ）うではないか」号召大家团结协作、克服困难，语意连贯饱满。",
-  "Tags": "N2::Vocabulary N2::Grammar::10"
+  "Tags": "N2::Vocabulary N2::Grammar::10",
+  "word_index": 824
 }

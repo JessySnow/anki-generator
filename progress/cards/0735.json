@@ -1,8 +1,7 @@
 {
-  "word_index": 735,
   "Word": "乗り込む",
   "Reading": "のりこむ",
-  "Furigana": "乗り込む[のりこむ]",
+  "Furigana": "乗[の]り込[こ]む",
   "POS": "自動1",
   "Meaning": "进入……，进攻；乘入，乘坐",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“根据……”“按照……”",
   "GrammarUsage": "接在名词「深刻度」之后，构成「深刻度に応じて」，表示依据前项情况的程度或状态，采取相适应的后续处置措施。",
   "CombinationLogic": "前半句通过「～に応じて」给出行动的衡量基准（系统故障的严重程度）；后半句据此引出相匹配的高规格应对手段——由专家团队直接“赶赴深入现场（現地へ乗り込み）”，词汇与语法逻辑搭配严丝合缝。",
-  "Tags": "N2::Vocabulary N2::Grammar::108"
+  "Tags": "N2::Vocabulary N2::Grammar::108",
+  "word_index": 735
 }

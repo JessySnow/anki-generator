@@ -1,8 +1,7 @@
 {
-  "word_index": 25,
   "Word": "責める",
   "Reading": "せめる",
-  "Furigana": "責める[せめる]",
+  "Furigana": "責[せ]める",
   "POS": "他動2",
   "Meaning": "责备，问责；催促，强迫；使……痛苦，折磨",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“……也是理所当然的”",
   "GrammarUsage": "接在动词短语「彼を厳しく責める」的名词化形式（「の」）之后，构成「責めるのも当然だ」，表示依据前因，该问责行为完全合情合理、理所应当。",
   "CombinationLogic": "前半句以「～のだから」交代多次受提醒却仍重蹈覆辙的过错原因，后半句顺理成章地用「～も当然だ」肯定了上司问责责备（「責める」）行为的正当性与必然性。",
-  "Tags": "N2::Vocabulary N2::Grammar::153"
+  "Tags": "N2::Vocabulary N2::Grammar::153",
+  "word_index": 25
 }

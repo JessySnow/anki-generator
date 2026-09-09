@@ -1,8 +1,7 @@
 {
-  "word_index": 479,
   "Word": "問い",
   "Reading": "とい",
-  "Furigana": "問い[とい]",
+  "Furigana": "問[と]い",
   "POS": "名",
   "Meaning": "问题，质疑",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示转折，“虽然……但是……”",
   "GrammarUsage": "接在动词た形「相次いだ」之后，构成「相次いだものの」，表示承认前项质问接连出现的客观事实，并在后项引出未得到明确解答的不理想结果，意为“虽然……但是……”。",
   "CombinationLogic": "前项以记者接踵而至的严厉「問い」（质询）制造出严肃且充满压迫感的事态氛围，后项借助「～ものの」笔锋一转，揭示出企业高层含糊其辞、回避实质的应对态度，形成鲜明的逻辑反差。",
-  "Tags": "N2::Vocabulary N2::Grammar::161"
+  "Tags": "N2::Vocabulary N2::Grammar::161",
+  "word_index": 479
 }

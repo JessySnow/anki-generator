@@ -1,8 +1,7 @@
 {
-  "word_index": 683,
   "Word": "盗み",
   "Reading": "ぬすみ",
-  "Furigana": "盗み[ぬすみ]",
+  "Furigana": "盗[ぬす]み",
   "POS": "名",
   "Meaning": "偷盗，偷窃",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正当……的时候”；“从……来看”",
   "GrammarUsage": "句中采用「～ところを」用法，接在动词持续体「働いている」之后，表示动作正在进行的关键节点，后项接发生不利遭遇的分句。",
   "CombinationLogic": "前半句用「盗み（を働く）」交代潜入作案的犯罪行为，通过语法「～ところを」精准捕捉行窃正在进行的时间切片，顺理成章地引出后项“被巡逻保安当场发现并制服”的后果，语法情境十分逼真生动。",
-  "Tags": "N2::Vocabulary N2::Grammar::95"
+  "Tags": "N2::Vocabulary N2::Grammar::95",
+  "word_index": 683
 }

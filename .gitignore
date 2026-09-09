@@ -2,3 +2,8 @@
 .DS_Store
 .venv
 N2 Level/scratch/
+.env
+progress/.verify_cache.json
+progress/verification_report.json
+__pycache__/
+*.pyc

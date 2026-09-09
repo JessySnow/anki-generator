@@ -1,8 +1,7 @@
 {
-  "word_index": 719,
   "Word": "退ける",
   "Reading": "のける",
-  "Furigana": "退ける[のける]",
+  "Furigana": "退[の]ける",
   "POS": "他動2",
   "Meaning": "挪开，移开",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示评价的标准，“就……而言”",
   "GrammarUsage": "接在名词「小柄な体格」之后构成「体格にしては」，表示以此作为评价基准，引出出乎意料的高能力表现。",
   "CombinationLogic": "前半句通过「～にしては」设定“身材瘦小”这一评价基准，与后半句中能够轻松“退ける（挪开）”沉重障碍物的惊人力量形成鲜明反差，逻辑合理自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::121"
+  "Tags": "N2::Vocabulary N2::Grammar::121",
+  "word_index": 719
 }

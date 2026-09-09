@@ -1,8 +1,7 @@
 {
-  "word_index": 176,
   "Word": "絶える",
   "Reading": "たえる",
-  "Furigana": "絶える[たえる]",
+  "Furigana": "絶[た]える",
   "POS": "自動2",
   "Meaning": "断绝，销声匿迹；隔离，疏远；灭亡，死亡",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示时间、地点或状况，“在……”“在……方面”",
   "GrammarUsage": "接在名词「現代社会」之后，构成「現代社会において」，表示时代与社会背景范围，“在……时代/在……社会当中”。",
   "CombinationLogic": "以少子老龄化为大时代背景，借助语法「～において」锁定现代社会中传统手工艺生存的现实空间，继而深刻指出珍贵文化技艺「絶える（断绝/失传）」的危急态势与严峻课题，因果呼应，发人深省。",
-  "Tags": "N2::Vocabulary N2::Grammar::107"
+  "Tags": "N2::Vocabulary N2::Grammar::107",
+  "word_index": 176
 }

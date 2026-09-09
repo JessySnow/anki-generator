@@ -1,8 +1,7 @@
 {
-  "word_index": 727,
   "Word": "上り",
   "Reading": "のぼり",
-  "Furigana": "上り[のぼり]",
+  "Furigana": "上[のぼ]り",
   "POS": "名",
   "Meaning": "上升，升高；上坡；上行，进京，特指去东京",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“就当是……”",
   "GrammarUsage": "接在动词「した」（する的过去式）之后构成「登山をしたつもりで」，表示虽未真正去登山，但怀着如同登山一样的心态或假定采取行动。",
   "CombinationLogic": "将日常攀爬陡峭上坡路（急な上り）的辛苦锻炼，心理上视同为专业登山（登山をしたつもりで），生动体现了化日常琐事为锻炼积极性的心理状态。",
-  "Tags": "N2::Vocabulary N2::Grammar::75"
+  "Tags": "N2::Vocabulary N2::Grammar::75",
+  "word_index": 727
 }

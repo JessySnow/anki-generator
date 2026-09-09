@@ -1,8 +1,7 @@
 {
-  "word_index": 606,
   "Word": "長生き",
   "Reading": "ながいき",
-  "Furigana": "長生き[ながいき]",
+  "Furigana": "長生[ながい]き",
   "POS": "名・自動3",
   "Meaning": "长寿，长命",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“在……时候”“借……时机”",
   "GrammarUsage": "接在动词辞书形「祝う」之后，构成「祝う際に」，表示在庆祝百岁大寿这种郑重、特殊的时刻或场合，语气比「～とき」更为正式典雅。",
   "CombinationLogic": "借庆祝长辈百岁寿辰这一庄重温馨的时刻（祝う際に），自然引出向百岁老人请教保持健康长命（長生きする）之秘诀的情境，语境与语法功能高度契合。",
-  "Tags": "N2::Vocabulary N2::Grammar::51"
+  "Tags": "N2::Vocabulary N2::Grammar::51",
+  "word_index": 606
 }

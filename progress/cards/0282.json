@@ -1,8 +1,7 @@
 {
-  "word_index": 282,
   "Word": "力持ち",
   "Reading": "ちからもち",
-  "Furigana": "力持ち[ちからもち]",
+  "Furigana": "力持[ちからも]ち",
   "POS": "名",
   "Meaning": "身强力壮，有力气的人，大力士",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示评价和感受，“有……的一面”“的确很……”",
   "GrammarUsage": "接在惯用动词辞书形「目を見張る」之后，构成「目を見張るものがある」，由衷赞扬大力士所展现出的非凡力量令人叹服与震撼。",
   "CombinationLogic": "句子以洋溢着民间民俗风情的秋季祭典为舞台，将「力持ち」举重若轻的生动举止与表达由衷惊叹的句型「～ものがある」精巧结合，画面感栩栩如生，民俗情调与赞美之情跃然纸上。",
-  "Tags": "N2::Vocabulary N2::Grammar::156"
+  "Tags": "N2::Vocabulary N2::Grammar::156",
+  "word_index": 282
 }

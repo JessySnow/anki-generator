@@ -1,8 +1,7 @@
 {
-  "word_index": 920,
   "Word": "日の丸",
   "Reading": "ひのまる",
-  "Furigana": "日の丸[ひのまる]",
+  "Furigana": "日[ひ]の丸[まる]",
   "POS": "名",
   "Meaning": "太阳旗，日本国旗",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示强烈的否定，“不可能……”",
   "GrammarUsage": "接在动词「分かる」的ます形去掉「ます」后的连用形「分かり」之后，与呼应副词「到底」连用，构成「到底分かりっこない」，表达说话人极其强烈的断定和主观否定。",
   "CombinationLogic": "前半句以「日の丸を背負って」刻画代表国家出赛时非同寻常的沉重心理负担，后半句使用「～っこない」坚决否定未曾经历过的人能够理解这种重压的可能性，感情色彩强烈，搭配贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::70"
+  "Tags": "N2::Vocabulary N2::Grammar::70",
+  "word_index": 920
 }

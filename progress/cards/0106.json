@@ -1,8 +1,7 @@
 {
-  "word_index": 106,
   "Word": "染める",
   "Reading": "そめる",
-  "Furigana": "染める[そめる]",
+  "Furigana": "染[そ]める",
   "POS": "他動2",
   "Meaning": "染(色)，涂；羞得面红耳赤；开始，着手",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“多么……啊”",
   "GrammarUsage": "与副词「どれほど」呼应，接在动词た形「重ねた」之后，构成「どれほど……苦労を重ねたことか」，由衷抒发出对工匠艰辛付出的深切敬意与感慨叹惋。",
   "CombinationLogic": "将传统染色工艺中把织物「染める」至极致这一耗费无数心血的匠人技艺作为核心，借助「どれほど～ことか」所承载的深沉感喟，使对匠人精神的礼赞跃然纸上，句式结构浑然天成。",
-  "Tags": "N2::Vocabulary N2::Grammar::44"
+  "Tags": "N2::Vocabulary N2::Grammar::44",
+  "word_index": 106
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 972,
   "Word": "～深い",
   "Reading": "～ぶかい",
-  "Furigana": "～深い[～ぶかい]",
+  "Furigana": "～深[ぶか]い",
   "POS": "接尾",
   "Meaning": "(接在名词和动词连用形后)……深的，程度重的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示转折，“虽说……”",
   "GrammarUsage": "接在名词短语之后，采用「名＋といっても（～だといっても）」的形式，承接前项承认的事实，后项则进一步指出其局限性或未达预期的部分。",
   "CombinationLogic": "前半句用「～深い」构成的「興味深い」充分肯定该课题在学术上的吸引力，后半句则通过转折句型「～といっても」客观指出面对实用化仍有重重困难，两相对照，论述严谨周全。",
-  "Tags": "N2::Vocabulary N2::Grammar::88"
+  "Tags": "N2::Vocabulary N2::Grammar::88",
+  "word_index": 972
 }

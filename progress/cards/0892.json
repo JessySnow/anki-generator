@@ -1,8 +1,7 @@
 {
-  "word_index": 892,
   "Word": "引っ繰り返る",
   "Reading": "ひっくりかえる",
-  "Furigana": "引っ繰り返る[ひっくりかえる]",
+  "Furigana": "引[ひ]っ繰[く]り返[かえ]る",
   "POS": "自動1",
   "Meaning": "翻，倒，颠倒",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“满是……”“都是……”",
   "GrammarUsage": "接在名词「破片」之后构成「破片だらけ」，表示地面上散落遍布着令人不快或危险的杂物碎片，强调负面状态遍布各处。",
   "CombinationLogic": "前半句描摹剧烈震动导致笨重家具「引っ繰り返る」（翻倒倾覆）的狼藉现场，后半句顺理成章地承接其后果——地面到处都是砸碎的「破片だらけ」（满是碎片），画面生动具体，场景感极强。",
-  "Tags": "N2::Vocabulary N2::Grammar::68"
+  "Tags": "N2::Vocabulary N2::Grammar::68",
+  "word_index": 892
 }

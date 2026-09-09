@@ -1,8 +1,7 @@
 {
-  "word_index": 632,
   "Word": "倣う",
   "Reading": "ならう",
-  "Furigana": "倣う[ならう]",
+  "Furigana": "倣[なら]う",
   "POS": "他動1",
   "Meaning": "模仿，仿效",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“除……之外”",
   "GrammarUsage": "接在名词短语「一部の特別な事情」后面，构成「～を除いては」，明确排除特定的例外情况，表示“除了……之外”。",
   "CombinationLogic": "前半句通过「～を除いては」划定适用范围，排除不合常规的特例；后半句顺理成章地提出主流做法是「他社の成功モデルに倣う（效仿成功典范）」以求稳健改进，逻辑层层递进，符合商务公文语境。",
-  "Tags": "N2::Vocabulary N2::Grammar::176"
+  "Tags": "N2::Vocabulary N2::Grammar::176",
+  "word_index": 632
 }

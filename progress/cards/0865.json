@@ -1,8 +1,7 @@
 {
-  "word_index": 865,
   "Word": "引き出す",
   "Reading": "ひきだす",
-  "Furigana": "引き出す[ひきだす]",
+  "Furigana": "引[ひ]き出[だ]す",
   "POS": "他動1",
   "Meaning": "拉出，抽出；提取；调动，发挥",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示结果，“经过……最后……”",
   "GrammarUsage": "接在动词た形「重ねた」之后构成「～末に」，表示在历经了长期的摸索、努力或曲折过程之后，终于得出了某种积极的结果。",
   "CombinationLogic": "前半句以「～末に」强调教练团队长期不懈摸索尝试的漫长艰辛积累，后半句顺水推舟地展现这一番努力所结出的丰硕成果——成功将选手的潜能「引き出す」（充分调动发挥出来），因果脉络清晰而富有感染力。",
-  "Tags": "N2::Vocabulary N2::Grammar::56"
+  "Tags": "N2::Vocabulary N2::Grammar::56",
+  "word_index": 865
 }

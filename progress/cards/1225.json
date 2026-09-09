@@ -1,8 +1,7 @@
 {
-  "word_index": 1225,
   "Word": "眩しい",
   "Reading": "まぶしい",
-  "Furigana": "眩しい[まぶしい]",
+  "Furigana": "眩[まぶ]しい",
   "POS": "イ形",
   "Meaning": "刺眼，耀眼；晃眼；光彩夺目",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示有发生某种不好的事情的可能性，“恐怕会……”“有……的危险”",
   "GrammarUsage": "接在五段动词辞书形「起こす」之后，构成「起こす恐れがある」，表示根据当前的危险隐患，推测未来有发生严重负面事故的危险性。",
   "CombinationLogic": "前半句以夕阳“刺眼（眩しくて）”妨碍驾驶视线作为危险成因，后半句顺理成章地使用「～恐れがある」指出引发重大交通事故的客观危险与严重隐患，前后因果与警示逻辑严密。",
-  "Tags": "N2::Vocabulary N2::Grammar::14"
+  "Tags": "N2::Vocabulary N2::Grammar::14",
+  "word_index": 1225
 }

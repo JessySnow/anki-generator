@@ -1,8 +1,7 @@
 {
-  "word_index": 612,
   "Word": "亡くす",
   "Reading": "なくす",
-  "Furigana": "亡くす[なくす]",
+  "Furigana": "亡[な]くす",
   "POS": "他動1",
   "Meaning": "丧失，死去",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“围绕……”",
   "GrammarUsage": "接在名词「遺産の配分」之后，构成「遺産の配分をめぐって」，表示围绕着对立或争议的核心议题展开后续讨论或争执。",
   "CombinationLogic": "前项以「父親を亡くした」点明家庭顶梁柱离世、留下巨额遗产的悲剧前提，后项顺理成章地引出骨肉兄弟围绕（～をめぐって）资产分配展开利益纠纷的情节，脉络清晰自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::179"
+  "Tags": "N2::Vocabulary N2::Grammar::179",
+  "word_index": 612
 }

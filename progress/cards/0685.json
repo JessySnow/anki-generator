@@ -1,8 +1,7 @@
 {
-  "word_index": 685,
   "Word": "濡らす",
   "Reading": "ぬらす",
-  "Furigana": "濡らす[ぬらす]",
+  "Furigana": "濡[ぬ]らす",
   "POS": "他動1",
   "Meaning": "沾湿，弄湿",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“多么……啊”",
   "GrammarUsage": "接在动词た形「濡らした」之后，与句中的疑问副词「何度」呼应，构成「何度……濡らしたことか」，抒发强烈的感叹与回忆之情。",
   "CombinationLogic": "句中借由常用惯用搭配「枕を濡らす」生动刻画出独自打拼初期的心酸与苦楚，与感叹句型「何度……ことか」紧密融合，极为深刻且饱含深情地抒发出对过往艰辛岁月的万千感慨。",
-  "Tags": "N2::Vocabulary N2::Grammar::44"
+  "Tags": "N2::Vocabulary N2::Grammar::44",
+  "word_index": 685
 }

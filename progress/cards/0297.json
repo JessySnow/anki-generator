@@ -1,8 +1,7 @@
 {
-  "word_index": 297,
   "Word": "～着",
   "Reading": "～ちゃく",
-  "Furigana": "～着[～ちゃく]",
+  "Furigana": "～着[ちゃく]",
   "POS": "接尾",
   "Meaning": "到达……",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示结果，“最后……”",
   "GrammarUsage": "接在动词过去时「続けた」之后，构成「動た形＋あげく」，表示经历了一段漫长波折、焦虑等待后，最终产生了一个令人遗憾的消极结果，意为“……之后，最后却……”。",
   "CombinationLogic": "前半句交代原定在特定时间“抵达（～着）”的航班在暴风雨上空长时间危险盘旋的艰难周折；后半句借助表示令人无奈结局的语法「～あげく」，引出不得不备降外地机场的遗憾结果，事态发展环环相扣，情境极具张力。",
-  "Tags": "N2::Vocabulary N2::Grammar::1"
+  "Tags": "N2::Vocabulary N2::Grammar::1",
+  "word_index": 297
 }

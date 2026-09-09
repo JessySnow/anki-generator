@@ -1,8 +1,7 @@
 {
-  "word_index": 1172,
   "Word": "解ける",
   "Reading": "ほどける",
-  "Furigana": "解ける[ほどける]",
+  "Furigana": "解[ほど]ける",
   "POS": "自動2",
   "Meaning": "解开，松开；缓解，融洽",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“就像……一样”",
   "GrammarUsage": "接在动词过去普通形「解けた」后，构成「解けたかのように」，在句中作状语修饰后项，用生动的比喻来描述状态发生剧烈变化的情形。",
   "CombinationLogic": "将面试结束那一刻心理压力的消散，比拟为紧绷绳索断开般的松解（解けたかのように），形象表达出如释重负的轻松感。",
-  "Tags": "N2::Vocabulary N2::Grammar::29"
+  "Tags": "N2::Vocabulary N2::Grammar::29",
+  "word_index": 1172
 }

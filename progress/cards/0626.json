@@ -1,8 +1,7 @@
 {
-  "word_index": 626,
   "Word": "生臭い",
   "Reading": "なまぐさい",
-  "Furigana": "生臭い[なまぐさい]",
+  "Furigana": "生臭[なまぐさ]い",
   "POS": "イ形",
   "Meaning": "腥的，有膻味的，血腥的；无礼的，傲慢的，狂妄的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“不得不……”",
   "GrammarUsage": "接在サ变动词「廃棄する」的未然形后构成「廃棄せざるを得なかった」，表示出于避免食物中毒的客观安全需要，无论心理上多觉得可惜，也别无选择只能将其扔掉。",
   "CombinationLogic": "前半句通过「生臭いにおい」这一感官线索揭示食材变质腐坏的客观事实，顺理成章地引出后半句出于食品安全考量而“不得不将其丢弃（廃棄せざるを得なかった）”的必然结果。",
-  "Tags": "N2::Vocabulary N2::Grammar::53"
+  "Tags": "N2::Vocabulary N2::Grammar::53",
+  "word_index": 626
 }

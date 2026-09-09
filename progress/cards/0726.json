@@ -1,8 +1,7 @@
 {
-  "word_index": 726,
   "Word": "延べ",
   "Reading": "のべ",
-  "Furigana": "延べ[のべ]",
+  "Furigana": "延[の]べ",
   "POS": "名",
   "Meaning": "总计，共计",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示建议或劝诱，“让我们……吧”",
   "GrammarUsage": "接在动词「協力する」的意志形「協力しよう」之后构成「協力しようではないか」，用于庄重而充满热情地向大众提出共同行动的倡议与呼吁。",
   "CombinationLogic": "为了达成累计破万人次（延べ一万人）的大型社会活动目标，说话人以极其热烈的语气号召全体居民共同参与（～しようではないか），前后语调昂扬，意图连贯一致。",
-  "Tags": "N2::Vocabulary N2::Grammar::10"
+  "Tags": "N2::Vocabulary N2::Grammar::10",
+  "word_index": 726
 }

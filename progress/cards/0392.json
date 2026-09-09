@@ -1,8 +1,7 @@
 {
-  "word_index": 392,
   "Word": "呟く",
   "Reading": "つぶやく",
-  "Furigana": "呟く[つぶやく]",
+  "Furigana": "呟[つぶや]く",
   "POS": "自動1",
   "Meaning": "嘟哝，小声说话",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示原因，“托……的福”“多亏……”",
   "GrammarUsage": "接在动词谓语「呟いてくれた」的连体形（名词修饰形）之后，构成「呟いてくれたおかげで」，表示由于同事提醒这一积极原因，带来了令人满意的后项结果。",
   "CombinationLogic": "将动词「呟く」与授受表达结合作为原因接续「～おかげで」，生动再现了同事无意中的一句低语提醒打破会议僵局、帮助察觉关键问题的因果关系，情景贴切，表达地道。",
-  "Tags": "N2::Vocabulary N2::Grammar::13"
+  "Tags": "N2::Vocabulary N2::Grammar::13",
+  "word_index": 392
 }

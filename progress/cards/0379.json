@@ -1,8 +1,7 @@
 {
-  "word_index": 379,
   "Word": "包み",
   "Reading": "つつみ",
-  "Furigana": "包み[つつみ]",
+  "Furigana": "包[つつ]み",
   "POS": "名",
   "Meaning": "包裹，包袱",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“每当……就……”；“不论……还是……都……”",
   "GrammarUsage": "接在动词辞书形「見る」之后，构成「見るにつけ」，表示“每当看见……就（自然而然引起某种思绪或情感）”。",
   "CombinationLogic": "将寄托着亲情关怀的实物“母亲寄来的包裹（包み）”设定为触景生情的诱因，借助句型「見るにつけ」自然引出每次目睹该物品时内心自然涌现的感激与思乡之情，句意真挚温润，语法契合度高。",
-  "Tags": "N2::Vocabulary N2::Grammar::128"
+  "Tags": "N2::Vocabulary N2::Grammar::128",
+  "word_index": 379
 }

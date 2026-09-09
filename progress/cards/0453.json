@@ -1,8 +1,7 @@
 {
-  "word_index": 453,
   "Word": "照り返す",
   "Reading": "てりかえす",
-  "Furigana": "照り返す[てりかえす]",
+  "Furigana": "照[て]り返[かえ]す",
   "POS": "自他動1",
   "Meaning": "（光和热）反射",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“如果是……则另当别论”",
   "GrammarUsage": "接在名词「春先」之后，构成「春先ならともかく」，表示如果是气温宜人的初春还可以不放在心上，但目前讨论的情况完全不同。",
   "CombinationLogic": "通过「ならともかく」将气候温和的初春与烈日炎炎的盛夏作对比，突出盛夏沥青路面反射强光酷热（照り返す）的极端环境，使后文描述行走艰难的因果逻辑更为有力。",
-  "Tags": "N2::Vocabulary N2::Grammar::105"
+  "Tags": "N2::Vocabulary N2::Grammar::105",
+  "word_index": 453
 }

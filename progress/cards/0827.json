@@ -1,8 +1,7 @@
 {
-  "word_index": 827,
   "Word": "払い込む",
   "Reading": "はらいこむ",
-  "Furigana": "払い込む[はらいこむ]",
+  "Furigana": "払[はら]い込[こ]む",
   "POS": "他動1",
   "Meaning": "缴付，缴纳",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“除……之外”",
   "GrammarUsage": "接在名词「特待生」后面，构成「特待生を除いては」，提示在全体学生的范围内将特待生作为例外加以排除。",
   "CombinationLogic": "前半句通过「特待生を除いては」限定出除受奖特待生以外的全体对象，后半句承接提出必须按时缴纳学费（「授業料を……払い込まなければならない」）的硬性规定，上下文衔接自然严密。",
-  "Tags": "N2::Vocabulary N2::Grammar::176"
+  "Tags": "N2::Vocabulary N2::Grammar::176",
+  "word_index": 827
 }

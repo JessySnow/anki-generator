@@ -1,8 +1,7 @@
 {
-  "word_index": 342,
   "Word": "散らばる",
   "Reading": "ちらばる",
-  "Furigana": "散らばる[ちらばる]",
+  "Furigana": "散[ち]らばる",
   "POS": "自動1",
   "Meaning": "散乱，凌乱，四处都是",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示比较确切的推测，“一定……”“肯定……”",
   "GrammarUsage": "接在动词持续体普通形「散らばっている」之后，构成「散らばっているに決まっている」，基于强台风的肆虐力度断言危险路况必已发生。",
   "CombinationLogic": "将强台风正面过境作为不可置疑的客观诱因，通过句型「～に決まっている」笃定推论出落木乱石「散らばる」的险象，并顺理成章地给出切勿涉险的劝诫，逻辑无懈可击。",
-  "Tags": "N2::Vocabulary N2::Grammar::113"
+  "Tags": "N2::Vocabulary N2::Grammar::113",
+  "word_index": 342
 }

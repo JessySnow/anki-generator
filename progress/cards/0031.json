@@ -1,8 +1,7 @@
 {
-  "word_index": 31,
   "Word": "～戦",
   "Reading": "～せん",
-  "Furigana": "～戦[～せん]",
+  "Furigana": "～戦[せん]",
   "POS": "接尾",
   "Meaning": "……战争，战役",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示倾向，“容易……”“往往会……”",
   "GrammarUsage": "接在动词连用形（ます形）「失い」之后，构成「失いがちだ」，表示在特定负面环境或心理压力下容易发生某种不良倾向（“往往容易丧失……”）。",
   "CombinationLogic": "前半句设定求职战线拉长成为「持久戦」的艰难背景，后半句顺理成章通过「～がちだ」指出此时极易滋生自我怀疑与消极倾向（自信を失いがち），最后提出沉着自守的建议，因果情境紧密呼应。",
-  "Tags": "N2::Vocabulary N2::Grammar::21"
+  "Tags": "N2::Vocabulary N2::Grammar::21",
+  "word_index": 31
 }

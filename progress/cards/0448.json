@@ -1,8 +1,7 @@
 {
-  "word_index": 448,
   "Word": "手拭い",
   "Reading": "てぬぐい",
-  "Furigana": "手拭い[てぬぐい]",
+  "Furigana": "手拭[てぬぐ]い",
   "POS": "名",
   "Meaning": "洗脸、洗澡时用的手巾",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正当……的时候”；“从……来看”",
   "GrammarUsage": "接在动词短语「出ていく」的连体形后面，构成「～ところを見ると」，表示根据眼前所见的情景作为依据，进行合理的判断与推测。",
   "CombinationLogic": "将“系上手巾”这一农活劳作的典型日常细节作为观察切入点，通过「～ところを見ると」顺畅推导出祖父又要满怀干劲劳作的一天，画面感生动逼真，逻辑推演自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::95"
+  "Tags": "N2::Vocabulary N2::Grammar::95",
+  "word_index": 448
 }

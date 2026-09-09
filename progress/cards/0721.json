@@ -1,8 +1,7 @@
 {
-  "word_index": 721,
   "Word": "覗く",
   "Reading": "のぞく",
-  "Furigana": "覗く[のぞく]",
+  "Furigana": "覗[のぞ]く",
   "POS": "自動1",
   "Meaning": "（他）窥视；了解；顺便看看，随意看看；（自）露出",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“（没）有……的价值、回报”“没有白……/白……”",
   "GrammarUsage": "接在动词过去式「待った」之后构成「待った甲斐があって」，表示前项付出的时间与努力得到了令人满意的回报（没有白等）。",
   "CombinationLogic": "前半句以「～甲斐があって」强调在寒冷天气中长时间执着等待的付出获得了回报，后半句以「月が覗く（月亮露出）」作为期盼已久的美景呈现，前后因果逻辑呼应紧密。",
-  "Tags": "N2::Vocabulary N2::Grammar::15"
+  "Tags": "N2::Vocabulary N2::Grammar::15",
+  "word_index": 721
 }

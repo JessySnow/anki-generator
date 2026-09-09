@@ -1,8 +1,7 @@
 {
-  "word_index": 774,
   "Word": "励ます",
   "Reading": "はげます",
-  "Furigana": "励ます[はげます]",
+  "Furigana": "励[はげ]ます",
   "POS": "他動1",
   "Meaning": "鼓励，激励；加强，强化",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“围绕……”",
   "GrammarUsage": "接在疑问从句名词化结构「どう励ますか」之后，构成「～をめぐって」，表示围绕某一焦点议题展开讨论与意见交换。",
   "CombinationLogic": "前半句提出“如何去鼓励失落的学生”这一关怀性课题，顺理成章地用「～をめぐって」引出教员团队围绕该议题展开的深入讨论，情境契合度极高。",
-  "Tags": "N2::Vocabulary N2::Grammar::179"
+  "Tags": "N2::Vocabulary N2::Grammar::179",
+  "word_index": 774
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 232,
   "Word": "試す",
   "Reading": "ためす",
-  "Furigana": "試す[ためす]",
+  "Furigana": "試[ため]す",
   "POS": "他動1",
   "Meaning": "尝试，试验",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示泛指，“……什么的”",
   "GrammarUsage": "接在名词短语「無料の試供品」之后，构成「試供品か何か」，用于不局限于单一具体物件、而是以柔和口吻列举其一以泛指同类事物（“……之类的”、“……什么的”）。",
   "CombinationLogic": "围绕消费决策中的谨慎避坑常识，先以「試供品か何か（试用小样之类的东西）」作为触手可及的轻量级指代媒介，自然推导出以最低试错成本先行验证其适配度（肌に合うかを試す）的合理建议，真实贴切，逻辑顺达。",
-  "Tags": "N2::Vocabulary N2::Grammar::26"
+  "Tags": "N2::Vocabulary N2::Grammar::26",
+  "word_index": 232
 }

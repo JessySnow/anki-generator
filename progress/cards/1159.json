@@ -1,8 +1,7 @@
 {
-  "word_index": 1159,
   "Word": "誇り",
   "Reading": "ほこり",
-  "Furigana": "誇り[ほこり]",
+  "Furigana": "誇[ほこ]り",
   "POS": "名",
   "Meaning": "自豪，感到荣耀",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“从……上来看”“在……上”",
   "GrammarUsage": "接在名词「仕事」之后，构成「仕事上の」，表示“从工作/业务层面上来看”，在此作为定语修饰后续名词「誇り」。",
   "CombinationLogic": "以手艺人对细节精益求精的专业操守为背景，用「～上（の）」界定其所属的职业范畴，进而水到渠成地落脚于体现工匠精神的「誇り」，语意庄重深刻。",
-  "Tags": "N2::Vocabulary N2::Grammar::55"
+  "Tags": "N2::Vocabulary N2::Grammar::55",
+  "word_index": 1159
 }

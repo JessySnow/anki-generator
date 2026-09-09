@@ -1,8 +1,7 @@
 {
-  "word_index": 728,
   "Word": "上る",
   "Reading": "のぼる",
-  "Furigana": "上る[のぼる]",
+  "Furigana": "上[のぼ]る",
   "POS": "自動1",
   "Meaning": "上升，登高；逆流而上；上行，进京；达到……；被提出，被议论",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示有某种感觉或倾向，“看上去……”“感觉……”“容易……”",
   "GrammarUsage": "接在名词「子ども」后构成「子どもっぽい」，以连用形「子どもっぽくて」表示方案给人以不成熟、孩子气的感觉或倾向。",
   "CombinationLogic": "描述严肃商业会议上正式被提出讨论的议案（議題に上った），其内容却给人一种幼稚而不成熟（子どもっぽい）的负面印象，对比鲜明，语义连贯自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::73"
+  "Tags": "N2::Vocabulary N2::Grammar::73",
+  "word_index": 728
 }

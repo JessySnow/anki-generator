@@ -1,8 +1,7 @@
 {
-  "word_index": 68,
   "Word": "～艘",
   "Reading": "～そう",
-  "Furigana": "～艘[～そう]",
+  "Furigana": "～艘[そう]",
   "POS": "接尾",
   "Meaning": "……艘，用于计算船只数量的量词",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示转折，“虽然……但是……”",
   "GrammarUsage": "接在动词过去时「発見した」的名词修饰形（连体形）之后，构成「発見したものの」，表示事实上的逆接转折，意为“虽然已经发现了……但是……”。",
   "CombinationLogic": "前半句通过量词「一艘」具体交代搜救队在恶劣海况中发现了遇难船只这一积极进展；后半句则通过「～ものの」引出转折，说明受暴风雨阻碍而难以实施救援的客观困境，前后形成鲜明对比，语意紧密合理。",
-  "Tags": "N2::Vocabulary N2::Grammar::161"
+  "Tags": "N2::Vocabulary N2::Grammar::161",
+  "word_index": 68
 }

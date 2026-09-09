@@ -1,8 +1,7 @@
 {
-  "word_index": 633,
   "Word": "鳴らす",
   "Reading": "ならす",
-  "Furigana": "鳴らす[ならす]",
+  "Furigana": "鳴[な]らす",
   "POS": "他動1",
   "Meaning": "使……发出声响",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“根据……”“按照……”",
   "GrammarUsage": "接在名词短语「危険の度合い」后面，构成「～に応じて」，表示后项的动作随着前项的具体情况或程度而做出相应调整，意为“根据……/按照……”。",
   "CombinationLogic": "前半句用「～に応じて」设定“依照危险程度高低”的动态调节条件，后半句由「鳴らす」承接具体的安全机制动作（鸣响不同类型的警报），语意连贯且贴合现代科技与安全规范语境。",
-  "Tags": "N2::Vocabulary N2::Grammar::108"
+  "Tags": "N2::Vocabulary N2::Grammar::108",
+  "word_index": 633
 }

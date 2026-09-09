@@ -1,8 +1,7 @@
 {
-  "word_index": 736,
   "Word": "乗り過ごす",
   "Reading": "のりすごす",
-  "Furigana": "乗り過ごす[のりすごす]",
+  "Furigana": "乗[の]り過[す]ごす",
   "POS": "自動1",
   "Meaning": "坐过站",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“在……之后才……”",
   "GrammarUsage": "接在动词て形「聞いて」之后，构成「聞いてはじめて」，表示在前项事情发生之后，才有了后项的新认识或警觉。",
   "CombinationLogic": "前半句用「～てはじめて」揭示促成认知转变的外在契机（听到陌生的终点广播）；后半句承接直到此刻才恍然大悟的真相（因打瞌睡而“彻底坐过了站[乗り過ごしてしまった]”），将坐过站后的心理顿悟过程展现得逼真自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::84"
+  "Tags": "N2::Vocabulary N2::Grammar::84",
+  "word_index": 736
 }

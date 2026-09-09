@@ -1,8 +1,7 @@
 {
-  "word_index": 199,
   "Word": "立ち入り",
   "Reading": "たちいり",
-  "Furigana": "立ち入り[たちいり]",
+  "Furigana": "立[た]ち入[い]り",
   "POS": "名",
   "Meaning": "进入，干预",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“沿着……”；“按照……”",
   "GrammarUsage": "接在名词短语「厳格な保安手順」之后，构成「手順に沿って」，表明现场警戒封控措施是严格依凭应急规程与执法条令执行的。",
   "CombinationLogic": "以防范地质灾害次生风险为背景，将有法可依、按部就班的管控规范（「保安手順に沿って」）与现场人员禁入管控（「立ち入りを禁じる」）紧密交织，充分体现了突发公共安全事件处理中的法度与严密逻辑。",
-  "Tags": "N2::Vocabulary N2::Grammar::125"
+  "Tags": "N2::Vocabulary N2::Grammar::125",
+  "word_index": 199
 }

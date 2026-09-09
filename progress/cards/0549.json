@@ -1,9 +1,8 @@
 {
-  "word_index": 549,
   "Word": "退ける",
   "Reading": "どける",
-  "Furigana": "退ける[どける]",
-  "POS": "[他動2]",
+  "Furigana": "退[ど]ける",
+  "POS": "他動2",
   "Meaning": "挪开，移开，腾出地方",
   "WordAudio": "",
   "Sentence": "通路に置いてある段ボールは歩行の邪魔になっていないので、わざわざ今すぐ退けることはない。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“没必要……”“用不着……”",
   "GrammarUsage": "直接接在动词辞书形「退ける」之后，构成「退けることはない」，向对方提出建议，表示完全没有必要做某事。",
   "CombinationLogic": "前提是纸箱并未妨碍正常通行，因此顺理成章地用「退けることはない（用不着挪开）」表达无需大费周折立即搬移的建议，词义与语法点直接结合，语意凝练自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::50"
+  "Tags": "N2::Vocabulary N2::Grammar::50",
+  "word_index": 549
 }

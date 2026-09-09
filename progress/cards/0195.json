@@ -1,8 +1,7 @@
 {
-  "word_index": 195,
   "Word": "～正しい",
   "Reading": "～ただしい",
-  "Furigana": "～正しい[～ただしい]",
+  "Furigana": "～正[ただ]しい",
   "POS": "接尾",
   "Meaning": "遵守……，合乎……，……正确的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示假设，“如果……”",
   "GrammarUsage": "接在动词辞书形「ある」之后，构成「あるとしたら」，用于提出“倘若真存在某种捷径”这一设想性的假定前提。",
   "CombinationLogic": "句首通过句型「～としたら」设定“寻求提升效率的终极捷径”这一设问性假设，后半句顺理成章地给出化繁为简的答案——坚持「規則正しい」生活作息，前后一设一答，逻辑紧凑，说服力强。",
-  "Tags": "N2::Vocabulary N2::Grammar::97"
+  "Tags": "N2::Vocabulary N2::Grammar::97",
+  "word_index": 195
 }

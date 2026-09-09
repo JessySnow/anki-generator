@@ -1,8 +1,7 @@
 {
-  "word_index": 729,
   "Word": "昇る",
   "Reading": "のぼる",
-  "Furigana": "昇る[のぼる]",
+  "Furigana": "昇[のぼ]る",
   "POS": "自動1",
   "Meaning": "上升，升起；升级，晋级",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示解释说明，“当然……”“就是……”；表示原因，“因为……”",
   "GrammarUsage": "接在动词辞书形「見える」之后构成「見えるわけだ」，与前半句的「～のだから」呼应，表示依据优越的地理条件得出的理所当然的结论（“难怪/自然如此”）。",
   "CombinationLogic": "由开阔无遮挡的观景台这一客观前提，合理解释了观察朝阳升起（朝日が昇る）这一壮丽景象格外清晰震撼的自然因果关系（～わけだ）。",
-  "Tags": "N2::Vocabulary N2::Grammar::169"
+  "Tags": "N2::Vocabulary N2::Grammar::169",
+  "word_index": 729
 }

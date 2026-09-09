@@ -1,8 +1,7 @@
 {
-  "word_index": 1228,
   "Word": "丸ごと",
   "Reading": "まるごと",
-  "Furigana": "丸ごと[まるごと]",
+  "Furigana": "丸[まる]ごと",
   "POS": "副",
   "Meaning": "整个，完整，完全",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示不得已做某事，“只有……”“只好……”",
   "GrammarUsage": "接在サ变动词辞书形「交換する」之后，构成「交換するよりほかはない」，表示在排除局部修补手段后，出于安全考虑别无选择，唯有采取整体更换这唯一的对策。",
   "CombinationLogic": "前半句指出局部修缮已无法保证安全的困境，后半句顺理成章地用「～よりほかはない」得出不得已做出的唯一决断，结合「丸ごと」强调彻底整套替换，逻辑严密，语意有力。",
-  "Tags": "N2::Vocabulary N2::Grammar::148"
+  "Tags": "N2::Vocabulary N2::Grammar::148",
+  "word_index": 1228
 }

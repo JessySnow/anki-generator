@@ -1,8 +1,7 @@
 {
-  "word_index": 806,
   "Word": "～話",
   "Reading": "～ばなし",
-  "Furigana": "～話[～ばなし]",
+  "Furigana": "～話[ばなし]",
   "POS": "接尾",
   "Meaning": "……故事，传说等",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“最好是……”",
   "GrammarUsage": "接在动词辞书形「咲かせる」之后，构成「咲かせるに限る」，表示说话人根据具体情境提出的主观判断，认为这是重逢欢聚时的最佳选择。",
   "CombinationLogic": "与阔别多年的老友相聚，最惬意的事情莫过于重温共同经历的岁月；句中将叙说往昔岁月的「昔話」与表示绝佳建议的「～に限る」相结合，生动再现了旧友欢聚的温馨场景。",
-  "Tags": "N2::Vocabulary N2::Grammar::111"
+  "Tags": "N2::Vocabulary N2::Grammar::111",
+  "word_index": 806
 }

@@ -1,9 +1,8 @@
 {
-  "word_index": 487,
   "Word": "塔",
   "Reading": "とう",
   "Furigana": "塔[とう]",
-  "POS": "[名]",
+  "POS": "名",
   "Meaning": "……塔，高耸的建筑物",
   "WordAudio": "",
   "Sentence": "この歴史ある街の象徴である高い塔の最上階に登ったからこそ、遠くの山並みまで広がる素晴らしい絶景を一望できたのだ。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "强调原因，“正因为……”",
   "GrammarUsage": "接在动词过去普通形「登った」之后，构成「登ったからこそ」，强烈强调唯有登上高塔才是看清壮丽全景的唯一关键原因。",
   "CombinationLogic": "利用高耸建筑物「塔」所具备的绝佳制高点视野，自然衔接强调原因排他性的「～からこそ」，鲜明突出了登高方能远眺的因果逻辑，生动形象。",
-  "Tags": "N2::Vocabulary N2::Grammar::32"
+  "Tags": "N2::Vocabulary N2::Grammar::32",
+  "word_index": 487
 }

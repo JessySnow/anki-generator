@@ -1,9 +1,8 @@
 {
-  "word_index": 1378,
   "Word": "最も",
   "Reading": "もっとも",
-  "Furigana": "最も[もっとも]",
-  "POS": "[副]",
+  "Furigana": "最[もっと]も",
+  "POS": "副",
   "Meaning": "最，极其",
   "WordAudio": "",
   "Sentence": "彼が今回の大会で最も高い評価を受けたのは、人知れず積み重ねてきた日々の努力の成果にほかならない。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示强烈的断定，“无非是……”",
   "GrammarUsage": "接在名词「成果」之后，构成「努力の成果にほかならない」，用于强烈断定某项结果的唯一根本原因与本质归宿。",
   "CombinationLogic": "前半句提出在竞争中摘得“最高（最も高い）评价”的卓越成就，后半句以「～にほかならない」断定其荣耀的本质正是源于坚持不懈的踏实努力，因果紧扣，说理透彻。",
-  "Tags": "N2::Vocabulary N2::Grammar::114"
+  "Tags": "N2::Vocabulary N2::Grammar::114",
+  "word_index": 1378
 }

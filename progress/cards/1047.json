@@ -1,8 +1,7 @@
 {
-  "word_index": 1047,
   "Word": "振る",
   "Reading": "ふる",
-  "Furigana": "振る[ふる]",
+  "Furigana": "振[ふ]る",
   "POS": "他動1",
   "Meaning": "摇动，摆动；播撒，散布；拒绝，厌恶；(在汉字旁)标注(读音等)",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“根据……”“按照……”",
   "GrammarUsage": "接在名词「読者の年齢層」后构成「年齢層に応じて」，表示根据对象受众的年龄差异而采取相应适宜的应对措施。",
   "CombinationLogic": "句中前半部分用「～に応じて」确立按照读者年龄层次因材施教的基准，后半部分明确叙述针对难字「読み仮名を振る」（标注注音）的人性化编排设计，两部分因果逻辑呼应紧密。",
-  "Tags": "N2::Vocabulary N2::Grammar::108"
+  "Tags": "N2::Vocabulary N2::Grammar::108",
+  "word_index": 1047
 }

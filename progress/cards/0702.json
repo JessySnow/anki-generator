@@ -1,8 +1,7 @@
 {
-  "word_index": 702,
   "Word": "狙う",
   "Reading": "ねらう",
-  "Furigana": "狙う[ねらう]",
+  "Furigana": "狙[ねら]う",
   "POS": "他動1",
   "Meaning": "瞄准；希望获得……，以……为目标；窥伺（……时机）",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“以……为首”“以……为代表”",
   "GrammarUsage": "「～をはじめとする」接在名词「中国」之后修饰名词「アジア主要国」，表示列举具有代表性的领头事例。",
   "CombinationLogic": "以企业积极瞄准全球市场份额「～を狙う」的发展战略为前提，顺势引出以最具代表性市场为先锋「～をはじめとする」的开拓布局，语义递进自然，商务表达规范地道。",
-  "Tags": "N2::Vocabulary N2::Grammar::177"
+  "Tags": "N2::Vocabulary N2::Grammar::177",
+  "word_index": 702
 }

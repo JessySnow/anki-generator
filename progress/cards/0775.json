@@ -1,8 +1,7 @@
 {
-  "word_index": 775,
   "Word": "励み",
   "Reading": "はげみ",
-  "Furigana": "励み[はげみ]",
+  "Furigana": "励[はげ]み",
   "POS": "名",
   "Meaning": "勉励，鼓舞，勤奋",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“看上去好像……，但……”",
   "GrammarUsage": "接在动词持续态普通形「なっている」后构成「励みになっているようで」，表示表面上看似乎起到了鼓舞激励的效果，后文则转折指出其真实带来的心理重负。",
   "CombinationLogic": "将“外界期待给予的动力与鼓舞（励み）”与“表象与实际反差的转折（～ようで）”巧妙结合，对比了外界眼中的积极效应与当事人内心的重压，情理兼备。",
-  "Tags": "N2::Vocabulary N2::Grammar::165"
+  "Tags": "N2::Vocabulary N2::Grammar::165",
+  "word_index": 775
 }

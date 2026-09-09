@@ -1,8 +1,7 @@
 {
-  "word_index": 221,
   "Word": "～束",
   "Reading": "～たば",
-  "Furigana": "～束[～たば]",
+  "Furigana": "～束[たば]",
   "POS": "接尾",
   "Meaning": "……捆，把，束",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示判断的依据，“从……来看”",
   "GrammarUsage": "接在名词短语「厳しい目線」之后，构成「目線からすると」，表明以行家特有的敏锐审美与高规格衡量基准作为依据展开评判。",
   "CombinationLogic": "以顶级料理人精湛严苛的鉴别立场为依据（「目線からすると」），通过对看似普通平凡的「一束」食材细节的洞察，见微知著地揭示农户手艺的高下，视野独到，用词精妙考究。",
-  "Tags": "N2::Vocabulary N2::Grammar::34"
+  "Tags": "N2::Vocabulary N2::Grammar::34",
+  "word_index": 221
 }

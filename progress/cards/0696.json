@@ -1,8 +1,7 @@
 {
-  "word_index": 696,
   "Word": "捩る",
   "Reading": "ねじる",
-  "Furigana": "捩る[ねじる]",
+  "Furigana": "捩[ねじ]る",
   "POS": "他動1",
   "Meaning": "拧，扭，扭转",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“以……为契机、机会”",
   "GrammarUsage": "接在动词名词化结构「無理に体を捩ったの」之后，构成「～をきっかけに」，表示由于某意外动作或事件引发了后项认识上的转变。",
   "CombinationLogic": "因身体不当“扭转（捩る）”造成运动损伤，这一负面经历自然成为了解并重视身体柔韧性锻炼的直接“契机（～をきっかけに）”，因果衔接顺畅。",
-  "Tags": "N2::Vocabulary N2::Grammar::16"
+  "Tags": "N2::Vocabulary N2::Grammar::16",
+  "word_index": 696
 }

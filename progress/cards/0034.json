@@ -1,8 +1,7 @@
 {
-  "word_index": 34,
   "Word": "前～",
   "Reading": "ぜん～",
-  "Furigana": "前～[ぜん～]",
+  "Furigana": "前[ぜん]～",
   "POS": "接頭",
   "Meaning": "之前(的)，在……以前；公元前",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“按照……”“根据……”；“随着……”",
   "GrammarUsage": "接在名词「方針」之后构成「方針に従って」，表示以某种既定准则、方针或前人安排为依据来开展后续工作（“按照……”）。",
   "CombinationLogic": "句中以接头词「前～」构成的「前社長」交代了方针制定的前任背景，再通过「～に従って」将“前社长制定的方针”确立为新班子的行动准则，逻辑严密地展现了企业经营中承前启后、按章办事的管理情境。",
-  "Tags": "N2::Vocabulary N2::Grammar::119"
+  "Tags": "N2::Vocabulary N2::Grammar::119",
+  "word_index": 34
 }

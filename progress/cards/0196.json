@@ -1,8 +1,7 @@
 {
-  "word_index": 196,
   "Word": "直ちに",
   "Reading": "ただちに",
-  "Furigana": "直ちに[ただちに]",
+  "Furigana": "直[ただ]ちに",
   "POS": "副",
   "Meaning": "立刻，马上",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“多么……啊”",
   "GrammarUsage": "与疑问副词「どれほど」遥相呼应，接在动词た形「安堵した」之后，构成「どれほど安堵したことか」，由衷抒发出家属在悬着的心终于落地时的极致庆幸与感慨。",
   "CombinationLogic": "句子以命悬一线的抢救现场为背景，用「直ちに」表现出医者争分夺秒的超凡决断，正是有了这种刻不容缓的施救才换来了转危为安，从而自然引出句末由「～ことか」所烘托出的如释重负之情，情绪张力饱满。",
-  "Tags": "N2::Vocabulary N2::Grammar::44"
+  "Tags": "N2::Vocabulary N2::Grammar::44",
+  "word_index": 196
 }

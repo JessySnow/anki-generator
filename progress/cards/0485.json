@@ -1,9 +1,8 @@
 {
-  "word_index": 485,
   "Word": "党",
   "Reading": "とう",
   "Furigana": "党[とう]",
-  "POS": "[名]",
+  "POS": "名",
   "Meaning": "同伙，党派，政治方面的集团，政党",
   "WordAudio": "",
   "Sentence": "次の総選挙に向けて、新しい党か何かを結成し、若者の声を政策に反映させようという動きが活発になっている。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示泛指，“……什么的”",
   "GrammarUsage": "接在名词「党」之后，构成「党か何か」，用于举出代表性事例进行模糊泛指，表示“政党或类似的政治团体”。",
   "CombinationLogic": "将代表政治团体的「党」与表示例示泛指的「～か何か」结合，准确描绘出在选举前夕尝试建立政党或相关政治团体参与政治的典型场景，语意自然通顺。",
-  "Tags": "N2::Vocabulary N2::Grammar::26"
+  "Tags": "N2::Vocabulary N2::Grammar::26",
+  "word_index": 485
 }

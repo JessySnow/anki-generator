@@ -1,8 +1,7 @@
 {
-  "word_index": 635,
   "Word": "生る",
   "Reading": "なる",
-  "Furigana": "生る[なる]",
+  "Furigana": "生[な]る",
   "POS": "自動1",
   "Meaning": "结出果实，有成果",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“多么……啊”",
   "GrammarUsage": "接在动词过去形「生った」之后，与句中的程度副词「どれほど」相呼应，构成「どれほど……生ったことか」，表示对丰收景象发自内心的深切感叹。",
   "CombinationLogic": "前半句以长年辛勤照料果树作铺垫，后半句引出果树结出丰硕果实（実が生る）的喜悦，再通过感叹句型「どれほど～ことか」强烈抒发由衷的欣慰与感慨，情景交融，浑然一体。",
-  "Tags": "N2::Vocabulary N2::Grammar::44"
+  "Tags": "N2::Vocabulary N2::Grammar::44",
+  "word_index": 635
 }

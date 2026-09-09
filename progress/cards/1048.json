@@ -1,8 +1,7 @@
 {
-  "word_index": 1048,
   "Word": "古～",
   "Reading": "ふる～",
-  "Furigana": "古～[ふる～]",
+  "Furigana": "古[ふる]～",
   "POS": "接頭",
   "Meaning": "古老，陈旧的……，以前的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“最好是……”",
   "GrammarUsage": "接在动词辞书形「読む」后构成「読むに限る」，表示说话者极力主观推崇某种做法，断定这是在特定情景下的最佳选择（莫过于……/最好是……）。",
   "CombinationLogic": "句子前半部分设定悠闲度假的生活情境，后半部分通过「古本」烘托沉静怀旧的阅读趣味，并由「～に限る」主观推荐读旧书是享受假期的不二之选，情理交融。",
-  "Tags": "N2::Vocabulary N2::Grammar::111"
+  "Tags": "N2::Vocabulary N2::Grammar::111",
+  "word_index": 1048
 }

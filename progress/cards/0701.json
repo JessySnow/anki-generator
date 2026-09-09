@@ -1,8 +1,7 @@
 {
-  "word_index": 701,
   "Word": "狙い",
   "Reading": "ねらい",
-  "Furigana": "狙い[ねらい]",
+  "Furigana": "狙[ねら]い",
   "POS": "名",
   "Meaning": "瞄准；目标，目的",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示并不是完全没有某种事情，“不是不……”",
   "GrammarUsage": "「～なくもない」接在动词可能否定形「理解でき（ない）」的词干之后，构成双重否定，委婉表达“并非完全不理解、也是有所理解的”。",
   "CombinationLogic": "前项以「～の狙いは理解できなくもない」表达对对方提出战略目的/意图的保留认可，后项转折说明面临的实际困难，形成委婉而理性的职场思辨逻辑。",
-  "Tags": "N2::Vocabulary N2::Grammar::104"
+  "Tags": "N2::Vocabulary N2::Grammar::104",
+  "word_index": 701
 }

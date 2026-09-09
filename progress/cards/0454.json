@@ -1,8 +1,7 @@
 {
-  "word_index": 454,
   "Word": "照る",
   "Reading": "てる",
-  "Furigana": "照る[てる]",
+  "Furigana": "照[て]る",
   "POS": "自動1",
   "Meaning": "发光，照射；放晴，天气晴朗",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“没有办法……”“无法……”",
   "GrammarUsage": "接在动词「防ぐ」的连用形（ます形）之后，构成「防ぎようがない」，表示在缺乏防晒器具的条件下，客观手段上完全无法防范。",
   "CombinationLogic": "以“烈日当空暴晒（日が照っている）”作为苛刻的现实环境，引出在没有防晒用具时“完全无法抵御（防ぎようがない）”的无奈推论，语义结合自然且极富说服力。",
-  "Tags": "N2::Vocabulary N2::Grammar::164"
+  "Tags": "N2::Vocabulary N2::Grammar::164",
+  "word_index": 454
 }

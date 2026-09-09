@@ -1,8 +1,7 @@
 {
-  "word_index": 445,
   "Word": "手取り",
   "Reading": "てどり",
-  "Furigana": "手取り[てどり]",
+  "Furigana": "手取[てど]り",
   "POS": "名",
   "Meaning": "(扣除税款的)净收入，实际收入",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示刚刚做完某事，“刚……”",
   "GrammarUsage": "接在动词「就職する」的过去式「就職した」后面，构成「就職したばかり」，在此作定语修饰名词「頃」，表示初入职场的时间点。",
   "CombinationLogic": "将“刚参加工作（就職したばかり）”作为特定情景，自然引申出新人初次面对扣费后“实际到手收入（手取り）”与预期心理落差的生活体验，句意真实自然，契合生活常理。",
-  "Tags": "N2::Vocabulary N2::Grammar::66"
+  "Tags": "N2::Vocabulary N2::Grammar::66",
+  "word_index": 445
 }

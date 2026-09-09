@@ -1,8 +1,7 @@
 {
-  "word_index": 400,
   "Word": "強まる",
   "Reading": "つよまる",
-  "Furigana": "強まる[つよまる]",
+  "Furigana": "強[つよ]まる",
   "POS": "自動1",
   "Meaning": "增强，加强",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“打算……”；表示主语自己的想法，“自己认为……”",
   "GrammarUsage": "接在动词辞书形「中止にする」之后，构成「中止にするつもりだ」，表示说话人经过权衡之后做出的明确意图与行动计划，意为“打算……”。",
   "CombinationLogic": "前半句用「風雨が急激に強まる」点明天气恶化、存在严重安全隐患的外部客观现实；后半句依据该现实合乎逻辑地导出主办方决定规避风险的应对打算（「～中止にするつもりだ」），因果推进严密自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::74"
+  "Tags": "N2::Vocabulary N2::Grammar::74",
+  "word_index": 400
 }

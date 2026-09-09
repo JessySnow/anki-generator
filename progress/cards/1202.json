@@ -1,9 +1,8 @@
 {
-  "word_index": 1202,
   "Word": "薪",
   "Reading": "まき",
   "Furigana": "薪[まき]",
-  "POS": "[名]",
+  "POS": "名",
   "Meaning": "木柴，柴火",
   "WordAudio": "",
   "Sentence": "厳しい冬を乗り越えるために山から自分で集めてきた薪だからこそ、暖炉で燃える炎の温もりは格別だ。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "强调原因，“正因为……”",
   "GrammarUsage": "接在名词谓语普通形「薪だ」之后构成「薪だからこそ」，强烈强调“亲自动手拾柴”这一核心原因，排除其他普通燃料的通常情况。",
   "CombinationLogic": "前半句以「薪だからこそ」点明木柴凝结着自己辛勤劳动的付出，因而有力地支撑并深化了后半句“火炉的暖意格外不同（温もりは格別だ）”的主观感受，情理交融。",
-  "Tags": "N2::Vocabulary N2::Grammar::32"
+  "Tags": "N2::Vocabulary N2::Grammar::32",
+  "word_index": 1202
 }

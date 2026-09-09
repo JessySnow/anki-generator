@@ -1,8 +1,7 @@
 {
-  "word_index": 744,
   "Word": "排気ガス",
   "Reading": "はいきガス",
-  "Furigana": "排気ガス[はいきガス]",
+  "Furigana": "排気[はいき]ガス",
   "POS": "名",
   "Meaning": "（汽车）废气，尾气",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“只不过……而已”",
   "GrammarUsage": "接在名词「一つの手段」之后，构成「一つの手段に過ぎず」，表示客观限定与评价，说明某种事物程度有限或只是局部手段。",
   "CombinationLogic": "句子围绕汽车「排気ガス」的环保议题展开，指出发展电动车在减少尾气方面固然有益，但仅此而已（「～に過ぎない」），进而引出需要更全面的发电端根本改革，立意深刻，论说层次清晰。",
-  "Tags": "N2::Vocabulary N2::Grammar::123"
+  "Tags": "N2::Vocabulary N2::Grammar::123",
+  "word_index": 744
 }

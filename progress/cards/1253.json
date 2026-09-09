@@ -1,9 +1,8 @@
 {
-  "word_index": 1253,
   "Word": "岬",
   "Reading": "みさき",
   "Furigana": "岬[みさき]",
-  "POS": "[名]",
+  "POS": "名",
   "Meaning": "海角，岬",
   "WordAudio": "",
   "Sentence": "近年、地球温暖化に伴う海面上昇や激しい高波の影響で、この岬の海岸線は削られて後退する一方だ。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“不断……”“越来越……”",
   "GrammarUsage": "接在动词辞书形「後退する」之后，构成「後退する一方だ」，表示海岸线受波浪冲蚀而持续向后退缩的单一恶化发展趋势。",
   "CombinationLogic": "结合突出伸入海中、极易受到波浪冲蚀的「岬」这一地理环境特征，运用表示不良状态持续恶化的「～一方だ」，生动表现了海角地貌受海蚀影响不断后退的严峻现实，逻辑紧密自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::5"
+  "Tags": "N2::Vocabulary N2::Grammar::5",
+  "word_index": 1253
 }

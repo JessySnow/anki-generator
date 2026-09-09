@@ -1,8 +1,7 @@
 {
-  "word_index": 484,
   "Word": "問う",
   "Reading": "とう",
-  "Furigana": "問う[とう]",
+  "Furigana": "問[と]う",
   "POS": "他動1",
   "Meaning": "问，询问；调查，追究",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示根据，“按照……”“根据……”",
   "GrammarUsage": "接在名词短语「客観的なデータと証言」之后，构成「～に基づいて」，表示以客观事实为基准和行动依据，意为“根据……”“按照……”。",
   "CombinationLogic": "前项通过「～に基づいて」明确问责的基石是确凿客观的证据与事实，后项自然引出对涉事高管采取的追责举措（「責任を問う」），因果相承，体现了求真问责的严密逻辑。",
-  "Tags": "N2::Vocabulary N2::Grammar::133"
+  "Tags": "N2::Vocabulary N2::Grammar::133",
+  "word_index": 484
 }

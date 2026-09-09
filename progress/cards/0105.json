@@ -1,8 +1,7 @@
 {
-  "word_index": 105,
   "Word": "染まる",
   "Reading": "そまる",
-  "Furigana": "染まる[そまる]",
+  "Furigana": "染[そ]まる",
   "POS": "自動1",
   "Meaning": "染上……；沾染(习惯等)",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示结果，“最后……”",
   "GrammarUsage": "接在动词た形「繰り返した」之后，构成「繰り返したあげくに」，连接长时间的荒唐玩乐过程与随之而来的严重消极结局。",
   "CombinationLogic": "句子将与不良分子反复鬼混设定为走向堕落的沉沦过程，通过语法「～あげく（に）」顺理成章地引出最终全面陷落（「悪に染まる」）的悲剧下场，两相结合，警示性强且因果链条严密清晰。",
-  "Tags": "N2::Vocabulary N2::Grammar::1"
+  "Tags": "N2::Vocabulary N2::Grammar::1",
+  "word_index": 105
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 1127,
   "Word": "坊さん",
   "Reading": "ぼうさん",
-  "Furigana": "坊さん[ぼうさん]",
+  "Furigana": "坊[ぼう]さん",
   "POS": "名",
   "Meaning": "和尚，对僧侣的敬称",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示事情几乎同时发生，“刚……就……”；表示结果与说话人预想的相反，“原以为……却……”",
   "GrammarUsage": "接在动词た形「現れた」后构成「現れたかと思うと」，表示前项动作刚发生，后项动作紧接着迅速发生。",
   "CombinationLogic": "描述僧侣（坊さん）上门诵经时步履匆匆的场景，借助「～かと思うと」生动刻画出刚露面念完经又迅速前往下一家的利落节奏，语境真实自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::23"
+  "Tags": "N2::Vocabulary N2::Grammar::23",
+  "word_index": 1127
 }

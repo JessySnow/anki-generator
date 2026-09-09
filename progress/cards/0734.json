@@ -1,8 +1,7 @@
 {
-  "word_index": 734,
   "Word": "乗り越す",
   "Reading": "のりこす",
-  "Furigana": "乗り越す[のりこす]",
+  "Furigana": "乗[の]り越[こ]す",
   "POS": "他動1",
   "Meaning": "坐过站；跨越，越过，超越",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“根据……”“在……基础上”",
   "GrammarUsage": "接在名词「苦い教訓」之后，构成「～を踏まえて」，表示将前项的经验教训作为思考和行动的基准与出发点。",
   "CombinationLogic": "前半句以「～を踏まえて」点明吸取教训的客观依据——上次因“坐过站（駅を乗り越して）”而导致迟到的失误；后半句顺理成章提出吸取教训后采取的防范对策（设置闹钟），句意前后呼应，逻辑严谨。",
-  "Tags": "N2::Vocabulary N2::Grammar::178"
+  "Tags": "N2::Vocabulary N2::Grammar::178",
+  "word_index": 734
 }

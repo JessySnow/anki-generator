@@ -1,8 +1,7 @@
 {
-  "word_index": 700,
   "Word": "値引き",
   "Reading": "ねびき",
-  "Furigana": "値引き[ねびき]",
+  "Furigana": "値引[ねび]き",
   "POS": "名・他動3",
   "Meaning": "减价，降低价格",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正在……”",
   "GrammarUsage": "接在复合动词「難しくなる」的连用形（ます形）「難しくなり」之后，构成「難しくなりつつある」，表示某种趋势或倾向正处于持续演变发展的过程之中。",
   "CombinationLogic": "结合物价与成本上扬的经济现实，将商家的“降价（値引き）”行为与表示事态发展态势的「～つつある」结合，生动刻画出让利促销日趋困难的动态变化。",
-  "Tags": "N2::Vocabulary N2::Grammar::72"
+  "Tags": "N2::Vocabulary N2::Grammar::72",
+  "word_index": 700
 }

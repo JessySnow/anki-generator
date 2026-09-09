@@ -1,8 +1,7 @@
 {
-  "word_index": 1044,
   "Word": "振り仮名",
   "Reading": "ふりがな",
-  "Furigana": "振り仮名[ふりがな]",
+  "Furigana": "振[ふ]り仮名[がな]",
   "POS": "名",
   "Meaning": "注音假名，标注在日语汉字旁或上方的标明读法的假名",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示程度低，“只不过是……”",
   "GrammarUsage": "接在名词短语「補助的な手段」后构成「手段にすぎない」，表示其重要性或程度有限，仅仅只是一种辅助形式。",
   "CombinationLogic": "句子将「振り仮名」界定为阅读起步阶段的过渡性辅助工具，通过「～にすぎない」限定其有限作用，从而顺理成章地引出后半句“最终脱离假名独立识字”的终极目标。",
-  "Tags": "N2::Vocabulary N2::Grammar::125"
+  "Tags": "N2::Vocabulary N2::Grammar::125",
+  "word_index": 1044
 }

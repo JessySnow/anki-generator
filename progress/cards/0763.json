@@ -1,8 +1,7 @@
 {
-  "word_index": 763,
   "Word": "図る",
   "Reading": "はかる",
-  "Furigana": "図る[はかる]",
+  "Furigana": "図[はか]る",
   "POS": "他動1",
   "Meaning": "谋求，设法……；图谋，企图……",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“正在……”",
   "GrammarUsage": "接在动词「図る」的连用形（ます形语干）之后构成「図りつつある」，表示谋求改革、优化业务的过程目前正在持续向前发展之中。",
   "CombinationLogic": "老牌企业的数字化转型与流程优化是一个长期渐进的动态过程；动词「図る（谋求/设法实现）」与表示变化趋势正在持续演进的语法「～つつある」紧密融合，精准勾勒出企业主动推进改革、持续取得进展的现实态势。",
-  "Tags": "N2::Vocabulary N2::Grammar::72"
+  "Tags": "N2::Vocabulary N2::Grammar::72",
+  "word_index": 763
 }

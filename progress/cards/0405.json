@@ -1,8 +1,7 @@
 {
-  "word_index": 405,
   "Word": "釣り銭",
   "Reading": "つりせん",
-  "Furigana": "釣り銭[つりせん]",
+  "Furigana": "釣[つ]り銭[せん]",
   "POS": "名",
   "Meaning": "找头，找零的钱",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示立场，“从……立场来看”“在……看来”",
   "GrammarUsage": "接在表示人物的名词「店主」之后，构成「店主にしたら」，表示站在当事人的立场和心理角度来评价某事物。",
   "CombinationLogic": "从经营店铺、经常需要核算小额零钱的「店主」立场出发（～にしたら），自然引出对省除备齐「釣り銭（找零）」繁琐手续的无现金结算方式的感激，情理相符。",
-  "Tags": "N2::Vocabulary N2::Grammar::120"
+  "Tags": "N2::Vocabulary N2::Grammar::120",
+  "word_index": 405
 }

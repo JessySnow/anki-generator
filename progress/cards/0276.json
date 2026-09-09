@@ -1,8 +1,7 @@
 {
-  "word_index": 276,
   "Word": "～違える",
   "Reading": "～ちがえる",
-  "Furigana": "～違える[～ちがえる]",
+  "Furigana": "～違[ちが]える",
   "POS": "接尾",
   "Meaning": "弄错，搞错，……错了",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示泛指，“……什么的”",
   "GrammarUsage": "接在动词过去式「聞き違えた」之后，构成「聞き違えたか何かで」，表示说话人对事情发生的原因进行不确定的推测或举例（“或许是听错了还是怎么着……”）。",
   "CombinationLogic": "面对他人莫名迟到的异常情况，说话人推测其可能把时间“听错了（聞き違える）”，并用「～か何か」委婉表达不确切的推论猜测，兼具生活真实感与人际表达的委婉客气。",
-  "Tags": "N2::Vocabulary N2::Grammar::26"
+  "Tags": "N2::Vocabulary N2::Grammar::26",
+  "word_index": 276
 }

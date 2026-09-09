@@ -1,9 +1,8 @@
 {
-  "word_index": 496,
   "Word": "同一",
   "Reading": "どういつ",
   "Furigana": "同一[どういつ]",
-  "POS": "[名·ナ形]",
+  "POS": "名・ナ形",
   "Meaning": "同一，相同的",
   "WordAudio": "",
   "Sentence": "筆跡や犯行の手口からして、二つの事件を引き起こしたのは同一人物に違いない。",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示判断的依据，“单从……来看”",
   "GrammarUsage": "接在名词短语「筆跡や犯行の手口」之后，构成「～からして」，表示选取最具代表性的细节特征作为推论依据，意为“单从……来看”。",
   "CombinationLogic": "前项通过「～からして」聚焦作案痕迹等典型线索，后项据此得出罪犯系“同一”（「同一人物」）的确定性结论，推理论证环环相扣。",
-  "Tags": "N2::Vocabulary N2::Grammar::33"
+  "Tags": "N2::Vocabulary N2::Grammar::33",
+  "word_index": 496
 }

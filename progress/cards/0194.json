@@ -1,8 +1,7 @@
 {
-  "word_index": 194,
   "Word": "助け",
   "Reading": "たすけ",
-  "Furigana": "助け[たすけ]",
+  "Furigana": "助[たす]け",
   "POS": "名",
   "Meaning": "救援，救助；必需品，必要补助",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“沿着……”；“按照……”",
   "GrammarUsage": "接在名词短语「防災マニュアル」之后，构成「マニュアルに沿って」，表明施救行动是有序依照事前制定的标准化减灾预案展开的。",
   "CombinationLogic": "以抗洪抢险救援为场景，将专业规范的办事流程（「防災マニュアルに沿って」）与真情实感的人道救援（「助けの手を差し伸べる」）紧密结合，既彰显了科学施救的严谨性，又凸显了生命至上的人文温度。",
-  "Tags": "N2::Vocabulary N2::Grammar::125"
+  "Tags": "N2::Vocabulary N2::Grammar::125",
+  "word_index": 194
 }

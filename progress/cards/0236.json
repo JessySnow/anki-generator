@@ -1,8 +1,7 @@
 {
-  "word_index": 236,
   "Word": "頼り",
   "Reading": "たより",
-  "Furigana": "頼り[たより]",
+  "Furigana": "頼[たよ]り",
   "POS": "名",
   "Meaning": "依靠，倚仗；线索，关系",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“与……相反”",
   "GrammarUsage": "接在名词短语「周囲の期待」之后，构成「周囲の期待に反して」，表示事态发展与主观期望截然相反，“与大家的期望相反”。",
   "CombinationLogic": "以团队突发骨干人员流失为背景，运用语法「～に反して」点明事态违背期望的反常走向，进而突显出作为核心倚仗的「最大の頼り」骤然缺失所引发的连锁冲击，因果对照鲜明，情理交融。",
-  "Tags": "N2::Vocabulary N2::Grammar::130"
+  "Tags": "N2::Vocabulary N2::Grammar::130",
+  "word_index": 236
 }

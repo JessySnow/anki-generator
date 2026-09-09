@@ -1,8 +1,7 @@
 {
-  "word_index": 1104,
   "Word": "～遍",
   "Reading": "～へん",
-  "Furigana": "～遍[～へん]",
+  "Furigana": "～遍[へん]",
   "POS": "接尾",
   "Meaning": "……遍，用于计算回数、次数的量词",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示逆接，“然而……”“虽然……但是……”",
   "GrammarUsage": "接在动词「説明した」的た形后构成「説明したところが」，表示付出了反复解释的努力，其结果却事与愿违，引出相反的事实。",
   "CombinationLogic": "前半句用「何遍も丁寧に説明した」表示虽然多次努力说明，后项通过「～たところが」产生逆接转折，引出对方毫无理解甚至更加怀疑的失望结果，语义对比鲜明。",
-  "Tags": "N2::Vocabulary N2::Grammar::64"
+  "Tags": "N2::Vocabulary N2::Grammar::64",
+  "word_index": 1104
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 816,
   "Word": "跳ねる",
   "Reading": "はねる",
-  "Furigana": "跳ねる[はねる]",
+  "Furigana": "跳[は]ねる",
   "POS": "自動2",
   "Meaning": "跳起，跃起；飞溅；散场，终场",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示某动作开始后还没有结束，“没……完”“……做到一半”",
   "GrammarUsage": "接在动词「入れる」的ます形词干之后，构成「入れかけた」，修饰名词「瞬間」，表示刚刚开始放入食材、动作尚未完成的半途状态。",
   "CombinationLogic": "前半句通过「～かけ」生动捕捉到烹饪者刚开始往热锅放菜、动作做到一半的临界瞬间；后半句紧接着描写此时油突然飞溅（跳ねる）的突发危险，情境因果紧密咬合，画面感极强。",
-  "Tags": "N2::Vocabulary N2::Grammar::19"
+  "Tags": "N2::Vocabulary N2::Grammar::19",
+  "word_index": 816
 }

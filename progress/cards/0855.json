@@ -1,8 +1,7 @@
 {
-  "word_index": 855,
   "Word": "被～",
   "Reading": "ひ～",
-  "Furigana": "被～[ひ～]",
+  "Furigana": "被[ひ]～",
   "POS": "接頭",
   "Meaning": "被……，遭遇，遭受",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示逆接，“虽然……但是……”",
   "GrammarUsage": "接在动词「送る」的连用形（ます形去掉ます）「送り」后，构成「送りながらも」，表示前后两项事实的逆折对比（“虽然过着……但依然……”）。",
   "CombinationLogic": "前半句叙述「被災地」民众遭受灾难、生活诸多不易的沉重现状，后半句以「～ながら（も）」完成有力转折，衬托出受灾人员乐观顽强、守望相助的坚韧品格，文意真挚自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::103"
+  "Tags": "N2::Vocabulary N2::Grammar::103",
+  "word_index": 855
 }

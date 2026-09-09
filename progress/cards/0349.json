@@ -1,8 +1,7 @@
 {
-  "word_index": 349,
   "Word": "費やす",
   "Reading": "ついやす",
-  "Furigana": "費やす[ついやす]",
+  "Furigana": "費[つい]やす",
   "POS": "他動1",
   "Meaning": "消耗，消费，花费；浪费",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示整个范围；表示中介或手段，“通过……”",
   "GrammarUsage": "接在名词「生涯」之后，构成「生涯を通じて」，表示贯穿整个人生岁月的时间全域范围，“在整个人生期间/终其一生”。",
   "CombinationLogic": "以学术泰斗穷尽毕生心血潜心钻研的感人事迹为背景，将表示时间全范围覆盖的语法「～を通じて」与表示倾尽付出的动作「費やす（耗费/倾注）」完美咬合，塑造出令人肃然起敬的学者风骨，文气浩然，结构典雅。",
-  "Tags": "N2::Vocabulary N2::Grammar::174"
+  "Tags": "N2::Vocabulary N2::Grammar::174",
+  "word_index": 349
 }

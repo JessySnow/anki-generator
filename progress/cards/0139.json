@@ -1,8 +1,7 @@
 {
-  "word_index": 139,
   "Word": "大気",
   "Reading": "たいき",
-  "Furigana": "たいき",
+  "Furigana": "大気[たいき]",
   "POS": "名",
   "Meaning": "大气，包围地球的气体的总称",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示评价和感受，“有……的一面”“的确很……”",
   "GrammarUsage": "接在使役被动动词辞书形「考えさせられる」之后，构成「深く考えさせられるものがある」，抒发由衷的情感触动与沉痛的反思体会。",
   "CombinationLogic": "由全球工业生活所引发的「大気汚染」这一残酷现实切入，借助抒情评判句型「～ものがある」将客观测见的环境危机转化为促人自省的心灵震颤，格局宏大，寓意发人深省。",
-  "Tags": "N2::Vocabulary N2::Grammar::156"
+  "Tags": "N2::Vocabulary N2::Grammar::156",
+  "word_index": 139
 }

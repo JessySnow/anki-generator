@@ -1,8 +1,7 @@
 {
-  "word_index": 903,
   "Word": "人通り",
   "Reading": "ひとどおり",
-  "Furigana": "人通り[ひとどおり]",
+  "Furigana": "人通[ひとどお]り",
   "POS": "名",
   "Meaning": "行人来来往往",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“最好是……”“莫过于……”“……(的话)就再好不过了”",
   "GrammarUsage": "接在イ形容词「多い」的辞书形之后，构成「多いに越したことはない」，表示基于常识和防灾避险经验，“行人往来较多最为理想、最为稳妥”。",
   "CombinationLogic": "前半句设立夜间归途防范危险的评估视角，后半句以「人通りが多い」提出关键安全要素，并通过「～に越したことはない」做出最优选择建议，情境贴切，句意流畅自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::115"
+  "Tags": "N2::Vocabulary N2::Grammar::115",
+  "word_index": 903
 }

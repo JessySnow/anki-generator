@@ -1,8 +1,7 @@
 {
-  "word_index": 380,
   "Word": "～包み",
   "Reading": "～つつみ",
-  "Furigana": "～包み[～つつみ]",
+  "Furigana": "～包[つつ]み",
   "POS": "接尾",
   "Meaning": "(计算包裹数等的量词)……袋、包",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示判断的立场，“从……来看”",
   "GrammarUsage": "接在名词短语「高齢の患者の立場」之后，构成「高齢の患者の立場から見ると」，表示从特定当事人群体的角度或立场出发审视并作出评价。",
   "CombinationLogic": "通过「～から見ると」设定老年患者这一对药物辨识有特殊需求的特定立场，进而评估“将粉药一包包独立分装（一包みずつ）”的人性化设计，顺理成章地得出这一做法极大降低了用药安全风险的结论。",
-  "Tags": "N2::Vocabulary N2::Grammar::37"
+  "Tags": "N2::Vocabulary N2::Grammar::37",
+  "word_index": 380
 }

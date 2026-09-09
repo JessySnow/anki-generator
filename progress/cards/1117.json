@@ -1,8 +1,7 @@
 {
-  "word_index": 1117,
   "Word": "～歩",
   "Reading": "～ほ",
-  "Furigana": "～歩[～ほ]",
+  "Furigana": "～歩[ほ]",
   "POS": "接尾",
   "Meaning": "……步，计算步数的量词",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示不把某事放在心上，“不顾……”",
   "GrammarUsage": "接在名词「周囲の反対」之后，构成「反対もかまわず」，表示将他人的反对与阻力置之度外、毫不介怀地采取后续行动。",
   "CombinationLogic": "用「周囲の反対もかまわず」刻画主人公无视外界阻碍、意志坚定的态度，由此顺势推动后项“迈出创业的第一步（一歩を踏み出した）”这一积极进取的举动，逻辑流畅，语势连贯。",
-  "Tags": "N2::Vocabulary N2::Grammar::152"
+  "Tags": "N2::Vocabulary N2::Grammar::152",
+  "word_index": 1117
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 401,
   "Word": "強める",
   "Reading": "つよめる",
-  "Furigana": "強める[つよめる]",
+  "Furigana": "強[つよ]める",
   "POS": "他動2",
   "Meaning": "加强，增强",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示限定，“只限于……”“只有……”；“唯独……”“偏偏……”",
   "GrammarUsage": "接在名词「地域」之后，采用「～に限り」的形式，在较为正式的通知或说明语境中表示严格限定对象或适用范围。",
   "CombinationLogic": "通过「～に限り」限定了需要重点关注的特定区域范围，进而合乎情理地引出警方在这些区域「警戒を強める（加强警戒）」的具体对策，逻辑因果明确严密。",
-  "Tags": "N2::Vocabulary N2::Grammar::110"
+  "Tags": "N2::Vocabulary N2::Grammar::110",
+  "word_index": 401
 }

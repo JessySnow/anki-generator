@@ -1,8 +1,7 @@
 {
-  "word_index": 854,
   "Word": "非～",
   "Reading": "ひ～",
-  "Furigana": "非～[ひ～]",
+  "Furigana": "非[ひ]～",
   "POS": "接頭",
   "Meaning": "错误，不对，不……",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示时间、地点或状况，“在……”“在……方面”",
   "GrammarUsage": "接在名词「国際外交」之后构成连体修饰语「国際外交における」，修饰后项名词短语「利害関係」，限定了特定领域与应用范围（“在国际外交中”）。",
   "CombinationLogic": "句首用「国際外交における」确立了严肃的宏观外交背景，随后将正式谈判与「非公式な会談」作对比补充，阐明打破外交僵局的深层沟通智慧，语境严密贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::107"
+  "Tags": "N2::Vocabulary N2::Grammar::107",
+  "word_index": 854
 }

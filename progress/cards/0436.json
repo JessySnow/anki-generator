@@ -1,8 +1,7 @@
 {
-  "word_index": 436,
   "Word": "手すり",
   "Reading": "てすり",
-  "Furigana": "手すり[てすり]",
+  "Furigana": "手[て]すり",
   "POS": "名",
   "Meaning": "栏杆，扶手",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“以……为契机、机会”",
   "GrammarUsage": "接在名词化小句「階段で転倒したこと」后，构成「名＋を契機に」，表示把某一特定事故事件作为促成行动转变的转折点或契机。",
   "CombinationLogic": "将意外摔伤事件作为改善居家适老化环境的契机（～を契機に），合情合理地引出为保护家人而安装“扶手（手すり）”的安全改造行动，前后逻辑关联紧密。",
-  "Tags": "N2::Vocabulary N2::Grammar::18"
+  "Tags": "N2::Vocabulary N2::Grammar::18",
+  "word_index": 436
 }

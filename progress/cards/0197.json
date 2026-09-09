@@ -1,8 +1,7 @@
 {
-  "word_index": 197,
   "Word": "漂う",
   "Reading": "ただよう",
-  "Furigana": "漂う[ただよう]",
+  "Furigana": "漂[ただよ]う",
   "POS": "自動1",
   "Meaning": "漂浮，飘动；散发，洋溢",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示结果，“经过……最后……”",
   "GrammarUsage": "接在动词た形「漂った」之后，构成「漂った末に」，将海上数日九死一生的漫长漂泊作为前置历程，紧密衔接后文最终迎来的获救结局。",
   "CombinationLogic": "将失去控制、随波逐流（「漂う」）作为充满未知与漫长煎熬的前置磨难，与句型「～末（に）」强烈的历尽曲折终成结果的语义特征完全吻合，最后水到渠成地导向巡逻船奇迹救援的结局，扣人心弦，句法严丝合缝。",
-  "Tags": "N2::Vocabulary N2::Grammar::56"
+  "Tags": "N2::Vocabulary N2::Grammar::56",
+  "word_index": 197
 }

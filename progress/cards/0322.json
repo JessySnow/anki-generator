@@ -1,8 +1,7 @@
 {
-  "word_index": 322,
   "Word": "超～",
   "Reading": "ちょう～",
-  "Furigana": "超～[ちょう～]",
+  "Furigana": "超[ちょう]～",
   "POS": "接頭",
   "Meaning": "超级、特别……；超……，脱离",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“只不过……而已”",
   "GrammarUsage": "接在名词短语「単なる通過点」之后，构成「通過点に過ぎない」，用于冷静界定眼前局部胜利的有限意义，表示其并不值得骄傲自满（“只不过……而已”）。",
   "CombinationLogic": "将终极追求设在成为世界顶尖的「超一流」远大理想之上，借助表示限定贬抑的语法「～に過ぎない」，将全国夺冠这一重大胜利谦逊地定位为微不足道的沿途台阶，格局雄浑，极富进取精神。",
-  "Tags": "N2::Vocabulary N2::Grammar::123"
+  "Tags": "N2::Vocabulary N2::Grammar::123",
+  "word_index": 322
 }

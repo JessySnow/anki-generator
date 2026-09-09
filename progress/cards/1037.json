@@ -1,8 +1,7 @@
 {
-  "word_index": 1037,
   "Word": "ぶら下げる",
   "Reading": "ぶらさげる",
-  "Furigana": "ぶら下げる[ぶらさげる]",
+  "Furigana": "ぶら下[さ]げる",
   "POS": "他動2",
   "Meaning": "垂，吊，拎；佩戴",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示并不是完全没有某种事情，“不是不……”",
   "GrammarUsage": "接在名词「負担」及主格助词「が」后，构成「負担がなくもない」，通过双重否定委婉表达“多少还是有一些负担”的客观感受。",
   "CombinationLogic": "将重物悬挂在脖子上携带（首からカメラをぶら下げる）容易引起身体疲倦，自然引出后文用「～なくもない」委婉承认确实存在身体负担的语境，语义衔接自然贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::104"
+  "Tags": "N2::Vocabulary N2::Grammar::104",
+  "word_index": 1037
 }

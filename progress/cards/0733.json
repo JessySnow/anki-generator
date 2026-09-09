@@ -1,8 +1,7 @@
 {
-  "word_index": 733,
   "Word": "乗り越し",
   "Reading": "のりこし",
-  "Furigana": "乗り越し[のりこし]",
+  "Furigana": "乗[の]り越[こ]し",
   "POS": "名・自動3",
   "Meaning": "坐过站",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示结果，“经过……最后……”",
   "GrammarUsage": "接在动词た形「疲れ果てた」之后，构成「疲れ果てた末に」，表示经历长时间的疲劳积累之后，最终导致了某种负面结果。",
   "CombinationLogic": "前半句用「疲れ果てた末に」交代了长时间连日加班导致极度疲惫的经过与前因；后半句顺理成章地引出在电车上睡着进而“坐过站（乗り越しをしてしまった）”的现实结果，生活化情境与因果推演自然契合。",
-  "Tags": "N2::Vocabulary N2::Grammar::56"
+  "Tags": "N2::Vocabulary N2::Grammar::56",
+  "word_index": 733
 }

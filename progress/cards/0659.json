@@ -1,8 +1,7 @@
 {
-  "word_index": 659,
   "Word": "偽物/贋物",
   "Reading": "にせもの",
-  "Furigana": "偽物/贋物[にせもの]",
+  "Furigana": "贋物[にせもの]",
   "POS": "名",
   "Meaning": "假货，冒牌货，赝品",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“在(还没)……的时候、期间”",
   "GrammarUsage": "接在动词否定形「身につかない」之后构成「身につかないうちは」，表示在“尚未掌握相关辨别知识”的状态持续期间。",
   "CombinationLogic": "句子以市场上存在「偽物」的客观风险为背景，引出在辨别能力尚未具备（～ないうちは）的前提下所应采取的防范建议（避免参与个人交易），词汇与语法的语义衔接自然紧密。",
-  "Tags": "N2::Vocabulary N2::Grammar::9"
+  "Tags": "N2::Vocabulary N2::Grammar::9",
+  "word_index": 659
 }

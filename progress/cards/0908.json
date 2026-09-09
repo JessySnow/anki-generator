@@ -1,8 +1,7 @@
 {
-  "word_index": 908,
   "Word": "独り言",
   "Reading": "ひとりごと",
-  "Furigana": "独り言[ひとりごと]",
+  "Furigana": "独[ひと]り言[ごと]",
   "POS": "名",
   "Meaning": "自言自语",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示并不是完全没有某种事情，“不是不……”",
   "GrammarUsage": "接在形容词「ない」的否定连用形后，以「名＋が/は＋なくはない」的形式构成「なくはない」，运用双重否定委婉表达“某种情况并非绝对不存在”。",
   "CombinationLogic": "前半句细腻刻画独自专注深思时容易下意识喃喃自语（独り言）的心理现象；后半句运用双重否定句式「～なくはない」进行委婉的自我认同，表达含蓄地道，贴合母语者的日常表达习惯。",
-  "Tags": "N2::Vocabulary N2::Grammar::104"
+  "Tags": "N2::Vocabulary N2::Grammar::104",
+  "word_index": 908
 }

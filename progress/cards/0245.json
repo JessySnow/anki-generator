@@ -1,8 +1,7 @@
 {
-  "word_index": 245,
   "Word": "短～",
   "Reading": "たん～",
-  "Furigana": "短～[たん～]",
+  "Furigana": "短[たん]～",
   "POS": "接頭",
   "Meaning": "短……，短促",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“最好是……”",
   "GrammarUsage": "接在使役动词辞书形「すっきりさせる」之后，构成「すっきりさせるに限る」，表示说话人基于常识与经验断定为最佳解决方案（“最好莫过于……”）。",
   "CombinationLogic": "面对工作时的困顿疲乏，通过「短～」构成的“短时间（短時間）”科学小憩与强行硬撑形成鲜明对照，再借助「～に限る」给出立竿见影的最佳应对方案，逻辑鲜明，生活化且实用。",
-  "Tags": "N2::Vocabulary N2::Grammar::111"
+  "Tags": "N2::Vocabulary N2::Grammar::111",
+  "word_index": 245
 }

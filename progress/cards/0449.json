@@ -1,8 +1,7 @@
 {
-  "word_index": 449,
   "Word": "手ぶり",
   "Reading": "てぶり",
-  "Furigana": "手ぶり[てぶり]",
+  "Furigana": "手[て]ぶり",
   "POS": "名",
   "Meaning": "手势，手的动作",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“就像……一样”",
   "GrammarUsage": "接在动词辞书形「隠す」之后，构成「隠すかのように」，作状语修饰动词短语「質問に答えた」，表示动作神态仿佛在掩盖某种情绪一样。",
   "CombinationLogic": "将面试场合中“试图掩饰紧张（隠すかのように）”的心理状态与外在表现出的“夸张手势（大げさな手ぶり）”紧密相连，生动刻画出人物的肢体语言细节，逻辑自然贴切。",
-  "Tags": "N2::Vocabulary N2::Grammar::29"
+  "Tags": "N2::Vocabulary N2::Grammar::29",
+  "word_index": 449
 }

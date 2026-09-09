@@ -1,8 +1,7 @@
 {
-  "word_index": 367,
   "Word": "次ぐ",
   "Reading": "つぐ",
-  "Furigana": "次ぐ[つぐ]",
+  "Furigana": "次[つ]ぐ",
   "POS": "自動1",
   "Meaning": "继……，紧接在……后面；次于，亚于",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“无论……”“不管……”",
   "GrammarUsage": "接在名词短语「年齢や国籍」之后，构成「～を問わず」，表示不受上述条件或范围的限制，意为“不论年龄与国籍”。",
   "CombinationLogic": "前半句使用「～を問わず」强调受众范围极广、打破界限；后半句运用「～に次ぐ」准确点明该城市仅次于首都的核心地位，整体逻辑自洽，展现出纯正地道的日语表达风貌。",
-  "Tags": "N2::Vocabulary N2::Grammar::175"
+  "Tags": "N2::Vocabulary N2::Grammar::175",
+  "word_index": 367
 }

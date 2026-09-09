@@ -1,8 +1,7 @@
 {
-  "word_index": 475,
   "Word": "テンポ",
-  "Reading": "伊 tempo",
-  "Furigana": "テンポ[伊 tempo]",
+  "Reading": "テンポ",
+  "Furigana": "テンポ",
   "POS": "名",
   "Meaning": "速度，拍子",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“看上去好像……，但……”",
   "GrammarUsage": "接在形容动词词干「簡単」后，构成「簡単なようで」，表示主观或外表直观印象看似如此，转折引出与表象不符的真实难度（“看似……，但……”）。",
   "CombinationLogic": "缓慢从容的演奏速度（テンポ）往往让人产生曲目容易驾驭的表面印象（簡単なようで），后项则通过亲身演奏揭示节拍稳定的实际难度，深刻突显出外在表象与内在技巧之间的反差。",
-  "Tags": "N2::Vocabulary N2::Grammar::165"
+  "Tags": "N2::Vocabulary N2::Grammar::165",
+  "word_index": 475
 }

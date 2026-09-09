@@ -1,8 +1,7 @@
 {
-  "word_index": 609,
   "Word": "長引く",
   "Reading": "ながびく",
-  "Furigana": "長引く[ながびく]",
+  "Furigana": "長引[ながび]く",
   "POS": "自動1",
   "Meaning": "拖长，延长（时间等）",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "强调原因，“正因为……”",
   "GrammarUsage": "接在动词过去普通形「痛感した」之后，构成「～痛感したからこそ」，强烈强调引发后项生活方式转变的唯一核心根本原因（“正因为……”）。",
   "CombinationLogic": "前项交代因为“感冒久拖不愈（風邪が長引く）”而吃尽苦头、领悟到健康重要的深刻体验，后项借助「～からこそ」强力凸显这一决定性因由，有力引出告别过度加班、重视健康管理的行为转变。",
-  "Tags": "N2::Vocabulary N2::Grammar::32"
+  "Tags": "N2::Vocabulary N2::Grammar::32",
+  "word_index": 609
 }

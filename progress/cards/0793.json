@@ -1,8 +1,7 @@
 {
-  "word_index": 793,
   "Word": "初～",
   "Reading": "はつ～",
-  "Furigana": "初～[はつ～]",
+  "Furigana": "初[はつ]～",
   "POS": "接頭",
   "Meaning": "初次的，第一次的；当年(或该季节)的第一次",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "表示忠告或建议等，“应该……”“不要……”",
   "GrammarUsage": "接在动词否定形「言いふらしたりしない」之后构成「～しないことだ」，用于提出长辈或经验之谈式的警告劝诫，表示“千万不要/切勿做某事”。",
   "CombinationLogic": "面对自己“第一次听闻（初耳）”且未经验证的流言蜚语，极易引发误解与不良扩散；句子顺理成章地通过「～ことだ」给出“切勿轻率外传”的克制忠告，因果逻辑层次分明。",
-  "Tags": "N2::Vocabulary N2::Grammar::46"
+  "Tags": "N2::Vocabulary N2::Grammar::46",
+  "word_index": 793
 }

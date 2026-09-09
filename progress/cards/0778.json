@@ -1,8 +1,7 @@
 {
-  "word_index": 778,
   "Word": "運び",
   "Reading": "はこび",
-  "Furigana": "運び[はこび]",
+  "Furigana": "運[はこ]び",
   "POS": "名",
   "Meaning": "行走姿态，表现方法；进度，进展状况；程序，阶段",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“不可能……”“不会……”",
   "GrammarUsage": "接在动词辞书形「なる」之后构成「運びになるわけがない」，基于充分客观的事实（事先毫无协调沟通）做出强烈的逻辑否定推断，意为“绝不可能按照……程序发展”。",
   "CombinationLogic": "前项陈述了“完全怠于事前协调铺垫”的重大过失，后项结合「運び（事情的推进安排）」并施以「～わけがない」进行确凿的否定判断，因果论证严密充分。",
-  "Tags": "N2::Vocabulary N2::Grammar::168"
+  "Tags": "N2::Vocabulary N2::Grammar::168",
+  "word_index": 778
 }

@@ -1,8 +1,7 @@
 {
-  "word_index": 366,
   "Word": "点く",
   "Reading": "つく",
-  "Furigana": "点く[つく]",
+  "Furigana": "点[つ]く",
   "POS": "自動1",
   "Meaning": "打开(开关)，接通(电源)；点火",
   "WordAudio": "",
@@ -14,5 +13,6 @@
   "GrammarMeaning": "“最好是……”“莫过于……”“……(的话)就再好不过了”",
   "GrammarUsage": "接在动词辞书形「点く」之后，构成「～点くに越したことはない」，表示从常理或安全性来看，“能……当然是最好的、再好不过了”。",
   "CombinationLogic": "将「照明が点く」（灯光亮起）作为防范夜间危险的有效手段，直接连结「～に越したことはない」，表达在安全防范措施上“灯光能自动亮起是最理想的状态”，语用场景真实且语法结合紧密自然。",
-  "Tags": "N2::Vocabulary N2::Grammar::115"
+  "Tags": "N2::Vocabulary N2::Grammar::115",
+  "word_index": 366
 }
