@@ -1,10 +1,14 @@
 import re
 import json
 import os
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
 def get_cards(sample_words):
     cards = []
-    deck_path = os.path.join(os.path.dirname(__file__), 'N2 Level', 'deck.txt')
+    deck_path = REPO_ROOT / 'N2 Level' / 'deck.txt'
     found_words = set()
     with open(deck_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -41,7 +45,7 @@ for parts in cards_data:
     js_data.append(card)
 
 # Read style.css
-style_path = os.path.join(os.path.dirname(__file__), 'N2 Level', 'card_template', 'style.css')
+style_path = REPO_ROOT / 'N2 Level' / 'card_template' / 'style.css'
 with open(style_path, 'r', encoding='utf-8') as f:
     css_content = f.read()
 
@@ -437,15 +441,11 @@ html_template = f"""<!DOCTYPE html>
 
 if __name__ == '__main__':
     try:
-        preview_path = os.path.join(os.path.dirname(__file__), 'N2 Level', 'card_template', 'preview.html')
+        preview_path = REPO_ROOT / 'N2 Level' / 'card_template' / 'preview.html'
         with open(preview_path, 'w', encoding='utf-8') as f:
             f.write(html_template)
 
-        preview_updated_path = os.path.join(os.path.dirname(__file__), 'N2 Level', 'card_template', 'preview_updated.html')
-        with open(preview_updated_path, 'w', encoding='utf-8') as f:
-            f.write(html_template)
-
-        print("Preview files generated successfully!")
+        print(f"Preview generated successfully at {preview_path}!")
     except Exception as e:
         print(f"Direct file write skipped: {e}")
 

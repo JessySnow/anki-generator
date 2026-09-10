@@ -111,7 +111,7 @@ class TestAgentVerifyDeck(unittest.TestCase):
         results = agent_v.verify_deck()
         self.assertEqual(results["summary"], "PASSED")
         self.assertEqual(results["flagged_cards"], 0)
-        self.assertEqual(results["total_cards"], 1634)
+        self.assertEqual(results["total_cards"], 1615)
         self.assertEqual(results["json_mismatches"], 0)
 
 

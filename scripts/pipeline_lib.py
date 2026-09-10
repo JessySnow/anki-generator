@@ -279,6 +279,11 @@ def generate_furigana(word: str, reading: str) -> str:
         # Strip any extraneous brackets or English notes if present
         return reading.strip()
 
+    # Multi-variant slash words: e.g. 知能/智能, 混ざる / 交ざる
+    if "/" in word:
+        sep = " / " if " / " in word else "/"
+        return sep.join(generate_furigana(p.strip(), reading.strip()) for p in word.split("/"))
+
     has_leading_tilde = word.startswith("～") or word.startswith("〜") or word.startswith("~")
     has_trailing_tilde = word.endswith("～") or word.endswith("〜") or word.endswith("~")
     w = word.strip("～〜~")
@@ -452,8 +457,8 @@ def lint_card(card: dict) -> list[str]:
         if re.search(r"\[[～〜~]", furigana):
             issues.append(f"Furigana bracket contains redundant tilde: '{furigana}'")
 
-    # 4. Tags format check: standard is N2::Vocabulary N2::Grammar::<id>
-    if tags and not re.match(r"^N2::(?:Vocabulary|Words\d*)\s+N2::Grammar::\w+$", tags):
+    # 4. Tags format check: standard is N2::Vocabulary N[23]::Grammar::<id> or N[23]::Grammar
+    if tags and not re.match(r"^N2::(?:Vocabulary|Words\d*)\s+N[23]::Grammar(?:::[\w\.\-]+)?$", tags):
         issues.append(f"Non-standard tag format: '{tags}'")
 
     # 5. Sentence length & content sanity

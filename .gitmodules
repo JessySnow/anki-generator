@@ -1,0 +1,3 @@
+[submodule "anki-manual"]
+	path = anki-manual
+	url = https://github.com/ankitects/anki-manual.git

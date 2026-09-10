@@ -1,9 +1,33 @@
-.vscode
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Metadata
 .DS_Store
-.venv
-N2 Level/scratch/
+*/.DS_Store
+Thumbs.db
+
+# Secrets & Environment
 .env
+.env.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Pipeline Temporary / Cache Files
 progress/.verify_cache.json
 progress/verification_report.json
-__pycache__/
-*.pyc
+N2 Level/scratch/
+N2 Level/*temp*.txt
+*temp*.txt
+*.tmp
