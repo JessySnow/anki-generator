@@ -3,18 +3,24 @@
 <hr id="answer">
 
 <div class="card-box back-card">
-  <div class="reading-row" style="flex-direction: column; text-align: center; margin-bottom: 24px;">
-    <!-- 显示日语目标词汇和读音 -->
+  <div class="reading-row">
+    <!-- 日语目标词汇与假名注音 -->
     <div class="furigana-title">{{furigana:Furigana}}</div>
-    <div class="word-main" style="font-size: 18px; color: #4a5568; margin-top: 4px;">{{Word}}</div>
     {{#WordAudio}}<div class="audio-button">{{WordAudio}}</div>{{/WordAudio}}
+  </div>
+
+  <div class="meaning-section">
+    <div class="badge-label"><span class="badge-icon">💡</span> 释义</div>
+    <div class="meaning-text">{{Meaning}}</div>
   </div>
 
   {{#Sentence}}
   <div class="sentence-detail-section">
-    <div class="badge-label">例句解析</div>
-    <div class="sentence-jp">{{Sentence}}</div>
-    {{#SentenceAudio}}<div class="audio-button">{{SentenceAudio}}</div>{{/SentenceAudio}}
+    <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
+    <div class="sentence-jp">
+      {{Sentence}}
+      {{#SentenceAudio}}<span class="audio-button">{{SentenceAudio}}</span>{{/SentenceAudio}}
+    </div>
     {{#SentenceTranslation}}
     <div class="sentence-zh">{{SentenceTranslation}}</div>
     {{/SentenceTranslation}}
@@ -23,7 +29,7 @@
 
   {{#GrammarPattern}}
   <div class="grammar-section">
-    <div class="badge-label grammar-label">语法重点</div>
+    <div class="badge-label grammar-label"><span class="badge-icon">✨</span> 语法重点</div>
     <div class="grammar-header">
       <span class="grammar-pattern">{{GrammarPattern}}</span>
       {{#GrammarMeaning}}<span class="grammar-meaning">（{{GrammarMeaning}}）</span>{{/GrammarMeaning}}
@@ -36,14 +42,16 @@
 
   {{#WordUsage}}
   <details class="analysis-details">
-    <summary>深入解析与语境逻辑 (点击展开)</summary>
+    <summary>深入解析与语境逻辑</summary>
     <div class="analysis-body">
       <div class="analysis-item">
-        <span class="item-title">词汇用法：</span>{{WordUsage}}
+        <span class="item-title">词汇用法</span>
+        <div class="item-content">{{WordUsage}}</div>
       </div>
       {{#CombinationLogic}}
       <div class="analysis-item">
-        <span class="item-title">语境逻辑：</span>{{CombinationLogic}}
+        <span class="item-title">语境逻辑</span>
+        <div class="item-content">{{CombinationLogic}}</div>
       </div>
       {{/CombinationLogic}}
     </div>

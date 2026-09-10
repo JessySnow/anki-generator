@@ -1,272 +1,573 @@
+/* ==========================================================================
+   Anki Card Theme - Japanese N2 Vocab & Grammar
+   Modern, Clean, High-Legibility & Full Night Mode Support
+   ========================================================================== */
+
+:root,
 .card {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", sans-serif;
-  font-size: 16px;
-  text-align: left;
-  color: #2e3440;
-  background-color: #f8f9fc;
-  padding: 16px 12px;
-  line-height: 1.6;
+  /* Light Theme Palette */
+  --bg-page: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --border-card: #e2e8f0;
+  --border-subtle: #eef2f6;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-ruby: #64748b;
+
+  /* Accent: Primary (Vocabulary & Focus) */
+  --accent-primary: #2563eb;
+  --accent-primary-hover: #1d4ed8;
+  --accent-primary-bg: #eff6ff;
+  --accent-primary-border: #bfdbfe;
+
+  /* Accent: Grammar (JLPT Patterns) */
+  --accent-grammar: #7c3aed;
+  --accent-grammar-bg: #f5f3ff;
+  --accent-grammar-border: #ddd6fe;
+  --accent-grammar-box: #faf5ff;
+  --accent-grammar-box-border: #e9d8fd;
+
+  /* Accent: Part of Speech */
+  --accent-pos-bg: #f1f5f9;
+  --accent-pos-text: #475569;
+  --accent-pos-border: #cbd5e1;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+
+  /* Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
 }
 
+/* ==========================================================================
+   Night Mode / Dark Theme Support
+   Supports: Anki Desktop (.nightMode), AnkiDroid, AnkiMobile, Web preview
+   ========================================================================== */
+.card.nightMode,
+.nightMode .card,
+.card.night_mode,
+.night_mode .card,
+body.dark-theme,
+body.dark-theme .card {
+  --bg-page: #0b0f19;
+  --bg-card: #131b2e;
+  --bg-card-subtle: #19233c;
+  --bg-card-hover: #1f2b48;
+  --border-card: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #818cf8;
+  --text-ruby: #94a3b8;
+
+  --accent-primary: #60a5fa;
+  --accent-primary-hover: #93c5fd;
+  --accent-primary-bg: rgba(59, 130, 246, 0.14);
+  --accent-primary-border: rgba(96, 165, 250, 0.28);
+
+  --accent-grammar: #c084fc;
+  --accent-grammar-bg: rgba(168, 85, 247, 0.12);
+  --accent-grammar-border: rgba(192, 132, 252, 0.28);
+  --accent-grammar-box: #1a1c36;
+  --accent-grammar-box-border: rgba(192, 132, 252, 0.2);
+
+  --accent-pos-bg: rgba(148, 163, 184, 0.12);
+  --accent-pos-text: #94a3b8;
+  --accent-pos-border: rgba(148, 163, 184, 0.22);
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px -2px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+}
+
+/* ==========================================================================
+   Base Card Layout
+   ========================================================================== */
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-primary);
+  background-color: var(--bg-page);
+  padding: 24px 16px;
+  margin: 0;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Card Box */
 .card-box {
   max-width: 620px;
   margin: 0 auto;
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-md);
+  box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Deck Tag Pill */
 .deck-tag {
-  font-size: 12px;
-  color: #8892b0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 12px;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 14px;
 }
 
+.deck-tag::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  flex-shrink: 0;
+}
+
+/* Front Card: Target Word & POS */
 .word-container {
   text-align: center;
-  margin: 10px 0 16px;
+  margin: 12px 0 16px;
 }
 
 .word-main {
   font-size: 38px;
   font-weight: 700;
-  color: #1a202c;
-  letter-spacing: 1px;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  word-break: break-word;
 }
 
+.back-card .word-main {
+  display: none;
+}
+
+/* Part of Speech Pill */
 .pos-pill {
   display: inline-block;
-  background: #e2e8f0;
-  color: #4a5568;
-  font-size: 13px;
+  background: var(--accent-pos-bg);
+  color: var(--accent-pos-text);
+  border: 1px solid var(--accent-pos-border);
+  font-size: 12px;
   font-weight: 600;
   padding: 2px 10px;
-  border-radius: 12px;
-  margin-top: 6px;
+  border-radius: var(--radius-full);
+  margin-top: 10px;
+  letter-spacing: 0.02em;
 }
 
+/* ==========================================================================
+   Answer Divider (Anki Mobile Scroll Anchor)
+   ========================================================================== */
+hr#answer {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-card) 20%, var(--border-card) 80%, transparent);
+  margin: 20px auto;
+  max-width: 580px;
+  position: relative;
+  overflow: visible;
+}
+
+hr#answer::after {
+  content: "解答";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  padding: 2px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-card);
+  letter-spacing: 0.06em;
+}
+
+/* ==========================================================================
+   Back Card: Reading & Target Word
+   ========================================================================== */
 .reading-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
   text-align: center;
-  margin-bottom: 14px;
 }
 
 .furigana-title {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 700;
-  color: #2b6cb0;
+  color: var(--accent-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+/* Ruby Furigana Positioning */
+ruby {
+  ruby-align: center;
+  ruby-position: over;
 }
 
 ruby rt {
-  font-size: 0.55em;
-  color: #718096;
-  font-weight: normal;
+  font-size: 0.52em;
+  font-weight: 500;
+  color: var(--text-ruby);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  padding-bottom: 2px;
+  user-select: none;
 }
 
-.badge-label {
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
-  color: #ffffff;
-  background: #3182ce;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-}
-
-.grammar-label {
-  background: #805ad5;
-}
-
-.meaning-section,
-.sentence-detail-section,
-.grammar-section {
-  margin-top: 16px;
-  padding-top: 12px;
-  border-top: 1px solid #edf2f7;
-}
-
-.meaning-text {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.sentence-box {
-  background: #f7fafc;
-  border-left: 4px solid #3182ce;
-  padding: 10px 14px;
-  border-radius: 6px;
+/* ==========================================================================
+   Meaning Section
+   ========================================================================== */
+.meaning-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
   margin-top: 14px;
 }
 
-.sentence-label {
-  font-size: 12px;
-  font-weight: bold;
-  color: #718096;
-  margin-bottom: 4px;
+.meaning-text {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-top: 4px;
 }
 
-.sentence-text,
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+.badge-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  background: var(--accent-primary-bg);
+  border: 1px solid var(--accent-primary-border);
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 6px;
+}
+
+.badge-label.grammar-label {
+  color: var(--accent-grammar);
+  background: var(--accent-grammar-bg);
+  border-color: var(--accent-grammar-border);
+}
+
+.badge-icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Example Sentence Section
+   ========================================================================== */
+.sentence-detail-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
+}
+
 .sentence-jp {
-  font-size: 18px;
-  color: #2d3748;
-  line-height: 1.6;
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin: 6px 0;
+  letter-spacing: 0.01em;
 }
 
 .sentence-zh {
-  font-size: 15px;
-  color: #718096;
-  margin-top: 6px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-card);
+}
+
+/* ==========================================================================
+   Grammar Section
+   ========================================================================== */
+.grammar-section {
+  background: var(--accent-grammar-bg);
+  border: 1px solid var(--accent-grammar-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
 }
 
 .grammar-header {
-  font-size: 18px;
-  font-weight: bold;
-  color: #553c9a;
-  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.grammar-pattern {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--accent-grammar);
+  letter-spacing: 0.01em;
 }
 
 .grammar-meaning {
   font-size: 14px;
-  font-weight: normal;
-  color: #718096;
+  font-weight: 500;
+  color: var(--text-secondary);
 }
 
 .grammar-usage-text {
-  font-size: 14px;
-  color: #4a5568;
-  background: #faf5ff;
-  padding: 8px 12px;
-  border-radius: 6px;
-  border: 1px solid #e9d8fd;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--accent-grammar-box-border);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  margin-top: 8px;
 }
 
+/* ==========================================================================
+   Deep Analysis Section (<details>)
+   ========================================================================== */
 .analysis-details {
-  margin-top: 18px;
-  background: #f7fafc;
-  border: 1px dashed #cbd5e0;
-  border-radius: 8px;
-  padding: 8px 12px;
+  margin-top: 14px;
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all 0.2s ease;
 }
 
 .analysis-details summary {
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
   font-size: 13px;
   font-weight: 600;
-  color: #4a5568;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.analysis-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.analysis-details summary::after {
+  content: "›";
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.analysis-details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.analysis-details summary:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
 }
 
 .analysis-body {
-  margin-top: 10px;
-  font-size: 13px;
-  color: #4a5568;
-  line-height: 1.6;
+  padding: 14px 16px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
 }
 
 .analysis-item {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.analysis-item:last-child {
+  margin-bottom: 0;
 }
 
 .item-title {
-  font-weight: 600;
-  color: #2d3748;
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  color: var(--text-primary);
+  margin-bottom: 4px;
 }
 
-hr#answer {
-  border: none;
-  border-top: 2px dashed #cbd5e0;
-  margin: 18px 0;
+.item-content {
+  margin-top: 2px;
+  color: var(--text-secondary);
 }
 
-.replay-button svg {
-  width: 26px;
-  height: 26px;
-  vertical-align: middle;
-}
-
+/* ==========================================================================
+   Tags Row
+   ========================================================================== */
 .tags-row {
-  margin-top: 14px;
-  text-align: right;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
 }
 
 .tags-pill {
   display: inline-block;
   font-size: 11px;
-  color: #718096;
-  background: #edf2f7;
-  padding: 2px 8px;
-  border-radius: 10px;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
 }
 
 /* ==========================================================================
-   Night Mode / Dark Theme Support (Anki Desktop, AnkiDroid, AnkiMobile)
+   Audio / Replay Buttons
    ========================================================================== */
-.card.nightMode {
-  background-color: #1a1b26;
-  color: #c0caf5;
+.audio-button,
+.replay-button,
+.replay-button-mock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-primary-bg);
+  color: var(--accent-primary);
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+  margin-left: 6px;
+  padding: 0;
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.nightMode .card-box {
-  background: #24283b;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+.audio-button:hover,
+.replay-button:hover,
+.replay-button-mock:hover {
+  background: var(--accent-primary);
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
 }
 
-.nightMode .word-main,
-.nightMode .meaning-text {
-  color: #f7768e;
+/* Anki Native SVG Replay Button */
+.replay-button svg {
+  width: 26px;
+  height: 26px;
+  display: block;
 }
 
-.nightMode .pos-pill {
-  background: #414868;
-  color: #a9b1d6;
+.replay-button svg circle {
+  fill: var(--accent-primary-bg);
+  stroke: none;
+  transition: fill 0.2s ease;
 }
 
-.nightMode .furigana-title {
-  color: #7aa2f7;
+.replay-button:hover svg circle {
+  fill: var(--accent-primary);
 }
 
-.nightMode ruby rt {
-  color: #9ece6a;
+.replay-button svg path {
+  fill: var(--accent-primary);
+  stroke: none;
+  transition: fill 0.2s ease;
 }
 
-.nightMode .sentence-box,
-.nightMode .analysis-details {
-  background: #1f2335;
-  border-color: #414868;
+.replay-button:hover svg path {
+  fill: #ffffff;
 }
 
-.nightMode .sentence-text,
-.nightMode .sentence-jp {
-  color: #c0caf5;
+/* Vector SVG icons inside audio buttons */
+.replay-button-mock svg,
+.audio-button svg {
+  width: 15px;
+  height: 15px;
+  display: block;
 }
 
-.nightMode .sentence-zh {
-  color: #7982a9;
-}
 
-.nightMode .grammar-header {
-  color: #bb9af7;
-}
-
-.nightMode .grammar-usage-text {
-  background: #292e42;
-  border-color: #565f89;
-  color: #c0caf5;
-}
-
-.nightMode .analysis-body,
-.nightMode .analysis-details summary {
-  color: #a9b1d6;
-}
-
-.nightMode .item-title {
-  color: #e0af68;
-}
-
-.nightMode .tags-pill {
-  background: #292e42;
-  color: #7982a9;
+/* ==========================================================================
+   Mobile Responsiveness (AnkiDroid, AnkiMobile)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .card {
+    padding: 14px 8px;
+  }
+  .card-box {
+    padding: 18px 16px;
+    border-radius: 14px;
+  }
+  .word-main {
+    font-size: 30px;
+  }
+  .furigana-title {
+    font-size: 28px;
+  }
+  .meaning-text {
+    font-size: 17px;
+  }
+  .sentence-jp {
+    font-size: 16px;
+  }
+  .sentence-detail-section,
+  .grammar-section {
+    padding: 14px 14px;
+  }
 }

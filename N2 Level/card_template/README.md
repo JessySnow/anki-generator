@@ -3,7 +3,7 @@
 This card template is built according to official Anki manual instructions and best practices:
 - **Active Recall & Minimum Information Principle** (`background.md`, `editing.md`)
 - **Field Separation** (`editing.md#adding-a-note-type`): media, readings, meanings, grammar, and notes are decoupled.
-- **Ruby / Furigana Filters** (`templates/fields.md#ruby-characters`): Uses `{{kanji:Furigana}}` on front (prevents reading spoilers) and `{{furigana:Furigana}}` on back.
+- **Ruby / Furigana Filters** (`templates/fields.md#ruby-characters`): Uses `{{kanji:Furigana}}` on front for active recall without reading/sentence spoilers, and `{{furigana:Furigana}}` on back with elegant ruby positioning.
 - **Answer Scroll Anchor** (`templates/fields.md#basic-replacements`): Uses `<hr id="answer">` for mobile scrolling.
 - **Dark Mode Support** (`templates/styling.md#night-mode`): Full `.card.nightMode` integration.
 

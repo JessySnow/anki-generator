@@ -3,37 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anki Card Preview - Japanese N2 Vocab & Grammar</title>
+  <title>Anki Card Preview - Japanese N2 Vocab &amp; Grammar</title>
   <style>
-    /* Global Preview Page Styles */
+    /* Global Preview Page Wrapper */
     body {
       margin: 0;
-      padding: 24px 16px;
-      background: #f0f2f5;
+      padding: 32px 16px;
+      background: #e2e8f0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
-      transition: background-color 0.3s;
+      min-height: 100vh;
+      box-sizing: border-box;
+      transition: background-color 0.3s ease;
     }
     body.dark-theme {
-      background: #12131a;
+      background: #060911;
+    }
+    .preview-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .preview-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0 0 6px 0;
+      letter-spacing: -0.01em;
+      transition: color 0.3s;
+    }
+    body.dark-theme .preview-title {
+      color: #f1f5f9;
+    }
+    .preview-subtitle {
+      font-size: 13px;
+      color: #64748b;
+      margin: 0;
+      transition: color 0.3s;
+    }
+    body.dark-theme .preview-subtitle {
+      color: #94a3b8;
     }
     .preview-toolbar {
       display: flex;
-      gap: 12px;
-      margin-bottom: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 24px;
       background: #ffffff;
       padding: 8px 16px;
-      border-radius: 30px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 40px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+      border: 1px solid #cbd5e1;
+      transition: all 0.3s ease;
     }
     body.dark-theme .preview-toolbar {
-      background: #1e1f2b;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      background: #131b2e;
+      border-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    .preview-select {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #1e293b;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.2s;
+    }
+    body.dark-theme .preview-select {
+      background: #1e293b;
+      color: #f1f5f9;
+      border-color: #475569;
     }
     .preview-btn {
-      padding: 6px 14px;
+      padding: 6px 16px;
       border-radius: 20px;
       border: 1px solid #cbd5e1;
       background: #ffffff;
@@ -42,345 +91,654 @@
       font-weight: 600;
       cursor: pointer;
       transition: all 0.2s;
+      user-select: none;
+    }
+    .preview-btn:hover {
+      background: #f1f5f9;
+      color: #0f172a;
     }
     .preview-btn.active {
-      background: #3182ce;
+      background: #2563eb;
       color: #ffffff;
-      border-color: #3182ce;
+      border-color: #2563eb;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
     }
     body.dark-theme .preview-btn {
-      background: #2a2c3d;
+      background: #1e293b;
       color: #cbd5e1;
       border-color: #475569;
     }
+    body.dark-theme .preview-btn:hover {
+      background: #28354e;
+      color: #f8fafc;
+    }
     body.dark-theme .preview-btn.active {
-      background: #7aa2f7;
-      color: #1a1b26;
-      border-color: #7aa2f7;
+      background: #60a5fa;
+      color: #0b0f19;
+      border-color: #60a5fa;
+      box-shadow: 0 2px 10px rgba(96, 165, 250, 0.4);
     }
     .card-frame {
       width: 100%;
       max-width: 660px;
     }
+    .keyboard-hint {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #64748b;
+      text-align: center;
+    }
+    body.dark-theme .keyboard-hint {
+      color: #94a3b8;
+    }
+    kbd {
+      background: #e2e8f0;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: monospace;
+      font-size: 11px;
+    }
+    body.dark-theme kbd {
+      background: #1e293b;
+      border-color: #475569;
+      color: #f1f5f9;
+    }
 
     /* ==========================================================================
        ACTUAL ANKI CARD CSS (from card_template/style.css)
        ========================================================================== */
-    .card {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans CJK JP", sans-serif;
-      font-size: 16px;
-      text-align: left;
-      color: #2e3440;
-      background-color: #f8f9fc;
-      padding: 16px 12px;
-      line-height: 1.6;
-      border-radius: 16px;
-      transition: all 0.3s;
-    }
+/* ==========================================================================
+   Anki Card Theme - Japanese N2 Vocab & Grammar
+   Modern, Clean, High-Legibility & Full Night Mode Support
+   ========================================================================== */
 
-    .card-box {
-      max-width: 620px;
-      margin: 0 auto;
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-    }
+:root,
+.card {
+  /* Light Theme Palette */
+  --bg-page: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --border-card: #e2e8f0;
+  --border-subtle: #eef2f6;
 
-    .deck-tag {
-      font-size: 12px;
-      color: #8892b0;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 12px;
-    }
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-ruby: #64748b;
 
-    .word-container {
-      text-align: center;
-      margin: 10px 0 16px;
-    }
+  /* Accent: Primary (Vocabulary & Focus) */
+  --accent-primary: #2563eb;
+  --accent-primary-hover: #1d4ed8;
+  --accent-primary-bg: #eff6ff;
+  --accent-primary-border: #bfdbfe;
 
-    .word-main {
-      font-size: 38px;
-      font-weight: 700;
-      color: #1a202c;
-      letter-spacing: 1px;
-    }
+  /* Accent: Grammar (JLPT Patterns) */
+  --accent-grammar: #7c3aed;
+  --accent-grammar-bg: #f5f3ff;
+  --accent-grammar-border: #ddd6fe;
+  --accent-grammar-box: #faf5ff;
+  --accent-grammar-box-border: #e9d8fd;
 
-    .pos-pill {
-      display: inline-block;
-      background: #e2e8f0;
-      color: #4a5568;
-      font-size: 13px;
-      font-weight: 600;
-      padding: 2px 10px;
-      border-radius: 12px;
-      margin-top: 6px;
-    }
+  /* Accent: Part of Speech */
+  --accent-pos-bg: #f1f5f9;
+  --accent-pos-text: #475569;
+  --accent-pos-border: #cbd5e1;
 
-    .reading-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 14px;
-    }
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
 
-    .furigana-title {
-      font-size: 32px;
-      font-weight: 700;
-      color: #2b6cb0;
-    }
+  /* Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
 
-    ruby rt {
-      font-size: 0.55em;
-      color: #718096;
-      font-weight: normal;
-    }
+/* ==========================================================================
+   Night Mode / Dark Theme Support
+   Supports: Anki Desktop (.nightMode), AnkiDroid, AnkiMobile, Web preview
+   ========================================================================== */
+.card.nightMode,
+.nightMode .card,
+.card.night_mode,
+.night_mode .card,
+body.dark-theme,
+body.dark-theme .card {
+  --bg-page: #0b0f19;
+  --bg-card: #131b2e;
+  --bg-card-subtle: #19233c;
+  --bg-card-hover: #1f2b48;
+  --border-card: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.06);
 
-    .badge-label {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 700;
-      color: #ffffff;
-      background: #3182ce;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-bottom: 6px;
-    }
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #818cf8;
+  --text-ruby: #94a3b8;
 
-    .grammar-label {
-      background: #805ad5;
-    }
+  --accent-primary: #60a5fa;
+  --accent-primary-hover: #93c5fd;
+  --accent-primary-bg: rgba(59, 130, 246, 0.14);
+  --accent-primary-border: rgba(96, 165, 250, 0.28);
 
-    .meaning-section,
-    .sentence-detail-section,
-    .grammar-section {
-      margin-top: 16px;
-      padding-top: 12px;
-      border-top: 1px solid #edf2f7;
-    }
+  --accent-grammar: #c084fc;
+  --accent-grammar-bg: rgba(168, 85, 247, 0.12);
+  --accent-grammar-border: rgba(192, 132, 252, 0.28);
+  --accent-grammar-box: #1a1c36;
+  --accent-grammar-box-border: rgba(192, 132, 252, 0.2);
 
-    .meaning-text {
-      font-size: 20px;
-      font-weight: 600;
-      color: #2d3748;
-    }
+  --accent-pos-bg: rgba(148, 163, 184, 0.12);
+  --accent-pos-text: #94a3b8;
+  --accent-pos-border: rgba(148, 163, 184, 0.22);
 
-    .sentence-box {
-      background: #f7fafc;
-      border-left: 4px solid #3182ce;
-      padding: 10px 14px;
-      border-radius: 6px;
-      margin-top: 14px;
-    }
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px -2px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+}
 
-    .sentence-label {
-      font-size: 12px;
-      font-weight: bold;
-      color: #718096;
-      margin-bottom: 4px;
-    }
+/* ==========================================================================
+   Base Card Layout
+   ========================================================================== */
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-primary);
+  background-color: var(--bg-page);
+  padding: 24px 16px;
+  margin: 0;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
 
-    .sentence-text,
-    .sentence-jp {
-      font-size: 18px;
-      color: #2d3748;
-      line-height: 1.6;
-    }
+/* Card Box */
+.card-box {
+  max-width: 620px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-md);
+  box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
 
-    .sentence-zh {
-      font-size: 15px;
-      color: #718096;
-      margin-top: 6px;
-    }
+/* Deck Tag Pill */
+.deck-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 14px;
+}
 
-    .grammar-header {
-      font-size: 18px;
-      font-weight: bold;
-      color: #553c9a;
-      margin-bottom: 6px;
-    }
+.deck-tag::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  flex-shrink: 0;
+}
 
-    .grammar-meaning {
-      font-size: 14px;
-      font-weight: normal;
-      color: #718096;
-    }
+/* Front Card: Target Word & POS */
+.word-container {
+  text-align: center;
+  margin: 12px 0 16px;
+}
 
-    .grammar-usage-text {
-      font-size: 14px;
-      color: #4a5568;
-      background: #faf5ff;
-      padding: 8px 12px;
-      border-radius: 6px;
-      border: 1px solid #e9d8fd;
-    }
+.word-main {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  word-break: break-word;
+}
 
-    .analysis-details {
-      margin-top: 18px;
-      background: #f7fafc;
-      border: 1px dashed #cbd5e0;
-      border-radius: 8px;
-      padding: 8px 12px;
-    }
+.back-card .word-main {
+  display: none;
+}
 
-    .analysis-details summary {
-      cursor: pointer;
-      font-size: 13px;
-      font-weight: 600;
-      color: #4a5568;
-    }
+/* Part of Speech Pill */
+.pos-pill {
+  display: inline-block;
+  background: var(--accent-pos-bg);
+  color: var(--accent-pos-text);
+  border: 1px solid var(--accent-pos-border);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+}
 
-    .analysis-body {
-      margin-top: 10px;
-      font-size: 13px;
-      color: #4a5568;
-      line-height: 1.6;
-    }
+/* ==========================================================================
+   Answer Divider (Anki Mobile Scroll Anchor)
+   ========================================================================== */
+hr#answer {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-card) 20%, var(--border-card) 80%, transparent);
+  margin: 20px auto;
+  max-width: 580px;
+  position: relative;
+  overflow: visible;
+}
 
-    .analysis-item {
-      margin-bottom: 8px;
-    }
+hr#answer::after {
+  content: "解答";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  padding: 2px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-card);
+  letter-spacing: 0.06em;
+}
 
-    .item-title {
-      font-weight: 600;
-      color: #2d3748;
-    }
+/* ==========================================================================
+   Back Card: Reading & Target Word
+   ========================================================================== */
+.reading-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  text-align: center;
+}
 
-    hr#answer {
-      border: none;
-      border-top: 2px dashed #cbd5e0;
-      margin: 18px 0;
-    }
+.furigana-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
 
-    .hint-wrapper {
-      margin-top: 12px;
-      text-align: center;
-    }
+/* Ruby Furigana Positioning */
+ruby {
+  ruby-align: center;
+  ruby-position: over;
+}
 
-    .hint-link {
-      font-size: 13px;
-      color: #3182ce;
-      cursor: pointer;
-      text-decoration: underline;
-    }
+ruby rt {
+  font-size: 0.52em;
+  font-weight: 500;
+  color: var(--text-ruby);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  padding-bottom: 2px;
+  user-select: none;
+}
 
-    .hint-revealed {
-      margin-top: 6px;
-      font-size: 14px;
-      color: #718096;
-    }
+/* ==========================================================================
+   Meaning Section
+   ========================================================================== */
+.meaning-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  margin-top: 14px;
+}
 
-    .replay-button-mock {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      background: #e2e8f0;
-      color: #3182ce;
-      cursor: pointer;
-      vertical-align: middle;
-      font-size: 14px;
-    }
+.meaning-text {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-top: 4px;
+}
 
-    .tags-row {
-      margin-top: 14px;
-      text-align: right;
-    }
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+.badge-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  background: var(--accent-primary-bg);
+  border: 1px solid var(--accent-primary-border);
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 6px;
+}
 
-    .tags-pill {
-      display: inline-block;
-      font-size: 11px;
-      color: #718096;
-      background: #edf2f7;
-      padding: 2px 8px;
-      border-radius: 10px;
-    }
+.badge-label.grammar-label {
+  color: var(--accent-grammar);
+  background: var(--accent-grammar-bg);
+  border-color: var(--accent-grammar-border);
+}
 
-    /* Night Mode Support */
-    .card.nightMode {
-      background-color: #1a1b26;
-      color: #c0caf5;
-    }
+.badge-icon {
+  font-size: 12px;
+  line-height: 1;
+}
 
-    .nightMode .card-box {
-      background: #24283b;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
-    }
+/* ==========================================================================
+   Example Sentence Section
+   ========================================================================== */
+.sentence-detail-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
+}
 
-    .nightMode .word-main,
-    .nightMode .meaning-text {
-      color: #f7768e;
-    }
+.sentence-jp {
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin: 6px 0;
+  letter-spacing: 0.01em;
+}
 
-    .nightMode .pos-pill {
-      background: #414868;
-      color: #a9b1d6;
-    }
+.sentence-zh {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-card);
+}
 
-    .nightMode .furigana-title {
-      color: #7aa2f7;
-    }
+/* ==========================================================================
+   Grammar Section
+   ========================================================================== */
+.grammar-section {
+  background: var(--accent-grammar-bg);
+  border: 1px solid var(--accent-grammar-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
+}
 
-    .nightMode ruby rt {
-      color: #9ece6a;
-    }
+.grammar-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
 
-    .nightMode .sentence-box,
-    .nightMode .analysis-details {
-      background: #1f2335;
-      border-color: #414868;
-    }
+.grammar-pattern {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--accent-grammar);
+  letter-spacing: 0.01em;
+}
 
-    .nightMode .sentence-text,
-    .nightMode .sentence-jp {
-      color: #c0caf5;
-    }
+.grammar-meaning {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
 
-    .nightMode .sentence-zh {
-      color: #7982a9;
-    }
+.grammar-usage-text {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--accent-grammar-box-border);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  margin-top: 8px;
+}
 
-    .nightMode .grammar-header {
-      color: #bb9af7;
-    }
+/* ==========================================================================
+   Deep Analysis Section (<details>)
+   ========================================================================== */
+.analysis-details {
+  margin-top: 14px;
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
 
-    .nightMode .grammar-usage-text {
-      background: #292e42;
-      border-color: #565f89;
-      color: #c0caf5;
-    }
+.analysis-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
 
-    .nightMode .analysis-body,
-    .nightMode .analysis-details summary {
-      color: #a9b1d6;
-    }
+.analysis-details summary::-webkit-details-marker {
+  display: none;
+}
 
-    .nightMode .item-title {
-      color: #e0af68;
-    }
+.analysis-details summary::after {
+  content: "›";
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
 
-    .nightMode .tags-pill {
-      background: #292e42;
-      color: #7982a9;
-    }
+.analysis-details[open] summary::after {
+  transform: rotate(90deg);
+}
 
-    .nightMode .replay-button-mock {
-      background: #414868;
-      color: #7aa2f7;
-    }
+.analysis-details summary:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.analysis-body {
+  padding: 14px 16px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.analysis-item {
+  margin-bottom: 12px;
+}
+
+.analysis-item:last-child {
+  margin-bottom: 0;
+}
+
+.item-title {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.item-content {
+  margin-top: 2px;
+  color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Tags Row
+   ========================================================================== */
+.tags-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.tags-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Audio / Replay Buttons
+   ========================================================================== */
+.audio-button,
+.replay-button,
+.replay-button-mock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-primary-bg);
+  color: var(--accent-primary);
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+  margin-left: 6px;
+  padding: 0;
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.audio-button:hover,
+.replay-button:hover,
+.replay-button-mock:hover {
+  background: var(--accent-primary);
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+/* Anki Native SVG Replay Button */
+.replay-button svg {
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+.replay-button svg circle {
+  fill: var(--accent-primary-bg);
+  stroke: none;
+  transition: fill 0.2s ease;
+}
+
+.replay-button:hover svg circle {
+  fill: var(--accent-primary);
+}
+
+.replay-button svg path {
+  fill: var(--accent-primary);
+  stroke: none;
+  transition: fill 0.2s ease;
+}
+
+.replay-button:hover svg path {
+  fill: #ffffff;
+}
+
+/* Vector SVG icons inside audio buttons */
+.replay-button-mock svg,
+.audio-button svg {
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+/* ==========================================================================
+   Mobile Responsiveness (AnkiDroid, AnkiMobile)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .card {
+    padding: 14px 8px;
+  }
+  .card-box {
+    padding: 18px 16px;
+    border-radius: 14px;
+  }
+  .word-main {
+    font-size: 30px;
+  }
+  .furigana-title {
+    font-size: 28px;
+  }
+  .meaning-text {
+    font-size: 17px;
+  }
+  .sentence-jp {
+    font-size: 16px;
+  }
+  .sentence-detail-section,
+  .grammar-section {
+    padding: 14px 14px;
+  }
+}
+
   </style>
 </head>
 <body>
 
+  <div class="preview-header">
+    <h1 class="preview-title">Japanese N2 Card Template Preview</h1>
+    <p class="preview-subtitle">Front: Target Word &amp; POS (No Sentence Spoilers) &nbsp;|&nbsp; Back: Reading, Meaning, Sentence &amp; Grammar</p>
+  </div>
+
   <!-- Interactive Controls -->
   <div class="preview-toolbar">
+    <label for="card-selector" style="font-size: 12px; font-weight: 600; color: #64748b;">Word:</label>
+    <select id="card-selector" class="preview-select" onchange="loadCard(this.value)">
+      <!-- Options injected by JS -->
+    </select>
     <button class="preview-btn active" id="btn-front" onclick="showCard('front')">Front (Question)</button>
     <button class="preview-btn" id="btn-back" onclick="showCard('back')">Back (Answer)</button>
-    <button class="preview-btn" id="btn-theme" onclick="toggleTheme()">Toggle Night Mode</button>
+    <button class="preview-btn" id="btn-theme" onclick="toggleTheme()">🌙 Night Mode</button>
   </div>
 
   <div class="card-frame">
@@ -392,88 +750,61 @@
           <div class="deck-tag">Japanese::JLPT N2</div>
 
           <div class="word-container">
-            <!-- Uses {{kanji:Furigana}} to hide ruby during recall -->
-            <div class="word-main">真剣</div>
-            <div class="pos-pill">名・ナ形</div>
-          </div>
-
-          <div class="sentence-box">
-            <div class="sentence-label">Context / 例文</div>
-            <div class="sentence-text">真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。</div>
-          </div>
-
-          <div class="hint-wrapper">
-            <span class="hint-link" onclick="document.getElementById('demo-hint').style.display='block'; this.style.display='none';">Show Hint: 翻译</span>
-            <div id="demo-hint" class="hint-revealed" style="display: none;">我辛辛苦苦认真投入做的项目资料，被同事擅自改动了。</div>
+            <div class="word-main" id="front-word"></div>
+            <div class="pos-pill" id="front-pos"></div>
           </div>
         </div>
       </div>
 
-      <!-- BACK CARD VIEW (Appears below front after Show Answer) -->
+      <!-- BACK CARD VIEW (Contains FrontSide + <hr id="answer"> + Back) -->
       <div id="back-view" style="display: none;">
-        <!-- Front side included on top ({{FrontSide}}) -->
+        <!-- Front side included on top -->
         <div class="card-box front-card">
           <div class="deck-tag">Japanese::JLPT N2</div>
           <div class="word-container">
-            <div class="word-main">真剣</div>
-            <div class="pos-pill">名・ナ形</div>
-          </div>
-          <div class="sentence-box">
-            <div class="sentence-label">Context / 例文</div>
-            <div class="sentence-text">真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。</div>
+            <div class="word-main" id="back-front-word"></div>
+            <div class="pos-pill" id="back-front-pos"></div>
           </div>
         </div>
 
         <hr id="answer">
 
-        <!-- Back Template ({{Back}}) -->
+        <!-- Back Template -->
         <div class="card-box back-card">
           <div class="reading-row">
-            <div class="furigana-title">
-              <ruby>真剣<rt>しんけん</rt></ruby>
-            </div>
-            <span class="replay-button-mock" title="Replay TTS audio">🔊</span>
+            <!-- 日语目标词汇与注音 -->
+            <div class="furigana-title" id="back-furigana"></div>
           </div>
 
           <div class="meaning-section">
-            <div class="badge-label">释义</div>
-            <div class="meaning-text">做事认真，一丝不苟</div>
+            <div class="badge-label"><span class="badge-icon">💡</span> 释义</div>
+            <div class="meaning-text" id="back-meaning"></div>
           </div>
 
           <div class="sentence-detail-section">
-            <div class="badge-label">例句解析</div>
-            <div class="sentence-jp">
-              真剣に取り組んでいたプロジェクトの資料を、同僚に勝手に書き換えられてしまった。
-              <span class="replay-button-mock" title="Replay sentence audio">🔊</span>
-            </div>
-            <div class="sentence-zh">我辛辛苦苦认真投入做的项目资料，被同事擅自改动了。</div>
+            <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
+            <div class="sentence-jp" id="back-sentence-jp"></div>
+            <div class="sentence-zh" id="back-sentence-zh"></div>
           </div>
 
           <div class="grammar-section">
-            <div class="badge-label grammar-label">语法重点</div>
+            <div class="badge-label grammar-label"><span class="badge-icon">✨</span> 语法重点</div>
             <div class="grammar-header">
-              <span class="grammar-pattern">～（ら）れる（间接被动）</span>
-              <span class="grammar-meaning">（表示由于他人的行为而遭受困扰或损害（受害被动））</span>
+              <span class="grammar-pattern" id="back-grammar-pattern"></span>
+              <span class="grammar-meaning" id="back-grammar-meaning"></span>
             </div>
-            <div class="grammar-usage-text">
-              使用了间接被动（受害被动）句型「書き換えられてしまった」。动词「書き換える」（他动词）接续「られる」构成被动语态，末尾「～てしまった」进一步强化了困扰与遗憾的语气。
-            </div>
+            <div class="grammar-usage-text" id="back-grammar-usage"></div>
           </div>
 
           <details class="analysis-details" open>
-            <summary>深入解析与语境逻辑 (点击展开/折叠)</summary>
-            <div class="analysis-body">
-              <div class="analysis-item">
-                <span class="item-title">词汇用法：</span>在句中作为副词性用法（真剣に），修饰动词「取り組んでいた」，表示“认真地、一丝不苟地”进行某项工作，强调说话人对该项目投入了极大的心血。
-              </div>
-              <div class="analysis-item">
-                <span class="item-title">语境逻辑：</span>该句先通过「真剣に～」描述主语认真专注的积极状态，随后通过间接被动句揭示这种努力因他人的擅自干扰而受损，形成鲜明对比，精准体现受害被动语态的核心语境。
-              </div>
+            <summary>深入解析与语境逻辑</summary>
+            <div class="analysis-body" id="back-analysis-body">
+              <!-- Injected by JS -->
             </div>
           </details>
 
           <div class="tags-row">
-            <span class="tags-pill">N2::Vocabulary N2::Grammar::Passive</span>
+            <span class="tags-pill" id="back-tags"></span>
           </div>
         </div>
       </div>
@@ -481,8 +812,91 @@
     </div>
   </div>
 
+  <div class="keyboard-hint">
+    快捷键: <kbd>Space</kbd> 切换正/反面 &nbsp;|&nbsp; <kbd>D</kbd> 切换暗色模式 &nbsp;|&nbsp; <kbd>↑</kbd>/<kbd>↓</kbd> 切换单词
+  </div>
+
   <script>
+    const cardsData = [{"word": "赤道", "reading": "せきどう", "furigana": "赤道[せきどう]", "pos": "名", "meaning": "赤道", "word_audio": "", "sentence": "赤道直下の国々は、一年中暖かくて過ごしやすい代わりに、紫外線が非常に强いため、日焼けや熱中症の対策が欠かせない。", "sentence_audio": "", "sentence_zh": "赤道正下方的国家虽然全年温暖宜居，但由于紫外线非常强烈，防晒和防中暑的措施必不可少。", "word_usage": "「赤道」在句中作定语，以常见地理搭配「赤道直下（せきどうちょっか）」修饰名词「国々」，指位于地球赤道正下方的国家或地区。", "grammar_pattern": "～代わりに", "grammar_meaning": "表示代替、交换；表示事物相反的两面，“虽然……但是……”", "grammar_usage": "接在イ形容词「過ごしやすい」的连体形后面，构成「過ごしやすい代わりに」，表示前后两项具有相反的两面性（温暖宜居的优点与紫外线强烈的缺点并存）。", "combination_logic": "前半句用「赤道直下」点明处于热带赤道环境，引出“全年气候温暖舒适”的正面特征；后半句通过「～代わりに」实现语意转折，指出赤道地区“紫外线强烈、须防晒防暑”的反面现实，逻辑严密自然。", "tags": "N2::Vocabulary N2::Grammar::38"}, {"word": "せっせと", "reading": "せっせと", "furigana": "せっせと", "pos": "副", "meaning": "一个劲地，孜孜不倦地", "word_audio": "", "sentence": "一日も早く自分の店を開きたくてたまらない兄は、休日返上でせっせと働き、開業資金を貯めている。", "sentence_audio": "", "sentence_zh": "哥哥急切地渴望着能早一天开起属于自己的店铺，连休息日也全搭了进去，辛勤劳作筹攒开业资金。", "word_usage": "「せっせと」在句中充当副词，修饰动词「働き」，生动刻画出不知疲倦、一心一意勤奋劳作的神态。", "grammar_pattern": "～てたまらない", "grammar_meaning": "“……得受不了”“非常……”", "grammar_usage": "接在希望助动词「たい」的て形「開きたくて」之后，构成「開きたくてたまらない」，表示内心渴望开设店铺的愿望极其强烈、难以抑制。", "combination_logic": "前半句通过「開きたくてたまらない」揭示出迫切强烈的内在心理动机；后半句顺理成章引出在此动机驱使下，不惜牺牲休息时间「せっせと働く」的实际努力，心理与行动的因果逻辑紧密贴合。", "tags": "N2::Vocabulary N2::Grammar::79"}, {"word": "噴き出す", "reading": "ふきだす", "furigana": "噴[ふ]き出[だ]す", "pos": "自動1", "meaning": "喷出，冒出；忍不住笑出来", "word_audio": "", "sentence": "彼のあまりに可笑しな冗談に、我慢しきれずに思わず噴き出してしまった。", "sentence_audio": "", "sentence_zh": "因为他的笑话实在太搞笑了，我再也忍不住扑哧一声笑了出来。", "word_usage": "「噴き出す」在此处取“忍不住突然笑出声（笑喷）”之义，是日常与考题中常见的引申用法，常与「思わず」「我慢しきれずに」等副词搭配。", "grammar_pattern": "～きる/きれる/きれない", "grammar_meaning": "表示做完某个动作，“……(不)完”；表示程度深，彻底……", "grammar_usage": "接在动词「我慢する」的连用形（ます形）「我慢し」之后，构成可能否定式「我慢しきれず」，表示受到极大冲击而在客观或生理上“无法彻底忍耐到底 / 实在忍不住”。", "combination_logic": "以对方极其滑稽搞笑的言行为诱因，通过语法「～きれない」表达无论怎样努力也“无法忍耐到底（我慢しきれず）”的极限状态，从而自然引出后项忍不住笑喷出来的失控生理反应，因果逻辑生动自然。", "tags": "N2::Vocabulary N2::Grammar::41"}, {"word": "老ける", "reading": "ふける", "furigana": "老[ふ]ける", "pos": "自動2", "meaning": "衰老，上年纪；老化", "word_audio": "", "sentence": "毎日十分な睡眠や栄養を取らないことには、若さを保ち、早く老けるのを防ぐことはできない。", "sentence_audio": "", "sentence_zh": "如果每天不保证充足的睡眠与营养，就无法保持年轻、防止过早衰老。", "word_usage": "「老ける」作自动词，表示人的容貌或身体变老、衰老；此处用「早く老けるのを防ぐ」表示“防止过早衰老”。", "grammar_pattern": "～ないことには", "grammar_meaning": "「如果不……（就不……）」", "grammar_usage": "「取らないことには」——动词ない形「取らない」接「ことには」，表示“如果不保证充足的睡眠和营养”这一必要前提，后接否定表达「防ぐことはできない」，构成必要条件假定句。", "combination_logic": "以「ないことには」设定保持健康和年轻的必要前提，后半句指出缺乏该条件则无法阻止衰老（老ける），逻辑严密，表达自然流畅。", "tags": "N2::Vocabulary N2::Grammar::100"}, {"word": "ふざける", "reading": "ふざける", "furigana": "ふざける", "pos": "自動2", "meaning": "闹着玩，说笑话；耍滑头，耍无赖", "word_audio": "", "sentence": "授業中にふざけさえしなければ、先生に叱られることもないのに。", "sentence_audio": "", "sentence_zh": "只要上课时不耍闹，就不会被老师批评的。", "word_usage": "「ふざける」作自动词，表示「闹着玩、嬉闹」；此处以「ふざけ」（ます形）的形式接续「さえ～なければ」，表示「只要不……就……」，否定条件句。", "grammar_pattern": "～さえ～ば/さえ～たら/さえ～なら", "grammar_meaning": "表示条件，「只要……就……」", "grammar_usage": "「ふざけさえしなければ」：動ます形「ふざけ」＋「さえ」＋否定条件形「しなければ」，表示「只要不做嬉闹这一件事」，强调这是避免被批评的唯一充分条件，语气带有惋惜或责备。", "combination_logic": "「ふざける」描述上课嬉闹的具体行为，「さえ～なければ」将「不嬉闹」提炼为唯一关键条件，二者结合精准传达了「问题根源就在于这一个不良行为」的逻辑，语感自然，带有说教或惋惜的语气，符合N2场景。", "tags": "N2::Vocabulary N3::Grammar"}, {"word": "ぶつ", "reading": "ぶつ", "furigana": "ぶつ[ぶつ]", "pos": "他動1", "meaning": "打，敲，殴打", "word_audio": "", "sentence": "いくら腹が立ったからといって、暴言を吐くのはもちろん、相手をぶつことなど決して許されない。", "sentence_audio": "", "sentence_zh": "哪怕再生气，破口大骂自不必说，动手打人更是绝不被允许。", "word_usage": "「ぶつ」为他动词，表示用手或器具“击打、殴打（他人）”，常用于「相手をぶつ」等表示肢体冲突的语境。", "grammar_pattern": "～はもちろん/はもとより", "grammar_meaning": "……自不必说不用说……", "grammar_usage": "接在动名词短语「暴言を吐くの」后构成「暴言を吐くのはもちろん」，将语言暴力作为显而易见不可行的基准，进而递进强调肢体暴力「相手をぶつ」更是绝不容许。", "combination_logic": "「～はもちろん」将言语暴力设定为理所应当不可取的基线，层层递进引出更严重的肢体暴力「相手をぶつ」绝对禁止，逻辑严谨，语感地道自然。", "tags": "N2::Vocabulary N2::Grammar::145"}, {"word": "まるで", "reading": "まるで", "furigana": "まるで[まるで]", "pos": "副", "meaning": "好像，宛如；完全，全然", "word_audio": "", "sentence": "周囲からはまるで天才のひらめきのように称賛されているが、本人にとっては長年の地道な研究を積み重ねた結果にすぎない。", "sentence_audio": "", "sentence_zh": "尽管外界赞誉这宛如天才的灵光一现，但对他本人而言，这只不过是长年脚踏实地积累研究的成果而已。", "word_usage": "「まるで」在句中作副词，与比况助动词「ようだ（～のように）」相呼应，构成「まるで天才のひらめきのように」，生动地描绘外界看来“宛如、好像”天才顿悟一般的神采。", "grammar_pattern": "～にすぎない", "grammar_meaning": "表示程度低，“只不过是……”", "grammar_usage": "接在名词「結果」之后，构成「結果にすぎない」，表示事物本身的程度或地位有限，意为“只不过是……”，表达客观务实或谦逊的态度。", "combination_logic": "前半句用「まるで～のように」比拟外界高度夸张与赞叹的外部视角（宛如天才）；后半句则通过「～にすぎない」转折引出当事人的真实视角，指出本质只不过是平常的日积月累，虚实对照鲜明，语意自然深刻。", "tags": "N2::Vocabulary N2::Grammar::123"}];
+    let currentView = 'front';
+    let currentIndex = 0;
+
+    function initCards() {
+      const selector = document.getElementById('card-selector');
+      cardsData.forEach((card, index) => {
+        const opt = document.createElement('option');
+        opt.value = index;
+        opt.textContent = `${card.word} (${card.meaning})`;
+        selector.appendChild(opt);
+      });
+      if (cardsData.length > 0) {
+        loadCard(0);
+      }
+    }
+
+    function parseFurigana(furiStr) {
+      if (!furiStr) return '';
+      // Parses Word[reading] into ruby: e.g. 真剣[しんけん] -> <ruby>真剣<rt>しんけん</rt></ruby>
+      const regex = /([^\s\[\]]+)\[([^\]]+)\]/g;
+      return furiStr.replace(regex, '<ruby>$1<rt>$2</rt></ruby>');
+    }
+
+    function extractKanjiOnly(furiStr, fallbackWord) {
+      if (!furiStr) return fallbackWord || '';
+      // Removes [reading] ruby bracket: e.g. 真剣[しんけん] -> 真剣
+      return furiStr.replace(/\[[^\]]+\]/g, '');
+    }
+
+    function loadCard(index) {
+      currentIndex = parseInt(index, 10);
+      const card = cardsData[currentIndex];
+      if (!card) return;
+
+      const selector = document.getElementById('card-selector');
+      if (selector.value != currentIndex) selector.value = currentIndex;
+
+      // Front: Word only (kanji without furigana spoiler) + POS
+      const wordText = extractKanjiOnly(card.furigana, card.word);
+      document.getElementById('front-word').textContent = wordText;
+      document.getElementById('front-pos').textContent = card.pos;
+
+      // Back FrontSide clone
+      document.getElementById('back-front-word').textContent = wordText;
+      document.getElementById('back-front-pos').textContent = card.pos;
+
+      // Back Details
+      const speakerSvg = `<span class="replay-button-mock" title="播放发音" onclick="mockPlayAudio()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></span>`;
+      document.getElementById('back-furigana').innerHTML = parseFurigana(card.furigana) + ' ' + speakerSvg;
+      document.getElementById('back-meaning').textContent = card.meaning;
+      document.getElementById('back-sentence-jp').innerHTML = card.sentence + ' ' + speakerSvg;
+      document.getElementById('back-sentence-zh').textContent = card.sentence_zh;
+
+      document.getElementById('back-grammar-pattern').textContent = card.grammar_pattern;
+      document.getElementById('back-grammar-meaning').textContent = card.grammar_meaning ? `（${card.grammar_meaning}）` : '';
+      document.getElementById('back-grammar-usage').textContent = card.grammar_usage;
+
+      document.getElementById('back-tags').textContent = card.tags;
+
+      // Analysis Section
+      const analysisHtml = `
+        <div class="analysis-item">
+          <span class="item-title">词汇用法</span>
+          <div class="item-content">${card.word_usage}</div>
+        </div>
+        ${card.combination_logic ? `
+        <div class="analysis-item">
+          <span class="item-title">语境逻辑</span>
+          <div class="item-content">${card.combination_logic}</div>
+        </div>` : ''}
+      `;
+      document.getElementById('back-analysis-body').innerHTML = analysisHtml;
+
+      // Keep current view or default to front
+      showCard(currentView);
+    }
+
     function showCard(view) {
+      currentView = view;
       const front = document.getElementById('front-view');
       const back = document.getElementById('back-view');
       const btnFront = document.getElementById('btn-front');
@@ -506,7 +920,40 @@
       const body = document.body;
       card.classList.toggle('nightMode');
       body.classList.toggle('dark-theme');
+      const btn = document.getElementById('btn-theme');
+      if (body.classList.contains('dark-theme')) {
+        btn.textContent = '☀️ Light Mode';
+      } else {
+        btn.textContent = '🌙 Night Mode';
+      }
     }
+
+    function mockPlayAudio() {
+      const btns = document.querySelectorAll('.replay-button-mock');
+      btns.forEach(b => {
+        b.style.transform = 'scale(1.2)';
+        setTimeout(() => b.style.transform = '', 200);
+      });
+    }
+
+    // Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+      if (e.code === 'Space') {
+        e.preventDefault();
+        showCard(currentView === 'front' ? 'back' : 'front');
+      } else if (e.code === 'KeyD') {
+        toggleTheme();
+      } else if (e.code === 'ArrowDown' || e.code === 'ArrowRight') {
+        e.preventDefault();
+        if (currentIndex < cardsData.length - 1) loadCard(currentIndex + 1);
+      } else if (e.code === 'ArrowUp' || e.code === 'ArrowLeft') {
+        e.preventDefault();
+        if (currentIndex > 0) loadCard(currentIndex - 1);
+      }
+    });
+
+    window.onload = initCards;
   </script>
 </body>
 </html>
