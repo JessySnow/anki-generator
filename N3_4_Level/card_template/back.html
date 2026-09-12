@@ -1,0 +1,64 @@
+{{FrontSide}}
+
+<hr id="answer">
+
+<div class="card-box back-card">
+  <div class="reading-row">
+    <!-- 日语目标词汇与假名注音 -->
+    <div class="furigana-title">
+      {{furigana:Furigana}}
+      {{#WordAudio}}<span class="audio-button">{{WordAudio}}</span>{{/WordAudio}}
+    </div>
+  </div>
+
+
+  {{#Sentence}}
+  <div class="sentence-detail-section">
+    <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
+    <div class="sentence-jp">
+      {{Sentence}}
+      {{#SentenceAudio}}<span class="audio-button">{{SentenceAudio}}</span>{{/SentenceAudio}}
+    </div>
+    {{#SentenceTranslation}}
+    <div class="sentence-zh">{{SentenceTranslation}}</div>
+    {{/SentenceTranslation}}
+  </div>
+  {{/Sentence}}
+
+  {{#GrammarPattern}}
+  <div class="grammar-section">
+    <div class="badge-label grammar-label"><span class="badge-icon">✨</span> 语法重点</div>
+    <div class="grammar-header">
+      <span class="grammar-pattern">{{GrammarPattern}}</span>
+      {{#GrammarMeaning}}<span class="grammar-meaning">（{{GrammarMeaning}}）</span>{{/GrammarMeaning}}
+    </div>
+    {{#GrammarUsage}}
+    <div class="grammar-usage-text">{{GrammarUsage}}</div>
+    {{/GrammarUsage}}
+  </div>
+  {{/GrammarPattern}}
+
+  {{#WordUsage}}
+  <details class="analysis-details">
+    <summary>深入解析与语境逻辑</summary>
+    <div class="analysis-body">
+      <div class="analysis-item">
+        <span class="item-title">词汇用法</span>
+        <div class="item-content">{{WordUsage}}</div>
+      </div>
+      {{#CombinationLogic}}
+      <div class="analysis-item">
+        <span class="item-title">语境逻辑</span>
+        <div class="item-content">{{CombinationLogic}}</div>
+      </div>
+      {{/CombinationLogic}}
+    </div>
+  </details>
+  {{/WordUsage}}
+
+  {{#Tags}}
+  <div class="tags-row">
+    <span class="tags-pill">{{Tags}}</span>
+  </div>
+  {{/Tags}}
+</div>

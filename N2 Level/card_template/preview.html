@@ -304,11 +304,11 @@ body.dark-theme .card {
 }
 
 .word-main {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: 0.02em;
-  line-height: 1.35;
+  line-height: 1.4;
   word-break: break-word;
 }
 
@@ -364,10 +364,8 @@ hr#answer::after {
    ========================================================================== */
 .reading-row {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   margin-bottom: 18px;
   text-align: center;
 }
@@ -378,6 +376,9 @@ hr#answer::after {
   color: var(--accent-primary);
   letter-spacing: 0.02em;
   line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Ruby Furigana Positioning */
@@ -387,10 +388,10 @@ ruby {
 }
 
 ruby rt {
-  font-size: 0.52em;
+  font-size: 0.44em;
   font-weight: 500;
   color: var(--text-ruby);
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
   line-height: 1;
   padding-bottom: 2px;
   user-select: none;
@@ -626,7 +627,13 @@ ruby rt {
 /* ==========================================================================
    Audio / Replay Buttons
    ========================================================================== */
-.audio-button,
+.audio-button {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
 .replay-button,
 .replay-button-mock {
   display: inline-flex;
@@ -641,55 +648,41 @@ ruby rt {
   cursor: pointer;
   vertical-align: middle;
   transition: all 0.2s ease;
-  margin-left: 6px;
+  margin-left: 8px;
   padding: 0;
   outline: none;
   user-select: none;
+  text-decoration: none;
+  position: relative;
   -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
 }
 
-.audio-button:hover,
 .replay-button:hover,
 .replay-button-mock:hover {
   background: var(--accent-primary);
   color: #ffffff;
-  transform: scale(1.1);
+  transform: scale(1.08);
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
 }
 
-/* Anki Native SVG Replay Button */
-.replay-button svg {
-  width: 26px;
-  height: 26px;
+/* Hide default play triangle SVG */
+.replay-button svg,
+.replay-button-mock svg {
+  display: none !important;
+}
+
+/* Crisp Modern Speaker Icon (Speaker cone + sound waves) */
+.replay-button::before,
+.replay-button-mock::before {
+  content: "";
   display: block;
-}
-
-.replay-button svg circle {
-  fill: var(--accent-primary-bg);
-  stroke: none;
-  transition: fill 0.2s ease;
-}
-
-.replay-button:hover svg circle {
-  fill: var(--accent-primary);
-}
-
-.replay-button svg path {
-  fill: var(--accent-primary);
-  stroke: none;
-  transition: fill 0.2s ease;
-}
-
-.replay-button:hover svg path {
-  fill: #ffffff;
-}
-
-/* Vector SVG icons inside audio buttons */
-.replay-button-mock svg,
-.audio-button svg {
   width: 15px;
   height: 15px;
-  display: block;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'%3E%3C/polygon%3E%3Cpath fill='none' d='M15.54 8.46a5 5 0 0 1 0 7.07'%3E%3C/path%3E%3Cpath fill='none' d='M19.07 4.93a10 10 0 0 1 0 14.14'%3E%3C/path%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'%3E%3C/polygon%3E%3Cpath fill='none' d='M15.54 8.46a5 5 0 0 1 0 7.07'%3E%3C/path%3E%3Cpath fill='none' d='M19.07 4.93a10 10 0 0 1 0 14.14'%3E%3C/path%3E%3C/svg%3E") no-repeat center / contain;
+  transition: background-color 0.2s ease;
 }
 
 
@@ -728,7 +721,7 @@ ruby rt {
 
   <div class="preview-header">
     <h1 class="preview-title">Japanese N2 Card Template Preview</h1>
-    <p class="preview-subtitle">Front: Target Word &amp; POS (No Sentence Spoilers) &nbsp;|&nbsp; Back: Reading, Meaning, Sentence &amp; Grammar</p>
+    <p class="preview-subtitle">Front: Chinese Meaning &amp; POS &nbsp;|&nbsp; Back: Japanese Word, Reading, Sentence &amp; Grammar</p>
   </div>
 
   <!-- Interactive Controls -->
@@ -777,10 +770,7 @@ ruby rt {
             <div class="furigana-title" id="back-furigana"></div>
           </div>
 
-          <div class="meaning-section">
-            <div class="badge-label"><span class="badge-icon">💡</span> 释义</div>
-            <div class="meaning-text" id="back-meaning"></div>
-          </div>
+
 
           <div class="sentence-detail-section">
             <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
@@ -858,18 +848,16 @@ ruby rt {
       const selector = document.getElementById('card-selector');
       if (selector.value != currentIndex) selector.value = currentIndex;
 
-      // Front: Word only (kanji without furigana spoiler) + POS
-      const wordText = extractKanjiOnly(card.furigana, card.word);
-      document.getElementById('front-word').textContent = wordText;
+      // Front: Chinese Meaning + POS (Production Mode)
+      document.getElementById('front-word').textContent = card.meaning;
       document.getElementById('front-pos').textContent = card.pos;
 
       // Back FrontSide clone
-      document.getElementById('back-front-word').textContent = wordText;
+      document.getElementById('back-front-word').textContent = card.meaning;
       document.getElementById('back-front-pos').textContent = card.pos;
 
-      const speakerSvg = `<span class="replay-button-mock" title="播放发音" onclick="mockPlayAudio()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></span>`;
+      const speakerSvg = `<span class="replay-button-mock" title="播放发音" onclick="mockPlayAudio()"></span>`;
       document.getElementById('back-furigana').innerHTML = parseFurigana(card.furigana) + ' ' + speakerSvg;
-      document.getElementById('back-meaning').textContent = card.meaning;
       document.getElementById('back-sentence-jp').innerHTML = card.sentence + ' ' + speakerSvg;
       document.getElementById('back-sentence-zh').textContent = card.sentence_zh;
 

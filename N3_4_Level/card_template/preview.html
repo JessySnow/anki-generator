@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anki Card Preview - Japanese N3/N4 Vocab & Grammar</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #e2e8f0;
+      margin: 0;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #ffffff;
+      padding: 10px 20px;
+      border-radius: 9999px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    button, select {
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    button:hover { background: #f8fafc; }
+    .card-viewport {
+      width: 100%;
+      max-width: 640px;
+      perspective: 1000px;
+    }
+    .card {
+      box-sizing: border-box;
+      width: 100%;
+      border-radius: 18px;
+      padding: 30px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    /* ==========================================================================
+   Anki Card Theme - Japanese N2 Vocab & Grammar
+   Modern, Clean, High-Legibility & Full Night Mode Support
+   ========================================================================== */
+
+:root,
+.card {
+  /* Light Theme Palette */
+  --bg-page: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --bg-card-hover: #f1f5f9;
+  --border-card: #e2e8f0;
+  --border-subtle: #eef2f6;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-ruby: #64748b;
+
+  /* Accent: Primary (Vocabulary & Focus) */
+  --accent-primary: #2563eb;
+  --accent-primary-hover: #1d4ed8;
+  --accent-primary-bg: #eff6ff;
+  --accent-primary-border: #bfdbfe;
+
+  /* Accent: Grammar (JLPT Patterns) */
+  --accent-grammar: #7c3aed;
+  --accent-grammar-bg: #f5f3ff;
+  --accent-grammar-border: #ddd6fe;
+  --accent-grammar-box: #faf5ff;
+  --accent-grammar-box-border: #e9d8fd;
+
+  /* Accent: Part of Speech */
+  --accent-pos-bg: #f1f5f9;
+  --accent-pos-text: #475569;
+  --accent-pos-border: #cbd5e1;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+
+  /* Geometry */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
+
+/* ==========================================================================
+   Night Mode / Dark Theme Support
+   Supports: Anki Desktop (.nightMode), AnkiDroid, AnkiMobile, Web preview
+   ========================================================================== */
+.card.nightMode,
+.nightMode .card,
+.card.night_mode,
+.night_mode .card,
+body.dark-theme,
+body.dark-theme .card {
+  --bg-page: #0b0f19;
+  --bg-card: #131b2e;
+  --bg-card-subtle: #19233c;
+  --bg-card-hover: #1f2b48;
+  --border-card: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #818cf8;
+  --text-ruby: #94a3b8;
+
+  --accent-primary: #60a5fa;
+  --accent-primary-hover: #93c5fd;
+  --accent-primary-bg: rgba(59, 130, 246, 0.14);
+  --accent-primary-border: rgba(96, 165, 250, 0.28);
+
+  --accent-grammar: #c084fc;
+  --accent-grammar-bg: rgba(168, 85, 247, 0.12);
+  --accent-grammar-border: rgba(192, 132, 252, 0.28);
+  --accent-grammar-box: #1a1c36;
+  --accent-grammar-box-border: rgba(192, 132, 252, 0.2);
+
+  --accent-pos-bg: rgba(148, 163, 184, 0.12);
+  --accent-pos-text: #94a3b8;
+  --accent-pos-border: rgba(148, 163, 184, 0.22);
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px -2px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+}
+
+/* ==========================================================================
+   Base Card Layout
+   ========================================================================== */
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-primary);
+  background-color: var(--bg-page);
+  padding: 24px 16px;
+  margin: 0;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Card Box */
+.card-box {
+  max-width: 620px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-md);
+  box-sizing: border-box;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Deck Tag Pill */
+.deck-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 14px;
+}
+
+.deck-tag::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  flex-shrink: 0;
+}
+
+/* Front Card: Target Word & POS */
+.word-container {
+  text-align: center;
+  margin: 12px 0 16px;
+}
+
+.word-main {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.back-card .word-main {
+  display: none;
+}
+
+/* Part of Speech Pill */
+.pos-pill {
+  display: inline-block;
+  background: var(--accent-pos-bg);
+  color: var(--accent-pos-text);
+  border: 1px solid var(--accent-pos-border);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  margin-top: 10px;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Answer Divider (Anki Mobile Scroll Anchor)
+   ========================================================================== */
+hr#answer {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-card) 20%, var(--border-card) 80%, transparent);
+  margin: 20px auto;
+  max-width: 580px;
+  position: relative;
+  overflow: visible;
+}
+
+hr#answer::after {
+  content: "解答";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  padding: 2px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-card);
+  letter-spacing: 0.06em;
+}
+
+/* ==========================================================================
+   Back Card: Reading & Target Word
+   ========================================================================== */
+.reading-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.furigana-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ruby Furigana Positioning */
+ruby {
+  ruby-align: center;
+  ruby-position: over;
+}
+
+ruby rt {
+  font-size: 0.44em;
+  font-weight: 500;
+  color: var(--text-ruby);
+  letter-spacing: 0;
+  line-height: 1;
+  padding-bottom: 2px;
+  user-select: none;
+}
+
+/* ==========================================================================
+   Meaning Section
+   ========================================================================== */
+.meaning-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  margin-top: 14px;
+}
+
+.meaning-text {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+.badge-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  background: var(--accent-primary-bg);
+  border: 1px solid var(--accent-primary-border);
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 6px;
+}
+
+.badge-label.grammar-label {
+  color: var(--accent-grammar);
+  background: var(--accent-grammar-bg);
+  border-color: var(--accent-grammar-border);
+}
+
+.badge-icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Example Sentence Section
+   ========================================================================== */
+.sentence-detail-section {
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
+}
+
+.sentence-jp {
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin: 6px 0;
+  letter-spacing: 0.01em;
+}
+
+.sentence-zh {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-card);
+}
+
+/* ==========================================================================
+   Grammar Section
+   ========================================================================== */
+.grammar-section {
+  background: var(--accent-grammar-bg);
+  border: 1px solid var(--accent-grammar-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-top: 14px;
+}
+
+.grammar-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.grammar-pattern {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--accent-grammar);
+  letter-spacing: 0.01em;
+}
+
+.grammar-meaning {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.grammar-usage-text {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--accent-grammar-box-border);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  margin-top: 8px;
+}
+
+/* ==========================================================================
+   Deep Analysis Section (<details>)
+   ========================================================================== */
+.analysis-details {
+  margin-top: 14px;
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.analysis-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.analysis-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.analysis-details summary::after {
+  content: "›";
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.analysis-details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.analysis-details summary:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.analysis-body {
+  padding: 14px 16px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.analysis-item {
+  margin-bottom: 12px;
+}
+
+.analysis-item:last-child {
+  margin-bottom: 0;
+}
+
+.item-title {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.item-content {
+  margin-top: 2px;
+  color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Tags Row
+   ========================================================================== */
+.tags-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.tags-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-card-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 2px 9px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Audio / Replay Buttons
+   ========================================================================== */
+.audio-button {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.replay-button,
+.replay-button-mock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-primary-bg);
+  color: var(--accent-primary);
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.2s ease;
+  margin-left: 8px;
+  padding: 0;
+  outline: none;
+  user-select: none;
+  text-decoration: none;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.replay-button:hover,
+.replay-button-mock:hover {
+  background: var(--accent-primary);
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+/* Hide default play triangle SVG */
+.replay-button svg,
+.replay-button-mock svg {
+  display: none !important;
+}
+
+/* Crisp Modern Speaker Icon (Speaker cone + sound waves) */
+.replay-button::before,
+.replay-button-mock::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'%3E%3C/polygon%3E%3Cpath fill='none' d='M15.54 8.46a5 5 0 0 1 0 7.07'%3E%3C/path%3E%3Cpath fill='none' d='M19.07 4.93a10 10 0 0 1 0 14.14'%3E%3C/path%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='11 5 6 9 2 9 2 15 6 15 11 19 11 5'%3E%3C/polygon%3E%3Cpath fill='none' d='M15.54 8.46a5 5 0 0 1 0 7.07'%3E%3C/path%3E%3Cpath fill='none' d='M19.07 4.93a10 10 0 0 1 0 14.14'%3E%3C/path%3E%3C/svg%3E") no-repeat center / contain;
+  transition: background-color 0.2s ease;
+}
+
+
+/* ==========================================================================
+   Mobile Responsiveness (AnkiDroid, AnkiMobile)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .card {
+    padding: 14px 8px;
+  }
+  .card-box {
+    padding: 18px 16px;
+    border-radius: 14px;
+  }
+  .word-main {
+    font-size: 30px;
+  }
+  .furigana-title {
+    font-size: 28px;
+  }
+  .meaning-text {
+    font-size: 17px;
+  }
+  .sentence-jp {
+    font-size: 16px;
+  }
+  .sentence-detail-section,
+  .grammar-section {
+    padding: 14px 14px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <select id="cardSelect"></select>
+    <button id="flipBtn">翻面 (空格键 / Space)</button>
+    <button id="nightToggle">暗黑模式 (D)</button>
+  </div>
+  <div class="card-viewport">
+    <div id="cardRoot" class="card"></div>
+  </div>
+
+  <script>
+    const cards = [{"guid": "CvMp-*J&`4", "word": "いいえ", "reading": "いいえ", "furigana": "いいえ", "pos": "感動詞", "meaning": "不、不是", "sentence": "「この近くに静かなカフェはありますか」「いいえ、この通りは人通りが多くて、あまり静かな店はないんですよ」", "sentence_zh": "“这附近有安静的咖啡馆吗？”“不，这条街来往行人很多，不太有安静的店呢。”", "word_usage": "「いいえ」作为应答词（感叹词），置于句首用于否定对方的提问并引出随后的情况说明。", "grammar_pattern": "～あまり～ない", "grammar_meaning": "表示部分否定，“不太……，不怎么……”", "grammar_usage": "副词「あまり」与形容词否定式「ない」相呼应，修饰名词「店」，构成「あまり静かな店はない」，委婉表达安静的店铺极少。", "combination_logic": "前句用「いいえ」礼貌明确地否定对方询问，后句顺理成章通过「あまり～ない」对喧闹商业街缺乏安静场所的事实进行委婉说明，问答逻辑自然连贯。", "tags": "N3_4::Vocabulary N3_4::Grammar::1 from_basic"}, {"guid": "v<d@NDhdb)", "word": "何", "reading": "なに", "furigana": "何[なに]", "pos": "代・疑問", "meaning": "什么", "sentence": "会議が終わったあとで、今日話し合った内容について何かわからない点があれば、遠慮なく質問してください。", "sentence_zh": "会议结束之后，如果对今天讨论的内容有什么不明白的地方，请尽管提问。", "word_usage": "「何」在句中接不定表示助词「か」构成「何か（某些、什么）」，作定语修饰名词「わからない点」，表示泛指的不确定事物。", "grammar_pattern": "～あとで", "grammar_meaning": "表示时间的先后顺序，“在……之后”", "grammar_usage": "接在动词普通过去形「終わった」之后，构成「終わったあとで」，明确设定出提问答疑动作发生的时间节点是在会议落幕之后。", "combination_logic": "前半句以「～あとで」限定在会议结束的后续交流阶段；后半句顺理成章结合疑问代词「何か」针对未尽事宜鼓励提问，因果和情境衔接顺畅自然。", "tags": "N3_4::Vocabulary N3_4::Grammar::2 from_basic"}, {"guid": "oD1]a;2Ju(", "word": "時計", "reading": "とけい", "furigana": "時計[とけい]", "pos": "名", "meaning": "钟表", "sentence": "部屋の壁に掛け時計を掛けておけば、朝の忙しい時間でも一目で時間を確認できて安心だ。", "sentence_zh": "如果能在房间墙上挂个挂钟，即使早上忙碌的时候也能一眼确认时间，心里就踏实了。", "word_usage": "「時計」在句中以复合名词「掛け時計（挂钟）」的形式出现，作动作宾语，指代记录时间的家用计时器。", "grammar_pattern": "～ば", "grammar_meaning": "表示假设条件，“如果……就……”", "grammar_usage": "接在补助动词「おく」的假定形「おけば」之后，构成「掛けておけば」，设定预先挂好挂钟这一积极的前置假定条件。", "combination_logic": "前半句通过「～ば」假设预先配置好「時計」的便利举措；后半句顺畅推导其为忙碌早晨带来的省时安心效果，假定与收益因果紧凑合理。", "tags": "N3_4::Vocabulary N3_4::Grammar::3 from_basic"}, {"guid": "knD%moK6/(", "word": "英語", "reading": "えいご", "furigana": "英語[えいご]", "pos": "名", "meaning": "英语", "sentence": "海外旅行中に英語でのコミュニケーションに困った場合は、スマートフォンの翻訳アプリを利用すると安心です。", "sentence_zh": "在海外旅行中用英语沟通遇到困难的情况下，使用手机上的翻译软件就会很安心。", "word_usage": "「英語」在句中与格助词「で」和助词「の」结合构成「英語での（用英语的）」，作定语修饰后续名词「コミュニケーション」，指代作为国际通用交流媒介的英语语言。", "grammar_pattern": "～場合は", "grammar_meaning": "表示假定特定情形，“在……的情况下”", "grammar_usage": "「～場合は」接在动词过去形「困った」之后，假定并限定出现“交流遭遇障碍”这一特定突发情况，后项提出切实可行的应对方案。", "combination_logic": "前半句以「英語でのコミュニケーション」设立涉外交流情境，并用「～場合は」假定遇到语言障碍时的具体情形；后半句顺理成章地提供利用科技工具的建议，前后逻辑紧密呼应。", "tags": "N3_4::Vocabulary N3_4::Grammar::4 from_basic"}, {"guid": "D>9F}{>z=u", "word": "ごちそうさまでした", "reading": "ごちそうさまでした", "furigana": "ごちそうさまでした", "pos": "挨拶", "meaning": "我吃好了/我喝好了（用于吃喝后）", "sentence": "「ごちそうさまでした」と満足そうに言ったものの、今日の食事は好きな肉料理ばかり食べて、野菜を全然口にしなかった。", "sentence_zh": "虽然心满意足地说了声“我吃好了”，但今天的饭菜光吃喜欢的肉菜了，完全没吃蔬菜。", "word_usage": "「ごちそうさまでした」是餐后表达感谢与满足的惯用寒暄语，句中作为引用成分由引用助词「と」引导，生动刻画用餐完毕后的典型语言行为。", "grammar_pattern": "～ばかり", "grammar_meaning": "表示数量或动作频率极高，“光是……，净是……”", "grammar_usage": "「～ばかり」接在名词短语「好きな肉料理」之后，后接动词「食べて」，强调饮食选择极端偏向肉类这一动作与事实，表达偏食、营养不均衡的语义。", "combination_logic": "前半句以餐后寒暄词「ごちそうさまでした」交代饭局吃完的状态；后半句借「～ばかり」反差指出偏食倾向，前后语意自然连贯，语境真实日常。", "tags": "N3_4::Vocabulary N3_4::Grammar::5 from_basic leech"}, {"guid": "E(1(5%3bSo", "word": "そろそろ失礼します", "reading": "そろそろしつれいします", "furigana": "そろそろ失礼[しつれい]します", "pos": "連語・挨拶", "meaning": "该告辞了", "sentence": "「もうこんな時間ですので、そろそろ失礼します」と一言伝えるだけで、相手に不快感を与えずに円満に退席できる。", "sentence_zh": "只要简单说一句“已经这个时间了，我该告辞了”，就能在不给对方带来不快的情况下圆满离席。", "word_usage": "「そろそろ失礼します」是拜访他人或参加聚会时准备离开时的礼貌离席用语，句中作为会话原话被直接引用，体现商务与日常交往中的社交礼仪。", "grammar_pattern": "～だけで", "grammar_meaning": "表示仅凭某种条件即可，“仅仅凭借……”", "grammar_usage": "「～だけで」接在动词普通形「伝える」之后，表示“仅凭告知一句话”这一最小限度且极为简便的前提条件，就能达成后项的理想交际效果。", "combination_logic": "将标准告辞用语「そろそろ失礼します」作为交际技巧，配合「～だけで」强调只要做好这个简单的礼节性动作便能兼顾体面与效率，逻辑严密切题。", "tags": "N3_4::Vocabulary N3_4::Grammar::6 from_basic"}, {"guid": "j/;CHexNW[", "word": "生活", "reading": "せいかつ", "furigana": "生活[せいかつ]", "pos": "名・自動3", "meaning": "生活", "sentence": "一人暮らしを始めてから、毎日の生活の乱れを急に気にしだして、自炊や掃除を熱心に行うようになった。", "sentence_zh": "自从开始一个人生活后，突然开始在意起日常生活的紊乱，变得热衷于自己做饭和大扫除了。", "word_usage": "「生活」在此处指代日常起居作息，与「乱れ」组合成「生活の乱れ（生活作息紊乱）」，作宾语体现个体生存活动的状态。", "grammar_pattern": "～だす", "grammar_meaning": "表示动作突然发生或开始，“突然开始……起来”", "grammar_usage": "「～だす」接在动词「気にする」的连用形「気にし」之后构成「気にしだして」，表示心理上突然且自发地开始关注并产生危机感。", "combination_logic": "独居生活的独立性触发心理状态的变化，以「生活」为关照客体，自然结合「～だす」表现出对起居细节突发性的自我审视与行为转变。", "tags": "N3_4::Vocabulary N3_4::Grammar::7 from_basic"}, {"guid": "q!Z@@8xkA}", "word": "一緒にいかがですか", "reading": "いっしょにいかがですか", "furigana": "一緒[いっしょ]にいかがですか", "pos": "連語・表現", "meaning": "一起来怎么样?", "sentence": "「仕事の息抜きに、近くのカフェでお茶でも飲もうと思いますが、一緒にいかがですか」と親切に同僚を誘った。", "sentence_zh": "“为了在工作间歇透透气，我打算去附近的咖啡馆喝杯茶之类的，一起来怎么样？”他热心地邀请同事道。", "word_usage": "「一緒にいかがですか」是极富客气礼貌色彩的口语劝诱表达，句中作引语核心，用于向对方发出同行提议。", "grammar_pattern": "～でも", "grammar_meaning": "表示举出代表性事例，“……之类的，哪怕……”", "grammar_usage": "「～でも」接在名词「お茶」之后，作为示意助词举出“喝茶”这一轻松代表性范例，弱化目的性，营造出无负担的随和氛围。", "combination_logic": "前半句用「お茶でも」提出轻松随意的举例邀请，后半句顺畅连接「一緒にいかがですか」完成礼貌真挚的相邀，是职场与社交对话的黄金搭配。", "tags": "N3_4::Vocabulary N3_4::Grammar::8 from_basic"}, {"guid": "xLP:4hK`T1", "word": "また今度お願いします", "reading": "またこんどおねがいします", "furigana": "また今度[こんど]お願[ねが]いします", "pos": "連語・挨拶", "meaning": "那下次再请多多关照吧", "sentence": "「あいにく本日は満席でございます」「承知しました、それではまた今度お願いします」と丁寧に返事をした。", "sentence_zh": "“真不凑巧，今天店内已经满座了。”“我知道了，那就下次再劳烦您了。”他礼貌地回复道。", "word_usage": "「また今度お願いします」是委婉拒绝、错失机会或向对方预约下一次合作交流时的常用客套寒暄，展现了得体的社交留白。", "grammar_pattern": "～でございます", "grammar_meaning": "「～です」的郑重礼貌用语（丁重语）", "grammar_usage": "「～でございます」作为断定助动词「です」的高度郑重语（丁重语），接在名词「満席」后，体现服务行业从业者向顾客说明现状时的敬业与礼貌态度。", "combination_logic": "店员以极其郑重的「満席でございます」说明客观无法接待，顾客随即报以柔和得体的「また今度お願いします」，二人对话敬语层级对等，语境严谨贴切。", "tags": "N3_4::Vocabulary N3_4::Grammar::9 from_basic"}, {"guid": "Lv}Mb|^Tby", "word": "下手", "reading": "へた", "furigana": "下手[へた]", "pos": "な形", "meaning": "不好、不擅长", "sentence": "弟は自分の絵が下手だからと言って人に見せるのを恥ずかしがるが、独特な味があって私は好きだ。", "sentence_zh": "弟弟虽然因为觉得自己画画不好而羞于给别人看，但其画作有着独特的韵味，我很喜欢。", "word_usage": "「下手」为な形容词，在句中作谓语，表示技能水平拙劣或不擅长，构成原因状语从句「下手だから」。", "grammar_pattern": "～がる", "grammar_meaning": "表示第三人称流露出某种情感或感觉，“显得……，感到……”", "grammar_usage": "「～がる」接在感情形容词「恥ずかしい」的词干后构成「恥ずかしがる」，客观描述第三人称（弟弟）所表露出的害羞、局促外在神态与心理反应。", "combination_logic": "前项用「下手」点明弟弟对自己水平评价不高的主观认知，顺畅引发后项用「～がる」对其表现出害羞逃避态度的客观描写，主客观因果呼应紧凑。", "tags": "N3_4::Vocabulary N3_4::Grammar::10 from_basic leech"}, {"guid": "N}-WOBf@x7", "word": "どうもすみません", "reading": "どうもすみません", "furigana": "どうもすみません", "pos": "挨拶", "meaning": "谢谢/非常抱歉", "sentence": "「隣の部屋から焦げたような変なにおいがするのですが、危険ではないでしょうか」「どうもすみません、すぐ確認いたします」", "sentence_zh": "“隔壁房间飘来一股好像烧焦了一样的怪味，不会有危险吧？”“实在非常抱歉，我马上前去确认。”", "word_usage": "「どうもすみません」在对话中作为歉意表达，兼具郑重感与诚恳态度，用于对顾客或客人的投诉与关切做出第一时间的致歉应对。", "grammar_pattern": "～がする", "grammar_meaning": "表示生理知觉或心理感觉（气味、声音、直觉），“闻到/听到/觉得……”", "grammar_usage": "「～がする」接在表示感官知觉的名词「変なにおい」之后，构成「変なにおいがする」，客观描述不受意志控制的嗅觉所捕捉到的异味现象。", "combination_logic": "顾客以「においがする」反映闻到烧焦气味的异常险情，负责人立刻以「どうもすみません」承担责任并道歉稳住情绪，问答逻辑逼真生动。", "tags": "N3_4::Vocabulary N3_4::Grammar::11 from_basic"}, {"guid": "B,y;c&xVAu", "word": "何人", "reading": "なんにん", "furigana": "何人[なんにん]", "pos": "名・疑問", "meaning": "几个人", "sentence": "「明日の夕方六時ごろ、何人ぐらいいらっしゃる予定か事前に教えていただけますか」と幹事に尋ねた。", "sentence_zh": "“请问明天傍晚6点左右，预计会有几个人到场，能提前告诉我吗？”我向组织者询问道。", "word_usage": "「何人」是询问人数的疑问代词，句中搭配副助词「ぐらい」构成「何人ぐらい」，用于打听人数的大致规模。", "grammar_pattern": "～ごろ", "grammar_meaning": "表示大致的时间点，“……左右，……前后”", "grammar_usage": "「～ごろ」接在具体时间词「夕方六時」之后，表示约略的时间节点“六点左右”，符合活动筹备时不刻板规定分秒的日常约定用语。", "combination_logic": "筹备聚会需兼顾时间节点与人员规模，以「～ごろ」锁定大致时间，以「何人」询问参与人数，两者相辅相成，完美契合预约确认语境。", "tags": "N3_4::Vocabulary N3_4::Grammar::12 from_basic"}, {"guid": "d0nM@EQET]", "word": "兄弟", "reading": "きょうだい", "furigana": "兄弟[きょうだい]", "pos": "名", "meaning": "兄弟姐妹", "sentence": "こちらのプランには、ご兄弟で一緒にご参加いただく場合にお使いいただける割引特典がございます。", "sentence_zh": "这个方案中，备有兄弟姐妹一同参加时可以享受的折扣优惠。", "word_usage": "「兄弟」在此处前缀接头辞「ご」构成尊称「ご兄弟」，涵盖亲生兄弟姐妹，指代家庭中的同辈血亲。", "grammar_pattern": "～ございます", "grammar_meaning": "「～あります」的郑重礼貌用语（丁重语）", "grammar_usage": "「～ございます」是存在动词「あります」的高度礼貌用语（丁重语/郑重语），接在助词「が」后，体现服务机构向顾客介绍优惠政策时的周到与敬意。", "combination_logic": "以「ご兄弟」明确受惠群体范围，后以郑重的商业敬语「～ございます」宣布优惠措施的存在，行文庄重优雅，符合服务接待标准。", "tags": "N3_4::Vocabulary N3_4::Grammar::13 from_basic"}, {"guid": "i>pHs(xo.h", "word": "二人", "reading": "ふたり", "furigana": "二人[ふたり]", "pos": "名", "meaning": "两个人", "sentence": "けんかばかりしていた二人だったが、共通の趣味を見つけてから仲良く話しはじめた。", "sentence_zh": "虽然过去两人总是吵架，但自从找到共同爱好后，便开始愉快地交谈起来了。", "word_usage": "「二人」为数词名词，在句中作主题主语，指示特定发生矛盾后又破冰的两个人。", "grammar_pattern": "～はじめる", "grammar_meaning": "表示动作的自然开始，“开始……”", "grammar_usage": "「～はじめる」接在动词「話す」的连用形「話し」后构成「話しはじめた」，表示两人之间“开始交谈”这一行为转变的自然起始。", "combination_logic": "前半句交代「二人」原先僵持的关系与转机，后半句借「～はじめる」表现破冰后主动持续交谈的崭新开端，叙事脉络对比分明、起承转合自然。", "tags": "N3_4::Vocabulary N3_4::Grammar::14 from_basic"}, {"guid": "Ed1H632w=B", "word": "レモン", "reading": "レモン", "furigana": "レモン", "pos": "名", "meaning": "柠檬", "sentence": "この紅茶には新鮮なレモンをたっぷり絞り入れたのだから、爽やかな酸味と香りが楽しめるはずだ。", "sentence_zh": "这杯红茶里挤入了满满的新鲜柠檬汁，按理应该能享受到清爽的酸味与香气。", "word_usage": "「レモン」为片假名外来语名词，在句中作动词短语「絞り入れた」的宾语核心，指代调味增香用的新鲜柑橘类水果。", "grammar_pattern": "～はずだ", "grammar_meaning": "表示根据客观依据做出的必然推测，“按理应该……”", "grammar_usage": "「～はずだ」接在动词连体形「楽しめる」之后，基于前文“加入了足量新鲜柠檬”这一确凿事实，进行逻辑上必然合乎情理的主观确信推断。", "combination_logic": "前半句指明挤入足量「レモン」的充分物质依据，后半句顺理成章通过「～はずだ」推导出必然具备清新风味的品尝结论，因果推导严密。", "tags": "N3_4::Vocabulary N3_4::Grammar::15 from_basic"}, {"guid": "M4trVpX3?Z", "word": "刺身", "reading": "さしみ", "furigana": "刺身[さしみ]", "pos": "名", "meaning": "生鱼片", "sentence": "今朝港で水揚げされたばかりの新鮮な魚を使っているのだから、この刺身が生臭いわけもないし、美味しくないはずがない。", "sentence_zh": "用的是今天清晨刚在渔港捕捞上岸的新鲜鱼肉，这道生鱼片既不会有腥味，也绝不可能不好吃。", "word_usage": "「刺身」作为日本代表性传统生食料理名词，在句中作主语，强调生鲜食材的品质保障。", "grammar_pattern": "～はずがない", "grammar_meaning": "表示强烈的否定推测，“不可能……，绝不会……”", "grammar_usage": "「～はずがない」接在形容词连体形「美味しくない」后，构成双重否定语气，表达“绝无不好吃的道理”，展现出说话人极度强烈的确信判断。", "combination_logic": "凭借当天清晨港口直供的顶尖新鲜度为凭据，判定料理「刺身」绝无难吃的可能性，通过「～はずがない」抒发笃定信赖，语感地道有力。", "tags": "N3_4::Vocabulary N3_4::Grammar::16 from_basic"}, {"guid": "w,yrV<rXc0", "word": "どこか", "reading": "どこか", "furigana": "どこか", "pos": "代", "meaning": "哪里(表示不特定的某个地方)", "sentence": "体調が優れないときは無理をして出社せず、どこか静かな病院で診察を受けることが必要です。", "sentence_zh": "身体不适时不要勉强上班，有必要找一家安静的医院接受看诊。", "word_usage": "「どこか」是不定指指示代词，修饰后续偏正名词短语「静かな病院」，泛指某个未特定指明的医疗就诊场所。", "grammar_pattern": "～ひつよう", "grammar_meaning": "表示必要性，“需要，必要”", "grammar_usage": "「～ひつよう」在此处以名词谓语形式「～ことが必要です」出现，修饰前置名词化动词短语，申明就医保健的不可或缺性与客观必要。", "combination_logic": "针对身体不适的情形，指出必须找「どこか」合适的地点就诊，自然引出表必要性的「～必要」，建议中肯贴切，表意准确。", "tags": "N3_4::Vocabulary N3_4::Grammar::17 from_basic"}, {"guid": "Gq@!`|`jM~", "word": "食事する", "reading": "しょくじする", "furigana": "食事[しょくじ]する", "pos": "名・自他動3", "meaning": "吃饭、用餐", "sentence": "健康を維持するためには、栄養のバランスを考えて毎日決まった時間に食事する必要がある。", "sentence_zh": "为了维持健康，有必要顾及营养均衡并在每天固定的时间用餐。", "word_usage": "「食事する」为サ变动词（自他动3），在句中作连体修饰语修饰形式名词「必要」，表示摄取一日三餐的饮食行为。", "grammar_pattern": "～ひつようがある", "grammar_meaning": "表示客观上有做某事的必要，“有必要……”", "grammar_usage": "「～ひつようがある」接在动词原形「食事する」之后，强调从医学与生理常识出发，有规律地就餐是具有客观约束力的必要行为。", "combination_logic": "围绕维护健康这一科学目标，将养成良好习惯的「食事する」与表达客观必要性的「～ひつようがある」组合，说理透彻，用词考究。", "tags": "N3_4::Vocabulary N3_4::Grammar::18 from_basic"}, {"guid": "JX]s.]Uw,^", "word": "泳ぐ", "reading": "およぐ", "furigana": "泳[およ]ぐ", "pos": "自動1", "meaning": "游泳", "sentence": "夏休みには青く澄んだ海で思い切り泳ぎたいので、水が入らない新しいゴーグルがほしい。", "sentence_zh": "暑假我想在清澈湛蓝的大海里尽情游泳，所以想要一副不进水的新泳镜。", "word_usage": "「泳ぐ」为五段自动词（自动1），在句中以愿望态「泳ぎたい」的形式出现，表达在海里进行游泳运动的热切期盼。", "grammar_pattern": "～ほしい", "grammar_meaning": "表示说话人渴望得到某物，“想要……”", "grammar_usage": "「～ほしい」为表示主体愿望的形容词型助动词，前接带对象格助词「が」的名词「新しいゴーグル」，表达说话人渴望获得某实物的心理欲望。", "combination_logic": "前半句设定去大海尽情「泳ぐ」的活动愿景，后半句顺理成章提出为了游泳而极度「ほしい」新护目镜的物质需求，因果勾连一气呵成。", "tags": "N3_4::Vocabulary N3_4::Grammar::19 from_basic"}, {"guid": "P{HwFspoUi", "word": "のどが渇く", "reading": "のどがかわく", "furigana": "のどが渇[かわ]く", "pos": "連語・表現", "meaning": "口渴", "sentence": "「長時間歩いておのどが渇いていらっしゃるでしょうから、どうぞ冷たいお茶をお召し上がりください」と案内された。", "sentence_zh": "“走了这么长时间路您一定口渴了吧，请喝点冷茶解解渴。”对方热情招呼道。", "word_usage": "「のどが渇く」作为固定生理感受短语，此处加上接头辞「お」构成尊敬化表达「おのどが渇いて」，体察并尊重客人的生理疲劳。", "grammar_pattern": "～いらっしゃる", "grammar_meaning": "动词「行く・来る・いる」的尊敬语，“在/去/来”", "grammar_usage": "「～いらっしゃる」作为补助动词「ている」的高级尊敬语「ていらっしゃる」，接在动词连用形后，尊敬推测并关照尊客目前所处的口渴状态。", "combination_logic": "接待方细腻觉察到客人长途跋涉必然伴随「のどが渇く」，遂用尊敬语「～ていらっしゃる」体贴关怀并奉上清茶，完美再现日式待客之道。", "tags": "N3_4::Vocabulary N3_4::Grammar::20 from_basic"}, {"guid": "DYaa/[9?N.", "word": "住所", "reading": "じゅうしょ", "furigana": "住所[じゅうしょ]", "pos": "名", "meaning": "地址", "sentence": "新しい会員カードをお作りしますので、こちらの用紙にお名前とご住所の記入をお願いいたします。", "sentence_zh": "我们将为您办理新的会员卡，请您在这张表格上填写一下姓名和住址。", "word_usage": "「住所」在句中接敬语接头辞「ご」构成「ご住所」，作自谦动词短语的宾语内容，礼貌敬称顾客的居住地址。", "grammar_pattern": "～いたす", "grammar_meaning": "动词「する」的自谦语，“做……”", "grammar_usage": "「～いたす」为动词「する」的自谦语（谦让语Ⅰ），与「お願い」构成商业服务中标准的谦让敬语结构「お願いいたします」，表达自谦请求。", "combination_logic": "柜台办理会员卡需要采集客户的「住所」，前台人员以高度敬谨谦逊的「お願いいたします」向客户提出填表合作，是极具代表性的服务业金句。", "tags": "N3_4::Vocabulary N3_4::Grammar::21 from_basic leech"}, {"guid": "F8Zjjq@MkH", "word": "消す", "reading": "けす", "furigana": "消[け]す", "pos": "他動1", "meaning": "关(空调、电灯等)", "sentence": "誰もいない部屋なのに電気がつきっぱなしじゃないか、部屋を出るときはちゃんと消しなさい。", "sentence_zh": "明明房间里一个人都没有，灯不是还一直开着吗？离开房间时要好好关掉！", "word_usage": "「消す」为他动词（他动1），在句中作祈使句谓语「消しなさい」，指切断电源关闭电灯照明设备。", "grammar_pattern": "～じゃないか", "grammar_meaning": "表示向对方确认或提出委婉主张，“不是……吗”", "grammar_usage": "「～じゃないか」接在名词性短语「つきっぱなし（一直亮着）」之后，表达说话人现场目睹浪费现象时的讶异、责备与向对方的反问提醒。", "combination_logic": "前句用「～じゃないか」指出房间空无一人却未熄灯的荒唐现状，后句自然发出必须把灯「消す」的严厉指令，情理交融，生活化极强。", "tags": "N3_4::Vocabulary N3_4::Grammar::22 from_basic leech"}, {"guid": "\"nN{#bH]H9U\"", "word": "お引き出しですか", "reading": "おひきだしですか", "furigana": "お引[ひ]き出[だ]しですか", "pos": "連語・表現", "meaning": "您是取钱吗？", "sentence": "「本日のお手続きはお引き出しですか、それとも別のご用件でしょうか」「預金から引き出せるかどうかを確認したいだけです」", "sentence_zh": "“您今天的业务是要取款，还是有其他事情呢？”“我只是想确认一下能不能从存款里取出钱来而已。”", "word_usage": "「お引き出しですか」是银行网点接待人员向顾客垂询业务目的时的经典敬语寒暄，专门指代提取存款。", "grammar_pattern": "～かどうか", "grammar_meaning": "表示不确定的是否判断，“是否……，是不是……”", "grammar_usage": "「～かどうか」接在可能态动词普通形「引き出せる」之后，构成表示不确定事实的名词从句，用于表达对能否成功提款这一可能性的存疑。", "combination_logic": "围绕银行网点的业务交流，柜台人员率先垂询「お引き出しですか」，客户随即借「～かどうか」表明自己只是在咨询是否符合取款条件，对话丝丝入扣。", "tags": "N3_4::Vocabulary N3_4::Grammar::23 from_v1"}, {"guid": "yBHY_J04wr", "word": "のど", "reading": "のど", "furigana": "のど", "pos": "名", "meaning": "嗓子，咽喉", "sentence": "「咳が続いているようだけど、のどの痛みや熱はまだあるのかい」と祖父が優しく心配してくれた。", "sentence_zh": "“看你一直在咳嗽，嗓子疼和发烧好点了吗（还有没有呢）？”爷爷关切而温柔地询问我。", "word_usage": "「のど」作为人体部位名词，在句中与名词「痛み」连用构成偏正短语「のどの痛み（咽喉肿痛）」，指代上呼吸道病症部位。", "grammar_pattern": "～かい", "grammar_meaning": "表示亲切或口语化的疑问（用于男性或长辈对晚辈）", "grammar_usage": "「～かい」为带有温和长辈色彩或亲近男性语气的终助词，接在带有体言化「の」的谓语「あるのかい」后，表达亲切而关怀备至的疑问。", "combination_logic": "祖父体察晚辈感冒咳嗽，直接聚焦其「のど」的痛感，并配合柔和亲切的疑问终助词「～かい」道出问候，字里行间洋溢家庭关怀。", "tags": "N3_4::Vocabulary N3_4::Grammar::24 from_v1"}, {"guid": "\"l;FGb/#%F[\"", "word": "出張する", "reading": "しゅっちょうする", "furigana": "出張[しゅっちょう]する", "pos": "名・自動3", "meaning": "出差", "sentence": "来週は関西の工場で急なトラブルがあったため、担当者が現地へ出張することになるかもしれない。", "sentence_zh": "下周因为关西的工厂发生了紧急故障，负责人可能不得不前往当地出差。", "word_usage": "「出張する」为サ变自动词（自动3），在句中修饰形式名词「こと」，表示为了公务前往外地工作。", "grammar_pattern": "～かもしれない", "grammar_meaning": "表示说话人的低概率推测，“也许……，可能……”", "grammar_usage": "「～かもしれない」接在动词短语普通形「ことになる」之后，表示对未来可能成行的公务公干做出保留有余地的揣测与预警。", "combination_logic": "因异地工厂发生突发险情，促发了相关人员需「出張する」的可能性，使用「～かもしれない」准确传达出事态尚在评估中的推测语感。", "tags": "N3_4::Vocabulary N3_4::Grammar::25 from_v1 leech"}, {"guid": "lCUO&m.3DG", "word": "上着", "reading": "うわぎ", "furigana": "上着[うわぎ]", "pos": "名", "meaning": "外套，上衣", "sentence": "今日の夕方は気温が急に下がるらしいから、薄手の上着を一枚羽織っていったほうがいいかな。", "sentence_zh": "据说今天傍晚气温会骤降，我不知是不是套上一件薄外套出门比较好呢。", "word_usage": "「上着」为服饰名词，在句中被「薄手の」修饰，作动词「羽織る（披上、套上）」的宾语，指穿在最外面的外衣。", "grammar_pattern": "～かな", "grammar_meaning": "表示自言自语或委婉疑问，“不知道……呢”", "grammar_usage": "「～かな」为终助词，接在表示建议选择的动词短语「いい」之后，表现说话人临出门前对着穿搭犹疑不决时的自言自语与内心权衡。", "combination_logic": "面对降温天气预报，针对是否增添「上着」这一穿衣细节，以自问助词「～かな」勾画出日常琐碎中真实的心态摇摆。", "tags": "N3_4::Vocabulary N3_4::Grammar::26 from_v1"}, {"guid": "zU*K:D~x.8", "word": "下着", "reading": "したぎ", "furigana": "下着[したぎ]", "pos": "名", "meaning": "内衣", "sentence": "デリケートな素材でできた下着は傷みやすいため、型崩れを防ぐための正しい洗いかたを覚える必要がある。", "sentence_zh": "娇贵面料做成的内衣容易受损，因此有必要掌握防止变形的正确洗涤方法。", "word_usage": "「下着」为贴身衣物名词，在句中作主语焦点，指代材质精细、易缩水变形的贴身内衣。", "grammar_pattern": "～かた", "grammar_meaning": "接动词连用形表示动作的方法，“……的方法/做法”", "grammar_usage": "「～かた」接在五段动词「洗う」的连用形「洗い」之后构成「洗いかた（清洗方法）」，表示实施某项家务操作的具体工艺与步骤规范。", "combination_logic": "针对「下着」材质娇嫩易损的特质，顺理成章将话题引向如何掌握科学养护的「洗いかた」，逻辑自然闭环，兼具生活实用性。", "tags": "N3_4::Vocabulary N3_4::Grammar::27 from_v1"}, {"guid": "nm/n+67[`d", "word": "できる", "reading": "できる", "furigana": "できる", "pos": "自他動2", "meaning": "能、会、可以", "sentence": "締切まであと数時間しかないけれど、私一人でこの膨大なレポートの修正が全部できるかしら。", "sentence_zh": "距离截止时间只剩几个小时了，不知道单凭我一个人能不能全部完成这份庞大报告的修改呢。", "word_usage": "「できる」在此处作自动词（可能动词），表示能力或事态的达成与胜任，支配前面的动作内容「修正が」。", "grammar_pattern": "～かしら", "grammar_meaning": "女性口语自问或向对方委婉求证，“不知道……吗”", "grammar_usage": "「～かしら」是主要用于女性口语的终助词，接在动词终止形「できる」后，委婉流露内心焦虑、自问与向他人求证的不确定感。", "combination_logic": "面对任务紧迫繁重的困境，使用核心能力词「できる」与表达自我忧虑存疑的女性助词「～かしら」结合，生动体现出内心忐忑不安的心理活动。", "tags": "N3_4::Vocabulary N3_4::Grammar::28 from_v1"}, {"guid": "A}VZMOE~@6", "word": "お祈り", "reading": "おいのり", "furigana": "お祈[いの]り", "pos": "名", "meaning": "祈愿、祈祷", "sentence": "毎朝静かな神社へ立ち寄り、家族全員が無事に一年を過ごせるようにお祈りすることが彼の日課になっている。", "sentence_zh": "每天早晨顺道去安静的神社，祈愿全家人平安顺遂地度过这一年，已成为他的日常习惯。", "word_usage": "「お祈り」为带有美化语前缀「お」的名词，在句中与动词「する」结合，表示向神明寄托福祉祈愿的精神寄托活动。", "grammar_pattern": "～こと", "grammar_meaning": "形式名词，使动词或分句名词化，“……的事情”", "grammar_usage": "「～こと」作为形式名词，将整个动词短语「お祈りする」进行语法体言化（名词化），使其能够充当全句中充当主语的核心成分。", "combination_logic": "将去神宫「お祈り」的虔诚举动通过形式名词「こと」转化为一个概括性的生活例行事项（日课），结构工整规范，语法结构优雅。", "tags": "N3_4::Vocabulary N3_4::Grammar::29 from_v1"}, {"guid": "f!TNG]7UaP", "word": "一度も", "reading": "いちども", "furigana": "一度[いちど]も", "pos": "副", "meaning": "一次也（不）", "sentence": "彼は多忙を極めていたため、この一年間は故郷に一度も帰ることができなかった。", "sentence_zh": "由于他忙碌至极，这一整年里连一次老家都没能回成。", "word_usage": "「一度も」是带有强调语气的副词，常与后续否定谓语呼应，表示绝对频次为零。", "grammar_pattern": "～ことができる", "grammar_meaning": "表示具备某种客观能力或环境许可，“能够……，可以……”", "grammar_usage": "「～ことができる」接在动词辞书形「帰る」后表示能力或客观条件的许可，此处变为过去否定式「帰ることができなかった」，表示客观条件不被允许。", "combination_logic": "极度繁忙的外部现实导致回乡条件受限，以「一度も」呼应「帰ることができなかった」的全盘否定，准确传达出生活身不由己的无奈感。", "tags": "N3_4::Vocabulary N3_4::Grammar::30 from_v1"}, {"guid": "J=CpMH~hH3", "word": "眠い", "reading": "ねむい", "furigana": "眠[ねむ]い", "pos": "い形", "meaning": "困倦的", "sentence": "昼食を食べた直後の午後の講義では、どうしても強い眠気を感じて眠くなることがある。", "sentence_zh": "在吃完午饭后的下午课上，总会感到强烈的困意，有时会变得很困倦。", "word_usage": "「眠い」为形容词，在此处采用连用形「眠く」与动词「なる」连用构成「眠くなる」，表示陷入困倦状态的身心变化。", "grammar_pattern": "～ことがある", "grammar_meaning": "表示有过去的经历或偶尔发生的情况，“曾经……，有时……”", "grammar_usage": "「～ことがある」接在动词辞书形「眠くなる」之后，表示某种偶发性生理状态“有时会……”，体现并非必然但偶尔出现的生活常态。", "combination_logic": "午饭后上课引发困倦是常见生理反应，将状态变化「眠くなる」与表示偶发现象的「～ことがある」组合，客观逼真地还原了大学生的日常体验。", "tags": "N3_4::Vocabulary N3_4::Grammar::31 from_v1"}, {"guid": "l|Ggis0b<?", "word": "きっと", "reading": "きっと", "furigana": "きっと", "pos": "副", "meaning": "一定、必定", "sentence": "努力すれば結果はきっとついてくると信じて、あきらめずにもう一度試験に挑戦することにした。", "sentence_zh": "坚信只要努力结果就一定会随之而来，我决定不放弃，再次挑战一次考试。", "word_usage": "「きっと」为表示高度坚信推断的情态副词，修饰谓语动词「ついてくる」，强化内心对积极因果报偿的确信。", "grammar_pattern": "～ことにする", "grammar_meaning": "表示主体根据自身意志作出的主观决定，“决定……”", "grammar_usage": "「～ことにする」接在动词辞书形「挑戦する」之后，强调由当事人自身主观意志所做出的郑重抉择与行动誓言。", "combination_logic": "内心满怀「きっと」必胜的积极信念，进而驱动自身下定决心做出「挑戦することにした」的意志决断，语义步步推进，充满激励感。", "tags": "N3_4::Vocabulary N3_4::Grammar::32 from_v1"}, {"guid": "vP=`2U-i1@", "word": "動く", "reading": "うごく", "furigana": "動[うご]く", "pos": "自動1", "meaning": "转动、动", "sentence": "社内の組織改編に伴い、長年動かなかった停滞プロジェクトが来月から本格的に動き出すことになった。", "sentence_zh": "伴随着公司内部的组织改革，长年毫无进展的停滞项目从下个月起决定正式启动运转了。", "word_usage": "「動く」为五段自动词（自动1），在句中两次出现——以连用复合形式「動き出す」表示事物由静态转向积极运转和运作。", "grammar_pattern": "～ことになる", "grammar_meaning": "表示因客观规则、外部决定或自然演变，“结果……，决定……”", "grammar_usage": "「～ことになる」接在动词辞书形「動き出す」之后，表示非个人凭空决定、而是由于公司组织改组等客观外部决策所促成的大局敲定。", "combination_logic": "针对尘封项目的运作「動く」，采用体现客观体制规章决定的「～ことになる」加以结句，精准再现职场项目运转的行政规律。", "tags": "N3_4::Vocabulary N3_4::Grammar::33 from_v1"}, {"guid": "fN+>WLQ)lO", "word": "カンガルー", "reading": "カンガルー", "furigana": "カンガルー", "pos": "名", "meaning": "袋鼠", "sentence": "動物園の飼育員は、カンガルーたちがストレスなく過ごせるように、運動場の砂場を以前より広くした。", "sentence_zh": "动物园的饲养员为了让袋鼠们能无拘无束地生活，把运动场的沙地弄得比以前更宽敞了。", "word_usage": "「カンガルー」为动物外来语名词，在句中接复数接尾词「たち」构成主语，指代澳大利亚标志性有袋类动物。", "grammar_pattern": "～くする", "grammar_meaning": "接形容词表示人为使状态发生改变，“使之变得……”", "grammar_usage": "「～くする」接在形容词「広い」的连用形「広く」之后构成「広くした」，表示人为改变事物物理属性，使其面积得以扩充扩张。", "combination_logic": "为了迎合善于跳跃的「カンガルー」的天性，饲养员主动实施了将空间「広くする」的改造举措，因果对应合情合理。", "tags": "N3_4::Vocabulary N3_4::Grammar::34 from_v1"}, {"guid": "d[c1Qx|PC,", "word": "めがね", "reading": "めがね", "furigana": "めがね", "pos": "名", "meaning": "眼镜", "sentence": "急な用事で外出することになったが、愛用のめがねが見当たらず慌てて家中を探し回った。", "sentence_zh": "因为突发的急事不得不外出，可常用眼镜却找不到了，我急急忙忙在屋里到处翻找。", "word_usage": "「めがね」为日常光学生活用品名词，在句中被「愛用の」修饰，作视力矫正的核心工具。", "grammar_pattern": "～急（きゅう）", "grammar_meaning": "表示事态紧急或变化迅速，“突然，紧急”", "grammar_usage": "「～急」在此处以连体形式「急な」修饰事由「用事」，表达事情来得猝不及防、不可预期，具有极强的时间紧迫感。", "combination_logic": "面对「急な用事」的十万火急，出门必需品「めがね」偏偏失踪，营造出生活中极为典型而生动逼真的窘迫慌乱场面。", "tags": "N3_4::Vocabulary N3_4::Grammar::35 from_v1"}, {"guid": "E.J*d.,]Wr", "word": "履く", "reading": "はく", "furigana": "履[は]く", "pos": "他動1", "meaning": "穿(鞋子、裤子等)", "sentence": "明日の登山に出発するまでに、足にしっかり馴染むように新しい登山靴を何回か履いて歩いておくつもりだ。", "sentence_zh": "在明天出发去登山之前，为了让脚充分适应，我打算把新登山鞋穿上多走几次磨合一下。", "word_usage": "「履く」为五段他动词（他动1），专指穿鞋、袜、裤等下半身服饰穿戴，句中支配宾语「登山靴」。", "grammar_pattern": "～までに", "grammar_meaning": "表示动作完成或截止的时间界限，“在……之前”", "grammar_usage": "「～までに」接在动词辞书形「出発する」之后，严密限定了磨合鞋子这一准备工作必须完成的最后时间节点。", "combination_logic": "出发去户外之前需要完成鞋袜磨合，将「～までに」这一时间死线与「登山靴を履く」的前置准备有机结合，语境自然严谨。", "tags": "N3_4::Vocabulary N3_4::Grammar::36 from_v1"}, {"guid": "h7f3vo|Ca3", "word": "する", "reading": "する", "furigana": "する", "pos": "他動3", "meaning": "穿、戴", "sentence": "彼は帰宅後あまりにも疲れていたため、ネクタイをしたままソファーで眠り込んでしまった。", "sentence_zh": "他回家后由于实在太疲惫，连领带都还系着就在沙发上沉沉睡着了。", "word_usage": "「する」在此处根据专门搭配用作服饰配饰佩戴（「ネクタイをする」），表示系领带这一动作状态。", "grammar_pattern": "～まま", "grammar_meaning": "表示保持前述状态不发生变化去做后项，“保持原样，就那样……”", "grammar_usage": "「～まま」接在动词过去形「した」之后，表示保持系着领带的未解除原貌，直接过渡到后项睡眠动作中。", "combination_logic": "精疲力竭的上班族来不及摘下「ネクタイをする」，保持这种紧绷束缚的衣着状态（「～まま」）径直睡去，细节传神到位。", "tags": "N3_4::Vocabulary N3_4::Grammar::37 from_v1"}, {"guid": "N,bkx--g2x", "word": "かぶる", "reading": "かぶる", "furigana": "かぶる", "pos": "他動1", "meaning": "戴(帽子等)", "sentence": "夏場の屋外作業では熱中症を防ぐため、つばの広い帽子をかぶる、または日傘を差して直射日光を避けてください。", "sentence_zh": "在夏季户外作业时为了防止中暑，请戴宽檐帽，或者撑遮阳伞来避开阳光直射。", "word_usage": "「かぶる」为他动词（他动1），专指将头部覆盖物戴在头上，在句中支配宾语「帽子を」。", "grammar_pattern": "～または", "grammar_meaning": "表示两者或多者任选其一，“或者，或是”", "grammar_usage": "「～または」为选择性并列连词，连接「帽子をかぶる」与「日傘を差す」两项具有同等防暑功效的对等防护措施。", "combination_logic": "针对防暑降温这一共同防护目的，通过「～または」列举佩戴帽子（「かぶる」）或打伞这两套并行方案，条例明晰，实用性强。", "tags": "N3_4::Vocabulary N3_4::Grammar::38 from_v1"}, {"guid": "QWQk)/]mgt", "word": "都合", "reading": "つごう", "furigana": "都合[つごう]", "pos": "名", "meaning": "方便、凑巧；情况", "sentence": "先輩はしきりに時計を気にしている様子から見ると、何か次の予定があって都合が悪いみたいだ。", "sentence_zh": "从前辈频频看手表的举动来看，似乎有什么后续安排，现在不太方便的样子。", "word_usage": "「都合」在此处构成常用搭配「都合が悪い」，指示日程安排与时间精力上的冲突与不便。", "grammar_pattern": "～みたいだ", "grammar_meaning": "表示根据直观感受作出的比喻或推断，“宛如……，好像……”", "grammar_usage": "「～みたいだ」接在形容词终止形「悪い」之后，表示根据眼前察言观色捕捉到的动作细节，所作出的推断。", "combination_logic": "根据对方频频看手表的直观肢体语言，使用「～みたいだ」对对方目前的日程状态「都合」做出敏锐而体贴的推断，极显观察力。", "tags": "N3_4::Vocabulary N3_4::Grammar::39 from_v1"}, {"guid": "GO@6jdgg%^", "word": "出る", "reading": "でる", "furigana": "出[で]る", "pos": "自動2", "meaning": "找(零钱)", "sentence": "この自動販売機は古びて故障しているようにみえるが、お金を入れればちゃんとお釣りも出るし正常に使える。", "sentence_zh": "这台自动售货机虽然看上去陈旧且坏了，但只要投币，零钱也能正常找零，可以正常使用。", "word_usage": "「出る」在此处依据固定搭配用于自动找零机制（「お釣りが出る」），指机器正常吐出找续钱币。", "grammar_pattern": "～みえる", "grammar_meaning": "表示映入眼帘或主观看起来像，“看起来……”", "grammar_usage": "「～みえる」以连用修饰形态「故障しているようにみえる」出现，描述机器由外观视觉传达给人破败不堪的主观视觉表象。", "combination_logic": "将机器外表看起来损坏（「～みえる」）与实际投入使用后能顺畅找钱（「お釣りが出る」）形成鲜明转折反差，生活气息浓厚。", "tags": "N3_4::Vocabulary N3_4::Grammar::40 from_v1"}, {"guid": "b}{sk{{+wK", "word": "～目", "reading": "～め", "furigana": "～目[め]", "pos": "接尾", "meaning": "第~(指顺序)", "sentence": "彼はこの難関資格の取得を目指して挑戦を続け、今年でなんと五回目もの受験に挑むことになった。", "sentence_zh": "他为了考取这一高难度资格证书不断坚持挑战，今年居然迎来了多达第五次的报考应战。", "word_usage": "「～目」作为序数接尾词，接在基数词「五回」之后构成「五回目（第五次）」，精确标记应试的顺位次序。", "grammar_pattern": "～も", "grammar_meaning": "表示强调数量之多或并列，“连……也，多达……”", "grammar_usage": "「～も」接在带助词「の」的名词性序数结构「五回目もの」中，极大强化了重考次数之多、坚持之久的夸张惊叹语气。", "combination_logic": "将序数标记「～目」与表示超乎寻常数量强调的「～も」巧妙叠加，淋漓尽致地刻画出备考岁月之漫长与顽强毅力。", "tags": "N3_4::Vocabulary N3_4::Grammar::41 from_v1"}, {"guid": "F*0^Qbw!rw", "word": "信号", "reading": "しんごう", "furigana": "信号[しんごう]", "pos": "名", "meaning": "红绿灯，信号", "sentence": "急いでいるからといって、赤信号を無視して交差点を渡るな、大事故につながるぞ。", "sentence_zh": "不能因为赶时间就无视红灯过马路，别过！那会导致重大事故的！", "word_usage": "「信号」指代道路交通信号灯，在句中与颜色词结合构成复合名词「赤信号（红灯）」，作为禁止违章的客体。", "grammar_pattern": "～な", "grammar_meaning": "禁止助词，表示强烈的告诫或禁止，“不许……，别……”", "grammar_usage": "「～な」为强烈的禁止终助词，接在动词辞书形「渡る」之后构成「渡るな」，发出极为严肃严厉的绝对禁止指令。", "combination_logic": "针对闯红灯违章这桩危及生命的险情，以「赤信号」为危险触发点，斩钉截铁配合禁止命令「渡るな」，语势铿锵，警示力十足。", "tags": "N3_4::Vocabulary N3_4::Grammar::42 from_v1"}, {"guid": "HFmJ6i{fM7", "word": "引っ越し", "reading": "ひっこし", "furigana": "引[ひ]っ越[こ]し", "pos": "名", "meaning": "搬家", "sentence": "忙しいからといって荷物の整理をしないで引っ越し当日を迎えると、搬入作業で大変な苦労をすることになる。", "sentence_zh": "不能因为忙碌就不整理行李就迎来搬家当天，否则会在搬运入住作业中吃大苦头的。", "word_usage": "「引っ越し」为动作性名词，在此处作定语修饰「当日」，指代更换住址迁入新居的整个工程。", "grammar_pattern": "～ないで", "grammar_meaning": "表示不伴随前项动作而进行后项动作，“不……就……”", "grammar_usage": "「～ないで」接在动词「する」的未然形「し」之后构成「しないで」，表示跳过打包收纳这一前置步骤而直接进入后续环节的伴随否定。", "combination_logic": "针对「引っ越し」必须经历的前期打包准备，告诫绝不能在不做整理（「整理をしないで」）的条件下仓促上阵，逻辑因果清晰。", "tags": "N3_4::Vocabulary N3_4::Grammar::43 from_v1"}, {"guid": "d:^0-BM1<M", "word": "ほかに", "reading": "ほかに", "furigana": "ほかに", "pos": "副", "meaning": "另外，其他", "sentence": "この情報は会社全体の機密事項に関わる重要な内容ですので、担当者以外のほかの誰にも話さないでください。", "sentence_zh": "这项情报属于关乎全公司机密的重要内容，除负责人以外请不要透露给其他任何人。", "word_usage": "「ほかに」在此以连体形「ほかの」修饰不定代词「誰」，指代特定圈子之外的其余任意第三方人士。", "grammar_pattern": "～ないでください", "grammar_meaning": "表示客气的劝阻或禁止，“请不要……”", "grammar_usage": "「～ないでください」接在五段动词「話す」的未然形「話さ」之后，构成礼貌但态度坚决的劝阻与守密要求。", "combination_logic": "围绕公司保密规范，使用「ほかの誰にも」封堵无关人员泄密渠道，并顺势承接「話さないでください」发出合规约束，职场契合度极高。", "tags": "N3_4::Vocabulary N3_4::Grammar::44 from_v1"}, {"guid": "m`fUybB~nK", "word": "直接", "reading": "ちょくせつ", "furigana": "直接[ちょくせつ]", "pos": "副・名", "meaning": "直接", "sentence": "メールや電話だけで済ませず、重要な契約を結ぶ際は相手のオフィスへ出向いて直接会って説明しないといけない。", "sentence_zh": "不能只靠发邮件或打电话了事，在签署重要协议之际，必须亲自前往对方办公室当面进行直接说明。", "word_usage": "「直接」为副词兼名词，在此作状语修饰动词「会う」，表示不经由第三者或间接中介的面见方式。", "grammar_pattern": "～ないといけない", "grammar_meaning": "表示出于常识或规则必须做某事，“必须……，不得不……”", "grammar_usage": "「～ないといけない」接在サ变动词「説明する」的未然形「説明し」之后，表示根据商业惯例与信赖原则，必须履行的义务。", "combination_logic": "强调商业合作中的诚意与庄重，点明关键时刻必须「直接」会面，并用「～ないといけない」树立规矩准则，合情入理。", "tags": "N3_4::Vocabulary N3_4::Grammar::45 from_v1"}, {"guid": "\"ioQZ#1h`E6\"", "word": "連絡する", "reading": "れんらくする", "furigana": "連絡[れんらく]する", "pos": "名・自他動3", "meaning": "联系", "sentence": "明日のミーティングはオンライン形式に変更されたため、わざわざ事前に受付窓口へ連絡しなくてもいいですよ。", "sentence_zh": "因为明天的会议变更为线上形式，所以您不必特意提前联系前台接待窗口也可以哦。", "word_usage": "「連絡する」为サ变动词（自他动3），在句中支配宾语「受付窓口へ」，表示通报信息与保持联络。", "grammar_pattern": "～なくてもいい", "grammar_meaning": "表示没有做某事的必要性，“不……也可以”", "grammar_usage": "「～なくてもいい」接在动词未然形「連絡し」之后，豁免了特定行动义务，表示无需额外走繁琐流程的宽慰提示。", "combination_logic": "会议形式线上化带来的便利，直接免除了特定联络程序，将「連絡する」与宽泛许可句型「～なくてもいい」结合，表达体贴高效。", "tags": "N3_4::Vocabulary N3_4::Grammar::46 from_v1"}, {"guid": "D$i4axX0$S", "word": "運動会", "reading": "うんどうかい", "furigana": "運動会[うんどうかい]", "pos": "名", "meaning": "运动会", "sentence": "「週末の運動会なら、雨天の場合は順延されると連絡網に書かれていたよ」と友人に教えてあげた。", "sentence_zh": "“如果是周末的运动会的话，联络网里写着如遇雨天则顺延举办哦。”我告知朋友道。", "word_usage": "「運動会」为学校及社会集体体育赛事名词，在句中作话题主题的核心载体。", "grammar_pattern": "～なら", "grammar_meaning": "表示承接对方提出的话题并给出意见，“如果是……的话”", "grammar_usage": "「～なら」接在名词「運動会」之后，作为承接话题的助词，限定谈论范围并据此导出具体的备用预案。", "combination_logic": "针对对方关心的「運動会」安排，用「～なら」精准提炼出讨论标的，并紧密衔接防雨预案，对话自然流畅。", "tags": "N3_4::Vocabulary N3_4::Grammar::47 from_v1"}, {"guid": "vdpagEg-dV", "word": "都合が悪い", "reading": "つごうがわるい", "furigana": "都合[つごう]が悪[わる]い", "pos": "連語・い形", "meaning": "时机不好、不方便", "sentence": "「もし指定の日時でご都合が悪ければ、日程の変更をなさいますか」と担当者が親切に提案してくれた。", "sentence_zh": "“如果您在指定的日期时间感到不方便的话，需要为您进行日程变更吗？”负责人热心地提议道。", "word_usage": "「都合が悪い」在此冠以接头辞「ご」构成尊称「ご都合が悪ければ」，指代对方在时间日程安排上的冲突不便。", "grammar_pattern": "～なさる", "grammar_meaning": "动词「する」的尊敬语，“做……”", "grammar_usage": "「～なさる」作为动词「する」的尊敬语，与名词「変更」构成「変更をなさいますか」，尊称对方做出的调整决定。", "combination_logic": "先以「ご都合が悪い」关切对方日程冲突，继而以尊敬语「～なさる」主动赋予对方调整时间的自主权，敬语规范无懈可击。", "tags": "N3_4::Vocabulary N3_4::Grammar::48 from_v1"}, {"guid": "mi2>-GOLQd", "word": "家具", "reading": "かぐ", "furigana": "家具[かぐ]", "pos": "名", "meaning": "家具", "sentence": "新居にすべての荷物を運び入れたあとで、部屋の隅にある大切な木製家具に小さな傷がついていることに気がついた。", "sentence_zh": "把所有行李搬进新家之后，我才察觉到房间角落里珍贵的木制家具上多了一道小划痕。", "word_usage": "「家具」为居家生活设施用具名词，在句中被「木製」修饰，作遭受细微划痕破损的物品客体。", "grammar_pattern": "～に気がつく", "grammar_meaning": "表示察觉到原先未注意到的事物或事实，“察觉到……，意识到……”", "grammar_usage": "「～に気がつく」接在名词化从句「～ことに」之后，生动描绘出在搬家尘埃落定后，视线偶然扫过才猛然发现瑕疵的心理意识转变。", "combination_logic": "搬家后检视陈设是生活必然环节，将「家具」受损这一意外事件与迟发性觉察句型「～に気がつく」相结合，生活画面感极强。", "tags": "N3_4::Vocabulary N3_4::Grammar::49 from_v1"}, {"guid": "x;a&n8MW!V", "word": "タケコプター", "reading": "タケコプター", "furigana": "タケコプター", "pos": "名", "meaning": "竹蜻蜓", "sentence": "あの男の子が頭にちょこんと乗せている小さなプロペラ付きの帽子は、まるでアニメに出てくるタケコプターのようにみえる。", "sentence_zh": "那个小男孩乖巧地戴在头上的带小螺旋桨的帽子，看起来简直就像动画片里飞出来的竹蜻蜓一样。", "word_usage": "「タケコプター」作为源自经典动漫《哆啦A梦》的标志性道具专有名词，在此作为生动鲜明的外观比喻参照物。", "grammar_pattern": "～にみえる", "grammar_meaning": "表示从外观或表象给人以某种感觉，“看起来像……”", "grammar_usage": "「～にみえる」与比况副词「まるで」及助动词「よう」呼应，构成「～のようにみえる」，表示视觉表象给观察者带来的极其神似的逼真外观联想。", "combination_logic": "小朋友头顶带有旋转桨叶的童趣帽子，从视觉特征上顺理成章地与家喻户晓的「タケコプター」产生外观映射，活泼风趣。", "tags": "N3_4::Vocabulary N3_4::Grammar::50 from_v1"}];
+    let currentIdx = 0;
+    let isFlipped = false;
+    let isNight = false;
+
+    const select = document.getElementById("cardSelect");
+    cards.forEach((c, i) => {
+      const opt = document.createElement("option");
+      opt.value = i;
+      opt.textContent = `${i + 1}. ${c.word} (${c.reading})`;
+      select.appendChild(opt);
+    });
+
+    function parseFurigana(text) {
+      return text.replace(/([^\[\]]+)\[([^\]]+)\]/g, '<ruby>$1<rt>$2</rt></ruby>');
+    }
+
+    function render() {
+      const c = cards[currentIdx];
+      const root = document.getElementById("cardRoot");
+      root.className = "card" + (isNight ? " nightMode" : "");
+
+      if (!isFlipped) {
+        root.innerHTML = `
+          <div class="card-box front-card">
+            <div class="deck-tag">日语::大家的日语::单词</div>
+            <div class="word-container">
+              <div class="word-main">${c.meaning}</div>
+              <div class="pos-pill">${c.pos}</div>
+            </div>
+          </div>
+        `;
+      } else {
+        root.innerHTML = `
+          <div class="card-box front-card">
+            <div class="deck-tag">日语::大家的日语::单词</div>
+            <div class="word-container">
+              <div class="word-main">${c.meaning}</div>
+              <div class="pos-pill">${c.pos}</div>
+            </div>
+          </div>
+          <hr id="answer">
+          <div class="card-box back-card">
+            <div class="reading-row">
+              <div class="furigana-title">${parseFurigana(c.furigana)} <span class="replay-button-mock" title="播放发音"></span></div>
+            </div>
+            <div class="sentence-detail-section">
+              <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
+              <div class="sentence-jp">${c.sentence} <span class="replay-button-mock" title="播放发音"></span></div>
+              <div class="sentence-zh">${c.sentence_zh}</div>
+            </div>
+            <div class="grammar-section">
+              <div class="badge-label grammar-label"><span class="badge-icon">✨</span> 语法重点</div>
+              <div class="grammar-header">
+                <span class="grammar-pattern">${c.grammar_pattern}</span>
+                <span class="grammar-meaning">（${c.grammar_meaning}）</span>
+              </div>
+              <div class="grammar-usage-text">${c.grammar_usage}</div>
+            </div>
+            <details class="analysis-details" open>
+              <summary>深入解析与语境逻辑</summary>
+              <div class="analysis-body">
+                <div class="analysis-item">
+                  <span class="item-title">词汇用法</span>
+                  <div class="item-content">${c.word_usage}</div>
+                </div>
+                <div class="analysis-item">
+                  <span class="item-title">语境逻辑</span>
+                  <div class="item-content">${c.combination_logic}</div>
+                </div>
+              </div>
+            </details>
+            <div class="tags-row"><span class="tags-pill">${c.tags}</span></div>
+          </div>
+        `;
+      }
+    }
+
+    select.addEventListener("change", (e) => {
+      currentIdx = parseInt(e.target.value, 10);
+      isFlipped = false;
+      render();
+    });
+
+    document.getElementById("flipBtn").addEventListener("click", () => {
+      isFlipped = !isFlipped;
+      render();
+    });
+
+    document.getElementById("nightToggle").addEventListener("click", () => {
+      isNight = !isNight;
+      render();
+    });
+
+    window.addEventListener("keydown", (e) => {
+      if (e.code === "Space") {
+        e.preventDefault();
+        isFlipped = !isFlipped;
+        render();
+      } else if (e.code === "KeyD") {
+        isNight = !isNight;
+        render();
+      }
+    });
+
+    render();
+  </script>
+</body>
+</html>

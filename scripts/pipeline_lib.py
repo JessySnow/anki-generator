@@ -7,11 +7,17 @@ schema validation, and atomic filesystem utilities.
 
 from __future__ import annotations
 
+import collections
 import html
 import json
 import os
+import random
 import re
+import sys
 import tempfile
+import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -192,32 +198,13 @@ def read_template_headers(template_path: Path = TEMPLATE_PATH) -> list[str]:
     return headers
 
 
-def load_gemini_api_key(zshrc_path: Path | None = None) -> str | None:
-    """Load Gemini API key from environment, .env file, or ~/.zshrc."""
-    # 1. Environment variables
-    for env_var in ("GEMINI_API_KEY", "GEMINI_KEY"):
-        val = os.environ.get(env_var, "").strip()
-        if val:
-            return val
-
-    # 2. Local .env file in repo root
-    env_file = REPO_ROOT / ".env"
-    if env_file.is_file():
-        try:
-            with open(env_file, "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith("#") or "=" not in line:
-                        continue
-                    k, v = line.split("=", 1)
-                    if k.strip() in ("GEMINI_API_KEY", "GEMINI_KEY"):
-                        cleaned = v.strip().strip("\"'")
-                        if cleaned:
-                            return cleaned
-        except Exception:
-            pass
-
-    # 3. ~/.zshrc or custom path
+def load_gemini_api_key(zshrc_path: Path | None = None) -> tuple[str, str, str] | tuple[None, None, None]:
+    """
+    Load Gemini API key from environment, ~/.zshrc, or .env file.
+    Returns (provider, api_key, default_model) where provider is 'google' or 'openrouter'.
+    Prioritizes Google AI Studio (GOOGLE_API_KEY / GEMINI_API_KEY).
+    """
+    # 1. ~/.zshrc or custom path (Highest priority to catch user updates in current session)
     if zshrc_path is None:
         zshrc_path = Path.home() / ".zshrc"
     if zshrc_path.is_file():
@@ -227,14 +214,215 @@ def load_gemini_api_key(zshrc_path: Path | None = None) -> str | None:
                     line = line.strip()
                     if line.startswith("#"):
                         continue
-                    # Match GEMINI_KEY="xxx" or export GEMINI_KEY='xxx'
-                    m = re.match(r"^(?:export\s+)?(GEMINI_API_KEY|GEMINI_KEY)\s*=\s*[\"']?([^\"'\s]+)[\"']?", line)
+                    m = re.match(r"^(?:export\s+)?(GOOGLE_API_KEY|GEMINI_API_KEY|GEMINI_KEY)\s*=\s*[\"']?([^\"'\s]+)[\"']?", line)
                     if m:
-                        return m.group(2).strip()
+                        return ("google", m.group(2).strip(), "gemini-3.8-flash")
         except Exception:
             pass
 
-    return None
+    # 2. Google AI Studio environment variables
+    for env_var in ("GOOGLE_API_KEY", "GEMINI_API_KEY", "GEMINI_KEY"):
+        val = os.environ.get(env_var, "").strip()
+        if val:
+            return ("google", val, "gemini-3.8-flash")
+
+    # 3. Local .env file in repo root
+    env_file = REPO_ROOT / ".env"
+    if env_file.is_file():
+        try:
+            with open(env_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith("#") or "=" not in line:
+                        continue
+                    k, v = line.split("=", 1)
+                    k_clean = k.strip()
+                    cleaned = v.strip().strip("\"'")
+                    if not cleaned:
+                        continue
+                    if k_clean in ("GOOGLE_API_KEY", "GEMINI_API_KEY", "GEMINI_KEY"):
+                        return ("google", cleaned, "gemini-3.8-flash")
+                    if k_clean == "OPENROUTER_API_KEY":
+                        return ("openrouter", cleaned, "google/gemini-3.8-flash")
+        except Exception:
+            pass
+
+    # 4. OpenRouter fallback
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
+    if openrouter_key:
+        return ("openrouter", openrouter_key, "google/gemini-3.8-flash")
+
+    return (None, None, None)
+
+
+class RateLimiter:
+    """Sliding-window RPM governor with minimum inter-request delay and exponential backoff."""
+
+    def __init__(self, target_rpm: float = 1000.0, min_delay_sec: float | None = None):
+        self.target_rpm = max(1.0, float(target_rpm))
+        self.window_sec = 60.0
+        self.min_delay = min_delay_sec if min_delay_sec is not None else 0.05
+        self.request_timestamps: collections.deque[float] = collections.deque()
+        self.last_request_time: float = 0.0
+
+    def wait_if_needed(self) -> float:
+        now = time.time()
+        waited_total = 0.0
+
+        time_since_last = now - self.last_request_time
+        if self.last_request_time > 0 and time_since_last < self.min_delay:
+            gap_needed = self.min_delay - time_since_last
+            time.sleep(gap_needed)
+            waited_total += gap_needed
+            now = time.time()
+
+        while self.request_timestamps and (now - self.request_timestamps[0] >= self.window_sec):
+            self.request_timestamps.popleft()
+
+        if len(self.request_timestamps) >= self.target_rpm:
+            earliest = self.request_timestamps[0]
+            sleep_needed = (earliest + self.window_sec) - now + 0.1
+            if sleep_needed > 0:
+                time.sleep(sleep_needed)
+                waited_total += sleep_needed
+                now = time.time()
+                while self.request_timestamps and (now - self.request_timestamps[0] >= self.window_sec):
+                    self.request_timestamps.popleft()
+
+        self.last_request_time = now
+        self.request_timestamps.append(now)
+        return waited_total
+
+
+class GeminiClient:
+    """Unified client supporting Google AI Studio (google.genai SDK) and OpenRouter."""
+
+    def __init__(
+        self,
+        api_key: str,
+        provider: str = "google",
+        model: str = "gemini-3.8-flash",
+        rate_limiter: RateLimiter | None = None
+    ):
+        self.api_key = api_key
+        self.provider = provider
+        self.model = model
+        if self.provider == "google" and self.model.startswith("google/"):
+            self.model = self.model[len("google/"):]
+        elif self.provider == "openrouter" and not self.model.startswith("google/"):
+            self.model = f"google/{self.model}"
+        self.rate_limiter = rate_limiter or RateLimiter()
+        self._sdk_client = None
+        if self.provider == "google":
+            try:
+                from google import genai
+                self._sdk_client = genai.Client(api_key=self.api_key)
+            except Exception:
+                self._sdk_client = None
+
+    def call_model_json(self, prompt: str, max_retries: int = 5) -> dict:
+        """Call model requesting strict JSON output with retry and rate-limiting."""
+        base_backoff = 4.0
+
+        for attempt in range(1, max_retries + 1):
+            self.rate_limiter.wait_if_needed()
+
+            try:
+                if self.provider == "google" and self._sdk_client is not None:
+                    from google.genai import types
+                    response = self._sdk_client.models.generate_content(
+                        model=self.model,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            response_mime_type="application/json",
+                            temperature=0.2,
+                        ),
+                    )
+                    text = response.text or "{}"
+                elif self.provider == "openrouter":
+                    url = "https://openrouter.ai/api/v1/chat/completions"
+                    headers = {
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json",
+                        "HTTP-Referer": "https://github.com/JessySnow/anki-generator",
+                        "X-Title": "Anki Generator N3/N4"
+                    }
+                    payload = {
+                        "model": self.model,
+                        "messages": [{"role": "user", "content": prompt}],
+                        "response_format": {"type": "json_object"},
+                        "temperature": 0.2
+                    }
+                    req = urllib.request.Request(
+                        url,
+                        data=json.dumps(payload).encode("utf-8"),
+                        headers=headers,
+                        method="POST"
+                    )
+                    with urllib.request.urlopen(req, timeout=60) as resp:
+                        res_json = json.loads(resp.read().decode("utf-8"))
+                        text = res_json["choices"][0]["message"]["content"]
+                else:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent?key={self.api_key}"
+                    payload = {
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {
+                            "responseMimeType": "application/json",
+                            "temperature": 0.2,
+                        },
+                    }
+                    req = urllib.request.Request(
+                        url,
+                        data=json.dumps(payload).encode("utf-8"),
+                        headers={"Content-Type": "application/json"},
+                        method="POST",
+                    )
+                    with urllib.request.urlopen(req, timeout=60) as resp:
+                        res_json = json.loads(resp.read().decode("utf-8"))
+                        text = res_json["candidates"][0]["content"]["parts"][0]["text"]
+
+                cleaned_text = re.sub(r"^```json\s*", "", text.strip(), flags=re.IGNORECASE)
+                cleaned_text = re.sub(r"\s*```$", "", cleaned_text.strip())
+                return json.loads(cleaned_text)
+
+            except urllib.error.HTTPError as e:
+                status_code = e.code
+                error_body = ""
+                try:
+                    error_body = e.read().decode("utf-8")
+                except Exception:
+                    pass
+
+                if status_code == 429 or "RESOURCE_EXHAUSTED" in error_body:
+                    if attempt < max_retries:
+                        sleep_time = (base_backoff * (2 ** (attempt - 1))) + random.uniform(1.0, 3.0)
+                        print(f"  [GeminiClient] 429 Rate limited. Backing off {sleep_time:.1f}s (Attempt {attempt}/{max_retries})...", file=sys.stderr)
+                        time.sleep(sleep_time)
+                        continue
+                    else:
+                        raise RuntimeError(f"Gemini API 429 Quota limit exceeded: {error_body}")
+                elif status_code in (500, 502, 503, 504):
+                    if attempt < max_retries:
+                        sleep_time = 3.0 * attempt
+                        print(f"  [GeminiClient] Transient HTTP {status_code}. Retrying in {sleep_time}s...", file=sys.stderr)
+                        time.sleep(sleep_time)
+                        continue
+                raise RuntimeError(f"Gemini API HTTP Error {status_code}: {error_body}")
+
+            except json.JSONDecodeError as e:
+                if attempt < max_retries:
+                    print(f"  [GeminiClient] Invalid JSON response, retrying ({e})...", file=sys.stderr)
+                    time.sleep(2.0)
+                    continue
+                raise RuntimeError(f"Failed to parse model JSON output: {e}")
+
+            except Exception as e:
+                if attempt < max_retries:
+                    time.sleep(3.0)
+                    continue
+                raise
+
+        raise RuntimeError("Exceeded maximum retries calling Gemini model.")
 
 
 def parse_deck_rows(deck_path: Path = DEFAULT_DECK_PATH) -> tuple[list[str], list[dict]]:

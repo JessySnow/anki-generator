@@ -206,7 +206,7 @@ html_template = f"""<!DOCTYPE html>
 
   <div class="preview-header">
     <h1 class="preview-title">Japanese N2 Card Template Preview</h1>
-    <p class="preview-subtitle">Front: Target Word &amp; POS (No Sentence Spoilers) &nbsp;|&nbsp; Back: Reading, Meaning, Sentence &amp; Grammar</p>
+    <p class="preview-subtitle">Front: Chinese Meaning &amp; POS &nbsp;|&nbsp; Back: Japanese Word, Reading, Sentence &amp; Grammar</p>
   </div>
 
   <!-- Interactive Controls -->
@@ -255,10 +255,7 @@ html_template = f"""<!DOCTYPE html>
             <div class="furigana-title" id="back-furigana"></div>
           </div>
 
-          <div class="meaning-section">
-            <div class="badge-label"><span class="badge-icon">💡</span> 释义</div>
-            <div class="meaning-text" id="back-meaning"></div>
-          </div>
+
 
           <div class="sentence-detail-section">
             <div class="badge-label"><span class="badge-icon">📖</span> 例句解析</div>
@@ -336,18 +333,16 @@ html_template = f"""<!DOCTYPE html>
       const selector = document.getElementById('card-selector');
       if (selector.value != currentIndex) selector.value = currentIndex;
 
-      // Front: Word only (kanji without furigana spoiler) + POS
-      const wordText = extractKanjiOnly(card.furigana, card.word);
-      document.getElementById('front-word').textContent = wordText;
+      // Front: Chinese Meaning + POS (Production Mode)
+      document.getElementById('front-word').textContent = card.meaning;
       document.getElementById('front-pos').textContent = card.pos;
 
       // Back FrontSide clone
-      document.getElementById('back-front-word').textContent = wordText;
+      document.getElementById('back-front-word').textContent = card.meaning;
       document.getElementById('back-front-pos').textContent = card.pos;
 
-      const speakerSvg = `<span class="replay-button-mock" title="播放发音" onclick="mockPlayAudio()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></span>`;
+      const speakerSvg = `<span class="replay-button-mock" title="播放发音" onclick="mockPlayAudio()"></span>`;
       document.getElementById('back-furigana').innerHTML = parseFurigana(card.furigana) + ' ' + speakerSvg;
-      document.getElementById('back-meaning').textContent = card.meaning;
       document.getElementById('back-sentence-jp').innerHTML = card.sentence + ' ' + speakerSvg;
       document.getElementById('back-sentence-zh').textContent = card.sentence_zh;
 

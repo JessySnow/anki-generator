@@ -5,14 +5,12 @@
 <div class="card-box back-card">
   <div class="reading-row">
     <!-- 日语目标词汇与假名注音 -->
-    <div class="furigana-title">{{furigana:Furigana}}</div>
-    {{#WordAudio}}<div class="audio-button">{{WordAudio}}</div>{{/WordAudio}}
+    <div class="furigana-title">
+      {{furigana:Furigana}}
+      {{#WordAudio}}<span class="audio-button">{{WordAudio}}</span>{{/WordAudio}}
+    </div>
   </div>
 
-  <div class="meaning-section">
-    <div class="badge-label"><span class="badge-icon">💡</span> 释义</div>
-    <div class="meaning-text">{{Meaning}}</div>
-  </div>
 
   {{#Sentence}}
   <div class="sentence-detail-section">
