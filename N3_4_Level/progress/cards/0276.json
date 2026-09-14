@@ -1,0 +1,19 @@
+{
+  "guid": "K1zHr1af5l",
+  "word_index": 276,
+  "Word": "遅くとも",
+  "Reading": "おそくとも",
+  "Furigana": "遅[おそ]くとも",
+  "POS": "副",
+  "Meaning": "最晚，最迟",
+  "WordAudio": "",
+  "Sentence": "宿泊のご予約を確定いたしますので、遅くとも来週の金曜日までに申込書をお送りください。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "为了给您确认住宿预订，最迟请在下周五之前将申请表发送给我们。",
+  "WordUsage": "「遅くとも」作副词，表示底线截止期限，常用于商务与酒店预订规范交流中。",
+  "GrammarPattern": "～お～ください",
+  "GrammarMeaning": "敬语句型，用于向对方发出礼貌的请求或劝诱，“请……”",
+  "GrammarUsage": "接在动词「送る」的连用形「送り」两端构成「お送りください」，对客户提出礼貌规矩的联络请求。",
+  "CombinationLogic": "商务预约讲究最终时限（遅くとも）与周到服务，向客户发出截止期指令时采用典雅敬语「～お送りください」，商业礼仪堪称典范。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::50"
+}

@@ -1,0 +1,19 @@
+{
+  "Word": "かぶる",
+  "Reading": "かぶる",
+  "Furigana": "かぶる",
+  "POS": "他動1",
+  "Meaning": "戴(帽子等)",
+  "WordAudio": "",
+  "Sentence": "「真夏の強い日差しの中、帽子をかぶらないで長時間外にいると、熱中症になる危険がある。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“在盛夏强烈的阳光下，如果不戴帽子就长时间在户外的话，会有中暑的危险。”",
+  "WordUsage": "「かぶる」在句中作他动词，与宾语「帽子を」搭配，指将帽子遮戴于头部。",
+  "GrammarPattern": "～ないで",
+  "GrammarMeaning": "表示不伴随前项动作而进行后项动作，“不……就……”",
+  "GrammarUsage": "接在动词五段活用「かぶる」的未然否定形后构成「かぶらないで」，表示在缺少防晒保护的伴随状态下逗留。",
+  "CombinationLogic": "夏日抵御烈日直晒的常识行为是「帽子をかぶる」，通过「～ないで」设定无保护的负面伴随状态，顺畅引出后文极易罹患中暑的严厉警示。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::38",
+  "guid": "N,bkx--g2x",
+  "word_index": 37
+}

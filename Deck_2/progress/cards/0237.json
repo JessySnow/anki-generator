@@ -1,0 +1,19 @@
+{
+  "word_index": 237,
+  "Word": "先月",
+  "Reading": "せんげつ",
+  "Furigana": "先月[せんげつ]",
+  "POS": "名",
+  "Meaning": "上个月",
+  "WordAudio": "",
+  "Sentence": "先月から取り組んでいたレポートを、今日ようやく書き終わった。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "从上个月开始写的那份报告，今天终于写完了。",
+  "WordUsage": "「先月」是时间名词，在此作时间状语，搭配起点助词「から」表示某项持续性工作的起始时间节点。",
+  "GrammarPattern": "～おわる",
+  "GrammarMeaning": "「〜おわる」接在动词连用形（ます形词干）之后构成复合动词，表示该动作行为彻底结束、完结，意为“……完毕、做完……”。",
+  "GrammarUsage": "五段动词「書く」的连用形「書き」后接「終わる」的过去式「終わった」，构成「書き終わった」（写完了）。",
+  "CombinationLogic": "明确交代动作始于「先月」（上个月），与耗时良久之后“终于写完（書き終わった）”形成完备的时间与时相闭环，精准体现句型用法且语境地道。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::58 from_basic",
+  "guid": "cmjrgt2&}O"
+}

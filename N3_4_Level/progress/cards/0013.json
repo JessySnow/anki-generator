@@ -1,0 +1,19 @@
+{
+  "Word": "二人",
+  "Reading": "ふたり",
+  "Furigana": "二人[ふたり]",
+  "POS": "名",
+  "Meaning": "两个人",
+  "WordAudio": "",
+  "Sentence": "「音楽が流れると、二人は楽しそうにリズムに合わせて踊りはじめた。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“音乐一响起来，两个人便跟着节拍欢快地跳起舞来。”",
+  "WordUsage": "「二人」在句中作主语，由提示助词「は」提示，指代结伴行动的两个人。",
+  "GrammarPattern": "～はじめる",
+  "GrammarMeaning": "表示动作的自然开始，“开始……”",
+  "GrammarUsage": "接在动词五段活用「踊る」的连用形「踊り」后构成复合动词「踊りはじめた」，表示舞蹈动作的起始。",
+  "CombinationLogic": "以旋律流淌为契机，主语「二人」作为动作执行者配合节拍开始舞动（「踊りはじめた」），避免了「始める」的前后重复，表达地道流畅。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::14 from_basic",
+  "guid": "i>pHs(xo.h",
+  "word_index": 13
+}

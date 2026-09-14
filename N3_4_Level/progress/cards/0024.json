@@ -1,0 +1,19 @@
+{
+  "Word": "出張する",
+  "Reading": "しゅっちょうする",
+  "Furigana": "出張[しゅっちょう]する",
+  "POS": "名・自動3",
+  "Meaning": "出差",
+  "WordAudio": "",
+  "Sentence": "「来月は新規プロジェクトの打ち合わせで、急に大阪へ出張することになるかもしれない。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“下个月为了新项目的商讨，也许突然要去大阪出差。”",
+  "WordUsage": "「出張する」在句中作自动词核心短语，指因公务外出赴外地商洽。",
+  "GrammarPattern": "～かもしれない",
+  "GrammarMeaning": "表示说话人的低概率推测，“也许……，可能……”",
+  "GrammarUsage": "接在动词短语「出張することになる」的普通形后，对尚未最终落定的职场业务安排作出带有弹性的推测。",
+  "CombinationLogic": "新项目的前期洽谈往往变数较多，对远道公干「出張する」的可能性辅以概率性推测「～かもしれない」，极具职场实用性。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::25 from_v1",
+  "guid": "\"l;FGb/#%F[\"",
+  "word_index": 24
+}

@@ -1,0 +1,19 @@
+{
+  "word_index": 2367,
+  "Word": "わざと <br>",
+  "Reading": "わざと <br>",
+  "Furigana": "わざと <br>",
+  "POS": "副",
+  "Meaning": "故意地",
+  "WordAudio": "",
+  "Sentence": "わざと冷たい態度を取ったわりには、彼女はずっと心配そうに僕の様子をうかがっていた。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "虽说故意摆出一副冷淡的态度，但（与此相反）她却一直显得很担心似地悄悄察看我的反应。",
+  "WordUsage": "「わざと」为副词，在句中作状语修饰谓语「取った」，表示带有明确目的、非偶然的“故意地”、“特意地”。",
+  "GrammarPattern": "～わりには",
+  "GrammarMeaning": "「～わりには」表示实际情况与预期的标准或常理不符，意为“虽说……但却……”，强调对比产生的意外感。",
+  "GrammarUsage": "接在动词过去式「取った」之后，构成「Verb-casual (past) + わりには」，引导对比项。",
+  "CombinationLogic": "「わざと」（故意）的行为设定了一个“冷漠”的标准，而「～わりには」引出与该标准不符的“担心”之情，突出了人物内心的矛盾与真实情感。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::153",
+  "guid": "mp(+wY?cne"
+}

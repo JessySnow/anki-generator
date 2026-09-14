@@ -1,0 +1,19 @@
+{
+  "Word": "ほかに",
+  "Reading": "ほかに",
+  "Furigana": "ほかに",
+  "POS": "副",
+  "Meaning": "另外，其他",
+  "WordAudio": "",
+  "Sentence": "「ご注文のお料理は以上でよろしいでしょうか。ほかに何かご注文なさいますか。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“您点好的菜品这些就可以了吗？另外还需要点些其他什么吗？”",
+  "WordUsage": "「ほかに」在句中作副词，修饰后续的不定代词「何か」，指在现有清单之外的附带追加范围。",
+  "GrammarPattern": "～なさる",
+  "GrammarMeaning": "动词「する」的尊敬语，“做……”",
+  "GrammarUsage": "接在サ变动词名词「ご注文」后充当「する」的高级尊敬语「ご注文なさいますか」，礼貌征询客人的消费意向。",
+  "CombinationLogic": "餐厅前台点餐场景中，服务生在确认已点菜品后询问顾客除了现有菜品「ほかに」（此外）是否还要「ご注文なさる」（尊他：点餐），是极其地道规范的日式敬语表达。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::44",
+  "guid": "d:^0-BM1<M",
+  "word_index": 43
+}

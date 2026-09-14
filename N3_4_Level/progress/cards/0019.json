@@ -1,0 +1,19 @@
+{
+  "Word": "のどが渇く",
+  "Reading": "のどがかわく",
+  "Furigana": "のどが渇[かわ]く",
+  "POS": "連語・表現",
+  "Meaning": "口渴",
+  "WordAudio": "",
+  "Sentence": "「先生、長時間の講義でのどが渇いていらっしゃいませんか。こちらのお茶をどうぞ。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“老师，讲了这么长时间的课，您嗓子不渴吗？请用这边的茶水。”",
+  "WordUsage": "「のどが渇く」作为常用惯用连语表示生理口渴，在句中转换为连用形て形以衔接尊他敬语动词。",
+  "GrammarPattern": "～いらっしゃる",
+  "GrammarMeaning": "动词「行く・来る・いる」的尊敬语，“在/去/来”",
+  "GrammarUsage": "接在动词五段活用「渇く」的て形「渇いて」后，充当「～ている」的尊他形态「～ていらっしゃる」，对授课长辈的生理状态予以由衷敬重与体贴。",
+  "CombinationLogic": "感知到授课老师因长时间讲课可能「のどが渇く」（喉咙干渴），运用高级敬语「～ていらっしゃる」委婉关怀并献上茶水，体现地道的日本礼法文化。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::20 from_basic",
+  "guid": "P{HwFspoUi",
+  "word_index": 19
+}

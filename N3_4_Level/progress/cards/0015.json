@@ -1,0 +1,19 @@
+{
+  "Word": "刺身",
+  "Reading": "さしみ",
+  "Furigana": "刺身[さしみ]",
+  "POS": "名",
+  "Meaning": "生鱼片",
+  "WordAudio": "",
+  "Sentence": "「今朝港から直接仕入れた新鮮な魚を使った刺身なのだから、傷んでいるはずがない。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“这可是用今天早晨直接从港口进货的新鲜鱼类制作的生鱼片，绝不可能变质不新鲜。”",
+  "WordUsage": "「刺身」在句中作主干名词，作为说明生鱼片新鲜度的核心叙述对象。",
+  "GrammarPattern": "～はずがない",
+  "GrammarMeaning": "表示强烈的否定推测，“不可能……，绝不会……”",
+  "GrammarUsage": "接在动词五段活用「傷む」的ている形「傷んでいる」后，断定绝无腐坏变质的可能性。",
+  "CombinationLogic": "日料中「刺身」以新鲜为第一生命，既然原料系清晨由港口直供，说话人便具备十足底气通过「～はずがない」斩钉截铁地否定其品质变质的可能。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::16 from_basic",
+  "guid": "M4trVpX3?Z",
+  "word_index": 15
+}

@@ -1,0 +1,19 @@
+{
+  "Word": "生活",
+  "Reading": "せいかつ",
+  "Furigana": "生活[せいかつ]",
+  "POS": "名・自動3",
+  "Meaning": "生活",
+  "WordAudio": "",
+  "Sentence": "「一人暮らしの生活を始めたばかりのころ、夜に急に寂しくなって泣き出してしまったことがある。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“刚开始一个人独立生活的时候，到了晚上突然觉得十分寂寞，甚至忍不住哭了起来。”",
+  "WordUsage": "「生活」在句中作宾语中心词，由定语「一人暮らしの」修饰，指独立居住的日常生活状态。",
+  "GrammarPattern": "～だす",
+  "GrammarMeaning": "表示动作或情感突然迸发，“突然开始……起来”",
+  "GrammarUsage": "接在动词五段活用「泣く」的连用形「泣き」后构成「泣き出してしまった」，表示情绪难以抑制而突然哭泣。",
+  "CombinationLogic": "独居「生活」初期的孤独感，自然触发了情绪失控突然流泪（「泣き出す」）的心理描摹，完全符合「～だす」用于情感或突发动作迸发的地道语法特征。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::7 from_basic",
+  "guid": "j/;CHexNW[",
+  "word_index": 6
+}

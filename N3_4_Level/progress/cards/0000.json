@@ -1,0 +1,19 @@
+{
+  "word_index": 0,
+  "guid": "CvMp-*J&`4",
+  "Word": "いいえ",
+  "Reading": "いいえ",
+  "Furigana": "いいえ",
+  "POS": "感動詞",
+  "Meaning": "不、不是",
+  "Sentence": "「この町は夜も賑やかですか」「いいえ、夜は車もあまり通らないので、とても静かですよ。」",
+  "SentenceTranslation": "“这个小镇晚上也很热闹吗？”“不，晚上几乎没有车经过，所以非常安静。”",
+  "WordUsage": "「いいえ」在句中作感叹词（应答词），位于答句句首，用于礼貌客气地否定对方的提问。",
+  "GrammarPattern": "～あまり～ない",
+  "GrammarMeaning": "表示部分否定，“不太……，不怎么……”",
+  "GrammarUsage": "副词「あまり」与动词五段活用「通る」的未然否定形呼应，构成「あまり通らない」，表示车辆通过的频率极低。",
+  "CombinationLogic": "在日常应答中，先以「いいえ」明确否定对方关于小镇热闹的询问，随后以「あまり～ない」对晚间车辆往来的程度进行委婉的部分否定说明，符合地道的日语音调与交际逻辑。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::1 from_basic"
+}

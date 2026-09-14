@@ -1,0 +1,19 @@
+{
+  "word_index": 48,
+  "guid": "mi2>-GOLQd",
+  "Word": "家具",
+  "Reading": "かぐ",
+  "Furigana": "家具[かぐ]",
+  "POS": "名",
+  "Meaning": "家具",
+  "Sentence": "「このホテルのロビーには、まるで芸術作品のような洗練されたデザインの家具が美しく並べられている。」",
+  "SentenceTranslation": "“在这家酒店的大堂里，宛如艺术品般设计精炼的家具被优美地陈列着。”",
+  "WordUsage": "「家具」在句中作主语中心词，指大堂所陈列的沙发、桌几等高端室内陈设用具。",
+  "GrammarPattern": "～のように / のような",
+  "GrammarMeaning": "表示比喻、举例或样态，“像……一样 / 像……那样的”",
+  "GrammarUsage": "接在名词短语「まるで芸術作品」后充当连体修饰结构「芸術作品のような」，修饰后续的名词「家具」。",
+  "CombinationLogic": "以工艺精湛的艺术臻品作比（「～のような」），赋予所陈设的高档「家具」以极致的审美质感，比喻熨帖典雅。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::49 from_v1"
+}

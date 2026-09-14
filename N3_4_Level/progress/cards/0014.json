@@ -1,0 +1,19 @@
+{
+  "word_index": 14,
+  "guid": "Ed1H632w=B",
+  "Word": "レモン",
+  "Reading": "レモン",
+  "Furigana": "レモン",
+  "POS": "名",
+  "Meaning": "柠檬",
+  "Sentence": "「新鮮なレモンをたっぷり絞って入れたのだから、この特製ジュースはさっぱりして美味しいはずだ。」",
+  "SentenceTranslation": "“因为挤入了满满的新鲜柠檬汁，这杯特制果汁按理说应该清爽可口。”",
+  "WordUsage": "「レモン」在句中作宾语中心词，指作为天然调味原料压榨的水果柠檬。",
+  "GrammarPattern": "～はずだ",
+  "GrammarMeaning": "表示根据客观依据做出的必然推测，“按理应该……”",
+  "GrammarUsage": "接在イ形容词「美味しい」的终止形后构成「美味しいはずだ」，基于原料十足这一客观事实进行合理合逻辑的推断。",
+  "CombinationLogic": "饮品中投入了充足的鲜榨「レモン」，基于这一确凿的前因，说话人运用「～はずだ」合情合理地推断出口感必然酸爽怡人。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::15 from_basic"
+}

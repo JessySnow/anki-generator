@@ -1,0 +1,19 @@
+{
+  "guid": "z7]lU7flqv",
+  "word_index": 246,
+  "Word": "承る",
+  "Reading": "うけたまわる",
+  "Furigana": "承[うけたまわ]る",
+  "POS": "他動1",
+  "Meaning": "聆听；接受，听从",
+  "WordAudio": "",
+  "Sentence": "お客様が当店にいらっしゃる際には、どのようなご要望でも喜んで承ります。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "顾客您莅临本店之时，无论有任何诉求，我们都非常乐意为您受理。",
+  "WordUsage": "「承る」是「聞く・引き受ける」的谦逊表现（自谦语），在句中作主语店方的谓语动词，表达郑重接受客户委托的态度。",
+  "GrammarPattern": "～いらっしゃる",
+  "GrammarMeaning": "动词「行く・来る・いる」的尊敬语，“在/去/来”",
+  "GrammarUsage": "接在名词「当店に」之后尊称尊客的到访光临，与从句连接助词「際には」呼应。",
+  "CombinationLogic": "日常高级商务服务对话中，将对方的到访用尊敬语「いらっしゃる」尊崇，将自身的受理接待用自谦语「承る」谦抑，尊卑呼应规范严谨。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::20 leech"
+}

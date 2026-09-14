@@ -1,0 +1,19 @@
+{
+  "guid": "b!x-DO|s<T",
+  "word_index": 255,
+  "Word": "埋まる",
+  "Reading": "うまる",
+  "Furigana": "埋[う]まる",
+  "POS": "自動1",
+  "Meaning": "埋着，掩埋；填满，没有空隙；填补",
+  "WordAudio": "",
+  "Sentence": "人気アーティストの公演では、予約開始から数分で客席がすべて埋まることは珍しくない。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "在人气艺术家的演出中，从开始预约起数分钟内观众席便被全部订满，这种事并不罕见。",
+  "WordUsage": "「埋まる」在此引申为活动座席、名额被迅速占满无一空缺，与「客席が」构成主谓短语。",
+  "GrammarPattern": "～こと",
+  "GrammarMeaning": "形式名词，使动词或分句名词化，“……的事情”",
+  "GrammarUsage": "接在动词辞书形「埋まる」后构成名词短语「客席がすべて埋まること」，后接提示助词「は」，引出评价「珍しくない」。",
+  "CombinationLogic": "门票抢购一空导致座席全满（埋まる）作为既定现象，通过形式名词「～こと」将其提炼为客观事实予以讨论，说理流畅严密。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::29 leech"
+}

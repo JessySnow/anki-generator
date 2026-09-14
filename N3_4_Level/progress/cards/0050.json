@@ -1,0 +1,19 @@
+{
+  "word_index": 50,
+  "guid": "KWJMqz-QTK",
+  "Word": "付ける",
+  "Reading": "つける",
+  "Furigana": "付[つ]ける",
+  "POS": "他動2",
+  "Meaning": "戴上；记入",
+  "Sentence": "「先生はいつも胸元に素敵なブローチをお付けになっている。」",
+  "SentenceTranslation": "“老师胸前总是佩戴着一枚精美的胸针。”",
+  "WordUsage": "「付ける」在句中作他动词，与宾语「ブローチを」搭配，指将饰物佩戴装点于服饰上。",
+  "GrammarPattern": "～お～になる",
+  "GrammarMeaning": "敬语句型，尊称对方的动作行为（尊敬语）",
+  "GrammarUsage": "接在一段动词「付ける」连用形前加「お」后加「になる」，构成尊他敬语动词「お付けになる」，尊称长辈优雅的日常着装举止。",
+  "CombinationLogic": "将描述穿戴佩饰的动词「付ける」转化为尊他敬语「お付けになる」，展现对长者得体仪表的高尚尊崇，语法严丝合缝。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::51 from_v1 leech"
+}

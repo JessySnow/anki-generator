@@ -1,0 +1,19 @@
+{
+  "Word": "履く",
+  "Reading": "はく",
+  "Furigana": "履[は]く",
+  "POS": "他動1",
+  "Meaning": "穿(鞋子、裤子等)",
+  "WordAudio": "",
+  "Sentence": "「運動会では、動きやすいズボンや滑りにくいスニーカーなどを履くのが一般的です。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“在运动会上，通常会穿上便于活动的裤子以及不易打滑的运动鞋等。”",
+  "WordUsage": "「履く」在句中作谓语动词，支配由「ズボン」与「スニーカー」构成的下半身穿戴物宾语。",
+  "GrammarPattern": "～など",
+  "GrammarMeaning": "表示列举事物，“……等等，之类”",
+  "GrammarUsage": "接在名词「スニーカー」后构成「スニーカーなど」，对运动会适宜穿戴的鞋服进行代表性列举。",
+  "CombinationLogic": "下身衣物与鞋类在日语中严格对应动词「履く」，配合不完全列举助词「～など」展现运动装备的多样性，语言规范标准。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::36",
+  "guid": "E.J*d.,]Wr",
+  "word_index": 35
+}

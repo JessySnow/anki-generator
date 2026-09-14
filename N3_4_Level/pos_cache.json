@@ -1,0 +1,4213 @@
+{
+  "いいえ": {
+    "jisho_pos": [
+      "感動詞"
+    ],
+    "mapped_pos": "感動詞",
+    "source": "override"
+  },
+  "何": {
+    "jisho_pos": [
+      "代"
+    ],
+    "mapped_pos": "代",
+    "source": "override"
+  },
+  "時計": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "英語": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "ごちそうさまでした": {
+    "jisho_pos": [
+      "連語・挨拶"
+    ],
+    "mapped_pos": "連語・挨拶",
+    "source": "override"
+  },
+  "そろそろ失礼します": {
+    "jisho_pos": [
+      "連語・挨拶"
+    ],
+    "mapped_pos": "連語・挨拶",
+    "source": "override"
+  },
+  "生活": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "一緒にいかがですか": {
+    "jisho_pos": [
+      "連語・表現"
+    ],
+    "mapped_pos": "連語・表現",
+    "source": "override"
+  },
+  "また今度お願いします": {
+    "jisho_pos": [
+      "連語・挨拶"
+    ],
+    "mapped_pos": "連語・挨拶",
+    "source": "override"
+  },
+  "下手": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "どうもすみません": {
+    "jisho_pos": [
+      "連語・挨拶"
+    ],
+    "mapped_pos": "連語・挨拶",
+    "source": "override"
+  },
+  "何人": {
+    "jisho_pos": [
+      "名"
+    ],
+    "mapped_pos": "名",
+    "source": "override"
+  },
+  "兄弟": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "二人": {
+    "jisho_pos": [
+      "名"
+    ],
+    "mapped_pos": "名",
+    "source": "override"
+  },
+  "レモン": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "刺身": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "どこか": {
+    "jisho_pos": [
+      "代"
+    ],
+    "mapped_pos": "代",
+    "source": "override"
+  },
+  "食事する": {
+    "jisho_pos": [
+      "Wikipedia definition"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "泳ぐ": {
+    "jisho_pos": [
+      "Godan verb with 'gu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "のどが渇く": {
+    "jisho_pos": [
+      "連語・表現"
+    ],
+    "mapped_pos": "連語・表現",
+    "source": "override"
+  },
+  "住所": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "消す": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "お引き出しですか": {
+    "jisho_pos": [
+      "連語・表現"
+    ],
+    "mapped_pos": "連語・表現",
+    "source": "override"
+  },
+  "のど": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "出張する": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "上着": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "下着": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "できる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "お祈り": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "一度も": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)"
+    ],
+    "mapped_pos": "連語",
+    "source": "jisho"
+  },
+  "眠い": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "きっと": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "動く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "カンガルー": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "めがね": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "履く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "する": {
+    "jisho_pos": [
+      "Suru verb - included"
+    ],
+    "mapped_pos": "他動3",
+    "source": "jisho"
+  },
+  "かぶる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "都合": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "出る": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "～目": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "信号": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "引っ越し": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "ほかに": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "直接": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・ナ形・副",
+    "source": "jisho"
+  },
+  "連絡する": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "運動会": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "都合が悪い": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "家具": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "タケコプター": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "付ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "それに": {
+    "jisho_pos": [
+      "接続"
+    ],
+    "mapped_pos": "接続",
+    "source": "override"
+  },
+  "網棚": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "止まる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "皿": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "取り替える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "コップ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "仕舞う": {
+    "jisho_pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "元": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "授業": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "予習する": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "可笑しい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "それはいけませんね": {
+    "jisho_pos": [
+      "連語・挨拶"
+    ],
+    "mapped_pos": "連語・挨拶",
+    "source": "override"
+  },
+  "遅く": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "咳": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "冷やす": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "怪我": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "国際～": {
+    "jisho_pos": [
+      "接頭"
+    ],
+    "mapped_pos": "接頭",
+    "source": "override"
+  },
+  "こんなに": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "締め切り": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "割引": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "お茶を点てる": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "夕べ": {
+    "jisho_pos": [
+      "Noun",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "醤油": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "適当": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "さあ": {
+    "jisho_pos": [
+      "感動詞"
+    ],
+    "mapped_pos": "感動詞",
+    "source": "override"
+  },
+  "屋上": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "やっと": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "初め": {
+    "jisho_pos": [
+      "Noun",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "乗り物": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "何語": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～中": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "彫る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "鼠": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～製": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "入れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "硬い": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "いらっしゃる": {
+    "jisho_pos": [
+      "Godan verb - -aru special class",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "動かす": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "くださる": {
+    "jisho_pos": [
+      "Godan verb - -aru special class",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "一言": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "管理人": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "虐める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "風呂敷": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～によって": {
+    "jisho_pos": [
+      "連語"
+    ],
+    "mapped_pos": "連語",
+    "source": "override"
+  },
+  "広める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "市場調査": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "注ぐ": {
+    "jisho_pos": [
+      "Godan verb with 'gu' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "～みたいにしてください": {
+    "jisho_pos": [
+      "連語・表現"
+    ],
+    "mapped_pos": "連語・表現",
+    "source": "override"
+  },
+  "乾く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "濡れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "おかず": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "細い": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "うまく": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "これら": {
+    "jisho_pos": [
+      "代"
+    ],
+    "mapped_pos": "代",
+    "source": "override"
+  },
+  "～位": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "回答": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "それまでに": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)"
+    ],
+    "mapped_pos": "連語",
+    "source": "jisho"
+  },
+  "構いません": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)"
+    ],
+    "mapped_pos": "連語",
+    "source": "jisho"
+  },
+  "塾": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "おる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "住まい": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "一戸建て": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "客間": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "欠点": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "どんなに": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "普段": {
+    "jisho_pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "床": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "藺草": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "文章": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "メール": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "～自身": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "間": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "教授": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "傾向": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "これまで": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "避ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "調査": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "やはり": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "書き換える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "検査する": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "差し上げる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "首都": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "能力": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "切れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "流れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "分かれる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "同じような": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "過去": {
+    "jisho_pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "自分では": {
+    "jisho_pos": [
+      "連語"
+    ],
+    "mapped_pos": "連語",
+    "source": "override"
+  },
+  "見える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "フクロウ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "改めて": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "きつい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "今回": {
+    "jisho_pos": [
+      "Noun",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "芝居": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "与える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "輝く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "背負う": {
+    "jisho_pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "前後": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "花柄": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "サービスカウンター": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "競争": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "国々": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "済む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "特許": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "取れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "一方": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "困った人": {
+    "jisho_pos": [
+      "名"
+    ],
+    "mapped_pos": "名",
+    "source": "override"
+  },
+  "抽選": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "つながる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "手がかり": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "てっきり": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "出来事": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "儲ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "恐ろしさ": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "蚕": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "仮装": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "大家族": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "当たる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "追いかける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "近所づきあい": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "苦情": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "乗客": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "騒々しい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "乗り遅れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "相変わらず": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "上がる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "〜上がる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "空き〜": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "握手": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "明くる": {
+    "jisho_pos": [
+      "Pre-noun adjectival (rentaishi)"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "空ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "当て嵌める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "穴": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "浴びる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "危うい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "怪しむ": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "粗筋": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "現れ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "〜歩く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "あれだけ": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "アレルギー": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "〜合わせ": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Prefix"
+    ],
+    "mapped_pos": "名・接頭",
+    "source": "jisho"
+  },
+  "〜合わせる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "哀れ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "言い表す": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "いい加減": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "医院": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "家出": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "幾〜": {
+    "jisho_pos": [
+      "Prefix"
+    ],
+    "mapped_pos": "接頭",
+    "source": "jisho"
+  },
+  "以降": {
+    "jisho_pos": [
+      "Noun",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "勇ましい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "意思": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "板": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "痛める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "至る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "一応": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "一概に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "一向に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "一斉に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "紳士": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "人身事故": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "巣": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "数詞": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "末っ子": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "空かす": {
+    "jisho_pos": [
+      "他動1"
+    ],
+    "mapped_pos": "他動1",
+    "source": "override"
+  },
+  "杉": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "筋": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "筋道": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "涼む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "雀": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "裾": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "すっと": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Suru verb"
+    ],
+    "mapped_pos": "副・他動3",
+    "source": "jisho"
+  },
+  "墨": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "速やか": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "澄む／清む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "鋭い": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "生育": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "成育": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "誠実": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "清書": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "性的": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "政党": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "制服": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "威張る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "今のところ": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "芋": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "インフレ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "ウェーター": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "飢える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "嗽": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "浮く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "受け入れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "承る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "動き": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "薄める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "薄れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "疑い": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "疑いなく": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "打ち消し": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "うとうと": {
+    "jisho_pos": [
+      "副・自動3"
+    ],
+    "mapped_pos": "副・自動3",
+    "source": "override"
+  },
+  "唸る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "埋まる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "産む／生む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "裏返す": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "裏切る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "うんざり": {
+    "jisho_pos": [
+      "副・自動3"
+    ],
+    "mapped_pos": "副・自動3",
+    "source": "override"
+  },
+  "永遠": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "演技": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "円周率": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "延長": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "追い抜く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "応じる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "往来": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "補う": {
+    "jisho_pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "屋外": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "遅らせる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "遅れ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "抑える/押さえる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "収める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "おさらい": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "惜しまず": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "押し寄せる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "遅くとも": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "脅かす": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "帯": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "織物": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "卸売り": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～下": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "害": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "会合": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "解釈": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "外相": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "回数": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "外部": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "顔付き": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "係わる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "柿": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "書き取り": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "垣根": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "欠く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "拡張": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "獲得": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "確立": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "崖": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "可決": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "駆け付ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "～加減": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "重ねて": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "貸家": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "過剰": {
+    "jisho_pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "傾ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "固める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "合唱": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "金網": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "可燃物": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "柄": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～柄": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "鴉": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "体付き": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "空手": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "為替": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "瓦": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "かんかん": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "歓迎": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "観察": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "観衆": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "寒暖計": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "～期": {
+    "jisho_pos": [
+      "接尾"
+    ],
+    "mapped_pos": "接尾",
+    "source": "override"
+  },
+  "消え行く": {
+    "jisho_pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "機関車": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "聞き上手": {
+    "jisho_pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "飢饉": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "気象": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "傷口": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "起動": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "木の実": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "きめ細かい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "客席": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "逆転": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "ギャング": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "休館": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "急激": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "吸収": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "境界": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "供給": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "行政": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "教養": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "漁業": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "居住": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "切り替える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "金融": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "空想": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "潜る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "鎖": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "くじ引き": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "くしゃみ": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "具体": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "くたくた": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)",
+      "Adverb (fukushi)",
+      "Adverb taking the 'to' particle"
+    ],
+    "mapped_pos": "ナ形・副",
+    "source": "jisho"
+  },
+  "口数": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "口調": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "くっつく": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "くつろぐ": {
+    "jisho_pos": [
+      "Godan verb with 'gu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "クレーム": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "くれぐれも": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "玄人": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "黒字": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "咥える": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "訓読み": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "計": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "掲示": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "競馬": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "けしからん": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)"
+    ],
+    "mapped_pos": "連語",
+    "source": "jisho"
+  },
+  "欠陥": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "決行": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "傑作": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "煙る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "〜件": {
+    "jisho_pos": [
+      "Noun",
+      "Counter"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "現〜": {
+    "jisho_pos": [
+      "Prefix"
+    ],
+    "mapped_pos": "接頭",
+    "source": "jisho"
+  },
+  "現役": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "限界": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "見当": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "幸運": {
+    "jisho_pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "硬貨": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "好況": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "攻撃": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "校舎": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "香水": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "交付": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "好物": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "候補": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "効力": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "コーラス": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "語学": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "焦がす": {
+    "jisho_pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "国土": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "心地": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "ここのところ": {
+    "jisho_pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "心当たり": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "心得る": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "心掛け": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "心掛ける": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "こしらえる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "小銭": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "こたつ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "拘り": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "ごちゃごちゃ": {
+    "jisho_pos": [
+      "副・ナ形・自動3"
+    ],
+    "mapped_pos": "副・ナ形・自動3",
+    "source": "override"
+  },
+  "骨": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "国境": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "〜ごと": {
+    "jisho_pos": [],
+    "mapped_pos": "接尾",
+    "source": "fallback"
+  },
+  "殊に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "零れる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "細やか": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  },
+  "〜込む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "小麦": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "こもる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "娯楽": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "ごろごろ": {
+    "jisho_pos": [
+      "副・自動3"
+    ],
+    "mapped_pos": "副・自動3",
+    "source": "override"
+  },
+  "根拠": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "混合": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "昆虫": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "際": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "細工": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "再三": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "在籍": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "裁縫": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "境": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "逆さ": {
+    "jisho_pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "逆らう": {
+    "jisho_pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "昨〜": {
+    "jisho_pos": [
+      "Prefix"
+    ],
+    "mapped_pos": "接頭",
+    "source": "jisho"
+  },
+  "昨シーズン": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "削除": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "叫び": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "差し支え": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "差し引く": {
+    "jisho_pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "錯覚": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "殺人": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "茶道": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "寂しい": {
+    "jisho_pos": [
+      "I-adjective (keiyoushi)"
+    ],
+    "mapped_pos": "イ形",
+    "source": "jisho"
+  },
+  "ざらざら": {
+    "jisho_pos": [
+      "副・自他動3"
+    ],
+    "mapped_pos": "副・自他動3",
+    "source": "override"
+  },
+  "去る": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "さんざん": {
+    "jisho_pos": [
+      "副・ナ形"
+    ],
+    "mapped_pos": "副・ナ形",
+    "source": "override"
+  },
+  "山頂": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "山腹": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "しきりに": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "静める/鎮める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "視線": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "思想": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "死体": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "従って": {
+    "jisho_pos": [
+      "接続"
+    ],
+    "mapped_pos": "接続",
+    "source": "override"
+  },
+  "自宅": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "室温": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "じっくり": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Adverb taking the 'to' particle"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "躾": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "実践": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "湿度": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "執筆": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "実例": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "時点": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "しとしと": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Adverb taking the 'to' particle",
+      "Suru verb"
+    ],
+    "mapped_pos": "副・他動3",
+    "source": "jisho"
+  },
+  "地主": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "始発": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "地盤": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "耳鼻科": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "しびれる": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "萎む": {
+    "jisho_pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動1",
+    "source": "jisho"
+  },
+  "資本": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "縞": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "占める": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動2",
+    "source": "jisho"
+  },
+  "蛇口": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "弱点": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "車掌": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "社説": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "シャッター": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "しゃぶる": {
+    "jisho_pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+    ],
+    "mapped_pos": "他動1",
+    "source": "jisho"
+  },
+  "洒落": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "洒落る": {
+    "jisho_pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "自動2",
+    "source": "jisho"
+  },
+  "〜集": {
+    "jisho_pos": [
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "周囲": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "収穫": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "就学": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "宗教": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "就業": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "集計": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "収支": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "終始": {
+    "jisho_pos": [
+      "副・自動3"
+    ],
+    "mapped_pos": "副・自動3",
+    "source": "override"
+  },
+  "充実": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "重体/重態": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "習得": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "重複": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "修了": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "主義": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "宿舎": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "主語": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "述語": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "取材": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "主題": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "出世": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "出生": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "主役": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "準〜": {
+    "jisho_pos": [
+      "接頭"
+    ],
+    "mapped_pos": "接頭",
+    "source": "override"
+  },
+  "循環": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "準決勝": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "順々に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "仕様": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "〜賞": {
+    "jisho_pos": [
+      "Noun",
+      "Noun, used as a suffix"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "省エネ": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "消化": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "消火": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "障害": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "障害者": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "証拠": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "上司": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "少子化": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "症状": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "小数": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "小数点": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "消息": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "焦点": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "上等": {
+    "jisho_pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "証人": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "勝敗": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "蒸発": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "賞品": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "小便": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "正味": {
+    "jisho_pos": [
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "賞味期限": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "静脈": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "消耗": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自他動3",
+    "source": "jisho"
+  },
+  "省略": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "奨励": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "女王": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "食塩": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "職探し": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "職人": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "食費": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "職務": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "諸君": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "助手": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "初旬": {
+    "jisho_pos": [
+      "Adverb (fukushi)",
+      "Noun"
+    ],
+    "mapped_pos": "名・副",
+    "source": "jisho"
+  },
+  "徐々に": {
+    "jisho_pos": [
+      "Adverb (fukushi)"
+    ],
+    "mapped_pos": "副",
+    "source": "jisho"
+  },
+  "所属": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "処置": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "助動詞": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "所得": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "処分": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "初歩": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "署名": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+    ],
+    "mapped_pos": "名・自動3",
+    "source": "jisho"
+  },
+  "除夜": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "白髪": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "私立": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "飼料": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "城": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "皺": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "侵害": {
+    "jisho_pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+    ],
+    "mapped_pos": "名・他動3",
+    "source": "jisho"
+  },
+  "新規": {
+    "jisho_pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "名・ナ形",
+    "source": "jisho"
+  },
+  "真空": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "シングル": {
+    "jisho_pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "神経": {
+    "jisho_pos": [
+      "Noun"
+    ],
+    "mapped_pos": "名",
+    "source": "jisho"
+  },
+  "真剣": {
+    "jisho_pos": [
+      "Na-adjective (keiyodoshi)"
+    ],
+    "mapped_pos": "ナ形",
+    "source": "jisho"
+  }
+}

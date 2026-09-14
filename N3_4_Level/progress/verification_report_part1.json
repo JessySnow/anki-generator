@@ -1,0 +1,418 @@
+{
+  "timestamp": "2026-09-11T05:58:18Z",
+  "model": "gemini-3.8-flash",
+  "total_cards_scanned": 140,
+  "deterministic_issues_found": 0,
+  "passes_executed": 4,
+  "total_cards_revised": 55,
+  "revisions": [
+    {
+      "word_index": 16,
+      "word": "どこか",
+      "issues": [
+        "原句「静かに過ごせるどこか落ち着いた場所」修饰成分叠床架屋、语序别扭，显得极为生硬。自然地道的日语应将「どこか」前置修饰形容词并列短语，作「どこか静かで落ち着いた場所が必要だ」。"
+      ]
+    },
+    {
+      "word_index": 17,
+      "word": "食事する",
+      "issues": [
+        "「三食きちんと食事する」中「三食」与「食事」产生语义与语素重叠（重言感），搭配生硬不自然。表达保持健康需规律用餐时，母语者自然习惯搭配为「毎日規則正しく食事する」。"
+      ]
+    },
+    {
+      "word_index": 18,
+      "word": "泳ぐ",
+      "issues": [
+        "原句在连体修饰成分「泳ぐための」与中心被修饰语「新しい水着」之间添加逗号（「泳ぐための、新しい水着」），切断了连体修饰关系的连贯性，属于不规范的日文标点用法，读来有割裂感。"
+      ]
+    },
+    {
+      "word_index": 27,
+      "word": "できる",
+      "issues": [
+        "1. 乐器演奏表达中，针对乐曲一般使用「弾く／弾ける」，使用「曲が上手にできるようになる」搭配极不自然且偏幼态；动词「できる」用于舞台展演时，自然地道的搭配是舞蹈、动作或任务表演（如「ダンスが上手にできるようになる」）。",
+        "2. 原译文将乐器演奏的「難しい曲」生搬硬套翻译为“难懂的曲子”，属于严重错译（应为高难度曲目）。改换为舞蹈表演后整体搭配与翻译皆地道精准。"
+      ]
+    },
+    {
+      "word_index": 30,
+      "word": "眠い",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "The causal logic in '夜更かしをすると……出勤することになる' is flawed and unnatural; staying up late does not cause one to have to go to work (going to work is an existing obligation, not an outcome of staying up late)."
+      ]
+    },
+    {
+      "word_index": 31,
+      "word": "きっと",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 32,
+      "word": "動く",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 33,
+      "word": "カンガルー",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 34,
+      "word": "めがね",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 35,
+      "word": "履く",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 36,
+      "word": "する",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "Phrasing '出勤する準備をし' is slightly stiff; the standard idiomatic collocation is '出勤の準備をし'."
+      ]
+    },
+    {
+      "word_index": 37,
+      "word": "かぶる",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 38,
+      "word": "都合",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "Collocation issue: '面会の約束' is unnatural in a business context; '面会' refers primarily to visiting patients or prisoners. The natural business term is '打ち合わせの日程' or '面談の約束'."
+      ]
+    },
+    {
+      "word_index": 39,
+      "word": "出る",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "Phrasing '確認してから立ち去らなくてはならない' is unnatural and overly dramatic for buying from a vending machine; attaching '～なくてはならない' directly to '確認する' ('しっかり確認しなくてはならない') is authentic and natural."
+      ]
+    },
+    {
+      "word_index": 40,
+      "word": "～目",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 41,
+      "word": "信号",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "Collocation issue: '安全に待ちましょう' is unnatural translation-ese. Idiomatic Japanese uses '青に変わるまで落ち着いて待ちましょう'.",
+        "POS was inaccurately labeled as '名・自動3'; '信号' is purely a noun ('名')."
+      ]
+    },
+    {
+      "word_index": 42,
+      "word": "引っ越し",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 43,
+      "word": "ほかに",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'.",
+        "In customer service Japanese, '追加のご注文をなさいますか' is clunky and redundant; 'ご注文なさいますか' is the standard polite honorific formulation."
+      ]
+    },
+    {
+      "word_index": 44,
+      "word": "直接",
+      "issues": [
+        "Tags format contains extraneous 'from_v1', violating the standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 45,
+      "word": "連絡する",
+      "issues": [
+        "「多くの応募者の中で……選ぶ」は不自然（母集団から抜き出す場合は「〜の中から選ぶ」が自然。文型「〜の中で」を活かす場合は「応募者の中で最も条件に合う方に……」のように比較・限定の対象を示すのが適切）。",
+        "「方を選び、来週の面接日程についてメールで連絡した」は連絡の対象（誰に連絡したか）を示す助词「〜に」が欠けており、前後の文構造がやや不自然。"
+      ]
+    },
+    {
+      "word_index": 47,
+      "word": "都合が悪い",
+      "issues": [
+        "「仕事の都合が悪い」は不自然な表現（「仕事の都合で（〜できない）」と「都合が悪い」が混同されたコロケーション。「仕事で都合が悪いはずなのに」とするのが自然な日本語）。"
+      ]
+    },
+    {
+      "word_index": 53,
+      "word": "止まる",
+      "issues": [
+        "「代替バス」は日本の鉄道運行支障時の用語として不自然（「代行バス」とするのが正式かつ一般的）。",
+        "「バスが見つけられた」は英語等の直訳調（自然な日本語では「代行バスに乗れた」や、一段動詞の可能態「見つけられる」を活かすなら「近くのホテルで部屋が見つけられた」とするのが自然）。"
+      ]
+    },
+    {
+      "word_index": 57,
+      "word": "仕舞う",
+      "issues": [
+        "GrammarMeaningの説明が完全に誤り（「〜おわる」等の「表示动作彻底完成或结束」が誤ってペーストされており、使役助動詞「〜（さ）せる」の『让……做……』という意味になっていない）。"
+      ]
+    },
+    {
+      "word_index": 58,
+      "word": "元",
+      "issues": [
+        "GrammarMeaningの説明が完全に誤り（「〜らしい」の推量・典型説明が誤ってペーストされており、使役受身形「〜させられる」の自発・受身説明になっていない）。",
+        "「元の活気に満ちた町の姿」は名詞「元」の修飾構造としてやや不自然（「元は活気に満ちていたこの町の昔の姿」とするのが自然）。"
+      ]
+    },
+    {
+      "word_index": 59,
+      "word": "授業",
+      "issues": [
+        "ReadingおよびFuriganaが「じゅうぎょう」となっており長音の誤り（正しくは「じゅぎょう」）。",
+        "GrammarMeaning、GrammarUsage、CombinationLogicがGrammarPattern「～し」と完全に食い違っており、無関係な「〜そうにない」の解説が誤って混入している。",
+        "文型「～し」は複数の理由の並列に用いるのが標準的であり、「外は激しい台風だし、電車も止まっているので……」のように理由を並列提示するのが自然。"
+      ]
+    },
+    {
+      "word_index": 60,
+      "word": "予習する",
+      "issues": [
+        "GrammarMeaning contains a severe copy-paste error: it describes the causative form (使役态助动词) instead of '～しか～ない' (只能……).",
+        "Collocation error: '予習する' (preview lessons before class) does not collocate with '試験範囲' (exam scope); exams require review ('復習') or exam study ('試験勉強'), whereas '予習' is for upcoming classes ('授業').",
+        "Redundant phrasing: '重要な単語だけを予習するしかない' unnaturally combines 'だけ' and 'しかない'."
+      ]
+    },
+    {
+      "word_index": 61,
+      "word": "可笑しい",
+      "issues": [
+        "Unnatural phrasing: '可笑しい顔をして笑っていた' is unnatural Japanese translation-ese. In Japanese, 'おかしな顔をする' means making funny faces (変顔), not smiling/laughing at an amusing story. To express that a story wasn't that funny yet people laughed, 'そんなに可笑しいとは思えないのに、みんなが大声で笑っていた' is natural and idiomatic."
+      ]
+    },
+    {
+      "word_index": 63,
+      "word": "遅く",
+      "issues": [
+        "Syntactic awkwardness: 'とても眠そうに疲れた足取りで部屋へ入っていった' awkwardly stacks the adverbial modifier 'とても眠そうに' onto the adjectival noun modifier '疲れた足取りで', resulting in clumsy translation-ese. Connecting it naturally with an action like 'とても眠そうにあくびをしながら部屋へ入っていった' sounds completely idiomatic."
+      ]
+    },
+    {
+      "word_index": 66,
+      "word": "怪我",
+      "issues": [
+        "Unnatural sentence structure: '筋肉を痛めたり転倒したりして、危なすぎて大怪我をする恐れがある' is convoluted and unnatural translation-ese. '危なすぎて大怪我をする' is awkward because '危なすぎる' describes a risky situation or action, rather than directly causing '大怪我をする'. A clean structure like '準備運動もせずに激しいスポーツをするのは危なすぎて、大怪我をする恐れがあります' is natural, balanced, and idiomatic."
+      ]
+    },
+    {
+      "word_index": 71,
+      "word": "お茶を点てる",
+      "issues": [
+        "POS error: 'お茶を点てる' is an idiomatic verb phrase (連語・動2), but was incorrectly tagged as '名' (noun)."
+      ]
+    },
+    {
+      "word_index": 76,
+      "word": "屋上",
+      "issues": [
+        "原句中「階段を上がって屋上へ行ってみよう」并未体现目标语法「～ていく」（补助动词：动词て形＋いく）。原句的「行ってみよう」是实义动词「行く」后接「～てみる」的意志形，而「上がって」仅为普通动作连接，造成语法点缺失与混淆。",
+        "修改为「みんなと一緒に屋上へ上がっていこう」，动词「上がる」的て形接补助动词「いく」的意志形「いこう」，准确且自然地体现了「～ていく」表示从当前立足点向远离说话人方向移动的空间移动用法。"
+      ]
+    },
+    {
+      "word_index": 83,
+      "word": "鼠",
+      "issues": [
+        "原句「専門の駆除業者に来てもらって点検した」存在主语/动作执行者逻辑冲突。句末为主动态谓语「点検した」，在日语语法中主语默认为主句说话人「私」，变成了“请除害人员来，然后我自己进行了检查”，与实际语境不符。",
+        "实际检查动作应是由除害专业人员实施、说话人作为受益者接受服务，应将谓语直接修改为「点検してもらった」，句式更紧凑地道，且完美落实目标语法「～てもらう」。"
+      ]
+    },
+    {
+      "word_index": 90,
+      "word": "一言",
+      "issues": [
+        "词性（POS）标注错误：「一言」在日语中为名词或副词（名・副），不存在「一言する」的サ变活用用法，标注为「自他動3」不准确。"
+      ]
+    },
+    {
+      "word_index": 92,
+      "word": "虐める",
+      "issues": [
+        "「虐めるところを見かけた」表达极不自然。在日语中，目击持续性动作的现场时，必须使用进行体「～ているところを見かける」；「虐めるところ」既不能自然表达“正在欺负”，也不能表达“正打算欺负”（后者需为「虐めようとしているところ」）。应修正为「虐めているところを見かけた」。"
+      ]
+    },
+    {
+      "word_index": 95,
+      "word": "広める",
+      "issues": [
+        "语病与语义重复：「簡単に」与后续接尾辞「～やすい」语义重叠（二重表現），造成累赘不自然。",
+        "搭配不当：「広める」的核心含义是将事物面向广泛群体、社会推广普及，通常搭配「世の中に」「より多くの人に」，与单个泛指对象的「誰にでも」搭配极为生硬。"
+      ]
+    },
+    {
+      "word_index": 106,
+      "word": "回答",
+      "issues": [
+        "句子中连续出现「質問をされ」与「質問に対する」，词汇重复导致句式冗赘笨拙。删去「質問に対する」使语句更精炼地道。"
+      ]
+    },
+    {
+      "word_index": 107,
+      "word": "それまでに",
+      "issues": [
+        "「締め切りが短い」属于搭配不当（コロケーションの誤り）。「締め切り」是时间点（截止日期），不能用「短い」形容，应使用「締め切りまでの時間／期間が短い」或改用「準備期間があまりに短くて」。"
+      ]
+    },
+    {
+      "word_index": 108,
+      "word": "構いません",
+      "issues": [
+        "「場所は狭ければ狭いほど構いません」在日语语法与逻辑上完全不成立。「～ば～ほど」表示两项之间的递变关系（越……越……），而「構いません（没关系/不介意）」并非可梯级递增的属性，原句属于强行拼凑的不自然表达。已重构为自然的商务/日常联络句式。"
+      ]
+    },
+    {
+      "word_index": 110,
+      "word": "おる",
+      "issues": [
+        "词性错误：动词「おる」是「いる」的自谦谦逊语，属于自动词五段（Group 1），词性标为「他動1」有误，应更正为「自動1」。"
+      ]
+    },
+    {
+      "word_index": 118,
+      "word": "藺草",
+      "issues": [
+        "「この和室は……化学繊維で作られている」主谓搭配不妥。房间（和室）本身不是纤维制成的，榻榻米席面（畳）才是。此外，「使うどころか……作られている」主动与被动态搭配略显生硬，改为「この和室の畳は本物の藺草どころか、安物の化学繊維で作られている」更为纯正自然。"
+      ]
+    },
+    {
+      "word_index": 122,
+      "word": "間",
+      "issues": [
+        "目标词汇为「間（あいだ）」，但例句中使用了复合派生词「合間（あいま）」，导致目标词的读音与词形发生偏移，不利于准确记忆「間（あいだ）」。应改为直接使用「仕事の間の休憩」。"
+      ]
+    },
+    {
+      "word_index": 129,
+      "word": "書き換える",
+      "issues": [
+        "原句「事実に基づいて書き換える」搭配欠自然且缺乏明确宾语，容易产生语义含混（改写什么不明确）；改为「史実を分かりやすく書き換える」更符合日文地道表达。",
+        "Tags 字段尾部多出了非法标签「 leech」，违反了规范格式「N3_4::Vocabulary N3_4::Grammar::<id>」。"
+      ]
+    },
+    {
+      "word_index": 134,
+      "word": "能力",
+      "issues": [
+        "例句中出现了简体中文汉字「社运」，违反了必须使用日本新字体汉字的标准，应更正为日文新字体「社運（しゃうん）」。"
+      ]
+    },
+    {
+      "word_index": 135,
+      "word": "切れる",
+      "issues": [
+        "「心配が尽き切れない」は不自然な日本語表現です。「尽きる」自体が完了を表す自動詞であるため、「尽き切れない」という複合動詞は通常用いられません（正しくは「尽きない」など）。",
+        "文中に「切れてしまいそうで不安で、心配が…」と不安・心配を表す語が重複しており、文構造として冗長です。",
+        "N3文型「～切れない」の自然なコロケーションとして、「不安を抑え切れない」などに改める必要があります。"
+      ]
+    },
+    {
+      "word_index": 136,
+      "word": "流れる",
+      "issues": [
+        "Tagsに規定外の余分な文字列「leech」が含まれています（規約違反）。",
+        "「～たきり（…ない）」は瞬間的な変化・動作の後にその状態が継続することを表す文型であり、継続動词「眺める」に接続して「一日中アルバムを眺めたきり、言葉を発しなかった」とするのは語法上不自然です。瞬間動詞「開く」を用いて「アルバムを開いたきり、一言も言葉を発しなかった」と改めることで自然な日本語になります。"
+      ]
+    },
+    {
+      "word_index": 30,
+      "word": "眠い",
+      "issues": [
+        "句中「どんなに眠くても起きられず」存在严重的逻辑与语法矛盾。「どんなに〜ても」表逆接让步（如「どんなに眠くても起きる」无论多困都要起来）；而在此句中，“困倦”恰恰是“起不来”的顺接直接原因，不能使用「どんなに〜ても」与「起きられない」搭配。应改为表示原因的「眠くてなかなか起きられず」等自然表达。"
+      ]
+    },
+    {
+      "word_index": 39,
+      "word": "出る",
+      "issues": [
+        "句中「ちゃんと出るのをしっかり確認」存在副词重复累赘（ちゃんと与しっかり近距离叠用），读来不自然。",
+        "售货机找零是先退币完成后再进行确认，用非过去时「出るのを確認する」显得像是在盯着钱币掉落的过程，不符合日语母语者习惯，应改为过去完成态「出たのを確認する」或「出たかどうか確認する」。"
+      ]
+    },
+    {
+      "word_index": 40,
+      "word": "～目",
+      "issues": [
+        "原句「この参考書は一冊目だけ...二冊目を...」中，指示词「この参考書」表示单本概念，却在后文直接使用系列分册量词「一冊目」「二冊目」，主语与后续量词产生语义割裂，中文翻译“这本参考书只要把第一本好好复习...”亦出现明显语病。应改为「このシリーズの参考書は...」，使前后量词搭配严谨自然。"
+      ]
+    },
+    {
+      "word_index": 58,
+      "word": "元",
+      "issues": [
+        "「思い出させられる」属于典型的不自然直译调（翻译腔）。在自然日语中，“不由自主地回忆起……”通常使用自发态「〜が思い出される」；而表示心理诱发的使役受身态「〜させられる」，地道规范的搭配应为「考えさせられる」（让人陷入深思）或「感じさせられる」等心理动词。"
+      ]
+    },
+    {
+      "word_index": 66,
+      "word": "怪我",
+      "issues": [
+        "原句「危なすぎて、大怪我をする恐れがあります」在语义与搭配上存在逻辑冗余与生硬。「危ない」本身即含有致伤风险之意，与后半句「大怪我をする恐れがある」语义同义反复。语法点「～すぎる」应当修饰导致受伤的过火行为（如过度勉强「無理をしすぎる」），才符合自然日语因果表达。"
+      ]
+    },
+    {
+      "word_index": 107,
+      "word": "それまでに",
+      "issues": [
+        "原句「準備期間があまりに短くて、それまでに提出すべきレポートの資料集めすら終わっていない」中，「それまでに」作为照应指示词缺乏明确的前行时间基准（先行词），单独成句时指向不明、略显突兀。通过在前句补足截止时间前提「来週が締め切りなのだが」，使「それまでに」的指代自然闭环。"
+      ]
+    },
+    {
+      "word_index": 122,
+      "word": "間",
+      "issues": [
+        "「仕事の間の休憩」搭配不自然。在表达两项工作之间的间歇时，日语地道说法应为「仕事と仕事の間の休憩」（或「仕事の合間」）；单纯使用「仕事の間」常被理解为“工作期间中（仕事中）”，与后续「休憩」搭配产生语义冲突。改为「仕事と仕事の間の休憩」完全符合「間（あいだ/间隔）」的纯正用法。"
+      ]
+    },
+    {
+      "word_index": 58,
+      "word": "元",
+      "issues": [
+        "Tags 字段包含多余后缀 'from_v1'，不符合要求的规范格式 'N3_4::Vocabulary N3_4::Grammar::<id>'。"
+      ]
+    },
+    {
+      "word_index": 66,
+      "word": "怪我",
+      "issues": [
+        "Tags 字段包含多余后缀 'from_v1'，不符合要求的规范格式 'N3_4::Vocabulary N3_4::Grammar::<id>'。"
+      ]
+    },
+    {
+      "word_index": 107,
+      "word": "それまでに",
+      "issues": [
+        "Tags 字段包含多余后缀 'from_v1'，不符合要求的规范格式 'N3_4::Vocabulary N3_4::Grammar::<id>'。"
+      ]
+    }
+  ]
+}

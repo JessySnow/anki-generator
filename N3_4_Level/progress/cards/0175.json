@@ -1,0 +1,19 @@
+{
+  "guid": "f$@4k^mO[{",
+  "word_index": 175,
+  "Word": "乗客",
+  "Reading": "じょうきゃく",
+  "Furigana": "乗客[じょうきゃく]",
+  "POS": "名",
+  "Meaning": "乘客",
+  "WordAudio": "",
+  "Sentence": "突風による電車の急停車に伴い、通勤中の乗客をはじめ車内のすべての人々に冷静な行動が求められた。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "伴随着列车因突发强阵风而紧急制动，以上班途中的乘客为首的车内所有人均被要求保持冷静举止。",
+  "WordUsage": "「乗客」指公共交通工具上的载乘旅客，在句中作为被列举的代表性群体。",
+  "GrammarPattern": "～をはじめ",
+  "GrammarMeaning": "列举具有代表性的领头事例以概括全体，“以……为首，……以及……”",
+  "GrammarUsage": "「～をはじめ」接在名词「通勤中の乗客」后，列举主要承受者，进而涵盖车内全员。",
+  "CombinationLogic": "突发紧急停车时，首当其冲的代表群体便是大量车厢「乗客」，使用「～をはじめ」由点及面强调全员需要保持冷静。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::176 leech"
+}

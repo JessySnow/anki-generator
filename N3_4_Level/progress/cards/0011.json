@@ -1,0 +1,19 @@
+{
+  "word_index": 11,
+  "guid": "B,y;c&xVAu",
+  "Word": "何人",
+  "Reading": "なんにん",
+  "Furigana": "何人[なんにん]",
+  "POS": "名",
+  "Meaning": "几个人",
+  "Sentence": "「明日の夕方六時ごろ、会議室に何人くらい集まる予定ですか。」",
+  "SentenceTranslation": "“明天傍晚六点左右，预计会有几个人集中到会议室？”",
+  "WordUsage": "「何人」在句中作疑问数量代词，后接副助词「くらい」，用于询问预期参会的具体人数。",
+  "GrammarPattern": "～ごろ",
+  "GrammarMeaning": "表示大致的时间点，“……左右，……前后”",
+  "GrammarUsage": "接在时间名词「六時」后构成「六時ごろ」，限定事件发生的大致时间区间。",
+  "CombinationLogic": "筹备会议活动时，常需同时敲定集合时间节点（「六時ごろ」）与到场人数规模（「何人」），两词在日程沟通中天然高频搭配。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::12 from_basic"
+}

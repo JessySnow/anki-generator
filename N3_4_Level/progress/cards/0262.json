@@ -1,0 +1,19 @@
+{
+  "guid": "g{wv@EbS_j",
+  "word_index": 262,
+  "Word": "円周率",
+  "Reading": "えんしゅうりつ",
+  "Furigana": "円周率[えんしゅうりつ]",
+  "POS": "名",
+  "Meaning": "圆周率",
+  "WordAudio": "",
+  "Sentence": "小学校の算数の授業では、円周率などの重要な基本概念について計算練習を交えながら学ぶ。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "在小学的数学课上，学生们结合计算练习来学习圆周率等重要的基本概念。",
+  "WordUsage": "「円周率」作为基础科学专有名词，在句中以举例形式充当教学知识点的典型代表。",
+  "GrammarPattern": "～など",
+  "GrammarMeaning": "表示非穷尽列举示例或委婉弱化语气，“……等等，……之类”",
+  "GrammarUsage": "接在专有名词「円周率」之后构成「円周率などの」，修饰核心词「重要な基本概念」，表明所学科目概念不仅限于此。",
+  "CombinationLogic": "提起小学初中数学核心概念，「円周率」是最广为人知且具代表性的例证，借助「～など」进行科学归纳列举，举例规范得体。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::36"
+}

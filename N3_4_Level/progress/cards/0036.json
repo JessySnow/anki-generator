@@ -1,0 +1,19 @@
+{
+  "Word": "する",
+  "Reading": "する",
+  "Furigana": "する",
+  "POS": "他動3",
+  "Meaning": "穿、戴",
+  "WordAudio": "",
+  "Sentence": "「急いで出勤の準備をし、ネクタイをしながらスマートフォンで今日のスケジュールを確認した。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“他急匆匆地做好上班准备，一边系戴着领带，一边在智能手机上确认今天的日程安排。”",
+  "WordUsage": "「する」在此处作他动词，专用于配饰佩戴（「ネクタイをする」），表示系领带、戴配饰。",
+  "GrammarPattern": "～ながら",
+  "GrammarMeaning": "表示两项动作同时进行，“一边……一边……”",
+  "GrammarUsage": "接在动词サ变活用「する」的连用形「し」后构成「しながら」，表示主体在系领带的同时分心确认手机日程。",
+  "CombinationLogic": "清晨赶时间的上班族常会一边系戴配饰「ネクタイをする」，一边兼顾查看手机日程（「～ながら」），动作的伴随并行描写十分逼真。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::37",
+  "guid": "h7f3vo|Ca3",
+  "word_index": 36
+}

@@ -1,0 +1,19 @@
+{
+  "word_index": 29,
+  "guid": "f!TNG]7UaP",
+  "Word": "一度も",
+  "Reading": "いちども",
+  "Furigana": "一度[いちど]も",
+  "POS": "連語",
+  "Meaning": "一次也（不）",
+  "Sentence": "「怪我をして入院していた間は、外の空気を吸いに一度も散歩に出かけることができなかった。」",
+  "SentenceTranslation": "“因伤住院期间，我一次都没能外出散步呼吸外面的空气。”",
+  "WordUsage": "「一度も」在句中作副词性修饰短语，与后文的绝对否定形式呼应，表示发生频次为零。",
+  "GrammarPattern": "～ことができる",
+  "GrammarMeaning": "表示具备某种客观能力或环境许可，“能够……，可以……”",
+  "GrammarUsage": "接在一段动词「出かける」辞书形后，取其过去否定形态「出かけることができなかった」，表明客观条件完全不允许自由行动。",
+  "CombinationLogic": "全盘否定连语「一度も」与可能态否定「～ことができなかった」形成强力呼应，深刻衬托出受伤卧床期间行动自由受到极大束缚的无奈处境。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::30 from_v1"
+}

@@ -1,0 +1,19 @@
+{
+  "word_index": 5,
+  "guid": "E(1(5%3bSo",
+  "Word": "そろそろ失礼します",
+  "Reading": "そろそろしつれいします",
+  "Furigana": "そろそろ失礼[しつれい]します",
+  "POS": "連語・挨拶",
+  "Meaning": "该告辞了",
+  "Sentence": "「『そろそろ失礼します』と一言挨拶するだけで、相手に礼儀正しい印象を与えることができる。」",
+  "SentenceTranslation": "“仅仅道一句‘我该告辞了’，就能给对方留下懂礼貌的好印象。”",
+  "WordUsage": "「そろそろ失礼します」在句中作直接引用的道别寒暄用语，与引用助词「と」搭配。",
+  "GrammarPattern": "～だけで",
+  "GrammarMeaning": "表示仅凭某种条件即可，“仅仅凭借……”",
+  "GrammarUsage": "接在动词サ变活用「挨拶する」的辞书形后构成「挨拶するだけで」，表示仅凭这一项极简单的举动即可产生积极效果。",
+  "CombinationLogic": "将离席告辞的礼节寒暄「そろそろ失礼します」与表达极低门槛的「～だけで」结合，强调举手之劳的礼仪即可换取极佳社交评价。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::6 from_basic"
+}

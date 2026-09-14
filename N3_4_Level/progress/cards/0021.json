@@ -1,0 +1,19 @@
+{
+  "Word": "消す",
+  "Reading": "けす",
+  "Furigana": "消[け]す",
+  "POS": "他動1",
+  "Meaning": "关(空调、电灯等)",
+  "WordAudio": "",
+  "Sentence": "「部屋を出るときは、ちゃんと電気やエアコンを消す約束じゃないか。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“离开房间的时候，不是说好了要好好把电灯和空调关掉的吗？”",
+  "WordUsage": "「消す」在句中作他动词连体形修饰名词「約束」，其支配宾语为「電気やエアコンを」，指熄灭电灯或关闭空调等电器设备。",
+  "GrammarPattern": "～じゃないか",
+  "GrammarMeaning": "表示向对方确认或提出委婉主张，“不是……吗”",
+  "GrammarUsage": "接在名词「約束」后构成「約束じゃないか」，用于带有反诘或提醒口吻地督促对方履行诺言。",
+  "CombinationLogic": "针对他人离开房间忘记「消す」（关闭电器）的疏漏，以「～じゃないか」进行善意的诘问与提醒，语重心长且符合家庭或宿舍同住语境。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::22 from_basic leech",
+  "guid": "F8Zjjq@MkH",
+  "word_index": 21
+}

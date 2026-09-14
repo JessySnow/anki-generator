@@ -1,0 +1,19 @@
+{
+  "Word": "何",
+  "Reading": "なに",
+  "Furigana": "何[なに]",
+  "POS": "代",
+  "Meaning": "什么",
+  "WordAudio": "",
+  "Sentence": "「買い物リストを家に忘れてしまったので、スーパーに着いたあとで何を買う予定だったか必死に思い出した。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“因为把购物清单忘在家里了，所以在到达超市之后拼命回想原本打算买些什么。”",
+  "WordUsage": "「何」在句中作疑问代词作宾语，与格助词「を」结合构成「何を買う予定だったか」，表示不明确的购买对象。",
+  "GrammarPattern": "～あとで",
+  "GrammarMeaning": "表示时间的先后顺序，“在……之后”",
+  "GrammarUsage": "接在动词カ行五段活用「着く」的连用形（音便た形）「着いた」之后，构成「着いたあとで」，表示动作的时间先后顺序。",
+  "CombinationLogic": "利用「着いたあとで」确立到达超市的时间节点，引出主体在遗忘备忘录的情境下对疑问代词「何」所指代物品的追忆，表达自然地道，消除了直译调。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::2 from_basic",
+  "guid": "v<d@NDhdb)",
+  "word_index": 1
+}

@@ -1,0 +1,19 @@
+{
+  "Word": "織物",
+  "Reading": "おりもの",
+  "Furigana": "織物[おりもの]",
+  "POS": "名",
+  "Meaning": "织物",
+  "WordAudio": "",
+  "Sentence": "職人は数か月かけて伝統的な織物を織り終わると、満足そうに微笑んだ。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "手艺人历经数月织完传统织物后，满意地微笑了。",
+  "WordUsage": "「織物」作名词，指纺织工艺品或布料，句中作动作宾语「伝統的な織物を」。",
+  "GrammarPattern": "～おわる",
+  "GrammarMeaning": "表示动作彻底完成或结束，“做完……，……结束”",
+  "GrammarUsage": "接在动词「織る」的连用形「織り」之后构成复合动词「織り終わる」，表示耗时漫长的织布动作圆满结束。",
+  "CombinationLogic": "手工制作传统「織物」耗时长久，与表示彻底完成全过程的「～おわる」搭配得当，准确传达出完工时的释然与喜悦。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::53",
+  "guid": "L.AFfZgYcI",
+  "word_index": 279
+}

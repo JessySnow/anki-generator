@@ -1,0 +1,19 @@
+{
+  "word_index": 20,
+  "guid": "DYaa/[9?N.",
+  "Word": "住所",
+  "Reading": "じゅうしょ",
+  "Furigana": "住所[じゅうしょ]",
+  "POS": "名",
+  "Meaning": "地址",
+  "Sentence": "「転居届を受理いたしましたので、来週から新しいご住所へ郵便物をお届けいたします。」",
+  "SentenceTranslation": "“因为受理了您的迁居申请，下周起会将邮件递送到您的新地址。”",
+  "WordUsage": "「住所」在句中前接美化词头「ご」，与方向助词结合为「ご住所へ」，指客人的新居地址。",
+  "GrammarPattern": "～いたす",
+  "GrammarMeaning": "动词「する」的自谦语，“做……”",
+  "GrammarUsage": "接在下一段动词「届ける」的连用形前加「お」后加「いたします」，构成自谦敬语句式「お届けいたします」，谦逊表明己方服务行为。",
+  "CombinationLogic": "登记客人的新「住所」是为了保障后续履约，搭配自谦语「お届けいたします」展现主动提供配送服务的谦和敬业风范。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::21 from_basic leech"
+}

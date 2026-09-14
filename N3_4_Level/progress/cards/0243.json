@@ -1,0 +1,19 @@
+{
+  "Word": "嗽",
+  "Reading": "うがい",
+  "Furigana": "嗽[うがい]",
+  "POS": "名・自動3",
+  "Meaning": "漱，漱口",
+  "WordAudio": "",
+  "Sentence": "外出先から帰宅した際は、風邪を予防するために手洗いと嗽をすることが必要です。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "外出回到家时，为了预防感冒，洗手和漱口是很有必要的。",
+  "WordUsage": "「嗽」在句中与「手洗い」并列，指用清水或含漱液清洁口腔喉咙的卫生保健行为。",
+  "GrammarPattern": "～ひつようだ",
+  "GrammarMeaning": "表示做某事具备必要性，“需要……，有必要……”",
+  "GrammarUsage": "接在动词短语「手洗いと嗽をする」之后，构成「～することが必要です」，强调保持个人卫生的客观必要性。",
+  "CombinationLogic": "日本公共卫生习惯中外出归来洗手与漱口（嗽）是预防感冒的核心常识，与强调行为必要性的「～ひつようだ」组合，语用场景自然切题。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::17",
+  "guid": "FL$-ynEe;$",
+  "word_index": 243
+}

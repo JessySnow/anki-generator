@@ -1,0 +1,19 @@
+{
+  "word_index": 9,
+  "guid": "Lv}Mb|^Tby",
+  "Word": "下手",
+  "Reading": "へた",
+  "Furigana": "下手[へた]",
+  "POS": "名・ナ形",
+  "Meaning": "不好、不擅长",
+  "Sentence": "「弟は絵を描くのが下手なのを恥ずかしがって、友達の前では決してスケッチブックを開こうとしない。」",
+  "SentenceTranslation": "“弟弟很介意自己画画水平差而感到害羞，所以在朋友面前绝不肯打开画册。”",
+  "WordUsage": "「下手」在句中作形容动词连体形修饰形式名词「の」，构成「下手なのを」，作为后项产生羞怯情感的原因客体。",
+  "GrammarPattern": "～がる",
+  "GrammarMeaning": "表示第三人称流露出某种情感或感觉，“显得……，感到……”",
+  "GrammarUsage": "接在イ形容词「恥ずかしい」词干后构成「恥ずかしがる」并以て形连接，客观描绘第三人称流露出的害羞神态。",
+  "CombinationLogic": "描绘第三人称因自身技能「下手」（不熟练、拙劣）而在同伴面前流露出「恥ずかしがる」（感到难为情）的退缩心理，完全符合日语第三人称情感表达的语法规范。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::10 from_basic leech"
+}

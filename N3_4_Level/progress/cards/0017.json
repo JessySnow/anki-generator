@@ -1,0 +1,19 @@
+{
+  "Word": "食事する",
+  "Reading": "しょくじする",
+  "Furigana": "食事[しょくじ]する",
+  "POS": "自動3",
+  "Meaning": "吃饭、用餐",
+  "WordAudio": "",
+  "Sentence": "「健康な体を維持するためには、栄養のバランスを考えて毎日規則正しく食事する必要がある。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“为了保持健康的体魄，有必要顾及营养均衡、每天规律用餐。”",
+  "WordUsage": "「食事する」在句中以动词辞书形直接连接「必要がある」，表示规律进餐的日常生活行为。",
+  "GrammarPattern": "～ひつようがある",
+  "GrammarMeaning": "表示客观上有做某事的必要，“有必要……”",
+  "GrammarUsage": "接在サ变动词「食事する」的辞书形后，构成「食事する必要がある」，客观论证规律进餐的必要性。",
+  "CombinationLogic": "机体健康与规律「食事する」密不可分，使用表达客观法则的「～ひつようがある」阐明每天规律用餐的必要条件，因果逻辑清晰严谨。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::18 from_basic",
+  "guid": "Gq@!`|`jM~",
+  "word_index": 17
+}

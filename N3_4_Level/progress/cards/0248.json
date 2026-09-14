@@ -1,0 +1,19 @@
+{
+  "Word": "薄める",
+  "Reading": "うすめる",
+  "Furigana": "薄[うす]める",
+  "POS": "他動2",
+  "Meaning": "稀释，冲淡",
+  "WordAudio": "",
+  "Sentence": "このスープは少し味が濃すぎるから、お湯を入れて薄めたほうがいいじゃないか。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "这道汤味道有点太浓了，加点热水稀释一下不是更好吗？",
+  "WordUsage": "「薄める」为他动词，表示通过添加液体使浓度或味道变淡，在句中以过去形后接形式名词「薄めたほうが」作比较建议。",
+  "GrammarPattern": "～じゃないか",
+  "GrammarMeaning": "表示向对方确认或提出委婉主张，“不是……吗”",
+  "GrammarUsage": "置于形容词「いい」之后构成「いいじゃないか」，向同伴提出改善口感的温和建议，寻求对方的赞同认可。",
+  "CombinationLogic": "面对汤汁过咸的实际生活体验，提出用热水「薄める」的务实对策，并用「～じゃないか」征询同伴想法，口语交流亲切自然。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::22",
+  "guid": "K*-yJMbFUY",
+  "word_index": 248
+}

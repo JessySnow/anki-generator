@@ -1,0 +1,19 @@
+{
+  "Word": "どこか",
+  "Reading": "どこか",
+  "Furigana": "どこか",
+  "POS": "代",
+  "Meaning": "哪里(表示不特定的某个地方)",
+  "WordAudio": "",
+  "Sentence": "「集中して勉強するためには、どこか静かで落ち着いた場所が必要だ。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“为了集中精力学习，需要一个安静且能让人静下心来的场所。”",
+  "WordUsage": "「どこか」在句中作不定代词，修饰后续形容词并列短语「静かで落ち着いた」，表示“某个具备特定氛围的”空间场所。",
+  "GrammarPattern": "～ひつよう",
+  "GrammarMeaning": "表示必要性，“需要，必要”",
+  "GrammarUsage": "接在名词「場所」后与格助词「が」结合构成「場所が必要だ」，充当全句核心谓语，指出特定条件的必不可少。",
+  "CombinationLogic": "为实现高效学习的目标，客观上亟需（「～が必要」）寻觅「どこか」（某处）静谧适宜的环境，语序自然流畅，前后呼应紧凑。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::17 from_basic",
+  "guid": "w,yrV<rXc0",
+  "word_index": 16
+}

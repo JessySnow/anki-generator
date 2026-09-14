@@ -1,0 +1,19 @@
+{
+  "word_index": 1495,
+  "Word": "港",
+  "Reading": "みなと",
+  "Furigana": "港[みなと]",
+  "POS": "名",
+  "Meaning": "港口",
+  "WordAudio": "",
+  "Sentence": "この港は、昔の小さな港に比べて貨物の取扱量がはるかに多い。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "这个港口比起以前那个小港口，货物吞吐量要多得多。",
+  "WordUsage": "「港（みなと）」指船舶停泊、装卸货物的港口、港湾。在此句中充当主语比较对象。",
+  "GrammarPattern": "～に比べて / ～より",
+  "GrammarMeaning": "「AはBに比べて/より〜」用于将A与B进行对比，表示A在某方面比B更……。",
+  "GrammarUsage": "名词主语「この港」带提示助词「は」，对比对象「昔の小さな港」后接比较表达「に比べて」，句末以形容词「多い」作谓语。",
+  "CombinationLogic": "港湾基础设施在现代化扩建后，常需在吞吐量、规模上与旧港进行客观数据对比，「港」结合比较句型非常符合海运或经济语境的真实表达。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::95 from_v1",
+  "guid": "\"B5dW7=V#{;\""
+}

@@ -1,0 +1,19 @@
+{
+  "word_index": 607,
+  "Word": "早い",
+  "Reading": "はやい",
+  "Furigana": "早[はや]い",
+  "POS": "イ形",
+  "Meaning": "快、早",
+  "WordAudio": "",
+  "Sentence": "ご注文の書類につきましては、できる限り早い段階で発送させていただきます。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "关于您订购的文件，我们将尽可能在较早的阶段为您发货。",
+  "WordUsage": "「早い」为一类形容词（连体形），修饰名词「段階」，表示时间或进度上的“早”。",
+  "GrammarPattern": "～いたす",
+  "GrammarMeaning": "「～いたす」为自谦语（謙譲語I），在此处以「させていただきます」形式出现，表示请求对方允许自己进行某项行为，是商务日语中极高频的自谦表达。",
+  "GrammarUsage": "动词「発送する」的使役形「発送させる」接「いただきます」，构成极其礼貌的自谦表达。",
+  "CombinationLogic": "在商务沟通中，使用「早い段階で」来强调在流程的早期就采取行动，配合自谦语「させていただきます」体现出专业的服务态度。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::21 from_basic",
+  "guid": "AG_c^NSxxT"
+}

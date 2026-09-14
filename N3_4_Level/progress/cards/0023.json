@@ -1,0 +1,19 @@
+{
+  "word_index": 23,
+  "guid": "yBHY_J04wr",
+  "Word": "のど",
+  "Reading": "のど",
+  "Furigana": "のど",
+  "POS": "名",
+  "Meaning": "嗓子，咽喉",
+  "Sentence": "「風邪をひいたようだけど、のどの痛みや熱はもう治まったかい。」",
+  "SentenceTranslation": "“你好像感冒了，喉咙痛和发烧已经好些了吗？”",
+  "WordUsage": "「のど」在句中作名词定语，以「のどの痛み」指咽喉部因感冒而产生的红肿疼痛。",
+  "GrammarPattern": "～かい",
+  "GrammarMeaning": "表示亲切或口语化的疑问（用于男性或长辈对晚辈）",
+  "GrammarUsage": "接在动词五段活用「治まる」的过去式「治まった」之后充当终助词，语气亲近温和。",
+  "CombinationLogic": "关怀生病晚辈或同辈时，针对感冒典型症状「のど」的恢复情况予以询问，使用富于温情关切的终助词「～かい」，恰如其分。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::24 from_v1"
+}

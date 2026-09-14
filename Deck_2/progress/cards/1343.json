@@ -1,0 +1,19 @@
+{
+  "word_index": 1343,
+  "Word": "くもります 曇る",
+  "Reading": "くもります 曇る",
+  "Furigana": "くもります曇[ 曇]る",
+  "POS": "五段",
+  "Meaning": "阴",
+  "WordAudio": "",
+  "Sentence": "一時的な曇りに過ぎず、雨が降る心配はまったくありません。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "只不过是天空暂时转阴而已，完全不用担心会下雨。",
+  "WordUsage": "「曇る」为五段自动词，表示天空变阴、多云。在此使用过去形「曇った」来描述已经发生的状态。",
+  "GrammarPattern": "～に過ぎない",
+  "GrammarMeaning": "「～に過ぎない」表示程度的限定，意为“只不过……而已”、“仅仅是……”。",
+  "GrammarUsage": "注意：～に過ぎない通常接在名词或动词原形后。原句中「曇ったに過ぎず」在语法上是不正确的。修正为「曇っただけだ」或使用名词形式「曇りに過ぎず」。",
+  "CombinationLogic": "为了保留N2语法点并确保自然，将动词改为名词形式「曇り」接续「に過ぎない」。",
+  "Tags": "N2::Vocabulary N2::Grammar::123 from_v1",
+  "guid": "xTV6l49]A`"
+}

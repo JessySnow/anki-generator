@@ -1,0 +1,19 @@
+{
+  "guid": "pYq(nxLnwN",
+  "word_index": 230,
+  "Word": "生育",
+  "Reading": "せいいく",
+  "Furigana": "生育[せいいく]",
+  "POS": "名・自他動3",
+  "Meaning": "生育，养育；(植物、作物等)生长，培育",
+  "WordAudio": "",
+  "Sentence": "日照時間が不足している場合は、農作物の生育に悪影響が及ぶ恐れがある。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "在日照时间不足的情况下，恐怕会对农作物的生长发育造成不良影响。",
+  "WordUsage": "「生育」在句中作名词，指植物、农作物在自然条件下的生长生势，与「悪影響が及ぶ」构成对应搭配。",
+  "GrammarPattern": "～場合は",
+  "GrammarMeaning": "表示假定特定情形，“在……的情况下”",
+  "GrammarUsage": "接在动词短语「不足している」之后，界定面临恶劣光照这一特定客观情境，后项引出相应的科学预判。",
+  "CombinationLogic": "农业种植中日照等气候条件直接关涉作物的「生育」成败，利用「～場合は」假定不良农业条件，因果推导极为专业地道。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::4"
+}

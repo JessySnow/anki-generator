@@ -1,0 +1,19 @@
+{
+  "word_index": 278,
+  "Word": "聞く",
+  "Reading": "きく",
+  "Furigana": "聞[き]く",
+  "POS": "五段",
+  "Meaning": "听",
+  "WordAudio": "",
+  "Sentence": "先生の丁寧な説明を聞いて、学生たちもようやく理解できたようだ。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "听了老师细致的讲解后，学生们似乎也终于理解了。",
+  "WordUsage": "动词「聞く」为五段他动词，在此以「て形」连接后续情态推断，表示主动倾听讲解。",
+  "GrammarPattern": "～ようだ",
+  "GrammarMeaning": "助动词「〜ようだ」表示说话人基于自身的观察或现场线索所做出的推断，语气客观委婉，意为“好像……，似乎……”。",
+  "GrammarUsage": "接在动词可能形过去式「理解できた」之后，构成推断结句谓语「理解できたようだ」。",
+  "CombinationLogic": "倾听讲解后，根据学生展现出的反应推断出其“似乎理解了”，将倾听动作（聞く）与情态推断（～ようだ）自然衔接。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::99 from_basic",
+  "guid": "Eze@tizcF&"
+}

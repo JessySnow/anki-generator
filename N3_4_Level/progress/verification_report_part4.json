@@ -1,0 +1,277 @@
+{
+  "timestamp": "2026-09-11T05:54:28Z",
+  "model": "gemini-3.8-flash",
+  "total_cards_scanned": 136,
+  "deterministic_issues_found": 0,
+  "passes_executed": 4,
+  "total_cards_revised": 37,
+  "revisions": [
+    {
+      "word_index": 420,
+      "word": "境",
+      "issues": [
+        "「境（さかい）」单独用于表示人生转折点、分水岭时，通常以「〜を境に（して）」的形式出现；表达人生成长中的阶段分水岭或节点，日语通常使用「節目（ふしめ）」或「転機」，「様々な境があり」属于不自然的生造表达/汉语直译。",
+        "修改例句为自然体现「境（分界线、界限）」的经典地道搭配「仕事とプライベートの境があいまい（公私界限模糊）」，使词义与「たとえば」更加严丝合缝。"
+      ]
+    },
+    {
+      "word_index": 421,
+      "word": "逆さ",
+      "issues": [
+        "Tags字段末尾含有多余的非规范标签「leech」，违反了'Tags format: must follow N3_4::Vocabulary N3_4::Grammar::<id>'的严格规范要求。"
+      ]
+    },
+    {
+      "word_index": 422,
+      "word": "逆らう",
+      "issues": [
+        "Tags字段末尾含有多余的非规范标签「leech」，违反了'Tags format: must follow N3_4::Vocabulary N3_4::Grammar::<id>'的严格规范要求。"
+      ]
+    },
+    {
+      "word_index": 423,
+      "word": "昨〜",
+      "issues": [
+        "搭配逻辑瑕疵：原句「昨秋に収穫されて蔵でじっくり熟成された日本酒」存在动宾搭配不当，日本酒是酿造酒，不能作为「収穫される（被收获）」的主语（收获的是大米而非日本酒）。应调整为「昨秋に収穫された米を使い、蔵でじっくり熟成させた日本酒」。"
+      ]
+    },
+    {
+      "word_index": 430,
+      "word": "殺人",
+      "issues": [
+        "词汇搭配严重失当：「重篤（じゅうとく）」在日语中仅用于形容疾病或伤病危重（如「重篤な患者」「重篤な症状」），绝不可用来修饰犯罪，属于受中文“重笃”干扰的误用。形容严重犯罪必须使用日语固定搭配「重大な犯罪」或「凶悪な犯罪」。"
+      ]
+    },
+    {
+      "word_index": 433,
+      "word": "ざらざら",
+      "issues": [
+        "字段错位错误：Reading 与 Furigana 字段被错误地填入了词性标记「副・ナ形」，未填入正确的假名读音「ざらざら」。",
+        "POS 字段相应规范补全为「副・ナ形・自サ」。"
+      ]
+    },
+    {
+      "word_index": 436,
+      "word": "さんざん",
+      "issues": [
+        "Reading and Furigana fields mistakenly contained the part of speech 'ナ形' instead of the actual kana reading 'さんざん'."
+      ]
+    },
+    {
+      "word_index": 440,
+      "word": "しきりに",
+      "issues": [
+        "Unnatural phrasing: 「時計の針を気にする」 is an unnatural direct translation of 'watching the clock hands'. Native Japanese idiom is 「時計を気にする」."
+      ]
+    },
+    {
+      "word_index": 441,
+      "word": "静める/鎮める",
+      "issues": [
+        "「波の荒立つ」 is an unnatural expression in Japanese.",
+        "「海も次第にその怒りを鎮めていった」 awkwardly personifies the sea as an agent pacifying its own anger using the transitive verb 鎮める, creating an unnatural sentence for N3/N4 learners."
+      ]
+    },
+    {
+      "word_index": 442,
+      "word": "視線",
+      "issues": [
+        "Unnatural collocation: 「手元を整える」 is unnatural Japanese. In Japanese, one says 「姿勢を整える」 (adjust posture) or 「呼吸を整える」 (catch one's breath)."
+      ]
+    },
+    {
+      "word_index": 446,
+      "word": "自宅",
+      "issues": [
+        "Incoherent sentence logic: 「体調が少し悪くても自宅を離れるわけにはいかない」 is illogical because poor health would make someone stay at home, not compel them to leave home."
+      ]
+    },
+    {
+      "word_index": 449,
+      "word": "躾",
+      "issues": [
+        "Unnatural collocation: 「礼儀正しい躾」 is an unnatural collocation. 「礼儀正しい」 modifies people or manners (e.g., 礼儀正しい人, 礼儀正しい振る舞い), not the noun 「躾」. Proper Japanese is 「きちんとした躾」 or 「礼儀作法の躾」."
+      ]
+    },
+    {
+      "word_index": 452,
+      "word": "執筆",
+      "issues": [
+        "Tags 字段包含了多余的 'leech' 标记，不符合规范格式 'N3_4::Vocabulary N3_4::Grammar::<id>'。"
+      ]
+    },
+    {
+      "word_index": 455,
+      "word": "しとしと",
+      "issues": [
+        "POS 字段标注错误：「しとしと」为拟态副词，后续「する」时亦为自动词（如「雨がしとしとする」），并非他动词「他動3」。已更正为「副・自動3」。"
+      ]
+    },
+    {
+      "word_index": 458,
+      "word": "地盤",
+      "issues": [
+        "Sentence 字段中存在非日本新字体汉字「强」（補强工事），属于中文规范字/异体字，应更正为日本常用新字体「強」（補強工事）。"
+      ]
+    },
+    {
+      "word_index": 466,
+      "word": "弱点",
+      "issues": [
+        "「充電の減りが早い」是日常口语中常见的混淆误用（充電表示“充电行为”，并非电量本身），在与郑重敬语「～ございます」共存的商务语境中显得极不协调、不自然。应规范为「バッテリーの減りが早い」或「電池の減りが早い」。"
+      ]
+    },
+    {
+      "word_index": 469,
+      "word": "シャッター",
+      "issues": [
+        "Meaning字段释义存在偏差与遗漏：日语「シャッター」除了指相机的“快门”外，在建筑和商铺语境中专指“卷帘门、卷闸门”，而非“百叶窗（百叶窗在日语中通常为ブラインド或ガラリ）”。例句所表达的也是卷帘门之意，释义需修正以保持严格统一。"
+      ]
+    },
+    {
+      "word_index": 470,
+      "word": "しゃぶる",
+      "issues": [
+        "句中「親の安心感」在日语中意为“父母自身的安心感/放心感”，而非父母给予孩子的安全感。在此处育儿语境下语义产生偏差，改为「十分な愛情と安心感」表达更精准自然。"
+      ]
+    },
+    {
+      "word_index": 472,
+      "word": "洒落る",
+      "issues": [
+        "助词使用稍欠自然：「パーティーで着ていく」中，表示“穿去某个场合/活动”时，日语地道习惯应使用着落点与目的助词「に」（パーティーに着ていく服/ワンピース）。"
+      ]
+    },
+    {
+      "word_index": 473,
+      "word": "〜集",
+      "issues": [
+        "「読んでいらっしゃる姿を拝見しました」表达不甚自然。「拝見する」通常用于敬赏对方的书信、著作或艺术品，直接接「姿」略带窥视感且搭配牵强。应改为直接描述长辈动作的尊贵场面。"
+      ]
+    },
+    {
+      "word_index": 474,
+      "word": "周囲",
+      "issues": [
+        "「お見回りいたします」是生造的敬语搭配，极不自然。和语复合动词「見回る」不能直接套用「お～いたす」，且在会务安保用语中，通常使用「お調べいたします」或「見回りを行います」。为标准呈现「お＋ます形＋いたす」句型，应修改谓语动词为「調べる → お調べいたします」。"
+      ]
+    },
+    {
+      "word_index": 480,
+      "word": "収支",
+      "issues": [
+        "「収支の付け方」は不自然なコロケーションです。日本語では「家計簿をつける」「帳簿をつける」とは言いますが、「収支」に対して動詞「つける」は使いません。「収支」を整理・管理する文脈では「収支のまとめ方」や「収支の管理の仕方」とするのが自然です。"
+      ]
+    },
+    {
+      "word_index": 482,
+      "word": "充実",
+      "issues": [
+        "「仕事のスキルを充実させる」という表現は不自然です。日本語ではスキルは「磨く」「身につける」「向上させる」と表現し、「充実させる」は「研修の内容」「施設」「制度」「生活」などに対して使います。"
+      ]
+    },
+    {
+      "word_index": 497,
+      "word": "循環",
+      "issues": [
+        "「循環する」为不及物动词（自動詞），原句「空気をうまく循環なさる」将其当作他动词并直接加宾格「を」，属于语法错误（通常应为使役态「循環させる」或自动词搭配「空気が循環する」）。",
+        "「なさる」是「する」的尊他敬语，用于尊长者实施的意志行为。人无法作为「循環する」的动作主体，表达「空気を循環なさる」极不自然。应将「循環」置于自然搭配（如「血液が循環する」）中，并将「～なさる」应用于尊长者的自然行为（如「説明なさる」）。"
+      ]
+    },
+    {
+      "word_index": 500,
+      "word": "仕様",
+      "issues": [
+        "表示目的或评价基准的语法「～のに（1）」后项不能接主观意志行动（如原句中的「説明書を作った」）；在日语语法规范中，目的后接意志行动必须用「～ために」。「～のに」后项应当接表示评价、效用、必要性或耗费的谓语（如「役に立つ」「必要だ」「時間がかかる」等）。",
+        "词义栏仅写「方式，方法」，与例句中表示IT与工程系统“规格、构造”的语境不完全同步，补充「规格」更为严谨完整。"
+      ]
+    },
+    {
+      "word_index": 517,
+      "word": "勝敗",
+      "issues": [
+        "GrammarUsage 中出现矛盾且错误的语法术语表述：“イ形容词「不安（ふあん）」这一词干后（作为ナ形容词/形容动词词干）”。「不安」在日语语法中为ナ形容词（形容动词/名・形動），并非イ形容词。"
+      ]
+    },
+    {
+      "word_index": 519,
+      "word": "賞品",
+      "issues": [
+        "原句中的「大会の棚」搭配不自然。日语中「大会」作为活动名称，不能直接领属物理层面的「棚（架子）」，通常应为「会場の棚」或「大会会場の棚」。"
+      ]
+    },
+    {
+      "word_index": 527,
+      "word": "女王",
+      "issues": [
+        "语用与人际敬意矛盾（Pragmatic awkwardness）：在日语中，「～てあげる」含有施惠色彩，一般用于平辈、晚辈、下属、儿童或动植物。让下属/臣民（名医）对君主（女王）使用「作ってあげた」在日语文化和故事叙述中都极其不自然、不敬，即使是童话故事也通常对君主使用「お作りした」或单纯陈述「作った」。反过来由身份高贵的「女王」对需要关怀的弱小者（如孩子们）使用「～てあげる」则完全符合语法和语用习惯。"
+      ]
+    },
+    {
+      "word_index": 536,
+      "word": "徐々に",
+      "issues": [
+        "逻辑与转折连接不自然（Logical clash）：原句「リハビリを徐々に進めても、完全に痛みが取れるまでにはまだ数か月かかるらしい」中，「徐々に進める（循序渐进/慢慢推进）」本就意味着耗时长，后续接「～ても（即使……也……）还需耗费数月」构不成合理的让步对比。康复医学中地道、自然的表达应当是“即使疼痛逐步缓解，也绝不能勉强”，逻辑严密且符合实际生活习惯。"
+      ]
+    },
+    {
+      "word_index": 546,
+      "word": "私立",
+      "issues": [
+        "コロケーションの不自然さ：「郵便局から提出する」は日本語として不自然です。「提出する」の相手先は機関・窓口（高校に/窓口へ）であり、郵便局から送る場合は「郵便局から郵送する／出す」とするか、あるいは「まさにこれから提出するところだ」と表現するのが自然です。"
+      ]
+    },
+    {
+      "word_index": 553,
+      "word": "シングル",
+      "issues": [
+        "文脈およびコロケーションの不自然さ：「いつも予約しているような落ち着いたシングルルームを選びます」は意味が重複・循環しており、「いつも予約しているなら、なぜ『予約しているような』と例示するのか」という不自然さがあります。ホテルの性質や希望する部屋の様子を表す「ゆっくり休めるような落ち着いたシングルルーム」などに改めると、「～ような」の機能が明確かつ極めて自然になります。"
+      ]
+    },
+    {
+      "word_index": 555,
+      "word": "真剣",
+      "issues": [
+        "コロケーションの誤用：「目標を叶える」は不自然な組み合わせです。「叶える」と自然に結びつくのは「夢」や「願い」であり、「目標」の場合は「達成する」を用います。ここでは文脈に合わせて「将来の夢を叶えるために」に改めることで、自然で正確な日本語表現になります。"
+      ]
+    },
+    {
+      "word_index": 430,
+      "word": "殺人",
+      "issues": [
+        "POS incorrectly lists '名・自他動3'; '殺人' is strictly a noun (名) in standard Japanese dictionaries, not a suru-verb.",
+        "The phrasing '法律の観点において' is unnatural Japanese translation-ese; the idiomatic collocation is '法律の観点から言うと/見ると' or '法律において'."
+      ]
+    },
+    {
+      "word_index": 442,
+      "word": "視線",
+      "issues": [
+        "'視線が外れる' is an awkward and unnatural collocation in Japanese; gaze movement uses '視線が逸れる' or the transitive collocation '視線を外す/視線を落とす'.",
+        "Rephrasing to '手元の資料に視線を落としているうちに' provides a 100% natural, idiomatic N3 expression perfectly matching the target grammar '~うちに'."
+      ]
+    },
+    {
+      "word_index": 446,
+      "word": "自宅",
+      "issues": [
+        "Unnatural stylistic repetition: '自宅' was clumsily used twice in the exact same sentence ('今日は自宅で...私用で自宅を離れる...')."
+      ]
+    },
+    {
+      "word_index": 455,
+      "word": "しとしと",
+      "issues": [
+        "Grammar constraint violation: In standard Japanese grammar pedagogy, '～あとで' must be followed by an intentional action (意志的動作) in the main clause, not a natural state or phenomenon like '葉が輝いていた'. Following '～あとで' with a descriptive state is grammatically unnatural."
+      ]
+    },
+    {
+      "word_index": 455,
+      "word": "しとしと",
+      "issues": [
+        "原句「雨がしとしとと降ったあとで、近所の公園へ散歩に出かけた」带有明显的中文直译痕迹（“下了淅淅沥沥的雨之后去散步”）。在自然日语中，表示雨停之后外出散步，通常必须用表示降雨结束的「雨がやんだあとで」或「雨が上がったあとで」，直接说「降ったあとで」非常生硬且不自然。",
+        "拟态词「しとしと」最地道的语感在于描写雨水持续不断静静落下的状态，修改为「朝からしとしとと降っていた雨がやんだあとで」既保留了「しとしと（と）降る」的标准搭配，又使得语法「～あとで」与后文「散歩に出かけた」的语义衔接完全符合母语者习惯。"
+      ]
+    }
+  ]
+}

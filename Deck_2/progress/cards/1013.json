@@ -1,0 +1,19 @@
+{
+  "word_index": 1013,
+  "Word": "音",
+  "Reading": "おと",
+  "Furigana": "音[おと]",
+  "POS": "名",
+  "Meaning": "(物体发出的)声音",
+  "WordAudio": "",
+  "Sentence": "先生、先ほどから隣の部屋から聞こえる奇妙な音が気になりませんか。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "老师，刚才起从隔壁房间传来的奇怪声音，您不觉得在意吗？",
+  "WordUsage": "「音」为名词，指非人声的物理声音或杂音。句中构成「奇妙な音が気になる」，作自动词短语「気になる」的主语。",
+  "GrammarPattern": "～気になる",
+  "GrammarMeaning": "「気になる」表示由于某种原因而引起注意，或感到担心、在意、挂念。",
+  "GrammarUsage": "在本句中，使用「気になりませんか」向对方询问是否察觉到异响并感到在意，比直接询问对方的心理状态（気にしていらっしゃるか）更为自然。",
+  "CombinationLogic": "将物理发出的异响「音」与表达‘在意/挂念’的「気になる」结合，描述在安静环境下察觉到异常声音时的自然反应。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::20 from_v1",
+  "guid": "EBSYe(?->J"
+}

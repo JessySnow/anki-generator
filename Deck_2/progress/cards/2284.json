@@ -1,0 +1,19 @@
+{
+  "word_index": 2284,
+  "Word": "とりけす <br> 取り消す",
+  "Reading": "とりけす <br> 取り消す",
+  "Furigana": "とりけす <br> 取[と]り消[け]す",
+  "POS": "他動",
+  "Meaning": "取消/撤销",
+  "WordAudio": "",
+  "Sentence": "急用ができたので、ホテルの予約を取り消した。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "因为有了急事，所以我取消了酒店的预订。",
+  "WordUsage": "「取り消す」为他动词，表示将原本已经决定、预约或生效的计划、决定、契约等撤销、废止。最典型的搭配是「予約を取り消す」（取消预订）或「発言を取り消す」（撤回言论）。",
+  "GrammarPattern": "～た",
+  "GrammarMeaning": "动词的过去式，表示动作已经完成或状态已经改变。",
+  "GrammarUsage": "动词「取り消す」变为过去式「取り消した」。",
+  "CombinationLogic": "使用最典型的搭配「予約を取り消す」来展示该词的正确用法，避免与「中止」混淆。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::70",
+  "guid": "F03qrG.6B%"
+}

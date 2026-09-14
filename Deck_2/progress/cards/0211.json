@@ -1,0 +1,19 @@
+{
+  "guid": "OvG-i~$7F_",
+  "word_index": 211,
+  "Word": "帰る",
+  "Reading": "かえる",
+  "Furigana": "帰[かえ]る",
+  "POS": "五段",
+  "Meaning": "回",
+  "WordAudio": "",
+  "Sentence": "最近は仕事の疲れがたまっているので、今夜は残業をせずに早く家に帰ることにする。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "最近工作积攒了不少疲劳，所以我决定今晚不加班，早点回家。",
+  "WordUsage": "「帰る」是五段自动词，表示返回原本所在之所（家、母国、归属地等）。句中与副词「早く」连用，并以「家に」明确指示归宿点。",
+  "GrammarPattern": "～ことにする",
+  "GrammarMeaning": "「～ことにする」接在动词辞书形或ない形之后，表示说话人基于自身的意志作出的主观决定或选择，“决定做/不做……”。",
+  "GrammarUsage": "动词辞书形「帰る」直接接续「ことにする」，表示说话人当下的主观抉择。",
+  "CombinationLogic": "根据自身身体状况决定回家（帰る）休息，体现了行为主体清晰的主观意志决定，是「～ことにする」最典型的应用场景。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::32 from_basic"
+}

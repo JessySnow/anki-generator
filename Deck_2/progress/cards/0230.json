@@ -1,0 +1,19 @@
+{
+  "guid": "r.Ps1J~W_?",
+  "word_index": 230,
+  "Word": "特急",
+  "Reading": "とっきゅう",
+  "Furigana": "特急[とっきゅう]",
+  "POS": "名",
+  "Meaning": "特快",
+  "WordAudio": "",
+  "Sentence": "各駅停車では約束の時間に間に合いそうにないので、追加料金を払って特急にする。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "坐慢车眼看赶不上约好的时间了，所以我决定多花点钱坐特快。",
+  "WordUsage": "「特急」作为名词，指停靠站最少、车速最快的特别急行列车，常需额外支付特急车票费用。",
+  "GrammarPattern": "～にする",
+  "GrammarMeaning": "「名词＋にする」表示面对多种可能性或候选项时，经过主观权衡所做出的最终决定，意为“决定选……、定为……”。",
+  "GrammarUsage": "名词「特急」后直接加格助词「に」，后接动词基本形「する」，表示决定选择搭乘特急列车。",
+  "CombinationLogic": "在赶时间的选择情景中，在“普通/各站停车”与“特快（特急）”之间做出决断，使用表示决定的「〜にする」属于日本出行对话中的绝对高频搭配。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::51 from_basic"
+}

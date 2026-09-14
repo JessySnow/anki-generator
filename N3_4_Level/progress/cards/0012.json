@@ -1,0 +1,19 @@
+{
+  "word_index": 12,
+  "guid": "d0nM@EQET]",
+  "Word": "兄弟",
+  "Reading": "きょうだい",
+  "Furigana": "兄弟[きょうだい]",
+  "POS": "名",
+  "Meaning": "兄弟姐妹",
+  "Sentence": "「お客様のお手元にお配りした資料の中に、ご兄弟でお申し込みいただく場合の割引案内がございます。」",
+  "SentenceTranslation": "“在分发给各位客人的资料中，有兄弟姐妹一同申请时的优惠说明。”",
+  "WordUsage": "「兄弟」在句中前接美化语接头词「ご」，修饰连带申请的情境，指同胞兄弟姐妹。",
+  "GrammarPattern": "～ございます",
+  "GrammarMeaning": "「～あります」的郑重礼貌用语（丁重语）",
+  "GrammarUsage": "作为存在动词「ある」的高级丁重语形式，接在助词「が」后充当谓语，向顾客恭敬说明资料的存在。",
+  "CombinationLogic": "商务或柜台服务接待中，向顾客介绍「ご兄弟」一同申请的让利方案时，使用严谨郑重的「～がございます」陈述材料，语调端庄典雅。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::13 from_basic"
+}

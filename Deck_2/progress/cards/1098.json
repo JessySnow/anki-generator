@@ -1,0 +1,19 @@
+{
+  "word_index": 1098,
+  "Word": "拾う",
+  "Reading": "ひろう",
+  "Furigana": "拾[ひろ]う",
+  "POS": "五段",
+  "Meaning": "拾、捡",
+  "WordAudio": "",
+  "Sentence": "道に落ちているゴミは、見つけた人がその場で拾えばいい。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "掉在路上的垃圾，看到的人当场顺手捡起来就行。",
+  "WordUsage": "「拾う」（他动词五段）在此句中作主从句的核心动作，前接宾语「ゴミを（省略或移至句首作为主题）」，表示“拾取、捡起”。",
+  "GrammarPattern": "～ばいい",
+  "GrammarMeaning": "「〜ばいい」表示建议、劝告或说明解决问题的最低限度条件，“只要满足……就可以了/不妨……”。",
+  "GrammarUsage": "动词「拾う」活用为假定形「拾えば」，后接「いい」，构成「拾えばいい」，提出解决垃圾问题的简便方案。",
+  "CombinationLogic": "捡垃圾本身是一个轻量级的动作，用「〜ばいい」给出轻描淡写却行之有效的解决方案，语气自然、贴切生活语境。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::105 from_v1 leech",
+  "guid": "DN6b~oiJ6z"
+}

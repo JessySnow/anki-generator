@@ -1,0 +1,19 @@
+{
+  "Word": "裏返す",
+  "Reading": "うらがえす",
+  "Furigana": "裏返[うらがえ]す",
+  "POS": "他動1",
+  "Meaning": "翻过来，调换原先的表里",
+  "WordAudio": "",
+  "Sentence": "途中で肉を裏返さないと、片面だけが焦げて失敗することになる。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "中途如果不把肉翻面的话，就会只有一面烧焦导致烹饪失败。",
+  "WordUsage": "「裏返す」为他动词，指翻转物体的正反面，在烹饪语境中指给煎烤的肉翻面。",
+  "GrammarPattern": "～ことになる",
+  "GrammarMeaning": "表示因客观规则、外部决定或自然演变，“结果……，决定……”",
+  "GrammarUsage": "接在动词辞书形短语「失敗する」之后构成「失敗することになる」，客观阐述未翻面必然引发的失败后果。",
+  "CombinationLogic": "煎烤食材讲究适时翻面（裏返す），否则就会直接引发烧焦失败的必然结局（～ことになる），因果关系极其自然顺畅。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::31",
+  "guid": "Q;+`@9k%44",
+  "word_index": 257
+}

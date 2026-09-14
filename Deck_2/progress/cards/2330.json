@@ -1,0 +1,19 @@
+{
+  "word_index": 2330,
+  "Word": "けいど <br> 経度",
+  "Reading": "けいど <br> 経度",
+  "Furigana": "経度[けいど]",
+  "POS": "名",
+  "Meaning": "经度",
+  "WordAudio": "",
+  "Sentence": "世界地図のふちに沿って、経度を示す目盛りが等間隔に細かく刻まれている。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "沿着世界地图的边缘，等间距地细密刻着指示经度的刻度。",
+  "WordUsage": "「経度」是地理学术语，指地球表面东西方向的坐标位置，在句中作定语修饰「目盛り」（指示经度的刻度）。",
+  "GrammarPattern": "～ふち",
+  "GrammarMeaning": "「〜ふち（縁）」作为名词，指事物的边缘、周边轮廓线或物体交界处。",
+  "GrammarUsage": "以「名詞＋の＋ふち」形式连接，即「世界地図のふち」，后接格助词「に」与动词「沿って」，表示空间边缘路径。",
+  "CombinationLogic": "世界地图的周边外沿（地図のふち）通常印有或刻有指示地理方位的经度刻度（経度を示す目盛り），两者的结合自然合理且具象准确。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::116",
+  "guid": "GuTM)wr3<J"
+}

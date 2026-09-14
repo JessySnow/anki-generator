@@ -1,0 +1,19 @@
+{
+  "Word": "信号",
+  "Reading": "しんごう",
+  "Furigana": "信号[しんごう]",
+  "POS": "名",
+  "Meaning": "红绿灯，信号",
+  "WordAudio": "",
+  "Sentence": "「前の信号が赤なら、無理をして渡ろうとせず、青に変わるまで落ち着いて待ちましょう。」",
+  "SentenceAudio": "",
+  "SentenceTranslation": "“如果前面的红绿灯是红灯的话，就不要勉强横穿，冷静地等待它变成绿灯吧。”",
+  "WordUsage": "「信号」在句中作主语，指十字路口规范行人车辆行止的交通指挥灯。",
+  "GrammarPattern": "～なら",
+  "GrammarMeaning": "表示承接对方提出的话题并给出意见，“如果是……的话”",
+  "GrammarUsage": "接在名词「赤」后构成假设判定「赤なら」，根据当前指示灯的假定状态提供后项行动方案。",
+  "CombinationLogic": "道路通行全视「信号」指示为准绳，将当前交通灯呈现红灯设定为假定条件（「～なら」），顺理成章地引出耐心等候绿灯的交通安全忠告。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::42",
+  "guid": "F*0^Qbw!rw",
+  "word_index": 41
+}

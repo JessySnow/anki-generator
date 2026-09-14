@@ -1,0 +1,19 @@
+{
+  "guid": "chcGBu[4`|",
+  "word_index": 243,
+  "Word": "船",
+  "Reading": "ふね",
+  "Furigana": "船[ふね]",
+  "POS": "名",
+  "Meaning": "船",
+  "WordAudio": "",
+  "Sentence": "さっき港を出たばかりの定期船が、濃霧のために引き返してきた。",
+  "SentenceAudio": "",
+  "SentenceTranslation": "刚才刚出港口的定期班船，因为大雾又折返了回来。",
+  "WordUsage": "「船」作为主格名词，在定语从句中充当主语并扩展为「定期船が」，表示按预定时刻航行的客轮或货轮。",
+  "GrammarPattern": "～さっき",
+  "GrammarMeaning": "副词「さっき」指距离说话时刻不久前的短时间（刚才、方才），常用于日常会话或记叙中修饰刚刚发生的动作或现象。",
+  "GrammarUsage": "副词「さっき」作时间状语，直接修饰其后的动作「港を出たばかり（刚出港口）」，强调时间相隔极短。",
+  "CombinationLogic": "观察港口交通动态时，目睹「船」（船舶）“刚才（さっき）”离港随后发生突发状况折返，时间紧凑，语义搭配极为真实自然。",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::64 from_basic leech"
+}

@@ -1,0 +1,19 @@
+{
+  "word_index": 2,
+  "guid": "oD1]a;2Ju(",
+  "Word": "時計",
+  "Reading": "とけい",
+  "Furigana": "時計[とけい]",
+  "POS": "名",
+  "Meaning": "钟表",
+  "Sentence": "「壁の時計を見れば、会議がもう始まる時間だとすぐに分かる。」",
+  "SentenceTranslation": "“只要看一眼墙上的挂钟，就会立刻明白会议已经到了快要开始的时间。”",
+  "WordUsage": "「時計」在句中作宾语中心词，与定语和格助词结合为「壁の時計を」，指悬挂于墙上的计时器物。",
+  "GrammarPattern": "～ば",
+  "GrammarMeaning": "表示假设条件，“如果……就……”",
+  "GrammarUsage": "接在动词一段活用「見る」的假定形后面构成「見れば」，作为前项条件，表示“只要一看，后项结论便自然明了”。",
+  "CombinationLogic": "「時計」是获取时间信息最直接的参照工具，借助假设句型「～ば」自然引出“只要看表就能迅速确认会议临近”的常理判断。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::3 from_basic"
+}

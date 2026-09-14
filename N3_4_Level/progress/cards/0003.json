@@ -1,0 +1,19 @@
+{
+  "word_index": 3,
+  "guid": "knD%moK6/(",
+  "Word": "英語",
+  "Reading": "えいご",
+  "Furigana": "英語[えいご]",
+  "POS": "名",
+  "Meaning": "英语",
+  "Sentence": "「海外旅行中に英語が通じない場合は、スマートフォンの翻訳アプリを使って身振りを交えて伝えましょう。」",
+  "SentenceTranslation": "“在海外旅行中如果遇到英语无法沟通的情况，就使用智能手机的翻译软件并配合肢体动作来表达吧。”",
+  "WordUsage": "「英語」在句中作从句主语，与格助词「が」构成「英語が通じない」，指国际通用交际语言。",
+  "GrammarPattern": "～場合は",
+  "GrammarMeaning": "表示假定特定情形，“在……的情况下”",
+  "GrammarUsage": "接在动词一段活用「通じる」的否定形「通じない」后，构成「英語が通じない場合は」，设定特定假定情境。",
+  "CombinationLogic": "将出国旅游时可能遭遇的「英語」失灵场景设为假定条件（「～場合は」），顺理成章地给出借助翻译软件与肢体手势辅助交流的切实对策。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::4 from_basic"
+}

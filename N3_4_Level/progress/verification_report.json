@@ -1,0 +1,995 @@
+{
+  "timestamp": "2026-09-11T06:07:01Z",
+  "model": "gemini-3.8-flash",
+  "total_cards_scanned": 556,
+  "deterministic_issues_found": 0,
+  "passes_executed": 2,
+  "total_cards_revised": 137,
+  "revisions": [
+    {
+      "word_index": 15,
+      "word": "刺身",
+      "issues": [
+        "GrammarUsage 中对「傷む」的词性活用描述有误：原述为“一段活用”，实际「傷む」为マ行五段活用动词（傷まない・傷みます・傷む・傷んでいる）。"
+      ]
+    },
+    {
+      "word_index": 17,
+      "word": "食事する",
+      "issues": [
+        "POS（词性）标注错误：词条为带「する」的动词形式「食事する」，POS 误标为「名」，应规范修正为「自動3」。"
+      ]
+    },
+    {
+      "word_index": 19,
+      "word": "のどが渇く",
+      "issues": [
+        "「長い時間の講義」语感生硬，带有汉译直译痕迹。在向老师表达敬意及正式体贴的语境中，地道自然的日语应为「長時間の講義」或「長い講義」。"
+      ]
+    },
+    {
+      "word_index": 21,
+      "word": "消す",
+      "issues": [
+        "日语句式搭配不自然（コロケーションの不自然さ）：日语中「スイッチ（开关）」的搭配动词是「切る」或「入れる」，不能搭配「消す」（「スイッチを消す」为直译误用）。表示关闭电灯或电器，动词「消す」应直接支配电器宾语（如「電気やエアコンを消す」）。"
+      ]
+    },
+    {
+      "word_index": 24,
+      "word": "出張する",
+      "issues": [
+        "Tags 字段中混入了 Anki 的错误标记 'leech'，不符合标签规范，应予以移除。"
+      ]
+    },
+    {
+      "word_index": 27,
+      "word": "できる",
+      "issues": [
+        "SentenceTranslation 中将针对钢琴曲目的「難しい曲」翻译为“难懂的曲子”存在词义偏离，乐曲演奏应翻译为“难度很高的曲子/难弹的曲子”，而非“难懂”。"
+      ]
+    },
+    {
+      "word_index": 36,
+      "word": "する",
+      "issues": [
+        "原句中「ネクタイをしながら」语感不自然。在日语中，佩戴领带是具有特定动作性的瞬间变化动作（日常通常说「ネクタイを締めながら/結びながら」），而「する」作为佩戴动词直接接「ながら」表达正在进行的伴随动作十分生硬。应将句式调整为一边确认手机日程、一边系好领带「スケジュールを確認しながらネクタイをした」，使「ながら」与「ネクタイをする」的搭配完全符合地道母语习惯。"
+      ]
+    },
+    {
+      "word_index": 39,
+      "word": "出る",
+      "issues": [
+        "「おつりがちゃんと出るのを確認してから立ち去る」存在时态与体（Aspect）的搭配不自然。在离开售货机前，所确认的是找零“已经吐出来”这一事实，必须使用完成/过去形态「出たのを確認してから」，与后项动作「立ち去る」的时序逻辑以及中文翻译“吐出来了之后”相契合。"
+      ]
+    },
+    {
+      "word_index": 40,
+      "word": "～目",
+      "issues": [
+        "原句「この参考書は一冊目だけ...二冊目を...」在指代上存在逻辑瑕疵。「この参考書」（这本参考书）为单数概念，无法在句中同时并列“第一本”与“第二本”，中文翻译“这本参考书只要把第一本...买第二本”同样语义矛盾。应修正为「このシリーズの参考書は」，指代整套或该系列的参考书。"
+      ]
+    },
+    {
+      "word_index": 41,
+      "word": "信号",
+      "issues": [
+        "词性错误：「信号」在现代日语中仅为名词，不存在「自動3」（サ变自动词）用法，应修正为「名」。",
+        "搭配不自然：「安全に待ちましょう」（安全地等待）是不自然的直译调表达。副词「安全に」常修饰动作性动词（如「渡る」「運転する」），修饰「待つ」极生硬。地道的母语表达应为在安全的地方等待，即「安全な場所で待ちましょう」。"
+      ]
+    },
+    {
+      "word_index": 57,
+      "word": "仕舞う",
+      "issues": [
+        "GrammarMeaning错误：错误填入了「～おわる/～てしまう」的释义（“表示动作彻底完成或结束…”），而非使役态「～させる」的正确释义。"
+      ]
+    },
+    {
+      "word_index": 58,
+      "word": "元",
+      "issues": [
+        "GrammarMeaning错误：错误填入了「～らしい」的释义（“表示有充分客观依据的推测或典型特征…”），而非使役受身态「～させられる」的正确释义。"
+      ]
+    },
+    {
+      "word_index": 59,
+      "word": "授業",
+      "issues": [
+        "Reading与Furigana注音错误：「授業」的正确假名读音为「じゅぎょう」，而非长音「じゅうぎょう」。",
+        "GrammarMeaning与GrammarUsage错误：GrammarPattern为「～し」，但语法解释与接续分析错误混入了「～そうにない」的内容。",
+        "CombinationLogic阐述偏差：原解说侧重解释「～そうにない」，未准确解释词汇「授業」与语法「～し」的呼应逻辑。"
+      ]
+    },
+    {
+      "word_index": 60,
+      "word": "予習する",
+      "issues": [
+        "GrammarMeaning错误：GrammarPattern为「～しか～ない」，但GrammarMeaning错误填入了使役态助动词的释义（“使役态助动词，表示促使或允许某人做某事……”）。"
+      ]
+    },
+    {
+      "word_index": 65,
+      "word": "冷やす",
+      "issues": [
+        "WordUsage mistakenly described the Group 1 (五段) verb「冷やす」as an 一段動詞 (Group 2 verb)."
+      ]
+    },
+    {
+      "word_index": 66,
+      "word": "怪我",
+      "issues": [
+        "Sentence phrasing '～スポーツをすると、筋肉を痛めたり転倒したりして、危なすぎて大怪我をする恐れがある' has awkward clause connection around '危なすぎて'; rephrased as '準備運動もせずに激しいスポーツをするのは危なすぎて、転倒して大怪我をする恐れがある' for natural, authentic Japanese syntax."
+      ]
+    },
+    {
+      "word_index": 71,
+      "word": "お茶を点てる",
+      "issues": [
+        "POS was incorrectly specified as 名 (noun) for the multi-word verb collocation「お茶を点てる」; corrected to 連語."
+      ]
+    },
+    {
+      "word_index": 76,
+      "word": "屋上",
+      "issues": [
+        "The target GrammarPattern is subsidiary verb '～ていく' (spatial movement away/continuance), but the original sentence split the phrase ('上がって屋上へ行ってみよう') and suffixed it with '-てみる' ('行ってみよう'), obscuring the pattern. Revised sentence to '階段を上がっていくと、屋上から街のきれいな夜景が一望できます。' to clearly demonstrate '上がっていく'."
+      ]
+    },
+    {
+      "word_index": 83,
+      "word": "鼠",
+      "issues": [
+        "'棲' in '棲みついている' is a non-Joyo kanji (表外字); replaced with standard Joyo kanji '住みついている'.",
+        "In '専門の駆除業者に来てもらって点検した', the subject of 点検した is inconsistent because the contractor performed the inspection; revised to '点検してもらった'."
+      ]
+    },
+    {
+      "word_index": 92,
+      "word": "虐める",
+      "issues": [
+        "原句「虐めるところを見かけた」不自然。在日语中，与「見かける」（目击、瞥见）搭配表示目睹具体场景时，动词必须使用持续态「～ているところを見かける」；原句使用辞书形「虐めるところを見かけた」既无法表达原中文翻译所欲表达的“正要欺负”，也违反日语感知动词接续习惯。",
+        "将句子修正为「虐めているところを見かけた」，译文同步调整为“正在……欺负”，完美契合「～ところ」在N3/N4中的核心考点「～ているところ」。"
+      ]
+    },
+    {
+      "word_index": 95,
+      "word": "広める",
+      "issues": [
+        "原句「簡単に広めやすい」存在语义重复的语病（重言・不自然な重複）。副词「簡単に」（容易、轻易地）与接尾辞「～やすい」（容易……、易于……）均表动作实现的容易度，二者叠用不符合地道日语表达规范。",
+        "将「簡単に」替换为表动作迅速的副词「素早く」，构成「素早く広めやすい」（容易迅速推广传播），行文地道自然。"
+      ]
+    },
+    {
+      "word_index": 106,
+      "word": "回答",
+      "issues": [
+        "句中「採用面接で予想外の質問をされ、緊張のあまり質問に対する適切な回答ができなかった」中，“質問”一词在前后短句中重复出现，读来略显累赘啰嗦。删去冗余的「質問に対する」，语意更加凝练自然。"
+      ]
+    },
+    {
+      "word_index": 107,
+      "word": "それまでに",
+      "issues": [
+        "原句「締め切りがあまりに短くて」搭配不自然。日语中「締め切り」是时间节点（期日），通常与「早い」「近い」「厳しい」搭配，表示时间长度时才用「期間/時間が短い」。「締め切りがあまりに早くて」更为自然地道。"
+      ]
+    },
+    {
+      "word_index": 108,
+      "word": "構いません",
+      "issues": [
+        "原句「場所は狭ければ狭いほど構いません」在日语逻辑中完全不通。「ば～ほど」表示递进（越……越……），无法与表示容忍、许可的「構いません」直接搭配构成「狭ければ狭いほど構いません（越狭窄越没关系？）」。重构句子，前半句用「早ければ早いほど助かります」体现「ば～ほど」，后半句用「明日でも構いません」自然呈现「構いません」。"
+      ]
+    },
+    {
+      "word_index": 110,
+      "word": "おる",
+      "issues": [
+        "词性错误：动词「おる」是「いる」的自谦语，属于自动词（自五/グループ1），原卡标为「他動1」有误，应修正为「自動1」。"
+      ]
+    },
+    {
+      "word_index": 111,
+      "word": "住まい",
+      "issues": [
+        "原句「子供が独立した後は、〜移ればよかった」中，「後は」通常表述事态发生后持续的状态或未来规则，而表示过去某个特定转折契机/时机错失后的遗憾（〜ばよかった）时，用「子供が独立した時に」更加地道自然。"
+      ]
+    },
+    {
+      "word_index": 118,
+      "word": "藺草",
+      "issues": [
+        "搭配与主语逻辑不通：原句「この和室は本物の藺草を使うどころか、安物の化学繊維で作られている」将整间“和室”作为化学纤维制成的主语，极不自然；用灯心草或化纤制作的是榻榻米（畳）。应改为「この和室の畳は、本物の藺草どころか安物の化学繊維で作られている。」"
+      ]
+    },
+    {
+      "word_index": 122,
+      "word": "間",
+      "issues": [
+        "词条与例句不一致：词条考察的是「間（あいだ）」，但例句中使用了复合派生词「仕事の合間（あいま）」。应改为「仕事の間の休憩」，直接使用目标词「間[あいだ]」。"
+      ]
+    },
+    {
+      "word_index": 124,
+      "word": "傾向",
+      "issues": [
+        "「傾向が進む」不是地道的日语搭配。与「傾向」搭配的动词通常为「強まる」「見られる」「生じる」等，表趋势加剧应为「傾向が強まる」。"
+      ]
+    },
+    {
+      "word_index": 129,
+      "word": "書き換える",
+      "issues": [
+        "原句「この歴史小説は、事実に基づいて書き換える一方で」语法主谓不当（小说自身无法作为「書き換える」的主语，主语应为作者或导演），且「事実に基づいて書き換える」语意生硬，不符合地道表达习惯。"
+      ]
+    },
+    {
+      "word_index": 130,
+      "word": "検査する",
+      "issues": [
+        "「～かけ」接在汉语サ变动词后（如「検査しかけ」）语感生硬不自然。语法点「～かけ」通常自然接在和语动词连用形（如「作りかけ」「やりかけ」等）之后。"
+      ]
+    },
+    {
+      "word_index": 131,
+      "word": "差し上げる",
+      "issues": [
+        "「お礼の代わりに、弊社の記念品を差し上げます」逻辑矛盾，因为「記念品」本身就是「お礼」。「～代わりに」表示补偿或替代，应用在“未能周到招待”或“未能亲自登门”等产生亏欠需进行替代补偿的语境中。"
+      ]
+    },
+    {
+      "word_index": 134,
+      "word": "能力",
+      "issues": [
+        "句子中出现了简体汉字「社运」，违反了必须使用日本新字体（新字体）的标准，应更正为「社運」。"
+      ]
+    },
+    {
+      "word_index": 135,
+      "word": "切れる",
+      "issues": [
+        "「心配が尽き切れない」是不存在的非地道生造表达（尽きる本身即表示终尽，与切れない无法重叠搭配），且原句「不安で、心配が…」措辞冗赘重复。应使用符合真实语境的自然搭配（如「電話が切れる」与「伝え切れない」）。"
+      ]
+    },
+    {
+      "word_index": 136,
+      "word": "流れる",
+      "issues": [
+        "「～たきり」用于表示某个瞬间动作完成之后一直保持该状态，与表示持续过程的「一日中眺めたきり」搭配产生语感冲突。应选用与「～たきり」天然契合的瞬时动作（如「口をつけたきり」）。"
+      ]
+    },
+    {
+      "word_index": 141,
+      "word": "見える",
+      "issues": [
+        "词义栏写成「看起来 (像傻瓜)」，将具体例句释义混入了通用词义；且例句中的「アホに見えた」属于关西方言/口语粗话，对于标准N3/N4教学卡片应采用规范标准的「愚かに見えた」。"
+      ]
+    },
+    {
+      "word_index": 143,
+      "word": "改めて",
+      "issues": [
+        "句型「〜ことはない」表示“没有必要做某事”，敬体形式为「〜ことはありません」；原句误写作「〜ことはございません」（后者用于彻底否定某种事实的存在，意为“绝无此事”，不能表示“不必做”）。"
+      ]
+    },
+    {
+      "word_index": 144,
+      "word": "きつい",
+      "issues": [
+        "Tags field contained extraneous text ' leech', violating the requirement to strictly follow 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 147,
+      "word": "与える",
+      "issues": [
+        "Tags field contained extraneous text ' leech', violating the requirement to strictly follow 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 150,
+      "word": "前後",
+      "issues": [
+        "Collocation/pragmatic issue: '仕事の前後によく同僚と飲みに行った' is unnatural because drinking alcohol before work ('仕事の前') violates common sense and workplace reality.",
+        "Revised the context to '試験の前後' (before and after exams), which is a completely natural and relatable scenario for reminiscing with '～ものだ'."
+      ]
+    },
+    {
+      "word_index": 159,
+      "word": "困った人",
+      "issues": [
+        "Lexical error: '困った人' is an idiomatic Japanese expression meaning 'a troublesome person / a nuisance' (始末におえない人、迷惑な人), NOT 'someone in distress' (which is '困っている人'). Calling stranded passengers '困った人' is an offensive and unnatural misusage.",
+        "Sentence and explanations rewritten to properly demonstrate the authentic meaning of '困った人' alongside '～に違いない'."
+      ]
+    },
+    {
+      "word_index": 162,
+      "word": "つながる",
+      "issues": [
+        "Unnatural phrasing: 'この一連の出来事に深くつながる重大な責任' is awkward translation-ese. In Japanese, '責任' does not collocate with '出来事につながる'. 'つながる' naturally collocates with outcomes or the future ('将来につながる', '成功につながる')."
+      ]
+    },
+    {
+      "word_index": 165,
+      "word": "出来事",
+      "issues": [
+        "搭配不自然：「出来事を起こす」在日语中不是地道搭配。「出来事」指自然或客观发生的“事情、事件、变故”（通常是「出来事が起こる / ある」），人为故意制造事端通常搭配「事件を起こす」「問題を起こす」等。修饰「出来事」应调整为「子どものいたずらという小さな出来事」等更符合语感的表达。"
+      ]
+    },
+    {
+      "word_index": 166,
+      "word": "儲ける",
+      "issues": [
+        "语法解释有误：「儲ける」是二类动词（一段动词/下一段），其过去式是由连用形「儲け」直接加「た」构成的「儲けた」，原卡 WordUsage 误写为“连用形促音便过去式「儲けた」”（促音便仅存在于五段动词的部分音便中）。"
+      ]
+    },
+    {
+      "word_index": 167,
+      "word": "恐ろしさ",
+      "issues": [
+        "词性错误：「恐ろしさ」是形容词「恐ろしい」通过接尾辞「さ」派生出来的名词，POS 字段误标为「イ形」，应更正为「名」。"
+      ]
+    },
+    {
+      "word_index": 169,
+      "word": "仮装",
+      "issues": [
+        "搭配不自然：「パレードで着用する仮装」动宾搭配生硬。「仮装」指化装、乔装这一行为或状态，通常搭配动词「仮装をする」，衣物本身应为「仮装の衣装」；修饰「テーマ」时直接使用「パレードでする仮装のテーマ」更符合母语者表达习惯。"
+      ]
+    },
+    {
+      "word_index": 172,
+      "word": "追いかける",
+      "issues": [
+        "语境逻辑不自然：「防犯カメラの映像を緻密に分析することによって、逃走した犯人を迅速に追いかけることができた」中，“细致分析监控录像”通常属于事后的取证侦查过程，与后文的“迅速追赶（迅速に追いかける）”在时间与情境上存在矛盾。改为依托目击线索驾驶巡逻车迅速追击更为真实生动。"
+      ]
+    },
+    {
+      "word_index": 178,
+      "word": "相変わらず",
+      "issues": [
+        "语法形态错误：「～っぱなし」接在动词连用形（ます形词干）后，「つける」的接续形态应为「つけっぱなし」，原句误写作「つけたっぱなし」，同时原卡 GrammarUsage 也错误地声称接连用形构成「つけたっぱなし」。"
+      ]
+    },
+    {
+      "word_index": 179,
+      "word": "上がる",
+      "issues": [
+        "搭配严重不自然：「子どもっぽく上がる」在日语中不是地道表达。「子どもっぽい（孩子气的、幼稚的）」通常修饰行为、外貌或态度，不能修饰表示怯场发慌的「上がる」。宜将「子どもっぽい」修饰「冗談」，再结合大场面下「上がる」的情境，构成符合常理的反差描写。"
+      ]
+    },
+    {
+      "word_index": 180,
+      "word": "〜上がる",
+      "issues": [
+        "语法项混淆：本卡考查语法点为 Grammar::181「～さえ」（甚至连……都……，衬托一般），而原句「下書きさえ終われば」使用的是 Grammar::182「～さえ～ば」（只要……就……），与下一张卡（181号卡）的语法点重复混淆。需要将例句重构为纯粹展示「～さえ」语义的句子。"
+      ]
+    },
+    {
+      "word_index": 183,
+      "word": "明くる",
+      "issues": [
+        "词性错误：「明くる」是连体词（連体詞），原卡 POS 字段误标为「名」（甚至在其 WordUsage 中已写明其为连体词），应更正为「連体」。"
+      ]
+    },
+    {
+      "word_index": 192,
+      "word": "〜歩く",
+      "issues": [
+        "Misunderstanding of compound verb morphology: In '歩き回る', '歩く' is the base verb (前項) and '〜回る' is the suffix (後項). The target entry is suffix '〜歩く' (attached to verb stems to mean 'to go around doing...').",
+        "WordUsage incorrectly claimed that '〜歩く' attaches to '歩く' to form '歩き回る'.",
+        "The example sentence should use an authentic compound verb ending in '〜歩く', such as '食べ歩く'."
+      ]
+    },
+    {
+      "word_index": 195,
+      "word": "〜合わせ",
+      "issues": [
+        "Unnatural phrasing / collocation: '息合わせ' is not an idiomatic or recognized Japanese noun in backstage theater settings. The natural collocation is '打ち合わせ' (final run-through/consultation) or '音合わせ' (tuning/sound check)."
+      ]
+    },
+    {
+      "word_index": 196,
+      "word": "〜合わせる",
+      "issues": [
+        "Inaccurate WordUsage explanation: WordUsage claimed that '〜合わせる' appears twice and incorrectly classified '出し合う' (which is composed of '〜合う') as an instance of '〜合わせる'."
+      ]
+    },
+    {
+      "word_index": 198,
+      "word": "言い表す",
+      "issues": [
+        "Malformed Furigana: '言[]い表[いあらわ]す' contained empty brackets on '言' and an incorrect reading assignment on '表'. The standard form is '言[い]い表[あらわ]す'."
+      ]
+    },
+    {
+      "word_index": 204,
+      "word": "勇ましい",
+      "issues": [
+        "Tags format error: 'Tags' contains an extra invalid tag 'leech', violating the strict 'N3_4::Vocabulary N3_4::Grammar::<id>' format specification."
+      ]
+    },
+    {
+      "word_index": 205,
+      "word": "意思",
+      "issues": [
+        "GrammarUsage contains an artifact/typo ('～ retrospective/というより').",
+        "Collocation: '強い意思' is an orthographical misuse in Japanese for strong determination/will (which should be '強い意志'). For personal intention and volition with '意思', '自らの意思' is the natural and authentic expression."
+      ]
+    },
+    {
+      "word_index": 210,
+      "word": "一概に",
+      "issues": [
+        "Unnatural collocation: '一概に' (broadly, sweeping, across the board) must modify negative predicates of judgment or assertion (such as '一概には言えない', '一概に判断することはできない'). Combining it directly into '一概に評価の基準とするのは適切ではない' is unnatural Japanese translation-ese."
+      ]
+    },
+    {
+      "word_index": 211,
+      "word": "一向に",
+      "issues": [
+        "Grammar structure error: '～からといって' requires a final negative clause like '～とは限らない' or '～わけではない'. Constructing '～からといって、病状が一向に改善しない患者もおり' is grammatically incorrect in Japanese."
+      ]
+    },
+    {
+      "word_index": 212,
+      "word": "一斉に",
+      "issues": [
+        "Collocation error: '一斉に' requires multiple subjects or actors acting simultaneously in unison. A single person carrying out shredding during cleaning cannot be modified by '一斉に'."
+      ]
+    },
+    {
+      "word_index": 218,
+      "word": "空かす",
+      "issues": [
+        "Verb inflection mismatch: The target verb is '空かす' (他動1 / 五段活用). Its past/attributive form is '空かした', not '空かせた' (which is from the verb '空かせる' or the causative form of '空く')."
+      ]
+    },
+    {
+      "word_index": 225,
+      "word": "すっと",
+      "issues": [
+        "Tags field contains extra tag 'leech', violating the required standard 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 227,
+      "word": "速やか",
+      "issues": [
+        "Unnatural word order: '対応が速やかにはあまり進まなかった' is awkward in Japanese; 'あまり' naturally precedes the adverbial modifier, i.e., '対応はあまり速やかには進まなかった' or '対応はあまり速やかに進まなかった'."
+      ]
+    },
+    {
+      "word_index": 228,
+      "word": "澄む／清む",
+      "issues": [
+        "Furigana formatting error: '澄む／清む[すむ]' places the reading bracket at the very end of the string rather than on the kanji characters. Standard format requires '澄[す]む／清[す]む'."
+      ]
+    },
+    {
+      "word_index": 237,
+      "word": "威張る",
+      "issues": [
+        "Unnatural collocation: '不快な気がする' is translation-ese. Native Japanese uses '嫌な気がする' or '不快感を覚える' / '不快な気持ちになる'. To naturally exemplify the grammar pattern '～がする', '嫌な気がする' is the idiomatic standard."
+      ]
+    },
+    {
+      "word_index": 242,
+      "word": "飢える",
+      "issues": [
+        "Unnatural collocation and pleonasm: '空腹に飢えている' is incorrect Japanese ('飢える' means to starve, and cannot collocate with '空腹に'). It should be 'そこまで飢えているはずがない' or simply '飢えているはずがない'."
+      ]
+    },
+    {
+      "word_index": 243,
+      "word": "嗽",
+      "issues": [
+        "Unnatural Japanese: 'ひつよう不可欠' writes half of the four-character idiom '必要不可欠' in hiragana to force a non-standard grammar pattern.",
+        "Incorrect grammar target: '～ひつよう' is not an N3/N4 grammar point; the corresponding JLPT grammar pattern for ID 17 is '～必要がある'.",
+        "Tags field contains extra tag 'leech', violating the required tag standard."
+      ]
+    },
+    {
+      "word_index": 251,
+      "word": "疑いなく",
+      "issues": [
+        "词性标注错误：「疑いなく」在句中作副词性修饰语，词性（POS）应为「副」（副词），而非「名」（名词）。"
+      ]
+    },
+    {
+      "word_index": 256,
+      "word": "産む／生む",
+      "issues": [
+        "振假名格式不合规范：「産む／生む[うむ]」未按单个汉字标注，应为「産[う]む／生[う]む」。",
+        "目标词汇与例句用词脱节：原句使用了复合动词「生み出す」，未直接使用目标词「生む」，应修正为「生むことができる」。"
+      ]
+    },
+    {
+      "word_index": 259,
+      "word": "うんざり",
+      "issues": [
+        "例句句式结构生硬拗口：「山のように積まれてうんざりしている課題」存在主谓主格倒错与修饰节嵌套不自然的问题，改为主从复合句「山のように課題が積まれてうんざりしているが、……」更符合地道自然的日语表达习惯。"
+      ]
+    },
+    {
+      "word_index": 261,
+      "word": "演技",
+      "issues": [
+        "搭配存在严重语病（重言/二重表现）：「迫真に迫る」是将「迫真」与「真に迫る」错误混杂的常见误用，属于病句；应纠正为纯正地道的固定搭配「迫真の演技」。"
+      ]
+    },
+    {
+      "word_index": 272,
+      "word": "収める",
+      "issues": [
+        "Collocation error: 「栄冠を収める」 is not natural Japanese. In Japanese, 「栄冠」 collocates with 「輝く」「手にする」「勝ち取る」, whereas 「収める」 collocates with 「勝利」「成功」「好成績」 (e.g., 「勝利を収める」).",
+        "Typo in CombinationLogic: contains the garbled phrase '（～のなか为）' instead of '（～のなかで）'."
+      ]
+    },
+    {
+      "word_index": 277,
+      "word": "脅かす",
+      "issues": [
+        "Semantic and collocation error: 「脅かす（おどかす）」 means to startle/spook someone (jump scare) or threaten/intimidate someone. It cannot mean 'to pleasantly surprise' (「心地よく脅かす」 is nonsensical in Japanese).",
+        "Unnatural honorific usage: In business speeches, cracking a joke to warm up the room is never described as 「お脅かしになった」. To use 「脅かす」 naturally with the respectful form 「お～になる」, it should portray a lighthearted scene where a respected figure (such as a teacher or grandparent) playfully startles someone."
+      ]
+    },
+    {
+      "word_index": 278,
+      "word": "帯",
+      "issues": [
+        "Collocation and semantic mismatch: The sentence used 「帯の模様」 intending to mean 'band-shaped patterns' (带状纹样), but in Japanese 「帯の模様」 means 'the pattern ON an obi (kimono sash)'. Band-shaped patterns are 「帯状の模様」.",
+        "Artisan context error: A kimono maker (着物の職人) does not weave an obi or an obi's pattern; the obi is an independent woven garment produced by weavers (織物の職人). The sentence should directly feature weaving an authentic Japanese 「帯」 (sash)."
+      ]
+    },
+    {
+      "word_index": 281,
+      "word": "～下",
+      "issues": [
+        "Unnatural passive phrasing (不自然な受身): 「選手たちは基礎体力を徹底的に鍛えられた」 is awkward translation-ese modeled directly after Chinese '队员们被锻炼了体能'. In Japanese, 「鍛える」 directly trains the person or the physical attribute. In passive voice, it should naturally be 「選手たちは...鍛えられた」 without an awkward retention of 「基礎体力を」 as an unidiomatic passive object."
+      ]
+    },
+    {
+      "word_index": 302,
+      "word": "貸家",
+      "issues": [
+        "原句「古い貸家をリフォームして長く住んでほしい」在语用和主谓搭配上不自然：在日本通常由房东负责修缮翻新，要求租客自行翻修出租屋极其罕见；若原意为房东自己翻新并希望租客入住，则「リフォームして」与「住んでほしい」动作主体不一致，构成病句。修改为「古い貸家をきれいに使って長く住んでほしい」（希望爱护老旧出租屋并长期居住），符合生活常理与规范语法。"
+      ]
+    },
+    {
+      "word_index": 303,
+      "word": "過剰",
+      "issues": [
+        "原句「無駄な包装が過剰になっていく」存在语义重复的同义反复问题（「無駄な包装」本身已含有“多余、无用”的负面含义，再用「過剰になる」修饰略显拙劣）。地道的日语表达应为「商品の包装が過剰になっていく」（商品的包装变得过度/过剩）。"
+      ]
+    },
+    {
+      "word_index": 306,
+      "word": "合唱",
+      "issues": [
+        "Tags field contains an extraneous ' leech' tag, violating the required 'N3_4::Vocabulary N3_4::Grammar::<id>' format."
+      ]
+    },
+    {
+      "word_index": 313,
+      "word": "空手",
+      "issues": [
+        "Unnatural collocation / Chinese calque: In Japanese, visiting someone without bringing a gift is expressed as 「手ぶら」, whereas 「空手（からて）」 exclusively means karate (the martial art) or fighting bare-handed/unarmed (素手・徒手). Phrasing like 「空手でお邪魔して」 is unidiomatic Chinese interference."
+      ]
+    },
+    {
+      "word_index": 314,
+      "word": "為替",
+      "issues": [
+        "Tags field contains an extraneous ' leech' tag, violating the required 'N3_4::Vocabulary N3_4::Grammar::<id>' format."
+      ]
+    },
+    {
+      "word_index": 322,
+      "word": "消え行く",
+      "issues": [
+        "Unnatural phrasing: 「消え行きやすい」 is unnatural and non-standard Japanese. The literary aspectual verb 「消え行く」 does not conjugate with 「～やすい」.",
+        "Tags field contains an extraneous ' leech' tag, violating the required 'N3_4::Vocabulary N3_4::Grammar::<id>' format."
+      ]
+    },
+    {
+      "word_index": 324,
+      "word": "聞き上手",
+      "issues": [
+        "Furigana格式错误：原卡片「聞[]き上手[きじょうず]」中出现空括号且假名分配错误，应修正为「聞[き]き上手[じょうず]」。",
+        "搭配与自然度问题：原句「聞き上手になる予定だ」不自然。「聞き上手」是一种倾听素养或个人性格/沟通特质，而「～予定だ」用于客观日程或既定规划，将个人特质的养成直接用于「予定だ」违背母语者习惯。应改为在培训中学习成为倾听高手的要领「聞き上手になるためのコツを学ぶ予定だ」。"
+      ]
+    },
+    {
+      "word_index": 327,
+      "word": "傷口",
+      "issues": [
+        "语法与搭配不自然：「傷口が塞がる」属于着地性/结果性的瞬间变化动词短语，单个伤口的愈合不能使用表示能力/习惯转变的「～ようになる」（母语者会说「傷口が塞がってきた」或「塞がった」）。若要契合语法点「～ようになる」，应搭配可能动词表达伤口愈合后恢复行动能力，如「痛みを気にせず動けるようになった」。"
+      ]
+    },
+    {
+      "word_index": 330,
+      "word": "きめ細かい",
+      "issues": [
+        "汉字与词形错误：WordUsage字段中混入了简体字「细」（「きめ细かく」），必须修正为日文新字体「細」（「きめ細かく」）。",
+        "语法术语错误：GrammarUsage字段将「感じる」误标为“五段动词”，实际上「感じる」为一段动词（上一段活用：感じない、感じます、感じる）。"
+      ]
+    },
+    {
+      "word_index": 344,
+      "word": "金融",
+      "issues": [
+        "「金融管理」在日语中不是自然地道的商业搭配（企业内部资金运作通常称「財務管理」或「資金管理」；「金融」主要指资金融通、金融业、金融机构）。",
+        "为了体现「金融」在N3级别最地道核心的搭配「金融機関」，同时自然契合「～だらけ」，例句已调整为向金融机构提交的计划书漏洞百出的情境。"
+      ]
+    },
+    {
+      "word_index": 346,
+      "word": "潜る",
+      "issues": [
+        "「警備の目を潜る」不是地道搭配，日语常说「警戒の目を潜る」或「監視の目を潜る」；此外「監視カメラシステムを欺く」中，动词「欺く」通常以人或人心为宾语，对摄像头、安防系统应使用「ごまかす」或「逃れる」。"
+      ]
+    },
+    {
+      "word_index": 347,
+      "word": "鎖",
+      "issues": [
+        "词汇语境与搭配欠妥：在有看守（看守）和戴铁镣的场景中，身份应为「囚人」而非入室窃贼「泥棒」。",
+        "「足に鎖を巻く」表达不自然，铁链通常用「鎖をつける」或「鎖でつなぐ」；且「目を欺く」生硬，应作「目をごまかす」或「目を盗む」。"
+      ]
+    },
+    {
+      "word_index": 348,
+      "word": "くじ引き",
+      "issues": [
+        "Tags字段末尾包含非规范标识符' leech'，违反标签格式标准（应严格为'N3_4::Vocabulary N3_4::Grammar::<id>'）。",
+        "原句中「ふと懐かしいガラガラというくじ引きの音」语序略显拥挤，副词「ふと」与感知动词「聞こえてくる」更贴合自然。"
+      ]
+    },
+    {
+      "word_index": 349,
+      "word": "くしゃみ",
+      "issues": [
+        "Tags字段末尾包含多余标识' leech'，违反标签规范格式。"
+      ]
+    },
+    {
+      "word_index": 350,
+      "word": "苦情",
+      "issues": [
+        "语法搭配不当：在日语中「受け入れがたい」的接续主体应为要求、条件、态度或事实（如「要求は受け入れがたい」），原句「我慢することは受け入れがたい」属于生造句型（自己忍耐应表述为「我慢できない / 耐えがたい」）。已修正为面对无端投诉时对其内容“难以接受”。"
+      ]
+    },
+    {
+      "word_index": 351,
+      "word": "具体",
+      "issues": [
+        "搭配生硬：「～気味」直接接在四字熟语「机上の空論」后构成「机上の空論気味」极不自然。「～気味」通常接动词连用形（如「遅れ気味」）或简单名词（如「風邪気味」）。"
+      ]
+    },
+    {
+      "word_index": 352,
+      "word": "くたくた",
+      "issues": [
+        "Tags字段末尾包含多余标识' leech'，违反标签格式标准。"
+      ]
+    },
+    {
+      "word_index": 355,
+      "word": "くっつく",
+      "issues": [
+        "语法错误：「～一方だ」必须接在表示向某方向持续变化的动词辞书形之后（如「増える/悪化する/下がる」等变化动词）。「くっつく」是瞬间/状态动词，不存在「くっつく一方だ」的语法用法。应改为衣服贴在身上导致不快感「増す一方だ」。"
+      ]
+    },
+    {
+      "word_index": 356,
+      "word": "くつろぐ",
+      "issues": [
+        "Tags字段末尾包含多余标识' leech'，违反标签规范格式。"
+      ]
+    },
+    {
+      "word_index": 357,
+      "word": "クレーム",
+      "issues": [
+        "搭配不自然：「～かけ」接在汉字サ变动词后构成「対応しかけのまま」非常生硬不自然。～かけ最典型、自然的用法是接在固有动词后（如「書きかけの報告書」「やりかけの仕事」）。"
+      ]
+    },
+    {
+      "word_index": 361,
+      "word": "咥える",
+      "issues": [
+        "严重搭配/生造词错误：日语中根本不存在「咥え切る（くわえきる）」这种复合动词。「咥える」是持续含衔状态，不能与表示终结/彻底的「～切る」直接复合构词。应将「～切る」体现于地道的「逃げ切る（彻底摆脱追逐、逃脱到底）」。"
+      ]
+    },
+    {
+      "word_index": 365,
+      "word": "競馬",
+      "issues": [
+        "前半句使用口语并列助词「し」（購入してはならないし）与句末严肃正式的规程指示句型「～こと」在文体语调（レジスター）上存在冲突，读来不够协调。官方规定告示语境中应避免口语接续助词「し」，拆分为独立分句并用接续词「また」连接更为严谨自然。"
+      ]
+    },
+    {
+      "word_index": 384,
+      "word": "候補",
+      "issues": [
+        "原句「候補地は、...場所を選んでください」中，主题助词「は」与后续谓语「場所を選んでください」存在主宾指代不调和与重叠的不自然感。改为范围搭配助词「には」（候補地には、...場所を選んでください），句意更加通顺地道。"
+      ]
+    },
+    {
+      "word_index": 386,
+      "word": "コーラス",
+      "issues": [
+        "外来语片假名单词「コーラス」在无汉字的情况下，Furigana 与 Reading 字段应统一使用规范的片假名「コーラス」，避免使用平假名「こーらす」导致 Anki 振假名解析与显示错误。"
+      ]
+    },
+    {
+      "word_index": 387,
+      "word": "語学",
+      "issues": [
+        "语法搭配严重误用：JLPT N3 核心句型「～にかけては」后项必须接续对能力、技能的高度评价（如「一番だ」「誰にも負けない」「右に出る者はいない」），绝对不能后接一般性的劝告、法则或主观主张（如「〜が何よりも大切だ」「〜べきだ」）。原句违背了该语法的固有约束。"
+      ]
+    },
+    {
+      "word_index": 389,
+      "word": "国土",
+      "issues": [
+        "原句中「長年」与「最新のドローン」存在时间逻辑矛盾（既然是最新无人机，则不可能存在“长年”替代专家巡查的情形）。",
+        "单词「国土」在原句中仅作为专有名词「国土交通省」的一个构词成分，未真正体现「国土」（国家土地、疆土保全）本身的词汇意义与搭配。"
+      ]
+    },
+    {
+      "word_index": 391,
+      "word": "ここのところ",
+      "issues": [
+        "原句「ここのところにおける」极不自然：时间副词/口语化时间词「ここのところ」（近来、这阵子）与生硬书面语复合助词「における」在文体风格（语域）上冲突，地道日语从不使用「ここのところにおける」。应将「ここのところ」作为句首时间副词，而将「～において」用于修饰其天然搭配的名词（如「海外市場において」）。"
+      ]
+    },
+    {
+      "word_index": 393,
+      "word": "心得る",
+      "issues": [
+        "词汇搭配不自然：「相手の意見を心得る」不符合日语母语习惯。「心得る」表示深刻理解内情、懂得规矩或知晓分寸，其典型宾语搭配为「事情を心得る」「立場を心得る」「礼儀を心得る」，而非「意見を心得る」（对意见一般用「理解する」「把握する」）。应改为「相手の事情を心得ている」。"
+      ]
+    },
+    {
+      "word_index": 396,
+      "word": "こしらえる",
+      "issues": [
+        "Tags 字段包含多余的非法标记 \"leech\"，不符合规范 'N3_4::Vocabulary N3_4::Grammar::<id>'。"
+      ]
+    },
+    {
+      "word_index": 401,
+      "word": "骨",
+      "issues": [
+        "原句「基本の骨を中心に、初心者でも失敗しない魚のさばき方を...」存在极严重的语义混淆：在“杀鱼/处理鱼（魚のさばき方）”的语境下，汉字「骨」会让母语者瞬间联想到“鱼刺/鱼骨（ほね）”，而不是“诀窍（こつ）”。且在日语中“基本要领”常说「基本的なコツ/骨」，极少说「基本の骨」。应更换为不会产生鱼刺歧义的摄影技艺语境。"
+      ]
+    },
+    {
+      "word_index": 402,
+      "word": "国境",
+      "issues": [
+        "范畴归属逻辑错误：句型「AをはじめとするB」要求 A 必须是 B 这一范畴中具有代表性的成员（如「日本をはじめとするアジア諸国」）。原句「国境をはじめとする各地の検疫所」中，「国境（国界）」不是「検疫所（检疫所）」，属于明显的语病。应改为「国境をはじめとする国の重要拠点」（国界是国家重要关卡/据点之一）。"
+      ]
+    },
+    {
+      "word_index": 405,
+      "word": "零れる",
+      "issues": [
+        "Unnatural collocation: 水龙头漏水/流水在日语中通常表达为「水が漏れる」「漏れっぱなし」或「（出しっぱなしで）流れる」，而「零れる（こぼれる）」指容器满溢洒出、眼泪滴落或笑容流露。因此「蛇口が壊れて水が零れっぱなし」是不自然的搭配。应改为符合「零れる」与「～っぱなし」的纯正自然搭配（如感动时眼泪止不住流淌）。"
+      ]
+    },
+    {
+      "word_index": 406,
+      "word": "細やか",
+      "issues": [
+        "Unnatural collocation: 「細やかな情報」是不地道的搭配。「細やか（こまやか）」主要用于修饰情感、关怀、服务或细致入微的描摹（如「細やかな心遣い」「細やかな配慮」「細やかなサービス」）；而表示信息的详实细致时，日语通常用「細かい情報」或「詳細な情報」。"
+      ]
+    },
+    {
+      "word_index": 408,
+      "word": "小麦",
+      "issues": [
+        "Unnatural collocation: 「小麦さえあれば...フライパン一つで作れる」不自然。在料理烹饪场景中，用于制作面点食物的面粉是「小麦粉（こむぎこ）」，直接说「小麦（こむぎ）」指作为谷物原料的小麦农作物。若使用词汇「小麦」，应放在烘焙选料、农产种植或过敏源语境中才地道。"
+      ]
+    },
+    {
+      "word_index": 410,
+      "word": "娯楽",
+      "issues": [
+        "Unnatural phrasing: 「スマホの娯楽」属于直译调（Chinese-style phrasing），日语中很少直接说「スマホの娯楽」，通常表述为「スマホゲームなどの手軽な娯楽」或「ネットやゲームなどの娯楽」。"
+      ]
+    },
+    {
+      "word_index": 420,
+      "word": "境",
+      "issues": [
+        "Unnatural Japanese usage: 「人の成長には様々な境があり」是不符合日语惯用法的表达。「境（さかい）」指两个领域或状态之间的分界线（如「大人と子供の境」「生と死の境」「公私の境」）或转折点（～を境に）。人生或成长阶段中的节点通常称作「節目」或「転換期」，不能直接说「様々な境がある」。应改为地道的「大人と子供の境」等边界搭配。"
+      ]
+    },
+    {
+      "word_index": 421,
+      "word": "逆さ",
+      "issues": [
+        "Tag format violation: 'Tags' contains unauthorized trailing text ' leech'. Standards require strictly 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 422,
+      "word": "逆らう",
+      "issues": [
+        "Tag format violation: 'Tags' contains unauthorized trailing text ' leech'. Standards require strictly 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 424,
+      "word": "昨シーズン",
+      "issues": [
+        "振假名格式不规范：片假名无需注音，「昨シーズン[さくしーずん]」应修正为「昨[さく]シーズン」。"
+      ]
+    },
+    {
+      "word_index": 430,
+      "word": "殺人",
+      "issues": [
+        "词语搭配不当（中式伪友词）：「重篤」在日语中严格用于医学病症（如「重篤な患者」「重篤な症状」），形容严重罪行必须使用「重大な犯罪」或「凶悪な犯罪」。"
+      ]
+    },
+    {
+      "word_index": 433,
+      "word": "ざらざら",
+      "issues": [
+        "字段内容误填：Reading 与 Furigana 字段被错误填入词性「副・ナ形」，应更正为假名「ざらざら」。"
+      ]
+    },
+    {
+      "word_index": 436,
+      "word": "さんざん",
+      "issues": [
+        "字段内容误填：Reading 与 Furigana 字段被错误填入词性「ナ形」，应更正为假名「さんざん」。"
+      ]
+    },
+    {
+      "word_index": 442,
+      "word": "視線",
+      "issues": [
+        "搭配不自然（直译调）：「手元を整える」并非地道日语动宾搭配（手元一般指手边物品或手部动作，不能直接与「整える」搭配表示调整发抖的手）。平复颤抖的手应为「震える手を落ち着かせて」或「震える手元を落ち着かせて」。"
+      ]
+    },
+    {
+      "word_index": 449,
+      "word": "躾",
+      "issues": [
+        "コロケーションの不自然さ：「礼儀正しい」は人や態度・振る舞いを修飾する語であり、「躾（しつけ）」そのものを修飾して「礼儀正しい躾」とするのは不自然。「礼儀作法の躾」または「きちんとした躾」とするのが自然。"
+      ]
+    },
+    {
+      "word_index": 452,
+      "word": "執筆",
+      "issues": [
+        "Tags格式错误：Tags末尾多出了不符合规范的 ' leech' 标记，必须严格符合 'N3_4::Vocabulary N3_4::Grammar::<id>' 规范。"
+      ]
+    },
+    {
+      "word_index": 455,
+      "word": "しとしと",
+      "issues": [
+        "词性（POS）错误：「しとしと」为拟态副词，绝非及物动词（他動3），标注为「副・他動3」有误，应修正为「副」。"
+      ]
+    },
+    {
+      "word_index": 458,
+      "word": "地盤",
+      "issues": [
+        "汉字字体非日本新字体：例句中的「補强工事」使用了非标准新字体汉字「强」（U+5F3A），应更正为日本常用新字体「強」（U+5F37），即「補強工事」。"
+      ]
+    },
+    {
+      "word_index": 466,
+      "word": "弱点",
+      "issues": [
+        "「充電の減りが早い」是近年来年轻人口语中的俗用/误用表达（充電是充电动作，电量减少应用「バッテリー/電池の減り」）。在搭配「こちらの新製品にも…弱点がございます」这种正式商务郑重语（丁寧語・謙譲語）语境下，夹杂「充電の減り」显得文体不调和且不规范，应改为地道规范的「バッテリーの減りが早い」。"
+      ]
+    },
+    {
+      "word_index": 470,
+      "word": "しゃぶる",
+      "issues": [
+        "原句「親の安心感と愛情」属于中文直译式生硬表达（中文常说“给予孩子安全感”，但日语中「親の安心感」指“父母自己感到安心/放心”，无法表达父母给予孩子的安全感）。在育儿心理学和日常表达中，应表述为父母给予的「温かい愛情とスキンシップ」（温暖的爱与肢体安抚）更为地道自然。"
+      ]
+    },
+    {
+      "word_index": 472,
+      "word": "洒落る",
+      "issues": [
+        "助词搭配不当：原句「パーティーで着ていく」中，「着ていく」含有趋向动词「いく」，其表示活动、宴会等目的地或出席场合时，正统且自然的格助词应为「に」（即「パーティーに着ていく」），而非表示动作场所的「で」。"
+      ]
+    },
+    {
+      "word_index": 474,
+      "word": "周囲",
+      "issues": [
+        "语法与词汇搭配严重不自然：日语中动词「見回る」属于和语复合动词，母语者极少使用「お見回りいたします」这种生硬别扭的造词。职场或活动运营中，检查确认周边安全的标准地道用语为「確認いたします」或「点検いたします」。"
+      ]
+    },
+    {
+      "word_index": 480,
+      "word": "収支",
+      "issues": [
+        "搭配不当：日语中「つける（付ける）」的搭配对象通常是账本、记录册（如「家計簿をつける」「出納帳をつける」），而一般不直接与抽象概念「収支」搭配为「収支の付け方」。梳理和汇总每月的收支，最地道规范的搭配是「収支のまとめ方」或「収支の管理の仕方」。"
+      ]
+    },
+    {
+      "word_index": 494,
+      "word": "出生",
+      "issues": [
+        "原句中「申請には……書類までは提出しなくてもいいです」助词叠加略显生硬（には…までは），且在无上下文对比基准时单独使用「までは」显得突兀，与中文译文（未出现“甚至/连……都无需”的语气）也不完全契合。调整为「申請では……書類は提出しなくてもいいです」更为简洁自然、规范地道。"
+      ]
+    },
+    {
+      "word_index": 497,
+      "word": "循環",
+      "issues": [
+        "搭配不当与语法生硬：「循環する」表达空气流通时为自动词（空気が循環する），人为使其流通需使用使役态（循環させる）；且将「循環」与敬语动词「なさる」生硬组合为「空気を循環なさる」完全不符合母语者表达习惯（人并非“循环”的主体）。",
+        "修改方案：采用母语者最地道的生理健康搭配「血液の循環を良くする」，并将敬语句型「～なさる」施加于动作「運動をなさる」，表达老师每天为了促进血液循环而适度运动，既自然使用了词汇「循環」，又规范展示了语法「～なさる」。"
+      ]
+    },
+    {
+      "word_index": 500,
+      "word": "仕様",
+      "issues": [
+        "语法错误：表示目的、用途或评价基准的「～のに（1）」后项不能接纯主观意志动作动词（如「説明書を作った」），这是日语初中级语法中「～のに」与「～ために」的严格区别。「～のに」后项必须接表示评价、效用、必要性或花费的词（如「役に立つ」「必要だ」「時間がかかる」等）。",
+        "修改方案：将后半句的谓语调整为表示效用/评价的「説明書がとても役に立った」，使「～のに」与后项谓语构成地道合规的搭配。"
+      ]
+    },
+    {
+      "word_index": 506,
+      "word": "障害者",
+      "issues": [
+        "语法句型标明为「～おわる（終わる）」，但例句中使用了他动词复合形态「読み終えました（終える）」。为了与目标语法点「～おわる」严格对应，应修正为「読み終わりました」，并同步订正文法解说。"
+      ]
+    },
+    {
+      "word_index": 517,
+      "word": "勝敗",
+      "issues": [
+        "GrammarUsage中误将「不安（ふあん）」描述为“イ形容词「不安」这一词干后（作为ナ形容词/形容动词词干）”，属于词性认知矛盾与笔误。「不安」是标准的ナ形容词（形容动词），无イ形容词用法。"
+      ]
+    },
+    {
+      "word_index": 519,
+      "word": "賞品",
+      "issues": [
+        "「大会の棚」搭配不自然。大会为抽象赛事活动，不可用所有格直接搭配「棚」。应修改为「会場に並べられた豪華な賞品」或「会場のテーブルに並べられた」，使场景表达地道自然。"
+      ]
+    },
+    {
+      "word_index": 527,
+      "word": "女王",
+      "issues": [
+        "原句「国中の名医が集まって（女王のために）新しい薬を作ってあげた」存在明显的语用地位失衡（敬度矛盾）。在日语中，「～てあげる」表示施惠动作，臣民或名医对一国君主「女王」不能使用「作ってあげた」，即使在第三人称叙述中也显得不自然、不合礼仪。若要自然体现「女王」与「～てあげる」的搭配，主语宜调整为地位平等的人物（如邻国国王），表达君主互助的情谊。"
+      ]
+    },
+    {
+      "word_index": 546,
+      "word": "私立",
+      "issues": [
+        "「願書を郵便局から提出する」搭配不自然。在日语中，向学校提交材料应为「願書を（学校に）提出する」，而通过邮局寄送通常使用「郵便局から郵送する／郵便局で出す」。若保留谓语「提出するところだ」，改为「まさにこれから提出するところだ」更为自然地道。"
+      ]
+    },
+    {
+      "word_index": 553,
+      "word": "シングル",
+      "issues": [
+        "原句「いつも予約しているような落ち着いたシングルルーム」表意生硬且不符合自然日语表达（若指平时常订的那种，一般说「いつもの」）。展示「～ような」的属性例示功能时，用「仕事に集中できるような落ち着いたシングルルーム」（能够集中精力工作的舒适单人间）更加地道自然。"
+      ]
+    },
+    {
+      "word_index": 555,
+      "word": "真剣",
+      "issues": [
+        "「目標を叶える」属于日语中典型的搭配误用（誤用コロケーション）。日语中「叶える」通常与「夢」「願い」搭配（「夢を叶える」），而「目標」对应的动词应为「達成する」「果たす」。此处改为「将来の夢を叶えるために」更符合地道日语表达习惯。"
+      ]
+    }
+  ]
+}

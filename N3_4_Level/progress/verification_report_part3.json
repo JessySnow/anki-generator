@@ -1,0 +1,353 @@
+{
+  "timestamp": "2026-09-11T05:57:04Z",
+  "model": "gemini-3.8-flash",
+  "total_cards_scanned": 140,
+  "deterministic_issues_found": 0,
+  "passes_executed": 4,
+  "total_cards_revised": 47,
+  "revisions": [
+    {
+      "word_index": 293,
+      "word": "欠く",
+      "issues": [
+        "原句「現実味を欠きすぎていて」中将「欠く」强行与「〜すぎる」复合，属于不自然的不规范日语搭配。「欠く」表示缺乏某项要素的状态，在语义上无法作为标量动作直接与「すぎる」结合构成「欠きすぎる」。应当让「欠く」保持其地道的「現実味を欠いている」搭配，并将「〜すぎる」自然施加在具有程度梯度的动作（如「楽観的に考えすぎる」）上。"
+      ]
+    },
+    {
+      "word_index": 303,
+      "word": "過剰",
+      "issues": [
+        "原句中「無駄な包装が過剰になっていく」存在语义重叠（「無駄な包装」与「過剰」均含多余、浪费之意，搭配略显冗余不自然）。修改为自然规范的搭配「商品の包装が過剰になっていく」。"
+      ]
+    },
+    {
+      "word_index": 306,
+      "word": "合唱",
+      "issues": [
+        "Tags字段格式不符合规范，多出了Anki的'leech'标记，需严格修正为'N3_4::Vocabulary N3_4::Grammar::80'。"
+      ]
+    },
+    {
+      "word_index": 313,
+      "word": "空手",
+      "issues": [
+        "Collocation and phrasing error: 「空手でお邪魔して」 is unnatural translation-ese influenced by Chinese (日中干渉). In Japanese, visiting someone empty-handed without a gift is idiomatically expressed as 「手ぶらでお邪魔する / 手ぶらで伺う」. 「空手（からて）」 is used either for unarmed combat (素手・徒手) or returning empty-handed without achieving results (「空手で帰る / 空手で戻る」).",
+        "The sentence should be revised to authentic native usage of 「空手で帰る」 paired naturally with 「〜てすみません」."
+      ]
+    },
+    {
+      "word_index": 314,
+      "word": "為替",
+      "issues": [
+        "Tags format violation: contains an extra suffix ' leech', which violates the required standard format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 322,
+      "word": "消え行く",
+      "issues": [
+        "Unnatural phrasing: 「消え行きやすい」 is an unnatural, non-idiomatic compound verb form. 「消え行く」 is an aspectual, literary verb; native speakers do not conjugate it with 「〜やすい」 directly.",
+        "Tags format violation: contains an extra suffix ' leech', which violates the required standard format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 324,
+      "word": "聞き上手",
+      "issues": [
+        "Furigana formatting error: '聞[]き上手[きじょうず]' contains empty brackets '聞[]' and erroneous furigana assignment. The standard format is '聞[き]き上手[じょうず]'.",
+        "Unnatural phrasing: '聞き上手になる予定だ' is unnatural because '〜予定だ' signifies an objective schedule or pre-arranged plan, not an internal personal attitude or resolution. A natural context is scheduling attendance at a training course designed to become a good listener."
+      ]
+    },
+    {
+      "word_index": 327,
+      "word": "傷口",
+      "issues": [
+        "原句「傷口がようやく塞がるようになった」在日语中表达不自然。「塞がる」为瞬间结果变化动词，对于单次具体的创口闭合，原生表达通常为「傷口が塞がった」或「塞がってきた」；「～ようになる」常用于表示通过锻炼或康复获得的能力或习惯变化（如「歩けるようになった」「動かせるようになった」），修饰单次伤口自然闭合存在语感偏差。",
+        "将句子优化为外伤护理后痛感消退、恢复活动能力的自然语境「毎日薬を塗り続けたおかげで、傷口の痛みが治まり、普段通り歩けるようになった。」，使「傷口」与「～ようになる」的搭配更为地道规范。"
+      ]
+    },
+    {
+      "word_index": 330,
+      "word": "きめ細かい",
+      "issues": [
+        "Tags字段末尾含有非标准的冗余标记「leech」，不符合规范格式「N3_4::Vocabulary N3_4::Grammar::<id>」。",
+        "WordUsage中混入了简体中文汉字「细」（「きめ细かく」），应修正为日文新字体「細」（「きめ細かく」）。",
+        "GrammarUsage中误将一段动词「感じる」表述为「五段动词」，存在语法学常识错误，应更正为「一段动词（上一段动词）」。"
+      ]
+    },
+    {
+      "word_index": 337,
+      "word": "境界",
+      "issues": [
+        "Tags字段末尾含有非标准的冗余标记「leech」，违反了格式标准「N3_4::Vocabulary N3_4::Grammar::<id>」。"
+      ]
+    },
+    {
+      "word_index": 342,
+      "word": "居住",
+      "issues": [
+        "Tags field contained an extraneous tag 'leech', violating the required format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 344,
+      "word": "金融",
+      "issues": [
+        "Unnatural collocation: 「金融管理」 is unnatural Chinese-influenced Japanese (直訳・不自然なコロケーション). In Japanese, internal corporate bookkeeping/cash management is referred to as 「資金管理」 or 「財務管理」; 「金融」 refers to the financial system, banking/loans, or the financial industry.",
+        "Revised the sentence to natural business Japanese combining 「金融（金融業界）」 with 「～だらけ」, describing a report overwhelmed with obscure jargon."
+      ]
+    },
+    {
+      "word_index": 346,
+      "word": "潜る",
+      "issues": [
+        "Unnatural collocations: 「警備の目を潜る」 is unnatural (idiomatically it is either 「警備の目をかいくぐる／盗む」 or 「包囲網／網を潜る」). Additionally, 「カメラシステムを欺く」 is unnatural translation-ese (one deceives people/eyes, while from camera systems one escapes: 「カメラから逃れる」).",
+        "Revised the sentence to idiomatic Japanese: 「警備の包囲網を潜っても、最新の監視カメラから逃れることは絶対に不可能だ」."
+      ]
+    },
+    {
+      "word_index": 347,
+      "word": "鎖",
+      "issues": [
+        "Unnatural phrasing: 「泥棒」 does not fit a setting with a prison guard (「看守」); in prison, the person is a 「囚人」.",
+        "Unnatural collocation: 「足に重い鎖を巻かれている」 is unidiomatic; chains on feet are fastened or attached (「足に重い鎖をつけられている」 or 「鎖でつながれている」)."
+      ]
+    },
+    {
+      "word_index": 348,
+      "word": "くじ引き",
+      "issues": [
+        "Tags field contained an extraneous tag 'leech', violating the required format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 349,
+      "word": "くしゃみ",
+      "issues": [
+        "Tags field contained an extraneous tag 'leech', violating the required format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 352,
+      "word": "くたくた",
+      "issues": [
+        "Tags field contained an extraneous tag 'leech', violating the required format 'N3_4::Vocabulary N3_4::Grammar::<id>'."
+      ]
+    },
+    {
+      "word_index": 355,
+      "word": "くっつく",
+      "issues": [
+        "「〜一方だ」接续要求表示变化的动词（如「増える」「悪化する」等），表示某种趋势持续加剧。「くっつく」本身是瞬间/结果状态动词，不具备持续递变性，「服がくっつく一方だ」在日语中表达不自然。"
+      ]
+    },
+    {
+      "word_index": 357,
+      "word": "クレーム",
+      "issues": [
+        "原句「激しいクレームに対応しかけのまま...席を外した」语境不合理且搭配生硬；面对正在激烈投诉的顾客，不可能“应对到一半丢下顾客离席”，且サ变动词生造「対応しかけ」极为生硬，通常会使用「やりかけ」或具体动作如「書きかけ」。"
+      ]
+    },
+    {
+      "word_index": 361,
+      "word": "咥える",
+      "issues": [
+        "日语中不存在「咥え切る」这一复合动词。「咥える」表示嘴里叼着的动作或状态，与表示“做到底/完全消耗完”的「〜切る」在语义上无法结合，属于不自然的生造词。"
+      ]
+    },
+    {
+      "word_index": 374,
+      "word": "限界",
+      "issues": [
+        "Tagsフィールドに不要な「leech」が含まれており、指定フォーマット（'N3_4::Vocabulary N3_4::Grammar::<id>'）に違反しています。"
+      ]
+    },
+    {
+      "word_index": 375,
+      "word": "見当",
+      "issues": [
+        "Tagsフィールドに不要な「leech」が含まれており、指定フォーマット（'N3_4::Vocabulary N3_4::Grammar::<id>'）に違反しています。"
+      ]
+    },
+    {
+      "word_index": 378,
+      "word": "好況",
+      "issues": [
+        "Tagsフィールドに不要な「leech」が含まれており、指定フォーマット（'N3_4::Vocabulary N3_4::Grammar::<id>'）に違反しています。"
+      ]
+    },
+    {
+      "word_index": 384,
+      "word": "候補",
+      "issues": [
+        "原句「候補地は、...場所を選んでください」は主題（候補地は）と述語側の目的語（場所を）の間で意味が重複し、文のねじれが生じていて不自然です。「候補地には（〜としては）」とすることで文法構造が明瞭で自然な日本語になります。"
+      ]
+    },
+    {
+      "word_index": 387,
+      "word": "語学",
+      "issues": [
+        "语法搭配不自然：JLPT N3/N2 句型「～にかけて（は）」要求后项表达“高度评价、出类拔萃、充满自信、无人能及”等内容（如「誰にも負けない」「一番だ」），不能后接「～が大切だ / ～が必要だ」这类提出要求或建议的表达。"
+      ]
+    },
+    {
+      "word_index": 389,
+      "word": "国土",
+      "issues": [
+        "词汇用法不当：原句将目标词「国土」单纯作为专有名词「国土交通省」的前缀使用，未能体现该词作为独立词汇（国土、国家领土）的实际语义与用法。",
+        "逻辑语义矛盾：「長年（多年来）」与「最新のドローン（最新型的无人机）」在时态与时间跨度上存在语义冲突。"
+      ]
+    },
+    {
+      "word_index": 391,
+      "word": "ここのところ",
+      "issues": [
+        "语体冲突与搭配不自然：「ここのところ」为口语偏口头表达的时间词，直接接续高度书面语化的定语助词复合形「における」（构成「ここのところにおける市場の...」）在自然日语中语体极不协调。"
+      ]
+    },
+    {
+      "word_index": 393,
+      "word": "心得る",
+      "issues": [
+        "搭配不自然：「心得る」的核心意义是“领悟要领、通晓规矩、深刻明白自己的立场或内情”（如「要領を心得る」「立場を心得る」「事情を心得る」），日语中不搭配「相手の意見を心得る」（对对方意见通常使用「理解する」「承知する」）。"
+      ]
+    },
+    {
+      "word_index": 396,
+      "word": "こしらえる",
+      "issues": [
+        "标签格式错误：Tags 字段包含非标准标签 'leech'，未严格遵循 'N3_4::Vocabulary N3_4::Grammar::<id>' 的规范格式。"
+      ]
+    },
+    {
+      "word_index": 401,
+      "word": "骨",
+      "issues": [
+        "搭配与语境冲突：在教授「魚のさばき方（处理鱼类的方法）」的语境中使用「骨（こつ）」极不自然，极易与鱼骨「骨（ほね）」发生混淆。",
+        "搭配生硬：「基本の骨」不是自然日语表达，一般说「料理の骨［こつ］」「上達の骨［こつ］」。",
+        "词义混杂：单独作为名词且读作「こつ」时，在N3核心语义中专指“诀窍、要领”，不宜在释义中混入「ほね」的骨骼、骨头释义。"
+      ]
+    },
+    {
+      "word_index": 402,
+      "word": "国境",
+      "issues": [
+        "范畴逻辑错误：「AをはじめとするB」要求A必须是B的下属典型范例（例如「東京をはじめとする大都市」）。而「国境」是国界线，并不是「検疫所（检疫所）」，属于语义范畴错配。"
+      ]
+    },
+    {
+      "word_index": 405,
+      "word": "零れる",
+      "issues": [
+        "动词搭配不自然：「蛇口（水龙头）」坏了流出水，日语通常用「水が出しっぱなし」「水が漏れっぱなし」或「水が流れっぱなし」。「零れる」表示液体从容器中溢出、洒落（如杯子溢出、撒在桌上），不能直接形容水龙头持续出水。"
+      ]
+    },
+    {
+      "word_index": 406,
+      "word": "細やか",
+      "issues": [
+        "词汇搭配误用：「細やか（こまやか）」主要用于形容人的情意、体贴、周到，典型搭配是「細やかな気配り」「細やかな配慮」「細やかな心遣い」，或者织物、皮肤细腻。形容信息“详细、细致”必须用「細かい情報」或「詳しい情報」，「細やかな情報」是不符合母语习惯的生硬拼凑。"
+      ]
+    },
+    {
+      "word_index": 408,
+      "word": "小麦",
+      "issues": [
+        "常识与搭配不自然：烹饪烹调使用的是面粉「小麦粉（こむぎこ）」，日语中不会说「料理は小麦さえあれば作れる」（这听起来像是直接拿麦粒烹饪）。若保留「小麦（こむぎ）」一词，最纯正地道的日常应用是食品过敏成分（アレルギー表示）的语境。"
+      ]
+    },
+    {
+      "word_index": 410,
+      "word": "娯楽",
+      "issues": [
+        "搭配不自然：「スマホの娯楽」属于直接硬译中文“手机娱乐”的生硬表达，母语者通常说「ゲームなどの娯楽」或「娯楽に夢中になりすぎて」。"
+      ]
+    },
+    {
+      "word_index": 417,
+      "word": "再三",
+      "issues": [
+        "In spoken Japanese, ending a direct piece of advice bluntly with bare plain form「改めたらいい。」sounds cold, curt, and unnatural (typical translation-ese). Adding the sentence-ending particle「よ」(「改めたらいいよ」) makes the advice sound natural, warm, and authentic to native ears, aligning with the grammar explanation's stated nuance (温和・親切)."
+      ]
+    },
+    {
+      "word_index": 418,
+      "word": "在籍",
+      "issues": [
+        "Pragmatic violation of Japanese 内外 (uchi-soto) business etiquette: When speaking on behalf of one's own institute (「当研究所」,「不在にしております」) to an outsider, referring to one's own colleague as「あの優秀な研究員」is unnatural and improper because praising an in-group member to an outsider violates Japanese modesty norms. Using「その研究員」is natural and correct.",
+        "Keigo and stylistic consistency: In business reception language directed outside, mixing「在籍していますが」(丁寧語) with「不在にしております」(謙譲語) within the same clause is inconsistent. Both should use appropriate humble/polite forms (「在籍しておりますが」), and「あいにく」is much more idiomatic than「今は」when followed by「不在にしております」。"
+      ]
+    },
+    {
+      "word_index": 313,
+      "word": "空手",
+      "issues": [
+        "In modern Japanese, returning empty-handed is expressed as 「手ぶらで帰る」, never 「空手で帰る」 (which is an unnatural direct calque of Chinese '空手而归' and sounds bizarrely like practicing Karate on the way home).",
+        "In the JLPT syllabus, 「空手（からて）」 exclusively tests the traditional Japanese martial art (Karate). The example sentence should reflect this authentic lexical usage."
+      ]
+    },
+    {
+      "word_index": 346,
+      "word": "潜る",
+      "issues": [
+        "Collocation issue: 「警備の包囲網を潜る」 is an unnatural conflation. In authentic Japanese, 「包囲網」 collocates with 「突破する/狭める」, whereas 「潜る（くぐる）」 naturally pairs with cordons and surveillance nets like 「警戒網を潜る」 or 「監視の目を潜る」."
+      ]
+    },
+    {
+      "word_index": 391,
+      "word": "ここのところ",
+      "issues": [
+        "Meaning 字段释义错误：将「ここのところ（最近、近来、这阵子）」错误混同为「今のところ（目前、暂时）」，且与卡片自身的例句翻译（“近来”）及词汇用法说明发生矛盾。"
+      ]
+    },
+    {
+      "word_index": 401,
+      "word": "骨",
+      "issues": [
+        "「料理の骨」搭配严重失谐：当「骨」取「こつ（诀窍、要领）」之意时，通常写为假名「コツ」；若直接写成汉字「料理の骨」，母语者第一直觉会理解为食物烹饪中的“动物骨头/鱼刺（ほね）”，极易产生歧义与别扭感。应明确搭配对象为无物理骨骼属性的事物（如「味付けや火加減の骨」）以确保句意地道、毫无歧义。"
+      ]
+    },
+    {
+      "word_index": 402,
+      "word": "国境",
+      "issues": [
+        "原句「国境をはじめ、全国の主要な空港や港では…」中，「全国」通常特指本国（日本），但日本作为岛国并无陆地接壤的「国境」关口，两者并用在地理认知与语感上产生明显矛盾与违和感。若指代其他大陆国家，应明确添加主语「その国では、隣国との国境をはじめ…」以确保句子自然严谨。"
+      ]
+    },
+    {
+      "word_index": 405,
+      "word": "零れる",
+      "issues": [
+        "动词接续与语法搭配不当：对于洒在桌上的咖啡，日语中表示“打翻后置之不理”应使用他动词构成的「こぼしっぱなし」或状态存续「こぼれたまま」；自动词「零れる」为瞬间状态变化动词，接「～っぱなし」不能用于静止残留的液体，而多用于泪水等连续不断流淌的持续状态（如惯用表达「涙が零れっぱなし」）。原句「コーヒーが零れっぱなしになっている」属于不自然搭配。"
+      ]
+    },
+    {
+      "word_index": 406,
+      "word": "細やか",
+      "issues": [
+        "主谓与语境搭配不合逻辑：「案内所」是指实体的问讯处或接待点，不能作为被形容为「手書きの地図で少し素人っぽい（带有手绘地图而略显外行）」的主体；实际语境中被手绘地图修饰的应为旅馆发放的宣传小册子或指南，即「案内パンフレット」或「館内案内」。"
+      ]
+    },
+    {
+      "word_index": 417,
+      "word": "再三",
+      "issues": [
+        "语用与语气搭配欠自然：「少しは～改めたらいいよ」存在语气冲突。「少しは」带有责备、催促意味（“好歹改变一点”），而「～たらいいよ」主要用于轻松温和地提供可行建议（“不妨……”、“只要……就行”），二者拼合显得不伦不类。改为「まずは運動習慣から改めたらいいよ」，以「まずは…から」配合「～たらいいよ」，形成提议先从某一步入手的地道劝告表达。"
+      ]
+    },
+    {
+      "word_index": 346,
+      "word": "潜る",
+      "issues": [
+        "コロケーションの不自然さ：日本語において「警戒網」を修飾する形容詞として「厳しい」は不自然です。「厳しい」は「警戒」や「監視」そのものを修飾する語（厳しい警戒・監視）であり、「網」には「厳重な警戒網」とするのが極めて自然で本物のコロケーションです。"
+      ]
+    },
+    {
+      "word_index": 417,
+      "word": "再三",
+      "issues": [
+        "コロケーションの不自然さ：動詞「改める」は「生活習慣を改める」のように用いるのが標準的で地道なコロケーションです。「運動習慣」は通常「身につける」「始める」「定着させる」と共起し、「運動習慣から改める」とすると、すでにある運動習慣に不備があってそれを改めるという不自然なニュアンスが生じます。医師から健康診断で注意された文脈には「生活習慣から改める」が最も適切です。"
+      ]
+    }
+  ]
+}

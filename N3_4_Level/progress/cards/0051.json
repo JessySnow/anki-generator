@@ -1,0 +1,19 @@
+{
+  "word_index": 51,
+  "guid": "wi/e&dYbQ%",
+  "Word": "それに",
+  "Reading": "それに",
+  "Furigana": "それに",
+  "POS": "接続",
+  "Meaning": "而且",
+  "Sentence": "「この電車は平日の朝なら三分おきに走っていますし、それに終電の時間も遅いのでとても便利です。」",
+  "SentenceTranslation": "“这趟电车工作日早晨每隔三分钟就有一趟，而且末班车的时间也很晚，所以非常方便。”",
+  "WordUsage": "「それに」在句中充当递进连词，连接两个并列的优势陈述，进一步加强论证说服力。",
+  "GrammarPattern": "～おきに",
+  "GrammarMeaning": "表示时间或空间等间隔规律反复呈现，“每隔……便……”",
+  "GrammarUsage": "接在时间量词「三分」后构成间隔频次状语「三分おきに」，表示以固定周期高频开行。",
+  "CombinationLogic": "先以「三分おきに」说明电车早高峰发车频次极高，再借递进连词「それに」追加末班车很晚的便利条件，双重论证城市交通的便捷性。",
+  "WordAudio": "",
+  "SentenceAudio": "",
+  "Tags": "N3_4::Vocabulary N3_4::Grammar::52 from_v1"
+}
