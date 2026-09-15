@@ -17,8 +17,6 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / 'scripts'))
 
-from pipeline_lib import generate_furigana
-
 DEFAULT_DECK_PATH = REPO_ROOT / 'Deck_2' / 'deck.txt'
 DEFAULT_CARDS_DIR = REPO_ROOT / 'Deck_2' / 'progress' / 'cards'
 
@@ -40,6 +38,20 @@ COLUMNS = [
     "CombinationLogic",
     "Tags",
 ]
+
+KANJI_RE = re.compile(r"[\u4e00-\u9fff]")
+KANA_RE = re.compile(r"^[\u3040-\u309F\u30A0-\u30FF\u30FC\u30FB\uFF5E\u301C~〜・/／\s\-－\u3001\u3002\u2015？！\?!…]+$")
+
+STANDARD_POS = {
+    "名", "五段", "一段", "サ変", "カ変", "他動", "自動", "他動1", "他動2", "他動3",
+    "自動1", "自動2", "自動3", "自他動1", "自他動2", "自他動3", "名・他動3", "名・自動3",
+    "名・自他動3", "イ形", "ナ形", "名・ナ形", "副", "副・ナ形", "代", "接", "感", "量",
+    "接頭", "接尾", "連体", "連語", "表現", "挨拶", "慣用", "固有名詞", "助詞", "助動詞",
+    "代・疑問", "副・疑問", "名・量", "名・副", "連体・名", "副・接", "連語・他動",
+    "自他動", "連語・自動", "接・副", "ナ形・副", "ナ形・感", "名・形動・自動3",
+    "名・ナ形・副", "名・感", "名・他動3・ナ形", "ナ形・自他動3", "名・動", "動",
+    "副・名", "名・ナ形・自動3", "名・接尾", "副・自動3", "接・連語", "他動・サ変"
+}
 
 SIMPLIFIED_CHINESE_CHECK = {
     '发': '発', '关': '関', '气': '気', '开': '開', '门': '門',
@@ -81,8 +93,13 @@ def check_card_agent(card: dict[str, Any], index: int) -> list[str]:
     word = str(card.get("Word", "")).strip()
     reading = str(card.get("Reading", "")).strip()
     furigana = str(card.get("Furigana", "")).strip()
+    pos = str(card.get("POS", "")).strip()
+    meaning = str(card.get("Meaning", "")).strip()
     sentence = str(card.get("Sentence", "")).strip()
+    trans = str(card.get("SentenceTranslation", "")).strip()
+    g_pat = str(card.get("GrammarPattern", "")).strip()
 
+    # 1. Required fields
     if not guid:
         issues.append(f"Card #{index:04d}: Missing GUID")
     if not word:
@@ -91,24 +108,64 @@ def check_card_agent(card: dict[str, Any], index: int) -> list[str]:
         issues.append(f"Card #{index:04d}: Missing Reading")
     if not sentence:
         issues.append(f"Card #{index:04d}: Missing Sentence")
+    if not meaning:
+        issues.append(f"Card #{index:04d}: Missing Meaning")
+    if not trans:
+        issues.append(f"Card #{index:04d}: Missing SentenceTranslation")
+    if not g_pat:
+        issues.append(f"Card #{index:04d}: Missing GrammarPattern")
 
-    # Audio Drop Policy
+    # 2. Audio Drop Policy
     if card.get("WordAudio", "") != "":
         issues.append(f"Card #{index:04d}: WordAudio must be empty")
     if card.get("SentenceAudio", "") != "":
         issues.append(f"Card #{index:04d}: SentenceAudio must be empty")
 
-    # Furigana format check
-    if furigana and "[" in furigana:
-        if not re.search(r"[一-龥々ヶ]+\[[^\]]+\]", furigana):
+    # 3. HTML tag check
+    if "<" in word or ">" in word:
+        issues.append(f"Card #{index:04d}: HTML found in Word: '{word}'")
+    if "<" in reading or ">" in reading:
+        issues.append(f"Card #{index:04d}: HTML found in Reading: '{reading}'")
+    if "<" in furigana or ">" in furigana:
+        issues.append(f"Card #{index:04d}: HTML found in Furigana: '{furigana}'")
+    if "<" in sentence or ">" in sentence:
+        issues.append(f"Card #{index:04d}: HTML found in Sentence: '{sentence}'")
+
+    # 4. Word format check
+    if any(b in word for b in "()（）[]"):
+        issues.append(f"Card #{index:04d}: Stray brackets in Word: '{word}'")
+    if " " in word or "　" in word:
+        issues.append(f"Card #{index:04d}: Space found in Word: '{word}'")
+
+    # 5. Reading format check
+    if KANJI_RE.search(reading):
+        issues.append(f"Card #{index:04d}: Kanji found in Reading: '{reading}'")
+    if any(b in reading for b in "()（）[]"):
+        issues.append(f"Card #{index:04d}: Stray brackets in Reading: '{reading}'")
+    if not KANA_RE.match(reading):
+        issues.append(f"Card #{index:04d}: Non-kana characters in Reading: '{reading}'")
+
+    # 6. Furigana format check
+    if "[" in furigana or "]" in furigana:
+        if furigana.count("[") != furigana.count("]"):
+            issues.append(f"Card #{index:04d}: Mismatched Furigana brackets in '{furigana}'")
+        if "[]" in furigana:
+            issues.append(f"Card #{index:04d}: Empty brackets '[]' in Furigana '{furigana}'")
+        if re.search(r"\[\s+[^\]]+\]|\[[^\]]+\s+\]", furigana):
+            issues.append(f"Card #{index:04d}: Whitespace inside Furigana brackets in '{furigana}'")
+        if not re.search(r"[一-龥々ヶA-Za-z0-9~～\-－]+\[[^\]]+\]", furigana):
             issues.append(f"Card #{index:04d}: Malformed Furigana '{furigana}'")
 
-    # Shinjitai check in Sentence
+    # 7. Shinjitai check in Sentence & Word
     for sc, tc in SIMPLIFIED_CHINESE_CHECK.items():
         if sc in sentence:
             issues.append(f"Card #{index:04d}: Simplified Chinese '{sc}' found in Sentence; should be Shinjitai '{tc}'")
         if sc in word:
             issues.append(f"Card #{index:04d}: Simplified Chinese '{sc}' found in Word; should be Shinjitai '{tc}'")
+
+    # 8. Standard POS check
+    if pos not in STANDARD_POS:
+        issues.append(f"Card #{index:04d}: Non-standard POS '{pos}'")
 
     return issues
 

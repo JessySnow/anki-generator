@@ -499,7 +499,7 @@ def generate_furigana(word: str, reading: str) -> str:
     # Case B: Kanji + Kana (e.g. 接[せっ]する, 迫[せま]る)
     elif len(blocks) == 2 and blocks[0][0] == "kanji" and blocks[1][0] == "kana":
         suffix = blocks[1][1]
-        if r.endswith(suffix):
+        if r.endswith(suffix) and len(r) > len(suffix):
             stem_r = r[:-len(suffix)]
             res = f"{blocks[0][1]}[{stem_r}]{suffix}"
         else:
@@ -507,7 +507,7 @@ def generate_furigana(word: str, reading: str) -> str:
     # Case C: Kana + Kanji (e.g. お 手本[てほん])
     elif len(blocks) == 2 and blocks[0][0] == "kana" and blocks[1][0] == "kanji":
         pref = blocks[0][1]
-        if r.startswith(pref):
+        if r.startswith(pref) and len(r) > len(pref):
             stem_r = r[len(pref):]
             res = f"{pref} {blocks[1][1]}[{stem_r}]"
         else:
@@ -519,8 +519,14 @@ def generate_furigana(word: str, reading: str) -> str:
         failed = False
         for i, (b_type, b_text) in enumerate(blocks):
             if b_type == "kana":
-                k_pos = r.find(b_text, r_idx)
-                if k_pos == -1:
+                min_start = r_idx
+                if i > 0 and blocks[i-1][0] == "kanji":
+                    min_start = r_idx + len(blocks[i-1][1])
+                if i == len(blocks) - 1:
+                    k_pos = r.rfind(b_text, min_start)
+                else:
+                    k_pos = r.find(b_text, min_start)
+                if k_pos == -1 or (i > 0 and blocks[i-1][0] == "kanji" and k_pos <= r_idx):
                     failed = True
                     break
                 if i > 0 and blocks[i-1][0] == "kanji":
@@ -530,9 +536,13 @@ def generate_furigana(word: str, reading: str) -> str:
 
         if not failed:
             if blocks[-1][0] == "kanji":
-                res_parts.append(f"{blocks[-1][1]}[{r[r_idx:]}]")
+                kanji_reading = r[r_idx:]
+                if not kanji_reading:
+                    failed = True
+                else:
+                    res_parts.append(f"{blocks[-1][1]}[{kanji_reading}]")
             res = "".join(res_parts)
-        else:
+        if failed or "[]" in res:
             res = f"{w}[{r}]"
 
     if has_leading_tilde:
