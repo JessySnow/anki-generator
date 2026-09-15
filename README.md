@@ -67,6 +67,9 @@ anki-generator/
 │   ├── batches/                   # Batch allocations (batch_01..40.json)
 │   └── progress/cards/            # Card JSON ledgers (0000.json - 3974.json)
 │
+├── Deck_Full/                     # Consolidated collection export (6,146 notes)
+│   └── Selected Notes.txt         # Full unified notes export across all decks
+│
 ├── sources/                       # Canonical raw legacy notes
 │   ├── Selected Notes.txt         # Raw notes for N2 & N3/N4 decks
 │   └── Selected Notes 2.txt       # Raw notes for Minna no Nihongo (Deck 2)
