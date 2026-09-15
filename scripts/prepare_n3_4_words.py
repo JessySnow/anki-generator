@@ -16,7 +16,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 import pipeline_lib as lib
 
-SELECTED_NOTES_PATH = REPO_ROOT / "Selected Notes.txt"
+SELECTED_NOTES_PATH = (
+    REPO_ROOT / "sources" / "Selected Notes.txt"
+    if (REPO_ROOT / "sources" / "Selected Notes.txt").is_file()
+    else (REPO_ROOT / "Selected Notes.txt")
+)
 GRAMMAR_PATH = REPO_ROOT / "N3_4_Level" / "Grammar.json"
 WORDS_OUTPUT_PATH = REPO_ROOT / "N3_4_Level" / "Words.json"
 BATCHES_DIR = REPO_ROOT / "N3_4_Level" / "batches"

@@ -26,7 +26,7 @@ WORDS_PATH = REPO_ROOT / "N2 Level" / "Words.json"
 GRAMMAR_PATH = REPO_ROOT / "N2 Level" / "Grammar.json"
 TEMPLATE_PATH = REPO_ROOT / "N2 Level" / "template.txt"
 DEFAULT_DECK_PATH = REPO_ROOT / "N2 Level" / "deck.txt"
-PROGRESS_DIR = REPO_ROOT / "progress"
+PROGRESS_DIR = REPO_ROOT / "N2 Level" / "progress" if (REPO_ROOT / "N2 Level" / "progress").is_dir() else (REPO_ROOT / "progress")
 CARDS_DIR = PROGRESS_DIR / "cards"
 
 PITCH_RE = re.compile(r"[⓪①②③④⑤⑥⑦⑧⑨0-9]+")

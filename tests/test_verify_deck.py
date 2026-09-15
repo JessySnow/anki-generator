@@ -55,12 +55,12 @@ class TestKeyResolution(unittest.TestCase):
             encoding="utf-8",
         )
         with patch.dict("os.environ", {}, clear=True):
-            key = lib.load_gemini_api_key(zshrc_path=zshrc)
+            provider, key, model = lib.load_gemini_api_key(zshrc_path=zshrc)
             self.assertEqual(key, "TEST_SECRET_KEY_12345")
 
     def test_load_gemini_api_key_from_env(self):
-        with patch.dict("os.environ", {"GEMINI_API_KEY": "ENV_KEY_XYZ"}):
-            key = lib.load_gemini_api_key(zshrc_path=self.temp_dir / "nonexistent")
+        with patch.dict("os.environ", {"GEMINI_API_KEY": "ENV_KEY_XYZ"}, clear=True):
+            provider, key, model = lib.load_gemini_api_key(zshrc_path=self.temp_dir / "nonexistent")
             self.assertEqual(key, "ENV_KEY_XYZ")
 
 

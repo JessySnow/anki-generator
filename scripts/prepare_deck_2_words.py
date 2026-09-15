@@ -16,7 +16,11 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 import pipeline_lib as lib
 from prepare_n3_4_words import GRAMMAR_ZH
 
-SELECTED_NOTES_2_PATH = REPO_ROOT / "Selected Notes 2.txt"
+SELECTED_NOTES_2_PATH = (
+    REPO_ROOT / "sources" / "Selected Notes 2.txt"
+    if (REPO_ROOT / "sources" / "Selected Notes 2.txt").is_file()
+    else (REPO_ROOT / "Selected Notes 2.txt")
+)
 N2_GRAMMAR_PATH = REPO_ROOT / "N2 Level" / "Grammar.json"
 N3_4_GRAMMAR_PATH = REPO_ROOT / "N3_4_Level" / "Grammar.json"
 OUTPUT_DIR = REPO_ROOT / "Deck_2"

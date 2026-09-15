@@ -14,7 +14,11 @@ from pathlib import Path
 
 # Resolve default directory relative to repository root
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_INPUT_DIR = REPO_ROOT / "N2 Level"
+DEFAULT_INPUT_DIR = (
+    REPO_ROOT / "N2 Level" / "batches"
+    if (REPO_ROOT / "N2 Level" / "batches").is_dir()
+    else (REPO_ROOT / "N2 Level")
+)
 
 
 def extract_word_number(path: Path) -> int:
@@ -48,7 +52,7 @@ def merge_word_files(
     # Sort numerically (1, 2, ..., 10)
     files = sorted(candidates, key=extract_word_number)
 
-    default_output = input_dir / "Words.json"
+    default_output = REPO_ROOT / "N2 Level" / "Words.json"
     target_output = output_file or default_output
 
     print(f"Found {len(files)} vocabulary files in '{input_dir}':")

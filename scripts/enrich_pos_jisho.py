@@ -16,7 +16,11 @@ import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SELECTED_NOTES_PATH = REPO_ROOT / "Selected Notes.txt"
+SELECTED_NOTES_PATH = (
+    REPO_ROOT / "sources" / "Selected Notes.txt"
+    if (REPO_ROOT / "sources" / "Selected Notes.txt").is_file()
+    else (REPO_ROOT / "Selected Notes.txt")
+)
 CACHE_PATH = REPO_ROOT / "N3_4_Level" / "pos_cache.json"
 
 # Explicit fallback / override dictionary for idioms, expressions, and grammar phrases

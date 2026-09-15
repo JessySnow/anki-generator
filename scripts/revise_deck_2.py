@@ -22,7 +22,11 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 import pipeline_lib as lib
 import build_deck_2
 
-NOTES_PATH = REPO_ROOT / "Selected Notes 2.txt"
+NOTES_PATH = (
+    REPO_ROOT / "sources" / "Selected Notes 2.txt"
+    if (REPO_ROOT / "sources" / "Selected Notes 2.txt").is_file()
+    else (REPO_ROOT / "Selected Notes 2.txt")
+)
 DECK_PATH = REPO_ROOT / "Deck_2" / "deck.txt"
 WORDS_PATH = REPO_ROOT / "Deck_2" / "Words.json"
 CARDS_DIR = REPO_ROOT / "Deck_2" / "progress" / "cards"
