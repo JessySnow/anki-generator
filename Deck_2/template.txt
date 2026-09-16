@@ -1,0 +1,7 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype:Japanese N2 Vocab & Grammar
+#deck:日语::大家的日语::单词
+#tags column:16
+#columns:GUID	Word	Reading	Furigana	POS	Meaning	WordAudio	Sentence	SentenceAudio	SentenceTranslation	WordUsage	GrammarPattern	GrammarMeaning	GrammarUsage	CombinationLogic	Tags
