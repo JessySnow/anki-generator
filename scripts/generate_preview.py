@@ -312,8 +312,8 @@ html_template = f"""<!DOCTYPE html>
 
     function parseFurigana(furiStr) {{
       if (!furiStr) return '';
-      // Parses Word[reading] into ruby: e.g. 真剣[しんけん] -> <ruby>真剣<rt>しんけん</rt></ruby>
-      const regex = /([^\\s\\[\\]]+)\\[([^\\]]+)\\]/g;
+      // Parses Word[reading] into ruby matching Anki's official ruby filter
+      const regex = / ?([^ >\\[\\]]+)\\[([^\\]]+)\\]/g;
       return furiStr.replace(regex, '<ruby>$1<rt>$2</rt></ruby>');
     }}
 
@@ -322,7 +322,7 @@ html_template = f"""<!DOCTYPE html>
     function extractKanjiOnly(furiStr, fallbackWord) {{
       if (!furiStr) return fallbackWord || '';
       // Removes [reading] ruby bracket: e.g. 真剣[しんけん] -> 真剣
-      return furiStr.replace(/\[[^\]]+\]/g, '');
+      return furiStr.replace(/\\[[^\\]]+\\]/g, '');
     }}
 
     function loadCard(index) {{

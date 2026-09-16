@@ -224,17 +224,18 @@ hr#answer::after {
   font-size: 34px;
   font-weight: 700;
   color: var(--accent-primary);
-  letter-spacing: 0.02em;
+  letter-spacing: normal;
   line-height: 1.4;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
 }
 
 /* Ruby Furigana Positioning */
 ruby {
   ruby-align: center;
   ruby-position: over;
+  letter-spacing: normal;
 }
 
 ruby rt {

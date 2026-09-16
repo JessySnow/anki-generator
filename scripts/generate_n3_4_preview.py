@@ -131,7 +131,7 @@ def generate_preview():
     }});
 
     function parseFurigana(text) {{
-      return text.replace(/([^\\[\\]]+)\\[([^\\]]+)\\]/g, '<ruby>$1<rt>$2</rt></ruby>');
+      return text.replace(/ ?([^ >\\[\\]]+)\\[([^\\]]+)\\]/g, '<ruby>$1<rt>$2</rt></ruby>');
     }}
 
     function render() {{

@@ -460,8 +460,38 @@ def is_kana(ch: str) -> bool:
     return "\u3040" <= ch <= "\u309f" or "\u30a0" <= ch <= "\u30ff"
 
 
+def normalize_furigana(text: str) -> str:
+    """Normalize furigana string to standard Anki spacing rules.
+
+    - Replaces variant tildes with standard fullwidth '～'.
+    - Removes whitespace between ']' and following okurigana kana (e.g. '食[た] べ' -> '食[た]べ').
+    - Inserts a single space before a kanji ruby block when preceded by kana (e.g. '抱[だ]き締[し]める' -> '抱[だ]き 締[し]める').
+    - Inserts a single space between a leading/standalone tilde and a kanji ruby block (e.g. '～船[せん]' -> '～ 船[せん]').
+    - Cleans duplicate whitespace.
+    """
+    if not text:
+        return ""
+    # Normalize tildes
+    s = text.replace("〜", "～").replace("~", "～")
+    # Clean whitespace between closing bracket and okurigana kana
+    s = re.sub(r"\]\s+([ぁ-んァ-ヶ])", r"]\1", s)
+    # Ensure space before kanji ruby preceded by kana
+    s = re.sub(r"([ぁ-んァ-ヶ])\s*([\u4e00-\u9fff々]+\[[^\]]+\])", r"\1 \2", s)
+    # Ensure space between leading tilde and kanji ruby
+    s = re.sub(r"(～)\s*([\u4e00-\u9fff々]+\[[^\]]+\])", r"\1 \2", s)
+    # Clean duplicate spaces
+    s = re.sub(r"  +", " ", s).strip()
+    return s
+
+
 def generate_furigana(word: str, reading: str) -> str:
-    """Generate standard Anki ruby furigana with okurigana placed outside brackets."""
+    """Generate standard Anki ruby furigana with okurigana placed outside brackets.
+
+    Adheres to Anki's official ruby parser:
+    - Inserts a space before kanji preceded by kana or leading tildes (e.g. '抱[だ]き 締[し]める', 'お 手本[てほん]', '～ 船[せん]').
+    - Keeps pure kana words as plain text.
+    - Preserves okurigana suffixes outside brackets without extraneous spaces (e.g. '迫[せま]る').
+    """
     # 1. Pure kana words (no kanji): return pure kana
     if not any(is_kanji(ch) for ch in word):
         # Strip any extraneous brackets or English notes if present
@@ -511,8 +541,8 @@ def generate_furigana(word: str, reading: str) -> str:
             stem_r = r[len(pref):]
             res = f"{pref} {blocks[1][1]}[{stem_r}]"
         else:
-            res = f"{w}[{r}]"
-    # Case D: Compound word with alternating kanji & kana (e.g. 抱[だ]き締[し]める, 立ち上がる)
+            res = f"{pref} {blocks[1][1]}[{r}]" if not r.startswith(pref) else f"{w}[{r}]"
+    # Case D: Compound word with alternating kanji & kana (e.g. 抱[だ]き 締[し]める, 立ち上がる)
     else:
         res_parts = []
         r_idx = 0
@@ -530,7 +560,10 @@ def generate_furigana(word: str, reading: str) -> str:
                     failed = True
                     break
                 if i > 0 and blocks[i-1][0] == "kanji":
-                    res_parts.append(f"{blocks[i-1][1]}[{r[r_idx:k_pos]}]")
+                    k_text = blocks[i-1][1]
+                    k_read = r[r_idx:k_pos]
+                    lead_sp = " " if i - 1 > 0 else ""
+                    res_parts.append(f"{lead_sp}{k_text}[{k_read}]")
                 res_parts.append(b_text)
                 r_idx = k_pos + len(b_text)
 
@@ -540,16 +573,23 @@ def generate_furigana(word: str, reading: str) -> str:
                 if not kanji_reading:
                     failed = True
                 else:
-                    res_parts.append(f"{blocks[-1][1]}[{kanji_reading}]")
+                    k_text = blocks[-1][1]
+                    lead_sp = " " if len(blocks) > 1 else ""
+                    res_parts.append(f"{lead_sp}{k_text}[{kanji_reading}]")
             res = "".join(res_parts)
         if failed or "[]" in res:
             res = f"{w}[{r}]"
 
     if has_leading_tilde:
-        res = f"～{res}"
+        if res.startswith(" "):
+            res = f"～{res}"
+        elif any(is_kanji(ch) for ch in res[:2]):
+            res = f"～ {res}"
+        else:
+            res = f"～{res}"
     if has_trailing_tilde:
         res = f"{res}～"
-    return res
+    return normalize_furigana(res)
 
 
 def standardize_card_format(card: dict) -> tuple[dict, list[str]]:
@@ -600,8 +640,6 @@ def standardize_card_format(card: dict) -> tuple[dict, list[str]]:
     cur_word = str(updated.get("Word", "")).strip()
 
     expected_furi = generate_furigana(cur_word, cur_reading)
-    # Clean internal spaces if present
-    expected_furi = re.sub(r"\]\s+([^\s\[\]])", r"]\1", expected_furi)
 
     if cur_furi != expected_furi:
         changes.append(f"Standardized Furigana: '{cur_furi}' -> '{expected_furi}'")
@@ -654,6 +692,10 @@ def lint_card(card: dict) -> list[str]:
             issues.append(f"Empty furigana brackets in '{furigana}'")
         if re.search(r"\[[～〜~]", furigana):
             issues.append(f"Furigana bracket contains redundant tilde: '{furigana}'")
+        if re.search(r"[ぁ-んァ-ヶ～〜~][\u4e00-\u9fff々]+\[", furigana):
+            issues.append(f"Furigana missing space before kanji ruby: '{furigana}'")
+        if re.search(r"\]\s+[ぁ-んァ-ヶ]", furigana):
+            issues.append(f"Extraneous space between ruby bracket and okurigana: '{furigana}'")
 
     # 4. Tags format check: standard is N2::Vocabulary N[23]::Grammar::<id> or N[23]::Grammar
     if tags and not re.match(r"^N2::(?:Vocabulary|Words\d*)\s+N[23]::Grammar(?:::[\w\.\-]+)?$", tags):

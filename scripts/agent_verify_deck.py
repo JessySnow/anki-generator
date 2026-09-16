@@ -113,7 +113,6 @@ def check_card_agent(card: dict, card_index: int) -> list[str]:
 
     # 3. Furigana consistency with generate_furigana
     expected_furi = generate_furigana(word, reading)
-    expected_furi = re.sub(r'\]\s+([^\s\[\]])', r']', expected_furi)
     if furigana != expected_furi:
         issues.append(f"Furigana '{furigana}' does not match expected '{expected_furi}'")
 

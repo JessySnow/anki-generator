@@ -37,13 +37,22 @@ class TestStandardizeFormat(unittest.TestCase):
         self.assertEqual(lib.generate_furigana("お手本", "おてほん"), "お 手本[てほん]")
 
     def test_generate_furigana_prefix_suffix_tildes(self):
-        self.assertEqual(lib.generate_furigana("～船", "～せん"), "～船[せん]")
+        self.assertEqual(lib.generate_furigana("～船", "～せん"), "～ 船[せん]")
         self.assertEqual(lib.generate_furigana("全～", "ぜん～"), "全[ぜん]～")
 
     def test_generate_furigana_compounds(self):
-        self.assertEqual(lib.generate_furigana("抱き締める", "だきしめる"), "抱[だ]き締[し]める")
-        self.assertEqual(lib.generate_furigana("立ち上がる", "たちあがる"), "立[た]ち上[あ]がる")
-        self.assertEqual(lib.generate_furigana("使い分け", "つかいわけ"), "使[つか]い分[わ]け")
+        self.assertEqual(lib.generate_furigana("抱き締める", "だきしめる"), "抱[だ]き 締[し]める")
+        self.assertEqual(lib.generate_furigana("立ち上がる", "たちあがる"), "立[た]ち 上[あ]がる")
+        self.assertEqual(lib.generate_furigana("使い分け", "つかいわけ"), "使[つか]い 分[わ]け")
+        self.assertEqual(lib.generate_furigana("お引き出しですか", "おひきだしですか"), "お 引[ひ]き 出[だ]しですか")
+        self.assertEqual(lib.generate_furigana("食べ物", "たべもの"), "食[た]べ 物[もの]")
+
+    def test_normalize_furigana(self):
+        self.assertEqual(lib.normalize_furigana("抱[だ]き締[し]める"), "抱[だ]き 締[し]める")
+        self.assertEqual(lib.normalize_furigana("立[た]ち上[あ]がる"), "立[た]ち 上[あ]がる")
+        self.assertEqual(lib.normalize_furigana("～船[せん]"), "～ 船[せん]")
+        self.assertEqual(lib.normalize_furigana("お手本[てほん]"), "お 手本[てほん]")
+        self.assertEqual(lib.normalize_furigana("食[た] べ物[もの]"), "食[た]べ 物[もの]")
 
     def test_standardize_card_format_pos(self):
         card = {
@@ -83,7 +92,7 @@ class TestStandardizeFormat(unittest.TestCase):
         std_card, changes = lib.standardize_card_format(card)
         self.assertFalse(std_card["WordUsage"].startswith('"'))
         self.assertNotIn('""', std_card["WordUsage"])
-        self.assertEqual(std_card["Furigana"], "使[つか]い分[わ]け")
+        self.assertEqual(std_card["Furigana"], "使[つか]い 分[わ]け")
 
 
 if __name__ == "__main__":
